@@ -100,7 +100,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 ## 📬 Contact
 
 - **GitHub:** [@HackNlearnIndia](https://github.com/HackNlearnIndia)
-- **YouTube:** HackNlearn India
+- **YouTube:**[ HackNlearn India](https://www.youtube.com/@HackNLearnIndia)
 - **Community:** Join our Discord / Telegram (coming soon)
 
 ---
