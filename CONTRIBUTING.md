@@ -69,4 +69,4 @@ Once you submit your PR, a Docs team member will review your proposal. We may as
 
 ### Your PR is merged!
 
-Congratulations :tada::tada: The FlipperDevices team thanks you :sparkles:.
+Congratulations :tada::tada: The HackNlearn team thanks you :sparkles:.
