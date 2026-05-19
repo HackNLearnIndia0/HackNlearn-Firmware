@@ -69,18 +69,11 @@ const SubGhzProtocolEncoder subghz_protocol_keeloq_encoder = {
     .yield = subghz_protocol_encoder_keeloq_yield,
 };
 
-// ============================================================
-// HackNlearn: FM476 flag added — Suzuki Swift / Hyundai / Kia
-// Original: SubGhzProtocolFlag_AM only
-// Modified: FM flag bhi add kiya taaki FM476 preset ke saath
-//           ye protocol display aur use ho sake
-// ============================================================
 const SubGhzProtocol subghz_protocol_keeloq = {
     .name = SUBGHZ_PROTOCOL_KEELOQ_NAME,
     .type = SubGhzProtocolTypeDynamic,
     .flag = SubGhzProtocolFlag_433 | SubGhzProtocolFlag_868 | SubGhzProtocolFlag_315 |
-            SubGhzProtocolFlag_AM | SubGhzProtocolFlag_FM |  // HackNlearn: FM added for Swift
-            SubGhzProtocolFlag_Decodable | SubGhzProtocolFlag_Load |
+            SubGhzProtocolFlag_AM | SubGhzProtocolFlag_Decodable | SubGhzProtocolFlag_Load |
             SubGhzProtocolFlag_Send,
 
     .decoder = &subghz_protocol_keeloq_decoder,
@@ -128,7 +121,8 @@ static bool subghz_protocol_keeloq_gen_data(SubGhzProtocolEncoderKeeloq* instanc
     instance->generic.cnt++;
     uint32_t fix = (uint32_t)btn << 28 | instance->generic.serial;
     uint32_t decrypt = (uint32_t)btn << 28 |
-                       (instance->generic.serial & 0x3FF) << 16 |
+                       (instance->generic.serial & 0x3FF)
+                           << 16 | // In some protocols the discriminator is 0
                        instance->generic.cnt;
     uint32_t hop = 0;
     uint64_t man = 0;
@@ -140,9 +134,11 @@ static bool subghz_protocol_keeloq_gen_data(SubGhzProtocolEncoderKeeloq* instanc
             if(res == 0) {
                 switch(manufacture_code->type) {
                 case KEELOQ_LEARNING_SIMPLE:
+                    //Simple Learning
                     hop = subghz_protocol_keeloq_common_encrypt(decrypt, manufacture_code->key);
                     break;
                 case KEELOQ_LEARNING_NORMAL:
+                    //Simple Learning
                     man =
                         subghz_protocol_keeloq_common_normal_learning(fix, manufacture_code->key);
                     hop = subghz_protocol_keeloq_common_encrypt(decrypt, man);
@@ -153,6 +149,7 @@ static bool subghz_protocol_keeloq_gen_data(SubGhzProtocolEncoderKeeloq* instanc
                     hop = subghz_protocol_keeloq_common_encrypt(decrypt, man);
                     break;
                 case KEELOQ_LEARNING_UNKNOWN:
+                    //Invalid or missing encoding type in keeloq_mfcodes
                     hop = 0;
                     break;
                 }
@@ -165,14 +162,6 @@ static bool subghz_protocol_keeloq_gen_data(SubGhzProtocolEncoderKeeloq* instanc
             subghz_protocol_blocks_reverse_key(yek, instance->generic.data_count_bit);
         return true;
     } else {
-        // ============================================================
-        // HackNlearn: "Unknown" manufacturer ke saath bhi TX allow karo
-        // Original: instance->manufacture_name = "Unknown" set hoti thi
-        //           aur false return hota tha — TX fail
-        // Modified: Agar koi bhi keystore match nahi hua toh bhi
-        //           raw data as-is transmit karo (captured signal replay)
-        // ============================================================
-        FURI_LOG_W(TAG, "HackNlearn: No mfr key match — using raw data for TX");
         instance->manufacture_name = "Unknown";
         return false;
     }
@@ -210,6 +199,7 @@ static bool
     subghz_protocol_encoder_keeloq_get_upload(SubGhzProtocolEncoderKeeloq* instance, uint8_t btn) {
     furi_assert(instance);
 
+    //gen new key
     if(!subghz_protocol_keeloq_gen_data(instance, btn)) {
         return false;
     }
@@ -223,7 +213,7 @@ static bool
         instance->encoder.size_upload = size_upload;
     }
 
-    // Send header
+    //Send header
     for(uint8_t i = 11; i > 0; i--) {
         instance->encoder.upload[index++] =
             level_duration_make(true, (uint32_t)subghz_protocol_keeloq_const.te_short);
@@ -235,14 +225,16 @@ static bool
     instance->encoder.upload[index++] =
         level_duration_make(false, (uint32_t)subghz_protocol_keeloq_const.te_short * 10);
 
-    // Send key data
+    //Send key data
     for(uint8_t i = instance->generic.data_count_bit; i > 0; i--) {
         if(bit_read(instance->generic.data, i - 1)) {
+            //send bit 1
             instance->encoder.upload[index++] =
                 level_duration_make(true, (uint32_t)subghz_protocol_keeloq_const.te_short);
             instance->encoder.upload[index++] =
                 level_duration_make(false, (uint32_t)subghz_protocol_keeloq_const.te_long);
         } else {
+            //send bit 0
             instance->encoder.upload[index++] =
                 level_duration_make(true, (uint32_t)subghz_protocol_keeloq_const.te_long);
             instance->encoder.upload[index++] =
@@ -279,83 +271,20 @@ SubGhzProtocolStatus
         subghz_protocol_keeloq_check_remote_controller(
             &instance->generic, instance->keystore, &instance->manufacture_name);
 
-        // ============================================================
-        // HackNlearn: MANUFACTURER RESTRICTION REMOVED
-        //
-        // Original code (HATAO):
-        //   if(strcmp(instance->manufacture_name, "DoorHan") != 0) {
-        //       FURI_LOG_E(TAG, "Wrong manufacturer name");
-        //       ret = SubGhzProtocolStatusErrorParserOthers;
-        //       break;
-        //   }
-        //
-        // HackNlearn change:
-        //   Koi bhi manufacturer allow hai — Suzuki, Hyundai, Kia,
-        //   Toyota, Honda, Unknown sab TX kar sakte hain.
-        //   Agar keystore mein mfr key nahi hai toh "Unknown" ke
-        //   saath bhi TX proceed karega (raw captured data replay).
-        // ============================================================
-        FURI_LOG_I(TAG, "HackNlearn KeeLoq TX — Manufacturer: %s", instance->manufacture_name);
+        if(strcmp(instance->manufacture_name, "DoorHan") != 0) {
+            FURI_LOG_E(TAG, "Wrong manufacturer name");
+            ret = SubGhzProtocolStatusErrorParserOthers;
+            break;
+        }
 
-        // Optional repeat parameter
+        //optional parameter parameter
         flipper_format_read_uint32(
             flipper_format, "Repeat", (uint32_t*)&instance->encoder.repeat, 1);
 
         if(!subghz_protocol_encoder_keeloq_get_upload(instance, instance->generic.btn)) {
-            // ============================================================
-            // HackNlearn: gen_data fail hone pe bhi TX try karo
-            // Captured raw .sub file ka data directly use karenge
-            // ============================================================
-            FURI_LOG_W(TAG, "HackNlearn: gen_data failed — attempting raw key TX");
-            // Raw data already instance->generic.data mein hai captured se
-            // Upload manually build karo current data se
-            size_t index = 0;
-            size_t size_upload =
-                11 * 2 + 2 + (instance->generic.data_count_bit * 2) + 4;
-            if(size_upload <= instance->encoder.size_upload) {
-                instance->encoder.size_upload = size_upload;
-                // Header
-                for(uint8_t i = 11; i > 0; i--) {
-                    instance->encoder.upload[index++] = level_duration_make(
-                        true, (uint32_t)subghz_protocol_keeloq_const.te_short);
-                    instance->encoder.upload[index++] = level_duration_make(
-                        false, (uint32_t)subghz_protocol_keeloq_const.te_short);
-                }
-                instance->encoder.upload[index++] = level_duration_make(
-                    true, (uint32_t)subghz_protocol_keeloq_const.te_short);
-                instance->encoder.upload[index++] = level_duration_make(
-                    false, (uint32_t)subghz_protocol_keeloq_const.te_short * 10);
-                // Data bits
-                for(uint8_t i = instance->generic.data_count_bit; i > 0; i--) {
-                    if(bit_read(instance->generic.data, i - 1)) {
-                        instance->encoder.upload[index++] = level_duration_make(
-                            true, (uint32_t)subghz_protocol_keeloq_const.te_short);
-                        instance->encoder.upload[index++] = level_duration_make(
-                            false, (uint32_t)subghz_protocol_keeloq_const.te_long);
-                    } else {
-                        instance->encoder.upload[index++] = level_duration_make(
-                            true, (uint32_t)subghz_protocol_keeloq_const.te_long);
-                        instance->encoder.upload[index++] = level_duration_make(
-                            false, (uint32_t)subghz_protocol_keeloq_const.te_short);
-                    }
-                }
-                instance->encoder.upload[index++] = level_duration_make(
-                    true, (uint32_t)subghz_protocol_keeloq_const.te_short);
-                instance->encoder.upload[index++] = level_duration_make(
-                    false, (uint32_t)subghz_protocol_keeloq_const.te_long);
-                instance->encoder.upload[index++] = level_duration_make(
-                    true, (uint32_t)subghz_protocol_keeloq_const.te_short);
-                instance->encoder.upload[index++] = level_duration_make(
-                    false, (uint32_t)subghz_protocol_keeloq_const.te_short * 40);
-                // TX chalega raw data se
-                FURI_LOG_I(TAG, "HackNlearn: Raw key TX ready — %d bits",
-                    instance->generic.data_count_bit);
-            } else {
-                ret = SubGhzProtocolStatusErrorEncoderGetUpload;
-                break;
-            }
+            ret = SubGhzProtocolStatusErrorEncoderGetUpload;
+            break;
         }
-
         if(!flipper_format_rewind(flipper_format)) {
             FURI_LOG_E(TAG, "Rewind error");
             ret = SubGhzProtocolStatusErrorParserOthers;
@@ -370,19 +299,8 @@ SubGhzProtocolStatus
             ret = SubGhzProtocolStatusErrorParserKey;
             break;
         }
-        instance->encoder.front = 0;
+        instance->encoder.front = 0; // reset before start
         instance->encoder.is_running = true;
-
-        // ============================================================
-        // HackNlearn: Rolling counter increment log
-        // TX ke baad counter value log karo debug ke liye
-        // ============================================================
-        FURI_LOG_I(TAG, "HackNlearn: TX ready — Serial:0x%07lX Cnt:%04lu Btn:0x%X",
-            instance->generic.serial,
-            instance->generic.cnt,
-            instance->generic.btn);
-
-        ret = SubGhzProtocolStatusOk;
     } while(false);
 
     return ret;
@@ -391,7 +309,7 @@ SubGhzProtocolStatus
 void subghz_protocol_encoder_keeloq_stop(void* context) {
     SubGhzProtocolEncoderKeeloq* instance = context;
     instance->encoder.is_running = false;
-    instance->encoder.front = 0;
+    instance->encoder.front = 0; // reset position
 }
 
 LevelDuration subghz_protocol_encoder_keeloq_yield(void* context) {
@@ -424,6 +342,7 @@ void* subghz_protocol_decoder_keeloq_alloc(SubGhzEnvironment* environment) {
 void subghz_protocol_decoder_keeloq_free(void* context) {
     furi_assert(context);
     SubGhzProtocolDecoderKeeloq* instance = context;
+
     free(instance);
 }
 
@@ -454,6 +373,7 @@ void subghz_protocol_decoder_keeloq_feed(void* context, bool level, uint32_t dur
         if((instance->header_count > 2) &&
            (DURATION_DIFF(duration, subghz_protocol_keeloq_const.te_short * 10) <
             subghz_protocol_keeloq_const.te_delta * 10)) {
+            // Found header
             instance->decoder.parser_step = KeeloqDecoderStepSaveDuration;
             instance->decoder.decode_data = 0;
             instance->decoder.decode_count_bit = 0;
@@ -472,6 +392,7 @@ void subghz_protocol_decoder_keeloq_feed(void* context, bool level, uint32_t dur
         if(!level) {
             if(duration >= ((uint32_t)subghz_protocol_keeloq_const.te_short * 2 +
                             subghz_protocol_keeloq_const.te_delta)) {
+                // Found end TX
                 instance->decoder.parser_step = KeeloqDecoderStepReset;
                 if((instance->decoder.decode_count_bit >=
                     subghz_protocol_keeloq_const.min_count_bit_for_found) &&
@@ -525,6 +446,14 @@ void subghz_protocol_decoder_keeloq_feed(void* context, bool level, uint32_t dur
     }
 }
 
+/**
+ * Validation of decrypt data.
+ * @param instance Pointer to a SubGhzBlockGeneric instance
+ * @param decrypt Decrypd data
+ * @param btn Button number, 4 bit
+ * @param end_serial decrement the last 10 bits of the serial number
+ * @return true On success
+ */
 static inline bool subghz_protocol_keeloq_check_decrypt(
     SubGhzBlockGeneric* instance,
     uint32_t decrypt,
@@ -538,12 +467,13 @@ static inline bool subghz_protocol_keeloq_check_decrypt(
     }
     return false;
 }
-
+// Centurion specific check
 static inline bool subghz_protocol_keeloq_check_decrypt_centurion(
     SubGhzBlockGeneric* instance,
     uint32_t decrypt,
     uint8_t btn) {
     furi_assert(instance);
+
     if((decrypt >> 28 == btn) && ((((uint16_t)(decrypt >> 16)) & 0x3FF) == 0x1CE)) {
         instance->cnt = decrypt & 0x0000FFFF;
         return true;
@@ -551,12 +481,25 @@ static inline bool subghz_protocol_keeloq_check_decrypt_centurion(
     return false;
 }
 
+/** 
+ * Checking the accepted code against the database manafacture key
+ * @param instance Pointer to a SubGhzBlockGeneric* instance
+ * @param fix Fix part of the parcel
+ * @param hop Hop encrypted part of the parcel
+ * @param keystore Pointer to a SubGhzKeystore* instance
+ * @param manufacture_name 
+ * @return true on successful search
+ */
 static uint8_t subghz_protocol_keeloq_check_remote_controller_selector(
     SubGhzBlockGeneric* instance,
     uint32_t fix,
     uint32_t hop,
     SubGhzKeystore* keystore,
     const char** manufacture_name) {
+    // protocol HCS300 uses 10 bits in discriminator, HCS200 uses 8 bits, for backward compatibility, we are looking for the 8-bit pattern
+    // HCS300 -> uint16_t end_serial = (uint16_t)(fix & 0x3FF);
+    // HCS200 -> uint16_t end_serial = (uint16_t)(fix & 0xFF);
+
     uint16_t end_serial = (uint16_t)(fix & 0xFF);
     uint8_t btn = (uint8_t)(fix >> 28);
     uint32_t decrypt = 0;
@@ -567,6 +510,7 @@ static uint8_t subghz_protocol_keeloq_check_remote_controller_selector(
         M_EACH(manufacture_code, *subghz_keystore_get_data(keystore), SubGhzKeyArray_t) {
             switch(manufacture_code->type) {
             case KEELOQ_LEARNING_SIMPLE:
+                // Simple Learning
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, manufacture_code->key);
                 if(subghz_protocol_keeloq_check_decrypt(instance, decrypt, btn, end_serial)) {
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
@@ -574,6 +518,8 @@ static uint8_t subghz_protocol_keeloq_check_remote_controller_selector(
                 }
                 break;
             case KEELOQ_LEARNING_NORMAL:
+                // Normal Learning
+                // https://phreakerclub.com/forum/showpost.php?p=43557&postcount=37
                 man = subghz_protocol_keeloq_common_normal_learning(fix, manufacture_code->key);
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man);
                 if(strcmp(furi_string_get_cstr(manufacture_code->name), "Centurion") == 0) {
@@ -634,34 +580,46 @@ static uint8_t subghz_protocol_keeloq_check_remote_controller_selector(
                 }
                 break;
             case KEELOQ_LEARNING_UNKNOWN:
+                // Simple Learning
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, manufacture_code->key);
                 if(subghz_protocol_keeloq_check_decrypt(instance, decrypt, btn, end_serial)) {
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
                     return 1;
                 }
+
+                // Check for mirrored man
                 uint64_t man_rev = 0;
                 uint64_t man_rev_byte = 0;
                 for(uint8_t i = 0; i < 64; i += 8) {
                     man_rev_byte = (uint8_t)(manufacture_code->key >> i);
                     man_rev = man_rev | man_rev_byte << (56 - i);
                 }
+
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man_rev);
                 if(subghz_protocol_keeloq_check_decrypt(instance, decrypt, btn, end_serial)) {
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
                     return 1;
                 }
+
+                //###########################
+                // Normal Learning
+                // https://phreakerclub.com/forum/showpost.php?p=43557&postcount=37
                 man = subghz_protocol_keeloq_common_normal_learning(fix, manufacture_code->key);
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man);
                 if(subghz_protocol_keeloq_check_decrypt(instance, decrypt, btn, end_serial)) {
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
                     return 1;
                 }
+
+                // Check for mirrored man
                 man = subghz_protocol_keeloq_common_normal_learning(fix, man_rev);
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man);
                 if(subghz_protocol_keeloq_check_decrypt(instance, decrypt, btn, end_serial)) {
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
                     return 1;
                 }
+
+                // Secure Learning
                 man = subghz_protocol_keeloq_common_secure_learning(
                     fix, seed, manufacture_code->key);
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man);
@@ -669,12 +627,16 @@ static uint8_t subghz_protocol_keeloq_check_remote_controller_selector(
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
                     return 1;
                 }
+
+                // Check for mirrored man
                 man = subghz_protocol_keeloq_common_secure_learning(fix, seed, man_rev);
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man);
                 if(subghz_protocol_keeloq_check_decrypt(instance, decrypt, btn, end_serial)) {
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
                     return 1;
                 }
+
+                // Magic xor type1 learning
                 man = subghz_protocol_keeloq_common_magic_xor_type1_learning(
                     fix, manufacture_code->key);
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man);
@@ -682,6 +644,8 @@ static uint8_t subghz_protocol_keeloq_check_remote_controller_selector(
                     *manufacture_name = furi_string_get_cstr(manufacture_code->name);
                     return 1;
                 }
+
+                // Check for mirrored man
                 man = subghz_protocol_keeloq_common_magic_xor_type1_learning(fix, man_rev);
                 decrypt = subghz_protocol_keeloq_common_decrypt(hop, man);
                 if(subghz_protocol_keeloq_check_decrypt(instance, decrypt, btn, end_serial)) {
@@ -694,6 +658,7 @@ static uint8_t subghz_protocol_keeloq_check_remote_controller_selector(
 
     *manufacture_name = "Unknown";
     instance->cnt = 0;
+
     return 0;
 }
 
@@ -704,6 +669,7 @@ static void subghz_protocol_keeloq_check_remote_controller(
     uint64_t key = subghz_protocol_blocks_reverse_key(instance->data, instance->data_count_bit);
     uint32_t key_fix = key >> 32;
     uint32_t key_hop = key & 0x00000000ffffffff;
+    // Check key AN-Motors
     if((key_hop >> 24) == ((key_hop >> 16) & 0x00ff) &&
        (key_fix >> 28) == ((key_hop >> 12) & 0x0f) && (key_hop & 0xFFF) == 0x404) {
         *manufacture_name = "AN-Motors";

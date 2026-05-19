@@ -96,10 +96,10 @@ static void furi_hal_version_set_name(const char* name) {
         snprintf(
             furi_hal_version.device_name,
             FURI_HAL_VERSION_DEVICE_NAME_LENGTH,
-            "xFlipper %s",
+            "HackNL %s",
             furi_hal_version.name);
     } else {
-        strlcpy(furi_hal_version.device_name, "xFlipper", FURI_HAL_VERSION_DEVICE_NAME_LENGTH);
+        strlcpy(furi_hal_version.device_name, "HackNL", FURI_HAL_VERSION_DEVICE_NAME_LENGTH);
     }
 
     furi_hal_version.device_name[0] = AD_TYPE_COMPLETE_LOCAL_NAME;
@@ -212,7 +212,7 @@ FuriHalVersionOtpVersion furi_hal_version_get_otp_version(void) {
             // Version 0
             return FuriHalVersionOtpVersion0;
         } else {
-            // Version Unknown
+            // Version HackNlearn
             return FuriHalVersionOtpVersionUnknown;
         }
     }

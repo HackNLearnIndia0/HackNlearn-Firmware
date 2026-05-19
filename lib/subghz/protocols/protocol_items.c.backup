@@ -72,10 +72,10 @@ const SubGhzProtocol* subghz_protocol_registry_items[] = {
     &subghz_protocol_marantec,
     &subghz_protocol_marantec24,
     &subghz_protocol_holtek,
-    &subghz_protocol_holtek_th12x,
+    &subghz_protocol_holtek_ht12x,
     &subghz_protocol_smc5326,
     &subghz_protocol_phoenix_v2,
-    &subghz_protocol_chamb_code,
+    &subghz_protocol_chamberlain_code,
     &subghz_protocol_clemsa,
     &subghz_protocol_dickert_mahs,
     &subghz_protocol_doitrand,
@@ -110,8 +110,3 @@ const SubGhzProtocol* subghz_protocol_registry_items[] = {
 
 const size_t subghz_protocol_registry_items_count =
     COUNT_OF(subghz_protocol_registry_items);
-
-const SubGhzProtocolRegistry subghz_protocol_registry = {
-    .items = subghz_protocol_registry_items,
-    .size = COUNT_OF(subghz_protocol_registry_items),
-};
