@@ -18,10 +18,8 @@ static DialogMessageButton about_screen_product(DialogsApp* dialogs, DialogMessa
     DialogMessageButton result;
 
     FuriString* screen_header = furi_string_alloc_printf(
-        "Product: %s\n"
-        "Model: %s",
-        furi_hal_version_get_model_name(),
-        furi_hal_version_get_model_code());
+    "Product: HackNlearn\n"
+    "Model: HNL");
 
     FuriString* screen_text = furi_string_alloc_printf(
         "FCC ID: %s\n"
@@ -44,10 +42,10 @@ static DialogMessageButton about_screen_product(DialogsApp* dialogs, DialogMessa
 static DialogMessageButton about_screen_address(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
 
-    const char* screen_text = "Flipper Devices Inc.\n"
-                              "Suite B #551, 2803\n"
-                              "Philadelphia Pike, Claymont\n"
-                              "DE, USA 19703\n";
+    const char* screen_text = "HackNlearn Firmware\n"
+                              "Custom NFC/EMV Build\n"
+                              "Made By HackNlearn\n"
+                              "INDIA\n";
 
     dialog_message_set_text(message, screen_text, 0, 0, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
@@ -60,7 +58,7 @@ static DialogMessageButton about_screen_compliance(DialogsApp* dialogs, DialogMe
 
     const char* screen_text = "For all compliance\n"
                               "certificates, please visit:\n"
-                              "www.flipp.dev/compliance";
+                              "hacknlearn.dev";
 
     dialog_message_set_text(message, screen_text, 0, 0, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
@@ -143,7 +141,7 @@ static DialogMessageButton about_screen_hw_version(DialogsApp* dialogs, DialogMe
         furi_hal_version_get_hw_connect(),
         furi_hal_version_get_hw_region_name(),
         furi_hal_region_get_name(),
-        my_name ? my_name : "Unknown");
+        my_name ? my_name : "HackNlearn");
 
     furi_string_cat_printf(buffer, "Serial Number:\n");
     const uint8_t* uid = furi_hal_version_uid();
@@ -151,7 +149,7 @@ static DialogMessageButton about_screen_hw_version(DialogsApp* dialogs, DialogMe
         furi_string_cat_printf(buffer, "%02X", uid[i]);
     }
 
-    dialog_message_set_header(message, "HW Version Info:", 0, 0, AlignLeft, AlignTop);
+    dialog_message_set_header(message, "HackNlearn HW:", 0, 0, AlignLeft, AlignTop);
     dialog_message_set_text(message, furi_string_get_cstr(buffer), 0, 13, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
     furi_string_free(buffer);
@@ -188,7 +186,7 @@ static DialogMessageButton about_screen_fw_version(DialogsApp* dialogs, DialogMe
             version_get_gitbranch(ver));
     }
 
-    dialog_message_set_header(message, "FW Version Info:", 0, 0, AlignLeft, AlignTop);
+    dialog_message_set_header(message, "HackNlearn FW:", 0, 0, AlignLeft, AlignTop);
     dialog_message_set_text(message, furi_string_get_cstr(buffer), 0, 13, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
     furi_string_free(buffer);
