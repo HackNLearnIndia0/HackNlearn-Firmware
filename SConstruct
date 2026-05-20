@@ -498,3 +498,4 @@ distenv.AlwaysBuild(doxy_build)
 
 # Open generated documentation in browser
 distenv.PhonyTarget("doxy", open_browser_action, source=doxy_build)
+refresh 

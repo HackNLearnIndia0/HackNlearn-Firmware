@@ -310,3 +310,4 @@ Alias(fwenv["FIRMWARE_BUILD_CFG"] + "_all", fw_artifacts)
 env.PostConfigureFwEnvionment()
 
 Return("fwenv")
+refresh 
