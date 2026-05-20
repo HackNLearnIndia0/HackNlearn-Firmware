@@ -158,3 +158,4 @@ int32_t text_box_view_test_app(void* p) {
 
     return 0;
 }
+

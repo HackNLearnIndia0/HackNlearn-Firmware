@@ -121,3 +121,4 @@ void iso7816_process_command(
         iso7816_set_response(response_apdu, ISO7816_RESPONSE_CLASS_NOT_SUPPORTED);
     }
 }
+

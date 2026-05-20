@@ -42,3 +42,4 @@ void expansion_settings_save(const ExpansionSettings* settings) {
         FURI_LOG_E(TAG, "Failed to save file");
     }
 }
+

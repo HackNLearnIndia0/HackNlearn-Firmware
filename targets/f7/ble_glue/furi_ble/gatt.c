@@ -169,3 +169,4 @@ bool ble_gatt_service_delete(uint16_t svc_handle) {
 
     return result == BLE_STATUS_SUCCESS;
 }
+

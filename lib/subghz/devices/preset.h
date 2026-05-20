@@ -11,3 +11,4 @@ typedef enum {
     FuriHalSubGhzPresetGFSK9_99KbAsync, /**< GFSK, deviation 19.042969 kHz, 9.996Kb/s, asynchronous */
     FuriHalSubGhzPresetCustom, /**Custom Preset*/
 } FuriHalSubGhzPreset;
+

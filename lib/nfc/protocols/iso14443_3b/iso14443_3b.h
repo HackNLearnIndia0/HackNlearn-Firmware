@@ -81,3 +81,4 @@ uint32_t iso14443_3b_get_fwt_fc_max(const Iso14443_3bData* data);
 #ifdef __cplusplus
 }
 #endif
+

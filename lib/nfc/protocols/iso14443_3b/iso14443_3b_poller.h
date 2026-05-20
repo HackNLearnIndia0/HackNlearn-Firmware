@@ -87,3 +87,4 @@ Iso14443_3bError iso14443_3b_poller_halt(Iso14443_3bPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

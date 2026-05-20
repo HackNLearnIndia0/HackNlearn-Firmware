@@ -413,3 +413,4 @@ void subghz_protocol_decoder_revers_rb2_get_string(void* context, FuriString* ou
         (uint32_t)(instance->generic.data & 0xFFFFFFFF),
         instance->generic.serial);
 }
+

@@ -40,3 +40,4 @@ double cs_timegm(const struct tm* tm);
 #endif /* __cplusplus */
 
 #endif /* CS_COMMON_CS_TIME_H_ */
+

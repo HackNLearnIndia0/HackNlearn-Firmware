@@ -84,3 +84,4 @@ const char* version_get_firmware_origin(const Version* v) {
 const char* version_get_git_origin(const Version* v) {
     return v ? v->git_origin : version.git_origin;
 }
+

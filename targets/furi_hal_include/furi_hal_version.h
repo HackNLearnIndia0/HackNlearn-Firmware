@@ -209,3 +209,4 @@ const uint8_t* furi_hal_version_uid(void);
 #ifdef __cplusplus
 }
 #endif
+

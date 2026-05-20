@@ -89,3 +89,4 @@ struct SubGhzDevice {
     const char* name;
     const SubGhzDeviceInterconnect* interconnect;
 };
+

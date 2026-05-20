@@ -21,3 +21,4 @@ def resolve_port(logger, portname: str = "auto"):
         if os.path.exists(env_path):
             logger.info(f"Using FLIPPER_PATH from environment: {env_path}")
             return env_path
+

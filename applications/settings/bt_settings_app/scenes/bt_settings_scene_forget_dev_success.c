@@ -39,3 +39,4 @@ void bt_settings_scene_forget_dev_success_on_exit(void* context) {
     BtSettingsApp* app = context;
     popup_reset(app->popup);
 }
+

@@ -67,3 +67,4 @@ void furi_event_loop_tick_set(
     instance->tick.interval = interval;
     instance->tick.prev_time = xTaskGetTickCount();
 }
+

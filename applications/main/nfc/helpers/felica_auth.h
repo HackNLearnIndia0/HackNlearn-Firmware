@@ -15,3 +15,4 @@ void felica_auth_reset(FelicaAuthenticationContext* instance);
 #ifdef __cplusplus
 }
 #endif
+

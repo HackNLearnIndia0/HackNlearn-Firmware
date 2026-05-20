@@ -186,3 +186,4 @@ static const JsViewDescriptor view_descriptor = {
     }};
 
 JS_GUI_VIEW_DEF(text_input, &view_descriptor);
+

@@ -541,3 +541,4 @@ void nfc_data_generator_fill_data(NfcDataGeneratorType type, NfcDevice* nfc_devi
 
     nfc_data_generator[type].handler(nfc_device);
 }
+

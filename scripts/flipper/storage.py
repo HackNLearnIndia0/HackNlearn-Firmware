@@ -506,3 +506,4 @@ class FlipperStorageOperations:
         else:
             self.logger.info(f'Receiving "{flipper_path}" to "{local_path}"')
             self.storage.receive_file(flipper_path, local_path)
+

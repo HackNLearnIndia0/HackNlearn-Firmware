@@ -457,3 +457,4 @@ void subghz_protocol_decoder_came_twee_get_string(void* context, FuriString* out
         instance->generic.btn,
         CNT_TO_DIP(instance->generic.cnt));
 }
+

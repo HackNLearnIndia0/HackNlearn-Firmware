@@ -85,3 +85,4 @@ void infrared_scene_edit_move_on_exit(void* context) {
     InfraredApp* infrared = context;
     infrared_move_view_reset(infrared->move_view);
 }
+

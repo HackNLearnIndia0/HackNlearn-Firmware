@@ -59,3 +59,4 @@ void hid_scene_unpair_on_exit(void* context) {
     dialog_ex_reset(app->dialog);
     popup_reset(app->popup);
 }
+

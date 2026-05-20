@@ -241,3 +241,4 @@ void hid_tiktok_set_connected_status(HidTikTok* hid_tiktok, bool connected) {
         },
         true);
 }
+

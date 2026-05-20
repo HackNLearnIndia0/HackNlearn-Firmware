@@ -151,3 +151,4 @@ bool args_read_duration(FuriString* args, uint32_t* value, const char* default_u
     *value = round(duration_ms * multiplier);
     return true;
 }
+

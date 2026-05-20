@@ -38,3 +38,4 @@ Crash the system.
 Halt the system.
 
 - We use it internally to shutdown Flipper if poweroff is not possible.
+

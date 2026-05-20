@@ -78,3 +78,4 @@ void gpio_scene_usb_uart_on_exit(void* context) {
     GpioApp* app = context;
     notification_message(app->notifications, &sequence_display_backlight_enforce_auto);
 }
+

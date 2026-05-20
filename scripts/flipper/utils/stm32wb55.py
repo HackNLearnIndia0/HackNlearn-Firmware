@@ -371,3 +371,4 @@ class STM32WB55:
         self.openocd.send_tcl("mww 0x58004030 0xff")  # Reset WRP1BR
         self.openocd.send_tcl("mmw 0x58004014 0x00020000 0")  # OPTSTRT
         self.openocd.send_tcl("mmw 0x58004014 0x08000000 0")  # OBL_LAUNCH
+

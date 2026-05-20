@@ -47,3 +47,4 @@ void nfc_scene_supported_card_on_exit(void* context) {
     NfcApp* instance = context;
     widget_reset(instance->widget);
 }
+

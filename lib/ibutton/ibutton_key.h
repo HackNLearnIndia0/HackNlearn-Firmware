@@ -52,3 +52,4 @@ void ibutton_key_reset(iButtonKey* key);
 #ifdef __cplusplus
 }
 #endif
+

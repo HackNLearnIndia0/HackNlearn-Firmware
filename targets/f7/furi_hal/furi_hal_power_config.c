@@ -147,3 +147,4 @@ const BQ27220DMData furi_hal_power_gauge_data_memory[] = {
         .type = BQ27220DMTypeEnd,
     },
 };
+

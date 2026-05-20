@@ -80,3 +80,4 @@ def assemble_manifest_data(
     ).as_bytes()
 
     return data
+

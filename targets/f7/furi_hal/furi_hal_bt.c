@@ -440,3 +440,4 @@ bool furi_hal_bt_extra_beacon_stop(void) {
 bool furi_hal_bt_extra_beacon_is_active(void) {
     return gap_extra_beacon_get_state() == GapExtraBeaconStateStarted;
 }
+

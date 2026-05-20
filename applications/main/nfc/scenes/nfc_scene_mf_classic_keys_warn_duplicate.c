@@ -47,3 +47,4 @@ void nfc_scene_mf_classic_keys_warn_duplicate_on_exit(void* context) {
 
     popup_reset(instance->popup);
 }
+

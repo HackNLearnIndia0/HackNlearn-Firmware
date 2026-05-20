@@ -865,3 +865,4 @@ const NfcPollerBase mf_ultralight_poller = {
     .detect = (NfcPollerDetect)mf_ultralight_poller_detect,
     .get_data = (NfcPollerGetData)mf_ultralight_poller_get_data,
 };
+

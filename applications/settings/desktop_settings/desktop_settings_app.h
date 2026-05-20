@@ -47,3 +47,4 @@ typedef struct {
     uint32_t quick_apps_menu_idx;
     uint32_t quick_apps_direction_menu_idx;
 } DesktopSettingsApp;
+

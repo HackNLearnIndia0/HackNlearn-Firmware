@@ -49,3 +49,4 @@ int32_t example_advanced_plugins_app(void* p) {
 
     return 0;
 }
+

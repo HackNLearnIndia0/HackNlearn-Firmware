@@ -120,3 +120,4 @@ const NfcPollerBase nfc_poller_iso15693_3 = {
     .detect = (NfcPollerDetect)iso15693_3_poller_detect,
     .get_data = (NfcPollerGetData)iso15693_3_poller_get_data,
 };
+

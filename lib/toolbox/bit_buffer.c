@@ -334,3 +334,4 @@ void bit_buffer_append_bit(BitBuffer* buf, bool bit) {
 
     buf->size_bits++;
 }
+

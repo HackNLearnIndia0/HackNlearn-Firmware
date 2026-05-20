@@ -222,3 +222,4 @@ void subghz_protocol_decoder_ido_get_string(void* context, FuriString* output) {
         instance->generic.serial,
         instance->generic.btn);
 }
+

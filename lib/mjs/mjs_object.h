@@ -67,3 +67,4 @@ MJS_PRIVATE void mjs_obj_destructor(struct mjs* mjs, void* cell);
 #endif /* __cplusplus */
 
 #endif /* MJS_OBJECT_H_ */
+

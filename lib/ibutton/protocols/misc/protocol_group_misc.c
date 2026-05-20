@@ -304,3 +304,4 @@ const iButtonProtocolGroupBase ibutton_protocol_group_misc = {
         (iButtonProtocolGroupGetDataFunc)ibutton_protocol_group_misc_get_editable_data,
     .apply_edits = (iButtonProtocolGroupApplyFunc)ibutton_protocol_group_misc_apply_edits,
 };
+

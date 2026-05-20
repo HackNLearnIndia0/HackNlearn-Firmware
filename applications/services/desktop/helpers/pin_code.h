@@ -24,3 +24,4 @@ bool desktop_pin_code_is_equal(const DesktopPinCode* pin_code1, const DesktopPin
 void desktop_pin_lock_error_notify(void);
 
 uint32_t desktop_pin_lock_get_fail_timeout(void);
+

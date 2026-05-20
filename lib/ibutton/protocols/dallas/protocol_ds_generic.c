@@ -148,3 +148,4 @@ void ds_generic_get_editable_data(
 void ds_generic_apply_edits(iButtonProtocolData* protocol_data) {
     UNUSED(protocol_data);
 }
+

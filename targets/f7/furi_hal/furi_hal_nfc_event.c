@@ -118,3 +118,4 @@ bool furi_hal_nfc_event_wait_for_specific_irq(
 
     return irq_received;
 }
+

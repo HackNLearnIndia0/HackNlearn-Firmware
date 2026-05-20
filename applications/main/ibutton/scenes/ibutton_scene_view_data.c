@@ -24,3 +24,4 @@ void ibutton_scene_view_data_on_exit(void* context) {
     iButton* ibutton = context;
     widget_reset(ibutton->widget);
 }
+

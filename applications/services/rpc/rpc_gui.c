@@ -490,3 +490,4 @@ void rpc_system_gui_free(void* context) {
     furi_record_close(RECORD_GUI);
     free(rpc_gui);
 }
+

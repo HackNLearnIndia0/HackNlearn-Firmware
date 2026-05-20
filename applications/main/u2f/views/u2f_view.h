@@ -23,3 +23,4 @@ View* u2f_view_get_view(U2fView* u2f);
 void u2f_view_set_ok_callback(U2fView* u2f, U2fOkCallback callback, void* context);
 
 void u2f_view_set_state(U2fView* u2f, U2fViewMsg msg);
+

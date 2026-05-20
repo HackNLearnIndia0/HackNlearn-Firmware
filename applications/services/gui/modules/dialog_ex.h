@@ -165,3 +165,4 @@ void dialog_ex_disable_extended_events(DialogEx* dialog_ex);
 #ifdef __cplusplus
 }
 #endif
+

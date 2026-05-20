@@ -55,3 +55,4 @@ void desktop_scene_secure_enclave_on_exit(void* context) {
     Popup* popup = desktop->popup;
     popup_reset(popup);
 }
+

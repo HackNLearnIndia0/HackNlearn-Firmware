@@ -419,3 +419,4 @@ void subghz_protocol_decoder_megacode_get_string(void* context, FuriString* outp
         instance->generic.cnt,
         instance->generic.btn);
 }
+

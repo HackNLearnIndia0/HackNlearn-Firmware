@@ -264,3 +264,4 @@ bool nfc_device_load(NfcDevice* instance, const char* path);
 #ifdef __cplusplus
 }
 #endif
+

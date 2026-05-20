@@ -20,3 +20,4 @@ struct SceneManager {
     void* context;
     AppScene scene[];
 };
+

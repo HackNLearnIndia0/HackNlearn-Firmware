@@ -184,3 +184,4 @@ bool mf_desfire_application_save(
     const MfDesfireApplication* data,
     const char* prefix,
     FlipperFormat* ff);
+

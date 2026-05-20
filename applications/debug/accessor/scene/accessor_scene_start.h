@@ -7,3 +7,4 @@ public:
     bool on_event(AccessorApp* app, AccessorEvent* event) final;
     void on_exit(AccessorApp* app) final;
 };
+

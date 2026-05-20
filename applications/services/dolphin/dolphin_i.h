@@ -36,3 +36,4 @@ struct Dolphin {
     FuriEventLoopTimer* flush_timer;
     FuriEventLoopTimer* clear_limits_timer;
 };
+

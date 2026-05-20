@@ -8,3 +8,4 @@ static void execute(PipeSide* pipe, FuriString* args, void* context) {
 }
 
 CLI_COMMAND_INTERFACE(hello_world, execute, CliCommandFlagParallelSafe, 768, CLI_APPID);
+

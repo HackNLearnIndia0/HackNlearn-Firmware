@@ -42,3 +42,4 @@ bool file_info_is_dir(const FileInfo* file_info) {
     furi_check(file_info);
     return file_info->flags & FSF_DIRECTORY;
 }
+

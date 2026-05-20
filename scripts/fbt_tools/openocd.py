@@ -45,3 +45,4 @@ def exists(env):
         return openocd
 
     raise SCons.Errors.StopError("Could not detect openocd")
+

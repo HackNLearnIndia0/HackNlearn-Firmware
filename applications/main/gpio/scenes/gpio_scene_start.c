@@ -104,3 +104,4 @@ void gpio_scene_start_on_exit(void* context) {
     GpioApp* app = context;
     variable_item_list_reset(app->var_item_list);
 }
+

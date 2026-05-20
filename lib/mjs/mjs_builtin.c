@@ -167,3 +167,4 @@ void mjs_init_builtin(struct mjs* mjs, mjs_val_t obj) {
 
     mjs_init_builtin_array_buf(mjs, obj);
 }
+

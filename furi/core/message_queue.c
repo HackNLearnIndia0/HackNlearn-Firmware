@@ -231,3 +231,4 @@ const FuriEventLoopContract furi_message_queue_event_loop_contract = {
     .get_link = furi_message_queue_event_loop_get_link,
     .get_level = furi_message_queue_event_loop_get_level,
 };
+

@@ -200,3 +200,4 @@ usbdisk.start(...)
 | MENU               | Context menu key |
 | Fx                 | F1-F24 keys      |
 | NUMx               | NUM0-NUM9 keys   |
+

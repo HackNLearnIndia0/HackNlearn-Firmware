@@ -125,3 +125,4 @@ inline uint64_t
     subghz_protocol_keeloq_common_magic_serial_type3_learning(uint32_t data, uint64_t man) {
     return (man & 0xFFFFFFFFFF000000) | (data & 0xFFFFFF);
 }
+

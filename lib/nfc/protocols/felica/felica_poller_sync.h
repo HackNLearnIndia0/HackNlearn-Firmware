@@ -12,3 +12,4 @@ FelicaError felica_poller_sync_read(Nfc* nfc, FelicaData* data, const FelicaCard
 #ifdef __cplusplus
 }
 #endif
+

@@ -11,3 +11,4 @@ typedef enum {
     NfcProtocolFormatTypeShort, /**< Short format, terse info. */
     NfcProtocolFormatTypeFull, /**< Full format, verbose info. */
 } NfcProtocolFormatType;
+

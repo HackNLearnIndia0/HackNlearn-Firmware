@@ -789,3 +789,4 @@ void subghz_protocol_decoder_keeloq_get_string(void* context, FuriString* output
         instance->manufacture_name,
         instance->generic.serial);
 }
+

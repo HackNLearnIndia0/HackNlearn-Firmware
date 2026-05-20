@@ -121,3 +121,4 @@ CliAnsiParserResult cli_ansi_parser_feed_timeout(CliAnsiParser* parser) {
     parser->state = CliAnsiParserStateInitial;
     return result;
 }
+

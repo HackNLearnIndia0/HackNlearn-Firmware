@@ -222,3 +222,4 @@ void furi_hal_subghz_stop_async_tx(void);
 #ifdef __cplusplus
 }
 #endif
+

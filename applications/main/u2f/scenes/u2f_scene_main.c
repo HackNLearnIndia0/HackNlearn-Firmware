@@ -120,3 +120,4 @@ void u2f_scene_main_on_exit(void* context) {
         u2f_free(app->u2f_instance);
     }
 }
+

@@ -12,3 +12,4 @@ extern const NfcListenerBase* const nfc_listeners_api[NfcProtocolNum];
 #ifdef __cplusplus
 }
 #endif
+

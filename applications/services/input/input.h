@@ -55,3 +55,4 @@ const char* input_get_type_name(InputType type);
 #ifdef __cplusplus
 }
 #endif
+

@@ -33,3 +33,4 @@ The example code is located in `example_images_main.c` and contains the followin
 ```
 
 Image `dolphin_71x25.png` is available as `I_dolphin_71x25`.
+

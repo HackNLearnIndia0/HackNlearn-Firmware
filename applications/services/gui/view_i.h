@@ -54,3 +54,4 @@ void view_enter(View* view);
 
 /** Exit Callback for View dispatcher */
 void view_exit(View* view);
+

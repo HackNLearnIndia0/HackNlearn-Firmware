@@ -62,3 +62,4 @@ uint32_t crc32_calc_file(File* file, const FileCrcProgressCb progress_cb, void* 
 
     return file_crc;
 }
+

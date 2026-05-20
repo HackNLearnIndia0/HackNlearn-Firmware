@@ -67,3 +67,4 @@ void number_input_set_header_text(NumberInput* number_input, const char* text);
 #ifdef __cplusplus
 }
 #endif
+

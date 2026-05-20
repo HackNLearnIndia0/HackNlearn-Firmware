@@ -49,3 +49,4 @@ void nfc_scene_mf_classic_keys_list_on_exit(void* context) {
 
     submenu_reset(instance->submenu);
 }
+

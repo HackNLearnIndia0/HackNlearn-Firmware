@@ -529,3 +529,4 @@ void file_browser_worker_load(BrowserWorker* browser, uint32_t offset, uint32_t 
     browser->load_count = count;
     furi_thread_flags_set(furi_thread_get_id(browser->thread), WorkerEvtLoad);
 }
+

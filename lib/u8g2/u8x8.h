@@ -1272,3 +1272,4 @@ extern const uint8_t
 #endif
 
 #endif /* _U8X8_H */
+

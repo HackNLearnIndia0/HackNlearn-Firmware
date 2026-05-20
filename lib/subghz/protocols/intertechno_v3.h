@@ -109,3 +109,4 @@ SubGhzProtocolStatus subghz_protocol_decoder_intertechno_v3_deserialize(
  * @param output Resulting text
  */
 void subghz_protocol_decoder_intertechno_v3_get_string(void* context, FuriString* output);
+

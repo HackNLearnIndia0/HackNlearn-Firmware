@@ -162,3 +162,4 @@ void hid_mouse_jiggler_set_connected_status(HidMouseJiggler* hid_mouse_jiggler, 
         { model->connected = connected; },
         true);
 }
+

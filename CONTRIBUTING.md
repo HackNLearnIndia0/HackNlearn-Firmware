@@ -71,3 +71,4 @@ Once you submit your PR, a Docs team member will review your proposal. We may as
 
 Congratulations :tada::tada: The FlipperDevices team thanks you :sparkles:.
 refresh 
+

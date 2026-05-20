@@ -10,3 +10,4 @@ DialogMessageButton dialogs_app_process_module_message(const DialogsAppMessageDa
 #ifdef __cplusplus
 }
 #endif
+

@@ -87,3 +87,4 @@ void nfc_scene_mf_classic_keys_on_exit(void* context) {
 
     widget_reset(instance->widget);
 }
+

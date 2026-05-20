@@ -88,3 +88,4 @@ void rpc_cli_command_start_session(PipeSide* pipe, FuriString* args, void* conte
     free(buffer);
     furi_hal_usb_unlock();
 }
+

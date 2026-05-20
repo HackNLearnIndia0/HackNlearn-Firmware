@@ -8,3 +8,4 @@ void nfc_render_iso14443_3b_info(
     const Iso14443_3bData* data,
     NfcProtocolFormatType format_type,
     FuriString* str);
+

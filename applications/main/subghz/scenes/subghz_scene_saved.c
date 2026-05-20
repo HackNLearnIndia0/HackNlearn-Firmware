@@ -27,3 +27,4 @@ void subghz_scene_saved_on_exit(void* context) {
     scene_manager_set_scene_state(subghz->scene_manager, SubGhzSceneSavedMenu, 0);
     UNUSED(context);
 }
+

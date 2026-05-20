@@ -130,3 +130,4 @@ bool infrared_scene_universal_ac_on_event(void* context, SceneManagerEvent event
 void infrared_scene_universal_ac_on_exit(void* context) {
     infrared_scene_universal_common_on_exit(context);
 }
+

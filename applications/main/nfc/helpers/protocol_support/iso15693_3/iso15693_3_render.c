@@ -96,3 +96,4 @@ void nfc_render_iso15693_3_extra(const Iso15693_3Data* data, FuriString* str) {
             str, "AFI: %s locked\n", data->settings.lock_bits.dsfid ? "" : "not");
     }
 }
+

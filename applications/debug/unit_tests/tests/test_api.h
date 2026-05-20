@@ -27,3 +27,4 @@ typedef struct {
     const FlipperAppPluginDescriptor* get_api(void) {   \
         return &app_descriptor;                         \
     }
+

@@ -33,3 +33,4 @@ typedef struct {
     int32_t min_value;
     int32_t max_value;
 } ExampleNumberInput;
+

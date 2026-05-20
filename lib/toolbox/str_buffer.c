@@ -16,3 +16,4 @@ void str_buffer_clear_all_clones(StrBuffer* buffer) {
     free(buffer->owned_strings);
     buffer->owned_strings = NULL;
 }
+

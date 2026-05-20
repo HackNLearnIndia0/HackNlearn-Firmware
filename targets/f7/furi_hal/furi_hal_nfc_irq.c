@@ -27,3 +27,4 @@ void furi_hal_nfc_deinit_gpio_isr(void) {
     furi_hal_gpio_remove_int_callback(&gpio_nfc_irq_rfid_pull);
     furi_hal_gpio_init(&gpio_nfc_irq_rfid_pull, GpioModeAnalog, GpioPullNo, GpioSpeedLow);
 }
+

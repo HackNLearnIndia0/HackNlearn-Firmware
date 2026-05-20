@@ -195,3 +195,4 @@ static const FlipperAppPluginDescriptor washcity_plugin_descriptor = {
 const FlipperAppPluginDescriptor* washcity_plugin_ep(void) {
     return &washcity_plugin_descriptor;
 }
+

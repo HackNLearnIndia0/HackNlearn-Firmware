@@ -41,3 +41,4 @@ uint32_t furi_event_loop_get_timer_wait_time(const FuriEventLoop* instance);
 void furi_event_loop_process_timer_queue(FuriEventLoop* instance);
 
 bool furi_event_loop_process_expired_timers(FuriEventLoop* instance);
+

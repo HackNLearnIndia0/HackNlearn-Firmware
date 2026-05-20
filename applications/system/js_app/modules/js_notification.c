@@ -109,3 +109,4 @@ static const FlipperAppPluginDescriptor plugin_descriptor = {
 const FlipperAppPluginDescriptor* js_notification_ep(void) {
     return &plugin_descriptor;
 }
+

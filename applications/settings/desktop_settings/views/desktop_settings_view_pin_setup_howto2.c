@@ -97,3 +97,4 @@ View* desktop_settings_view_pin_setup_howto2_get_view(DesktopSettingsViewPinSetu
     furi_assert(instance);
     return instance->view;
 }
+

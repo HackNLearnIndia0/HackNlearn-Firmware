@@ -1324,3 +1324,4 @@ uint8_t* u8g2_m_48_30_f(uint8_t* page_cnt) {
 #endif
 }
 /* end of generated code */
+

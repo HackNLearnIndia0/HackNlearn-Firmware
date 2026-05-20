@@ -222,3 +222,4 @@ int run_minunit_test_protocol_dict(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_protocol_dict)
+

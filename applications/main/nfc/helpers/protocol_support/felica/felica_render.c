@@ -195,3 +195,4 @@ void nfc_more_info_render_felica_blocks(
         }
     }
 }
+

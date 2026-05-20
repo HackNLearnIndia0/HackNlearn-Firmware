@@ -411,3 +411,4 @@ const ProtocolBase protocol_fdx_b = {
     .render_brief_data = (ProtocolRenderData)protocol_fdx_b_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_fdx_b_write_data,
 };
+

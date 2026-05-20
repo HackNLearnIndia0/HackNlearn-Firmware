@@ -92,3 +92,4 @@ typedef struct {
     NfcSupportedCardPluginRead read; /**< Pointer to the read() function. */
     NfcSupportedCardPluginParse parse; /**< Pointer to the parse() function. */
 } NfcSupportedCardsPlugin;
+

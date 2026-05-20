@@ -92,3 +92,4 @@ void desktop_settings_scene_pin_auth_on_exit(void* context) {
     desktop_view_pin_input_set_back_callback(app->pin_input_view, NULL);
     desktop_view_pin_input_set_done_callback(app->pin_input_view, NULL);
 }
+

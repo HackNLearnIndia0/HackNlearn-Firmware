@@ -499,3 +499,4 @@ void hid_keyboard_set_connected_status(HidKeyboard* hid_keyboard, bool connected
     with_view_model(
         hid_keyboard->view, HidKeyboardModel * model, { model->connected = connected; }, true);
 }
+

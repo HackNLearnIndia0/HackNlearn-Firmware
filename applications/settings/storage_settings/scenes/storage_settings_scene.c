@@ -28,3 +28,4 @@ const SceneManagerHandlers storage_settings_scene_handlers = {
     .on_exit_handlers = storage_settings_on_exit_handlers,
     .scene_num = StorageSettingsSceneNum,
 };
+

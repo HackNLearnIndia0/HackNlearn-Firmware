@@ -70,3 +70,4 @@ void nfc_render_slix_info(const SlixData* data, NfcProtocolFormatType format_typ
     furi_string_cat(str, "\n\e#ISO15693-3 data");
     nfc_render_iso15693_3_extra(slix_get_base_data(data), str);
 }
+

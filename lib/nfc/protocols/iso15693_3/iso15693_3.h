@@ -161,3 +161,4 @@ const uint8_t* iso15693_3_get_block_data(const Iso15693_3Data* data, uint8_t blo
 #ifdef __cplusplus
 }
 #endif
+

@@ -513,3 +513,4 @@ bool tar_archive_unpack_file(
     }
     return archive_extract_current_file(archive, destination);
 }
+

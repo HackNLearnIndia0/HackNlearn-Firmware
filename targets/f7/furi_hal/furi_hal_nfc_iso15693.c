@@ -463,3 +463,4 @@ const FuriHalNfcTechBase furi_hal_nfc_iso15693 = {
             .idle = furi_hal_nfc_iso15693_listener_sleep,
         },
 };
+

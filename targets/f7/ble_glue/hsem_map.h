@@ -79,3 +79,4 @@
 
 /* Index of the semaphore used to access the RNG */
 #define CFG_HW_RNG_SEMID 0
+

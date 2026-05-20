@@ -215,3 +215,4 @@ const ProtocolBase protocol_viking = {
     .render_brief_data = (ProtocolRenderData)protocol_viking_render_data,
     .write_data = (ProtocolWriteData)protocol_viking_write_data,
 };
+

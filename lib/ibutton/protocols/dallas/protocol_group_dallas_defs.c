@@ -16,3 +16,4 @@ const iButtonProtocolDallasBase* const ibutton_protocols_dallas[] = {
     /* Default catch-all 1-Wire protocol */
     [iButtonProtocolDSGeneric] = &ibutton_protocol_ds_generic,
 };
+

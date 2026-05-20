@@ -71,3 +71,4 @@ void expansion_set_listen_serial(Expansion* instance, FuriHalSerialId serial_id)
 #ifdef __cplusplus
 }
 #endif
+

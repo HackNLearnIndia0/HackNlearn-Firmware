@@ -28,3 +28,4 @@ const SceneManagerHandlers file_browser_scene_handlers = {
     .on_exit_handlers = file_browser_scene_on_exit_handlers,
     .scene_num = FileBrowserSceneNum,
 };
+

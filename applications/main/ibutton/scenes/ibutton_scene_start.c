@@ -48,3 +48,4 @@ void ibutton_scene_start_on_exit(void* context) {
     iButton* ibutton = context;
     submenu_reset(ibutton->submenu);
 }
+

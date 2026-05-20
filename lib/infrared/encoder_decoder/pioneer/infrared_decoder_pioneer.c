@@ -55,3 +55,4 @@ void infrared_decoder_pioneer_free(void* decoder) {
 void infrared_decoder_pioneer_reset(void* decoder) {
     infrared_common_decoder_reset(decoder);
 }
+

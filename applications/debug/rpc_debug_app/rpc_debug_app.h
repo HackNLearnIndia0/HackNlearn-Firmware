@@ -52,3 +52,4 @@ typedef enum {
     RpcDebugAppCustomEventInputDataExchange,
     RpcDebugAppCustomEventRpcDataExchange,
 } RpcDebugAppCustomEvent;
+

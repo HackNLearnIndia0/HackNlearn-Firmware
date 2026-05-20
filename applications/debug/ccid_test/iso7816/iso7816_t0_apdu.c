@@ -82,3 +82,4 @@ void iso7816_write_response_apdu(
 
     *reader_to_pc_datablock_len = responseDataBufferIndex;
 }
+

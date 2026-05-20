@@ -115,3 +115,4 @@ void subghz_protocol_decoder_marantec_get_string(void* context, FuriString* outp
  * @return CRC8 value
  */
 uint8_t subghz_protocol_marantec_crc8(uint8_t* data, size_t len);
+

@@ -122,3 +122,4 @@ void power_on_system_start(void) {
     UNUSED(power_cli);
 #endif
 }
+

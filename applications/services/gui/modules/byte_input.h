@@ -67,3 +67,4 @@ void byte_input_set_header_text(ByteInput* byte_input, const char* text);
 #ifdef __cplusplus
 }
 #endif
+

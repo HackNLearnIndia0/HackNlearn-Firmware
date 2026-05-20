@@ -55,3 +55,4 @@ typedef enum {
 } BadUsbAppView;
 
 void bad_usb_set_interface(BadUsbApp* app, BadUsbHidInterface interface);
+

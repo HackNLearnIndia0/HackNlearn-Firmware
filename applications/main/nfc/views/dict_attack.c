@@ -434,3 +434,4 @@ void dict_attack_set_key_found(DictAttack* instance, bool key_found) {
     with_view_model(
         instance->view, DictAttackViewModel * model, { model->key_found = key_found; }, true);
 }
+

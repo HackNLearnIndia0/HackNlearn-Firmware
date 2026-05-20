@@ -45,3 +45,4 @@ FS_Error file_stream_get_error(Stream* stream);
 #ifdef __cplusplus
 }
 #endif
+

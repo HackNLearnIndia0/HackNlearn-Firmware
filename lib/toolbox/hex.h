@@ -50,3 +50,4 @@ void uint8_to_hex_chars(const uint8_t* src, uint8_t* target, int length);
 #ifdef __cplusplus
 }
 #endif
+

@@ -379,3 +379,4 @@ void onewire_slave_set_overdrive(OneWireSlave* bus, bool set) {
         bus->timings = new_timings;
     }
 }
+

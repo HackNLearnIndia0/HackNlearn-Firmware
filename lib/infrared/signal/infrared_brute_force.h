@@ -120,3 +120,4 @@ void infrared_brute_force_reset(InfraredBruteForce* brute_force);
 #ifdef __cplusplus
 }
 #endif
+

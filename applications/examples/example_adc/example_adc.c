@@ -174,3 +174,4 @@ int32_t example_adc_main(void* p) {
 
     return 0;
 }
+

@@ -1099,3 +1099,4 @@ FuriStatus furi_hal_sd_info(FuriHalSdInfo* info) {
 
     return status;
 }
+

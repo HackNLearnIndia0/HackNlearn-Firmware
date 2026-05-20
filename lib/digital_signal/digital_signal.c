@@ -93,3 +93,4 @@ void digital_signal_add_period_with_level(DigitalSignal* signal, uint32_t ticks,
         }
     }
 }
+

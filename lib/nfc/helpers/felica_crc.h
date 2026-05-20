@@ -20,3 +20,4 @@ void felica_crc_trim(BitBuffer* buf);
 #ifdef __cplusplus
 }
 #endif
+

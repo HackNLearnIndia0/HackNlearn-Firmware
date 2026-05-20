@@ -78,3 +78,4 @@ void lfrfid_scene_save_type_on_exit(void* context) {
     free(state);
     scene_manager_set_scene_state(app->scene_manager, LfRfidSceneSaveType, line_sel);
 }
+

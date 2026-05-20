@@ -69,3 +69,4 @@ void nfc_scene_save_success_on_exit(void* context) {
     // Clear view
     popup_reset(nfc->popup);
 }
+

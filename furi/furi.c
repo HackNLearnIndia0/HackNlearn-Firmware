@@ -25,3 +25,4 @@ void furi_run(void) {
 void furi_background(void) {
     furi_thread_scrub();
 }
+

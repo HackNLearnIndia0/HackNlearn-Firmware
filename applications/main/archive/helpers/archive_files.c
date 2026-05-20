@@ -110,3 +110,4 @@ void archive_delete_file(void* context, const char* format, ...) {
 
     furi_string_free(filename);
 }
+

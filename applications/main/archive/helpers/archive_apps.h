@@ -23,3 +23,4 @@ ArchiveAppTypeEnum archive_get_app_type(const char* path);
 bool archive_app_is_available(void* context, const char* path);
 bool archive_app_read_dir(void* context, const char* path);
 void archive_app_delete_file(void* context, const char* path);
+

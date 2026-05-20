@@ -119,3 +119,4 @@ bool furi_event_loop_timer_is_running(const FuriEventLoopTimer* timer);
 #ifdef __cplusplus
 }
 #endif
+

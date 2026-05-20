@@ -229,3 +229,4 @@ const ProtocolBase protocol_pac_stanley = {
     .render_brief_data = (ProtocolRenderData)protocol_pac_stanley_render_data,
     .write_data = (ProtocolWriteData)protocol_pac_stanley_write_data,
 };
+

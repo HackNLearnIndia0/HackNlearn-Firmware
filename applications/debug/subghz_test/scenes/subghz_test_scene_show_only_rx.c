@@ -47,3 +47,4 @@ void subghz_test_scene_show_only_rx_on_exit(void* context) {
 
     popup_reset(popup);
 }
+

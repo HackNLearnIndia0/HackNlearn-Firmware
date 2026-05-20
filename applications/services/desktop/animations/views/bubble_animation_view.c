@@ -411,3 +411,4 @@ View* bubble_animation_get_view(BubbleAnimationView* view) {
 
     return view->view;
 }
+

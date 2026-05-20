@@ -95,3 +95,4 @@ const NfcCliActionDescriptor scanner_action = {
 const NfcCliActionDescriptor* scanner_actions_collection[] = {&scanner_action};
 
 ADD_NFC_CLI_COMMAND(scanner, "", scanner_actions_collection);
+

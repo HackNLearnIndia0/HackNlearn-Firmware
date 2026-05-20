@@ -28,3 +28,4 @@ const SceneManagerHandlers desktop_scene_handlers = {
     .on_exit_handlers = desktop_on_exit_handlers,
     .scene_num = DesktopSceneNum,
 };
+

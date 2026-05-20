@@ -123,3 +123,4 @@ int32_t blink_test_app(void* p) {
 
     return 0;
 }
+

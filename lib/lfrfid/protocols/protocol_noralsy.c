@@ -218,3 +218,4 @@ const ProtocolBase protocol_noralsy = {
     .render_brief_data = (ProtocolRenderData)protocol_noralsy_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_noralsy_write_data,
 };
+

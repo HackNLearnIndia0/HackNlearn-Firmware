@@ -110,3 +110,4 @@ class FileBundler:
                 content = content_file.read()
                 f.write(content)
                 self._md5_hash.update(content)
+

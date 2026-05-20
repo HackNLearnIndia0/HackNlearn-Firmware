@@ -500,3 +500,4 @@ void u8g2_DrawFilledEllipse(
 
     u8g2_draw_filled_ellipse(u8g2, x0, y0, rx, ry, option);
 }
+

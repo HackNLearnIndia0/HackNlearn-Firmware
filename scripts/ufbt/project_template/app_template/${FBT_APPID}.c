@@ -10,3 +10,4 @@ int32_t @FBT_APPID@_app(void* p) {
 
     return 0;
 }
+

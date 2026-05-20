@@ -114,3 +114,4 @@ bool nfc_protocol_support_on_event(
 void nfc_protocol_support_on_exit(NfcProtocolSupportScene scene, void* context);
 
 bool nfc_protocol_support_has_feature(NfcProtocol protocol, NfcProtocolFeature feature);
+

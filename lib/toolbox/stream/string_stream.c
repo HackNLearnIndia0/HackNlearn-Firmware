@@ -177,3 +177,4 @@ static size_t string_stream_write_char(StringStream* stream, char c) {
 
     return 1;
 }
+

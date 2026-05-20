@@ -7,3 +7,4 @@ const iButtonProtocolGroupBase* const ibutton_protocol_groups[] = {
     [iButtonProtocolGroupDallas] = &ibutton_protocol_group_dallas,
     [iButtonProtocolGroupMisc] = &ibutton_protocol_group_misc,
 };
+

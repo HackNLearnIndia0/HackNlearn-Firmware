@@ -81,3 +81,4 @@ js /ext/apps/Scripts/first_app.js
 As you can see, unlike running JavaScript apps from the Flipper Zero UI, all output from the `print()` function is sent to the CLI, not the device screen.
 
 **Next step:** [Developing apps using JavaScript SDK](#js_developing_apps_using_js_sdk)
+

@@ -66,3 +66,4 @@ void storage_settings_scene_unmount_confirm_on_exit(void* context) {
 
     dialog_ex_reset(dialog_ex);
 }
+

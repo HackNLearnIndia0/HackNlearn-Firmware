@@ -171,3 +171,4 @@ View* view_stack_get_view(ViewStack* view_stack) {
     furi_assert(view_stack);
     return view_stack->view;
 }
+

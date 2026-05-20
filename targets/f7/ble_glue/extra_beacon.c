@@ -160,3 +160,4 @@ const GapExtraBeaconConfig* gap_extra_beacon_get_config(void) {
 
     return &extra_beacon.last_config;
 }
+

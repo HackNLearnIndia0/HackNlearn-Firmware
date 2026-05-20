@@ -233,3 +233,4 @@ uint32_t pulse_reader_receive(PulseReader* signal, int timeout_us) {
         }
     } while(true);
 }
+

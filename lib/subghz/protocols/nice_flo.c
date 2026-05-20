@@ -333,3 +333,4 @@ void subghz_protocol_decoder_nice_flo_get_string(void* context, FuriString* outp
         code_found_lo,
         code_found_reverse_lo);
 }
+

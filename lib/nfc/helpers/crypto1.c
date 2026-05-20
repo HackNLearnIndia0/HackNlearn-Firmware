@@ -235,3 +235,4 @@ uint32_t crypto1_decrypt_nt_enc(uint32_t cuid, uint32_t nt_enc, MfClassicKey kno
         (nt_enc ^ crypto1_lfsr_rollback_word(&crypto_temp, nt_enc ^ cuid, 1));
     return decrypted_nt_enc;
 }
+

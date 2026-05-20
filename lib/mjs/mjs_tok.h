@@ -140,3 +140,4 @@ MJS_PRIVATE int mjs_is_digit(int c);
 #endif /* __cplusplus */
 
 #endif /* MJS_TOK_H_ */
+

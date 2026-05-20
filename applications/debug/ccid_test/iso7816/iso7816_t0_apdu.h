@@ -40,3 +40,4 @@ void iso7816_write_response_apdu(
     const ISO7816_Response_APDU* response,
     uint8_t* reader_to_pc_datablock,
     uint32_t* reader_to_pc_datablock_len);
+

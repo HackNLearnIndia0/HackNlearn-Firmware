@@ -4,3 +4,4 @@
 
 typedef void iButtonProtocolData;
 typedef int32_t iButtonProtocolLocalId;
+

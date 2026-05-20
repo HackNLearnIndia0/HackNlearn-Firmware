@@ -210,3 +210,4 @@ bool tar_archive_finalize(TarArchive* archive);
 #ifdef __cplusplus
 }
 #endif
+

@@ -192,3 +192,4 @@ void detect_reader_set_uid(DetectReader* detect_reader, uint8_t* uid, uint8_t ui
         },
         true);
 }
+

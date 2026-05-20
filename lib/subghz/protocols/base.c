@@ -72,3 +72,4 @@ uint8_t subghz_protocol_decoder_base_get_hash_data(SubGhzProtocolDecoderBase* de
 
     return hash;
 }
+

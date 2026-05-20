@@ -10,3 +10,4 @@ void nfc_render_mf_classic_info(
     FuriString* str);
 
 void nfc_render_mf_classic_dump(const MfClassicData* data, FuriString* str);
+

@@ -61,3 +61,4 @@ void t5577_write_with_mask(LFRFIDT5577* data, uint8_t page, bool with_pass, uint
 #ifdef __cplusplus
 }
 #endif
+

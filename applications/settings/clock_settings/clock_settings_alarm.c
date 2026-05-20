@@ -175,3 +175,4 @@ void clock_settings_start(void) {
     furi_hal_rtc_set_alarm_callback(clock_settings_alarm_isr, NULL);
 #endif
 }
+

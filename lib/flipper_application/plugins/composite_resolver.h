@@ -44,3 +44,4 @@ const ElfApiInterface* composite_api_resolver_get(CompositeApiResolver* resolver
 #ifdef __cplusplus
 }
 #endif
+

@@ -832,3 +832,4 @@ const NfcListenerBase mf_ultralight_listener = {
     .set_callback = (NfcListenerSetCallback)mf_ultralight_listener_set_callback,
     .run = (NfcListenerRun)mf_ultralight_listener_run,
 };
+

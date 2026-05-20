@@ -71,3 +71,4 @@ void lfrfid_scene_delete_confirm_on_exit(void* context) {
     LfRfid* app = context;
     widget_reset(app->widget);
 }
+

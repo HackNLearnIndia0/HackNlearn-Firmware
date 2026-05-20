@@ -76,3 +76,4 @@ int mjs_strcmp(struct mjs* mjs, mjs_val_t* a, const char* b, size_t len);
 #endif /* __cplusplus */
 
 #endif /* MJS_STRING_PUBLIC_H_ */
+

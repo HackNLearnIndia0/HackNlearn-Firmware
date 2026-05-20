@@ -367,3 +367,4 @@ const uint8_t* iso15693_3_get_block_data(const Iso15693_3Data* data, uint8_t blo
     return (const uint8_t*)simple_array_cget(
         data->block_data, block_index * data->system_info.block_size);
 }
+

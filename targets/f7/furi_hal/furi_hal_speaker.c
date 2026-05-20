@@ -137,3 +137,4 @@ void furi_hal_speaker_stop(void) {
     LL_TIM_DisableAllOutputs(FURI_HAL_SPEAKER_TIMER);
     LL_TIM_DisableCounter(FURI_HAL_SPEAKER_TIMER);
 }
+

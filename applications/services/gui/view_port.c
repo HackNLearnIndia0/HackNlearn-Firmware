@@ -251,3 +251,4 @@ ViewPortOrientation view_port_get_orientation(const ViewPort* view_port) {
     furi_mutex_release(view_port->mutex);
     return orientation;
 }
+

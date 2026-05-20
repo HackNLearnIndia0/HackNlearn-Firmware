@@ -178,3 +178,4 @@ uint8_t ducky_get_mouse_keycode_by_name(const char* param) {
 
     return HID_MOUSE_INVALID;
 }
+

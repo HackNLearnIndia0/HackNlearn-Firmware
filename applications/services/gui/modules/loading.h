@@ -33,3 +33,4 @@ View* loading_get_view(Loading* instance);
 #ifdef __cplusplus
 }
 #endif
+

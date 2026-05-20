@@ -87,3 +87,4 @@ void submenu_settings_helpers_scene_exit(SubmenuSettingsHelper* helper);
 #ifdef __cplusplus
 }
 #endif
+

@@ -56,3 +56,4 @@ const St25tbData* st25tb_poller_get_data(St25tbPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

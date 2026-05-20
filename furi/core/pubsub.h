@@ -66,3 +66,4 @@ void furi_pubsub_publish(FuriPubSub* pubsub, void* message);
 #ifdef __cplusplus
 }
 #endif
+

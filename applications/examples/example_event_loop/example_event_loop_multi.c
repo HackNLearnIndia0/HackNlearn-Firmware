@@ -334,3 +334,4 @@ int32_t example_event_loop_multi_app(void* arg) {
 
     return 0;
 }
+

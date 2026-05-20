@@ -40,3 +40,4 @@ bool desktop_settings_scene_pin_setup_howto_on_event(void* context, SceneManager
 void desktop_settings_scene_pin_setup_howto_on_exit(void* context) {
     UNUSED(context);
 }
+

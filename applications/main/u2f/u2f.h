@@ -39,3 +39,4 @@ void u2f_set_state(U2fData* instance, uint8_t state);
 #ifdef __cplusplus
 }
 #endif
+

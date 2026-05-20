@@ -45,3 +45,4 @@ void infrared_scene_edit_delete_done_on_exit(void* context) {
     InfraredApp* infrared = context;
     UNUSED(infrared);
 }
+

@@ -294,3 +294,4 @@ FelicaError felica_poller_list_system_code(
     *response_ptr = (FelicaListSystemCodeCommandResponse*)bit_buffer_get_data(instance->rx_buffer);
     return error;
 }
+

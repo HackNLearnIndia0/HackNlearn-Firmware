@@ -28,3 +28,4 @@ const SceneManagerHandlers subghz_test_scene_handlers = {
     .on_exit_handlers = subghz_test_scene_on_exit_handlers,
     .scene_num = SubGhzTestSceneNum,
 };
+

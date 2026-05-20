@@ -220,3 +220,4 @@ int32_t bad_usb_app(void* p) {
     bad_usb_app_free(bad_usb_app);
     return 0;
 }
+

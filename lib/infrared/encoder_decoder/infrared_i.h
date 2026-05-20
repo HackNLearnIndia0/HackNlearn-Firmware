@@ -45,3 +45,4 @@ static inline uint8_t reverse(uint8_t value) {
 
     return reverse_value;
 }
+

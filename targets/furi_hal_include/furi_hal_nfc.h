@@ -474,3 +474,4 @@ FuriHalNfcError furi_hal_nfc_felica_listener_set_sensf_res_data(
 #ifdef __cplusplus
 }
 #endif
+

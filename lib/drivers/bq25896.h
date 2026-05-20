@@ -65,3 +65,4 @@ uint16_t bq25896_get_vbat_current(const FuriHalI2cBusHandle* handle);
 
 /** Get NTC voltage in mpct of REGN */
 uint32_t bq25896_get_ntc_mpct(const FuriHalI2cBusHandle* handle);
+

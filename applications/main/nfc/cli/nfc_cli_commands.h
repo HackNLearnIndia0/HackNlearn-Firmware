@@ -25,3 +25,4 @@ const NfcCliKeyDescriptor*
 void nfc_cli_command_format_info(const NfcCliCommandDescriptor* cmd, FuriString* output);
 
 void nfc_cli_action_format_info(const NfcCliActionDescriptor* action, FuriString* output);
+

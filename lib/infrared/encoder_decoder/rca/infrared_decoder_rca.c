@@ -43,3 +43,4 @@ void infrared_decoder_rca_free(void* decoder) {
 void infrared_decoder_rca_reset(void* decoder) {
     infrared_common_decoder_reset(decoder);
 }
+

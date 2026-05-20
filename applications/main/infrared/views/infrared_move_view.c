@@ -231,3 +231,4 @@ void infrared_move_view_free(InfraredMoveView* move_view) {
 View* infrared_move_view_get_view(InfraredMoveView* move_view) {
     return move_view->view;
 }
+

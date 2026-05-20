@@ -63,3 +63,4 @@ void bad_usb_scene_error_on_exit(void* context) {
     BadUsbApp* app = context;
     widget_reset(app->widget);
 }
+

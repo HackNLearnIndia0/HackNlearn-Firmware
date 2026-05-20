@@ -26,3 +26,4 @@ private:
     static unsigned long _code;
     static unsigned long _codeHigh;
 };
+

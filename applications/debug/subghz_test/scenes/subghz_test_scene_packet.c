@@ -27,3 +27,4 @@ bool subghz_test_scene_packet_on_event(void* context, SceneManagerEvent event) {
 void subghz_test_scene_packet_on_exit(void* context) {
     UNUSED(context);
 }
+

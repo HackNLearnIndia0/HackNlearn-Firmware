@@ -331,3 +331,4 @@ void subghz_protocol_decoder_bett_get_string(void* context, FuriString* output) 
         SHOW_DIP_P(data, DIP_O),
         SHOW_DIP_P(data, DIP_N));
 }
+

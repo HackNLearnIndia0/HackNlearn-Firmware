@@ -95,3 +95,4 @@ static const FlipperAppPluginDescriptor trt_plugin_descriptor = {
 const FlipperAppPluginDescriptor* trt_plugin_ep(void) {
     return &trt_plugin_descriptor;
 }
+

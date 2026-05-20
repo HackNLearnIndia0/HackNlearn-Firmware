@@ -47,3 +47,4 @@ const InfraredProtocolVariant* infrared_protocol_rc5_get_variant(InfraredProtoco
     else
         return NULL;
 }
+

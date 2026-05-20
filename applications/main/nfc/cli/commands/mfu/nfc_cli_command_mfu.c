@@ -75,3 +75,4 @@ const NfcCliActionDescriptor* mfu_actions[] = {
 
 //Command descriptor
 ADD_NFC_CLI_COMMAND(mfu, "Mifare Ultralight specific commands", mfu_actions);
+

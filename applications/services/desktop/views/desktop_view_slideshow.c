@@ -137,3 +137,4 @@ void desktop_view_slideshow_set_callback(
     instance->callback = callback;
     instance->context = context;
 }
+

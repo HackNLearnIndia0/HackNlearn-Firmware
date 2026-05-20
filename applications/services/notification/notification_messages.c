@@ -597,3 +597,4 @@ const NotificationSequence sequence_lcd_contrast_update = {
 const NotificationSequence sequence_empty = {
     NULL,
 };
+

@@ -19,3 +19,4 @@ For an example, refer to the GUI example.
 
 # View props
 This view does not have any props.
+

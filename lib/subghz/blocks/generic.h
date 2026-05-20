@@ -67,3 +67,4 @@ SubGhzProtocolStatus subghz_block_generic_deserialize_check_count_bit(
 #ifdef __cplusplus
 }
 #endif
+

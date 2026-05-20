@@ -85,3 +85,4 @@ void furi_hal_mpu_protect_disable(FuriHalMpuRegion region);
 #ifdef __cplusplus
 }
 #endif
+

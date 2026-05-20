@@ -78,3 +78,4 @@ const FuriHalRegionBand* furi_hal_region_get_band(uint32_t frequency);
 #ifdef __cplusplus
 }
 #endif
+

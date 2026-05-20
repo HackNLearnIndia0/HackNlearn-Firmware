@@ -38,3 +38,4 @@ bool dfu_file_validate_crc(File* dfuf, const DfuPageTaskProgressCb progress_cb, 
 uint8_t dfu_file_validate_headers(File* dfuf, const DfuValidationParams* reference_params);
 
 bool dfu_file_process_targets(const DfuUpdateTask* task, File* dfuf, const uint8_t n_targets);
+

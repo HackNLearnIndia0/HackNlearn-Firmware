@@ -71,3 +71,4 @@ const InfraredProtocolVariant* infrared_protocol_nec_get_variant(InfraredProtoco
     else
         return NULL;
 }
+

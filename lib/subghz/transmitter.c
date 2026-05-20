@@ -62,3 +62,4 @@ LevelDuration subghz_transmitter_yield(void* context) {
     SubGhzTransmitter* instance = context;
     return instance->protocol->encoder->yield(instance->protocol_instance);
 }
+

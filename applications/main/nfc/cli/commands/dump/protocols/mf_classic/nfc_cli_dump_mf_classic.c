@@ -52,3 +52,4 @@ NfcCommand nfc_cli_dump_poller_callback_mf_classic(NfcGenericEvent event, void* 
 
     return command;
 }
+

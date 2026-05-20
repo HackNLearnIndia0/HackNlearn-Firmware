@@ -32,3 +32,4 @@ For an example, refer to the `gui.js` example script.
 | Item     | Type   | Description                                                                 |
 |----------|--------|-----------------------------------------------------------------------------|
 | `input`  | `string`| Fires when the user presses on either of the three possible buttons. The item contains one of the strings `"left"`, `"center"`, or `"right"` depending on the button. |
+

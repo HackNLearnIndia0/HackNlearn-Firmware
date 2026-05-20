@@ -38,3 +38,4 @@ typedef struct {
     iButtonProtocolDallasGetEditableDataFunc get_editable_data;
     iButtonProtocolDallasApplyEditsFunc apply_edits;
 } iButtonProtocolDallasBase;
+

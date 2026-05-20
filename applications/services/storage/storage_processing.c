@@ -749,3 +749,4 @@ void storage_process_message_internal(Storage* app, StorageMessage* message) {
 void storage_process_message(Storage* app, StorageMessage* message) {
     storage_process_message_internal(app, message);
 }
+

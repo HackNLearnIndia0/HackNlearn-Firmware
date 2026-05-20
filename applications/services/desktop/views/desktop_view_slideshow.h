@@ -22,3 +22,4 @@ void desktop_view_slideshow_set_callback(
     DesktopSlideshowView* main_view,
     DesktopSlideshowViewCallback callback,
     void* context);
+

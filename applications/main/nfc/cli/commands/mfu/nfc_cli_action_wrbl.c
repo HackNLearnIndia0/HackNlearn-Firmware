@@ -69,3 +69,4 @@ bool nfc_cli_mfu_wrbl_parse_data(FuriString* value, void* output) {
 
     return result;
 }
+

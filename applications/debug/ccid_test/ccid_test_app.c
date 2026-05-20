@@ -148,3 +148,4 @@ int32_t ccid_test_app(void* p) {
     ccid_test_app_free(app);
     return 0;
 }
+

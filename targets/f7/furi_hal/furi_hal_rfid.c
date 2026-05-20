@@ -588,3 +588,4 @@ bool furi_hal_rfid_field_is_present(uint32_t* frequency) {
     return (*frequency >= FURI_HAL_RFID_FIELD_FREQUENCY_MIN) &&
            (*frequency <= FURI_HAL_RFID_FIELD_FREQUENCY_MAX);
 }
+

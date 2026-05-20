@@ -92,3 +92,4 @@ const NfcDeviceData* nfc_listener_get_data(const NfcListener* instance, NfcProto
 #ifdef __cplusplus
 }
 #endif
+

@@ -111,3 +111,4 @@ int mg_str_starts_with(struct mg_str s, struct mg_str prefix);
 #endif
 
 #endif /* CS_COMMON_MG_STR_H_ */
+

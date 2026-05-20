@@ -122,3 +122,4 @@ void slideshow_draw(Slideshow* slideshow, Canvas* canvas, uint8_t x, uint8_t y) 
         slideshow->icon.height,
         slideshow->icon.frames[slideshow->current_frame]);
 }
+

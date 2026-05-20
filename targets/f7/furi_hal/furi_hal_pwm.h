@@ -49,3 +49,4 @@ bool furi_hal_pwm_is_running(FuriHalPwmOutputId channel);
 #ifdef __cplusplus
 }
 #endif
+

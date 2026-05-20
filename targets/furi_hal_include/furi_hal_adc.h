@@ -227,3 +227,4 @@ float furi_hal_adc_convert_vbat(FuriHalAdcHandle* handle, uint16_t value);
 #ifdef __cplusplus
 }
 #endif
+

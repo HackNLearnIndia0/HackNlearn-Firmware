@@ -211,3 +211,4 @@ static const FlipperAppPluginDescriptor skylanders_plugin_descriptor = {
 const FlipperAppPluginDescriptor* skylanders_plugin_ep(void) {
     return &skylanders_plugin_descriptor;
 }
+

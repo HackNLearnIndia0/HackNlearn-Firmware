@@ -207,3 +207,4 @@ void widget_add_line_element(Widget* widget, uint8_t x1, uint8_t y1, uint8_t x2,
 #ifdef __cplusplus
 }
 #endif
+

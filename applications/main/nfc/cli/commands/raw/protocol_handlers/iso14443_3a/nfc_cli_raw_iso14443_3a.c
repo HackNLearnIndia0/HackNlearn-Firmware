@@ -79,3 +79,4 @@ NfcCommand nfc_cli_raw_iso14443_3a_handler(
 
     return request->keep_field ? NfcCommandContinue : NfcCommandStop;
 }
+

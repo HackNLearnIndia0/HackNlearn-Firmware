@@ -51,3 +51,4 @@ static const FlipperAppPluginDescriptor plugin_descriptor = {
 const FlipperAppPluginDescriptor* js_gui_file_picker_ep(void) {
     return &plugin_descriptor;
 }
+

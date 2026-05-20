@@ -80,3 +80,4 @@ void sd_notify_eject(NotificationApp* notifications) {
 void sd_notify_error(NotificationApp* notifications) {
     notification_message(notifications, &sd_sequence_error);
 }
+

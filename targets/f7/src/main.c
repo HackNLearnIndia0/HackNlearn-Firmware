@@ -77,3 +77,4 @@ void Error_Handler(void) {
 void abort(void) {
     furi_crash("AbortHandler");
 }
+

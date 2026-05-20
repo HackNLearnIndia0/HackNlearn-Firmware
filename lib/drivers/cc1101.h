@@ -196,3 +196,4 @@ uint8_t cc1101_read_fifo(const FuriHalSpiBusHandle* handle, uint8_t* data, uint8
 #ifdef __cplusplus
 }
 #endif
+

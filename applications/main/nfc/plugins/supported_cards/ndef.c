@@ -1072,3 +1072,4 @@ const FlipperAppPluginDescriptor* ndef_plugin_ep(void) {
 }
 
 #endif
+

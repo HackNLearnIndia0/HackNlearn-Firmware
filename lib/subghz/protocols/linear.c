@@ -343,3 +343,4 @@ void subghz_protocol_decoder_linear_get_string(void* context, FuriString* output
         code_found_reverse_lo,
         DATA_TO_DIP(code_found_lo));
 }
+

@@ -123,3 +123,4 @@ SubGhzProtocolDecoderBase* subghz_receiver_search_decoder_base_by_name(
         }
     return result;
 }
+

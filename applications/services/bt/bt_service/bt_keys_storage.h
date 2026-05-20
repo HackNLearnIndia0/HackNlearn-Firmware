@@ -32,3 +32,4 @@ bool bt_keys_storage_delete(BtKeysStorage* instance);
 #ifdef __cplusplus
 }
 #endif
+

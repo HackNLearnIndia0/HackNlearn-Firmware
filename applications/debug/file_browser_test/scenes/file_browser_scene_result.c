@@ -39,3 +39,4 @@ void file_browser_scene_result_on_exit(void* context) {
     FileBrowserApp* app = context;
     widget_reset(app->widget);
 }
+

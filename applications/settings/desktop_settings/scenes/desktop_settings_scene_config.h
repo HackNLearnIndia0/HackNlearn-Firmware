@@ -14,3 +14,4 @@ ADD_SCENE(desktop_settings, quick_apps_menu, QuickAppsMenu)
 ADD_SCENE(desktop_settings, quick_apps_direction_menu, QuickAppsDirectionMenu)
 
 ADD_SCENE(desktop_settings, happy_mode, HappyMode)
+

@@ -27,3 +27,4 @@ class EventGroupInspector:
         @return L{gdb.Value} of EventBits_t
         """
         return self._evtgrp["uxEventBits"]
+

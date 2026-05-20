@@ -168,3 +168,4 @@ void furi_timer_set_thread_priority(FuriTimerThreadPriority priority) {
         furi_crash();
     }
 }
+

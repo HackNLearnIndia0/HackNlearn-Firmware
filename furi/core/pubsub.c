@@ -96,3 +96,4 @@ void furi_pubsub_publish(FuriPubSub* pubsub, void* message) {
 
     furi_check(furi_mutex_release(pubsub->mutex) == FuriStatusOk);
 }
+

@@ -153,3 +153,4 @@ View* bt_packet_test_get_view(BtPacketTest* bt_packet_test) {
     furi_assert(bt_packet_test);
     return bt_test_get_view(bt_packet_test->bt_test);
 }
+

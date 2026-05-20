@@ -134,3 +134,4 @@ void rpc_desktop_free(void* context) {
     rpc_desktop->session = NULL;
     free(rpc_desktop);
 }
+

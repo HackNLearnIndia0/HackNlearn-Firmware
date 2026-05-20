@@ -241,3 +241,4 @@ static void execute(PipeSide* pipe, FuriString* args, void* context) {
 }
 
 CLI_COMMAND_INTERFACE(ikey, execute, CliCommandFlagDefault, 1024, CLI_APPID);
+

@@ -106,3 +106,4 @@ int32_t storage_settings_app(void* p) {
     storage_settings_free(app);
     return 0;
 }
+

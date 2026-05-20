@@ -28,3 +28,4 @@ const SceneManagerHandlers bt_settings_scene_handlers = {
     .on_exit_handlers = bt_settings_on_exit_handlers,
     .scene_num = BtSettingsAppSceneNum,
 };
+

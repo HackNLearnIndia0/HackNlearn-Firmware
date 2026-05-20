@@ -72,3 +72,4 @@ void furi_hal_switch(void* address) {
                  : "r"(address), "r"(address + 0x4)
                  : "r3");
 }
+

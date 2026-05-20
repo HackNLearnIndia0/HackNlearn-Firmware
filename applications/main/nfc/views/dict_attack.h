@@ -72,3 +72,4 @@ void dict_attack_set_key_found(DictAttack* instance, bool key_found);
 #ifdef __cplusplus
 }
 #endif
+

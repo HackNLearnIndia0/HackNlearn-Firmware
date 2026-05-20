@@ -17,3 +17,4 @@ void furi_thread_list_process(FuriThreadList* instance, uint32_t runtime, uint32
 #ifdef __cplusplus
 }
 #endif
+

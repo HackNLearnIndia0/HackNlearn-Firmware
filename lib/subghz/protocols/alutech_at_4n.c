@@ -453,3 +453,4 @@ void subghz_protocol_decoder_alutech_at_4n_get_string(void* context, FuriString*
         instance->generic.btn,
         instance->generic.cnt);
 }
+

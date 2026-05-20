@@ -18,3 +18,4 @@ You are free to use `pnpm` or `yarn` instead of `npm`.
 
 ## Documentation
 Check out the [JavaScript section in the Developer Documentation](https://developer.flipper.net/flipperzero/doxygen/js.html)
+

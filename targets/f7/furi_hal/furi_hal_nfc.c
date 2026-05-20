@@ -619,3 +619,4 @@ FuriHalNfcError furi_hal_nfc_listener_enable_rx(void) {
 
     return FuriHalNfcErrorNone;
 }
+

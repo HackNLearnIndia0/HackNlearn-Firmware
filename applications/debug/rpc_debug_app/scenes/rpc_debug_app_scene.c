@@ -28,3 +28,4 @@ const SceneManagerHandlers rpc_debug_app_scene_handlers = {
     .on_exit_handlers = rpc_debug_app_on_exit_handlers,
     .scene_num = RpcDebugAppSceneNum,
 };
+

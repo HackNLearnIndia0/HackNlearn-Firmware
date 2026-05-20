@@ -30,3 +30,4 @@ bool cli_sleep(PipeSide* side, uint32_t duration_in_ms) {
 
     return !is_interrupted;
 }
+

@@ -42,3 +42,4 @@ View* power_unplug_usb_get_view(PowerUnplugUsb* power_unplug_usb) {
     furi_assert(power_unplug_usb);
     return power_unplug_usb->view;
 }
+

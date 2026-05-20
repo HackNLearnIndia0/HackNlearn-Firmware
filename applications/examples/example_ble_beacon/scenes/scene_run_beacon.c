@@ -77,3 +77,4 @@ void ble_beacon_app_scene_run_beacon_on_exit(void* context) {
     BleBeaconApp* ble_beacon = context;
     UNUSED(ble_beacon);
 }
+

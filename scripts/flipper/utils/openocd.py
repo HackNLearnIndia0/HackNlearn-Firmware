@@ -171,3 +171,4 @@ class OpenOCD:
     def write_32(self, addr: int, value: int) -> None:
         """Write 32-bit value to memory"""
         self.send_tcl(f"mww {addr} {value}")
+

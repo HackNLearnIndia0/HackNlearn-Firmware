@@ -111,3 +111,4 @@ Below is the list of DMA channels and their usage by the system.
 |  --   | 5         | yes       | cc1101_ext                |
 |  --   | 6         | yes       | SPI                       |
 |  --   | 7         | yes       | SPI                       |
+

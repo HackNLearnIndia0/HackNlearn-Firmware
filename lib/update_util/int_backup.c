@@ -49,3 +49,4 @@ bool int_backup_unpack(Storage* storage, const char* source) {
     const char* final_source = source && strlen(source) ? source : INT_BACKUP_DEFAULT_LOCATION;
     return storage_int_restore(storage, final_source, backup_name_converter) == FSE_OK;
 }
+

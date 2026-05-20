@@ -225,3 +225,4 @@ const ProtocolBase protocol_hid_ex_generic = {
     .render_brief_data = (ProtocolRenderData)protocol_hid_ex_generic_render_data,
     .write_data = (ProtocolWriteData)protocol_hid_ex_generic_write_data,
 };
+

@@ -64,3 +64,4 @@ void subghz_test_scene_about_on_exit(void* context) {
     // Clear views
     widget_reset(app->widget);
 }
+

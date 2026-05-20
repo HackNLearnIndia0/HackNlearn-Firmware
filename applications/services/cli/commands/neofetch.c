@@ -158,3 +158,4 @@ static void execute(PipeSide* pipe, FuriString* args, void* context) {
 }
 
 CLI_COMMAND_INTERFACE(neofetch, execute, CliCommandFlagParallelSafe, 2048, CLI_APPID);
+

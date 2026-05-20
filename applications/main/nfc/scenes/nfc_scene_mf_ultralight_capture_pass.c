@@ -65,3 +65,4 @@ void nfc_scene_mf_ultralight_capture_pass_on_exit(void* context) {
 
     nfc_blink_stop(instance);
 }
+

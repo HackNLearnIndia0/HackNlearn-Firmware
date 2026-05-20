@@ -435,3 +435,4 @@ void subghz_protocol_decoder_dooya_get_string(void* context, FuriString* output)
         furi_string_cat_printf(output, "Ch:%lu\r\n", instance->generic.cnt);
     }
 }
+

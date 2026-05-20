@@ -350,3 +350,4 @@ ADD_NFC_CLI_COMMAND(raw, "", raw_actions_collection);
 //raw iso14a -sc 3000
 //raw iso14a 3000
 //raw iso14a 3000 -sc
+

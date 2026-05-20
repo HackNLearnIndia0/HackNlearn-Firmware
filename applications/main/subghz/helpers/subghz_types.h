@@ -89,3 +89,4 @@ typedef enum {
     SubGhzLoadTypeFileKey,
     SubGhzLoadTypeFileRaw,
 } SubGhzLoadTypeFile;
+

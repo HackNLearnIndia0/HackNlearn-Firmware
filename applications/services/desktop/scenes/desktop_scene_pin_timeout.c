@@ -41,3 +41,4 @@ bool desktop_scene_pin_timeout_on_event(void* context, SceneManagerEvent event) 
 void desktop_scene_pin_timeout_on_exit(void* context) {
     UNUSED(context);
 }
+

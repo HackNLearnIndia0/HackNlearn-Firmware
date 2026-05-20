@@ -139,3 +139,4 @@ const NfcDeviceData* nfc_poller_get_data(const NfcPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

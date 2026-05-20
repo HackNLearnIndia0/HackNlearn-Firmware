@@ -200,3 +200,4 @@ const FuriEventLoopContract furi_event_flag_event_loop_contract = {
     .get_link = furi_event_flag_event_loop_get_link,
     .get_level = furi_event_flag_event_loop_get_level,
 };
+

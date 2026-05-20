@@ -30,3 +30,4 @@ void loader_queue_clear(LoaderLaunchQueue* queue) {
         loader_queue_item_clear(&queue->items[i]);
     queue->item_cnt = 0;
 }
+

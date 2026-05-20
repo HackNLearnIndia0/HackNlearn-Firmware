@@ -1151,3 +1151,4 @@ bool st25r3916_check_reg(const FuriHalSpiBusHandle* handle, uint8_t reg, uint8_t
 #ifdef __cplusplus
 }
 #endif
+

@@ -165,3 +165,4 @@ void dir_walk_close(DirWalk* dir_walk) {
     furi_string_reset(dir_walk->path);
     dir_walk->current_index = 0;
 }
+

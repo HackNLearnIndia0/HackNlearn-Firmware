@@ -415,3 +415,4 @@ int32_t uart_echo_app(void* p) {
     uart_echo_app_free(app);
     return 0;
 }
+

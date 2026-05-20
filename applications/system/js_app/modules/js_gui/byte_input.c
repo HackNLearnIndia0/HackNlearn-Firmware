@@ -156,3 +156,4 @@ static const JsViewDescriptor view_descriptor = {
     }};
 
 JS_GUI_VIEW_DEF(byte_input, &view_descriptor);
+

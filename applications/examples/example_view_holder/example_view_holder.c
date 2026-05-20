@@ -76,3 +76,4 @@ int32_t example_view_holder_app(void* arg) {
 
     return 0;
 }
+

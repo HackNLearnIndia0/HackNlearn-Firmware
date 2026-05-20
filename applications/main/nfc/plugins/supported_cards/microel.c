@@ -229,3 +229,4 @@ static const FlipperAppPluginDescriptor microel_plugin_descriptor = {
 const FlipperAppPluginDescriptor* microel_plugin_ep(void) {
     return &microel_plugin_descriptor;
 }
+

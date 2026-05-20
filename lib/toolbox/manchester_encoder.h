@@ -30,3 +30,4 @@ ManchesterEncoderResult manchester_encoder_finish(ManchesterEncoderState* state)
 #ifdef __cplusplus
 }
 #endif
+

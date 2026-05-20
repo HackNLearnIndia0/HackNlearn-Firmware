@@ -68,3 +68,4 @@ StrintParseError strint_to_int16(const char* str, char** end, int16_t* out, uint
 #ifdef __cplusplus
 }
 #endif
+

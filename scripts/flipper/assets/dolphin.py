@@ -365,3 +365,4 @@ class Dolphin:
 
     def pack(self, output_directory: str, symbol_name: str = None):
         self.manifest.save(output_directory, symbol_name)
+

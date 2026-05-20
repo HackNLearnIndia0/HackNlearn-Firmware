@@ -106,3 +106,4 @@ struct dirent *readdir(DIR *d) {
 
 /* ISO C requires a translation unit to contain at least one declaration */
 typedef int cs_dirent_dummy;
+

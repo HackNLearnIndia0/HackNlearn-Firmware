@@ -92,3 +92,4 @@ int32_t stream_cache_seek(StreamCache* cache, int32_t offset);
 #ifdef __cplusplus
 }
 #endif
+

@@ -27,3 +27,4 @@ void pretty_format_bytes_hex_canonical(
 #ifdef __cplusplus
 }
 #endif
+

@@ -51,3 +51,4 @@ bool desktop_settings_scene_pin_disable_on_event(void* context, SceneManagerEven
 void desktop_settings_scene_pin_disable_on_exit(void* context) {
     UNUSED(context);
 }
+

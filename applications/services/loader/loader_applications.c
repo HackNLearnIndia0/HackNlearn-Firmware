@@ -170,3 +170,4 @@ static int32_t loader_applications_thread(void* p) {
 
     return 0;
 }
+

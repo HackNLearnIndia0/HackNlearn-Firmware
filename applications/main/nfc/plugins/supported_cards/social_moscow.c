@@ -299,3 +299,4 @@ static const FlipperAppPluginDescriptor social_moscow_plugin_descriptor = {
 const FlipperAppPluginDescriptor* social_moscow_plugin_ep() {
     return &social_moscow_plugin_descriptor;
 }
+

@@ -137,3 +137,4 @@ void iso14443_3a_signal_tx(
     digital_sequence_transmit(instance->tx_sequence);
     FURI_CRITICAL_EXIT();
 }
+

@@ -18,3 +18,4 @@ St25tbError st25tb_poller_sync_read(Nfc* nfc, St25tbData* data);
 #ifdef __cplusplus
 }
 #endif
+

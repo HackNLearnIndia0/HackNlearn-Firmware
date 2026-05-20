@@ -55,3 +55,4 @@ void rpc_debug_app_scene_start_on_exit(void* context) {
     RpcDebugApp* app = context;
     submenu_reset(app->submenu);
 }
+

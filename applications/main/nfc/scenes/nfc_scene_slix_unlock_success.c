@@ -69,3 +69,4 @@ void nfc_scene_slix_unlock_success_on_exit(void* context) {
 
     widget_reset(instance->widget);
 }
+

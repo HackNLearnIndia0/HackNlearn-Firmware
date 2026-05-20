@@ -64,3 +64,4 @@ void lfrfid_scene_raw_info_on_exit(void* context) {
     LfRfid* app = context;
     widget_reset(app->widget);
 }
+

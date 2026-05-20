@@ -86,3 +86,4 @@ void nfc_scene_extra_actions_on_exit(void* context) {
 
     submenu_reset(instance->submenu);
 }
+

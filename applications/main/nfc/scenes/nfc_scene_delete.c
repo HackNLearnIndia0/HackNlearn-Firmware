@@ -68,3 +68,4 @@ void nfc_scene_delete_on_exit(void* context) {
 
     widget_reset(nfc->widget);
 }
+

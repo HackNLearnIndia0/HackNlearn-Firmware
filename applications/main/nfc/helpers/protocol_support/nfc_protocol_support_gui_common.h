@@ -84,3 +84,4 @@ void nfc_protocol_support_common_on_enter_empty(NfcApp* instance);
  * @returns always true.
  */
 bool nfc_protocol_support_common_on_event_empty(NfcApp* instance, SceneManagerEvent event);
+

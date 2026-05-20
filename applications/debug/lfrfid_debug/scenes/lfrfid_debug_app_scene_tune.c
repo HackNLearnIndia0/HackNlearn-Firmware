@@ -50,3 +50,4 @@ void lfrfid_debug_scene_tune_on_exit(void* context) {
     furi_hal_rfid_tim_read_stop();
     furi_hal_rfid_pins_reset();
 }
+

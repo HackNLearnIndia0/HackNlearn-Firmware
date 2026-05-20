@@ -222,3 +222,4 @@ void rpc_system_app_exchange_data(RpcAppSystem* rpc_app, const uint8_t* data, si
 #ifdef __cplusplus
 }
 #endif
+

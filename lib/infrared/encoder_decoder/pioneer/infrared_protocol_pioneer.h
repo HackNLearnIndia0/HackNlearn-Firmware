@@ -34,3 +34,4 @@ InfraredStatus
     infrared_encoder_pioneer_encode(void* encoder_ptr, uint32_t* duration, bool* polarity);
 
 const InfraredProtocolVariant* infrared_protocol_pioneer_get_variant(InfraredProtocol protocol);
+

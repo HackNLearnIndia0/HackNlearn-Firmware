@@ -498,3 +498,4 @@ uint32_t subghz_setting_get_default_frequency(SubGhzSetting* instance) {
     return subghz_setting_get_frequency(
         instance, subghz_setting_get_frequency_default_index(instance));
 }
+

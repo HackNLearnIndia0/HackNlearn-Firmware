@@ -149,3 +149,4 @@ void ble_svc_dev_info_stop(BleServiceDevInfo* dev_info_svc) {
 
     free(dev_info_svc);
 }
+

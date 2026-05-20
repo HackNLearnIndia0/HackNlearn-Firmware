@@ -151,3 +151,4 @@ static const FlipperAppPluginDescriptor hid_plugin_descriptor = {
 const FlipperAppPluginDescriptor* hid_plugin_ep(void) {
     return &hid_plugin_descriptor;
 }
+

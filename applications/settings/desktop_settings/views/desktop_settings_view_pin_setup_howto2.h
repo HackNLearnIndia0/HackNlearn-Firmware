@@ -18,3 +18,4 @@ void desktop_settings_view_pin_setup_howto2_set_cancel_callback(
 void desktop_settings_view_pin_setup_howto2_set_ok_callback(
     DesktopSettingsViewPinSetupHowto2* instance,
     DesktopSettingsViewPinSetupHowto2Callback callback);
+

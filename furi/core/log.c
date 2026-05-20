@@ -216,3 +216,4 @@ bool furi_log_level_from_string(const char* str, FuriLogLevel* level) {
     }
     return false;
 }
+

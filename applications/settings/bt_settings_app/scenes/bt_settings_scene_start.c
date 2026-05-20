@@ -88,3 +88,4 @@ void bt_settings_scene_start_on_exit(void* context) {
     BtSettingsApp* app = context;
     variable_item_list_reset(app->var_item_list);
 }
+

@@ -20,3 +20,4 @@ void hid_scene_main_on_exit(void* context) {
     Hid* app = context;
     UNUSED(app);
 }
+

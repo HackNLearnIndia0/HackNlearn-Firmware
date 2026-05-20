@@ -7,3 +7,4 @@ struct StorageAnimation {
     bool external;
     StorageAnimationManifestInfo manifest_info;
 };
+

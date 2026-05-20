@@ -38,3 +38,4 @@ void rpc_debug_app_scene_input_error_text_on_exit(void* context) {
     RpcDebugApp* app = context;
     text_input_reset(app->text_input);
 }
+

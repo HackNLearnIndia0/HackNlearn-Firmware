@@ -57,3 +57,4 @@ To connect the Developer Board in **Wi-Fi client** mode, you need to configure i
     \image html https://cdn.flipperzero.one/Flipper_Zero_WiFi_devboard_connect_to_WiFi_CDN.jpg width=700
 
 6. Now, you can access the Devboard's web interface at [http://blackmagic.local](https://blackmagic.local) via the existing Wi-Fi network without losing connection to the internet.
+

@@ -196,3 +196,4 @@ class Templite:
         # execute template code
         exec(self._code, namespace)
         return "".join(stack)
+

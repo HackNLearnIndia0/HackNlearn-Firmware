@@ -67,3 +67,4 @@ void updater_scene_error_on_exit(void* context) {
         update_manifest_free(updater->loaded_manifest);
     }
 }
+

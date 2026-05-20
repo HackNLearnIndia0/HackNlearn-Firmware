@@ -573,3 +573,4 @@ const NfcPollerBase nfc_poller_felica = {
     .detect = (NfcPollerDetect)felica_poller_detect,
     .get_data = (NfcPollerGetData)felica_poller_get_data,
 };
+

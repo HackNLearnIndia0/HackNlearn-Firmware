@@ -76,3 +76,4 @@ void nfc_render_iso14443_3b_info(
         furi_string_cat_printf(str, " %02X", app_data[i]);
     }
 }
+

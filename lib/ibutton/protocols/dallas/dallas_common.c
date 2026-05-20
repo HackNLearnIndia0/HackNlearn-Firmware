@@ -265,3 +265,4 @@ void dallas_common_apply_edits(DallasCommonRomData* rom_data, uint8_t family_cod
         maxim_crc8(rom_data->bytes, sizeof(DallasCommonRomData) - 1, MAXIM_CRC8_INIT);
     rom_data->fields.checksum = crc;
 }
+

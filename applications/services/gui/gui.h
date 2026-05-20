@@ -135,3 +135,4 @@ void gui_direct_draw_release(Gui* gui);
 #ifdef __cplusplus
 }
 #endif
+

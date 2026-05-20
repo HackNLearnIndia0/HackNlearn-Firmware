@@ -154,3 +154,4 @@ static const FlipperAppPluginDescriptor mykey_plugin_descriptor = {
 const FlipperAppPluginDescriptor* mykey_plugin_ep(void) {
     return &mykey_plugin_descriptor;
 }
+

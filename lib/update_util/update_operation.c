@@ -238,3 +238,4 @@ void update_operation_disarm(void) {
     storage_simply_remove(storage, UPDATE_FILE_POINTER_FN);
     furi_record_close(RECORD_STORAGE);
 }
+

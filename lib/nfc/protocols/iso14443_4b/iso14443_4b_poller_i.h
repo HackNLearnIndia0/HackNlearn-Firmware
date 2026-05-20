@@ -45,3 +45,4 @@ const Iso14443_4bData* iso14443_4b_poller_get_data(Iso14443_4bPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

@@ -39,3 +39,4 @@ def compress_tree_tarball(
         f.write(compressed)
 
     return len(src_data), len(compressed)
+

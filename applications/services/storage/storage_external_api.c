@@ -1068,3 +1068,4 @@ void storage_get_next_filename(
 
     furi_string_free(temp_str);
 }
+

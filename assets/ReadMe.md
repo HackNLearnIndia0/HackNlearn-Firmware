@@ -33,3 +33,4 @@ Don't include assets that you are not using, compiler is not going to strip unus
 - `icons`               - Icons sources. Goes to `compiled` folder in `build` directory.
 - `protobuf`            - Protobuf sources. Goes to `compiled` folder in `build` directory.
 - `slideshow`           - One-time slideshows for desktop
+

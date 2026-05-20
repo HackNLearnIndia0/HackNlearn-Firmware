@@ -14,3 +14,4 @@ void furi_event_loop_init_tick(FuriEventLoop* instance);
 void furi_event_loop_process_tick(FuriEventLoop* instance);
 
 uint32_t furi_event_loop_get_tick_wait_time(const FuriEventLoop* instance);
+

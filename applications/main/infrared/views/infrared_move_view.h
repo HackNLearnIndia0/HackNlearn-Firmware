@@ -20,3 +20,4 @@ void infrared_move_view_set_callback(
 void infrared_move_view_add_item(InfraredMoveView* move_view, const char* label);
 
 void infrared_move_view_reset(InfraredMoveView* move_view);
+

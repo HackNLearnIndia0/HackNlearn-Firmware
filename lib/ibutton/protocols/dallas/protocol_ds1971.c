@@ -293,3 +293,4 @@ bool ds1971_emulate_read_mem(OneWireSlave* bus, const uint8_t* data, size_t data
 
     return success;
 }
+

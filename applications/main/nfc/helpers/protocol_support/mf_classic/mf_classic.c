@@ -311,3 +311,4 @@ const NfcProtocolSupportBase nfc_protocol_support_mf_classic = {
             .on_event = nfc_protocol_support_common_on_event_empty,
         },
 };
+

@@ -176,3 +176,4 @@ View* infrared_progress_view_get_view(InfraredProgressView* instance) {
     furi_assert(instance->view);
     return instance->view;
 }
+

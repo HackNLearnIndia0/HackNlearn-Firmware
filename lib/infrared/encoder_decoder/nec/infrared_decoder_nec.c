@@ -95,3 +95,4 @@ void infrared_decoder_nec_free(void* decoder) {
 void infrared_decoder_nec_reset(void* decoder) {
     infrared_common_decoder_reset(decoder);
 }
+

@@ -14,3 +14,4 @@ void nfc_cli_format_array(
     FuriString* output);
 
 void nfc_cli_printf_array(const uint8_t* data, const size_t data_size, const char* header);
+

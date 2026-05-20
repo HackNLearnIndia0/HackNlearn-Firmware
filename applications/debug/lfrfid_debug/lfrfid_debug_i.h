@@ -28,3 +28,4 @@ typedef enum {
     LfRfidDebugViewSubmenu,
     LfRfidDebugViewTune,
 } LfRfidDebugView;
+

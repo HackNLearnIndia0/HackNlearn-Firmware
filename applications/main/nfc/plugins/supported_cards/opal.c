@@ -231,3 +231,4 @@ static const FlipperAppPluginDescriptor opal_plugin_descriptor = {
 const FlipperAppPluginDescriptor* opal_plugin_ep(void) {
     return &opal_plugin_descriptor;
 }
+

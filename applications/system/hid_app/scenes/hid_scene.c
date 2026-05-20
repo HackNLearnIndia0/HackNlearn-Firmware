@@ -28,3 +28,4 @@ const SceneManagerHandlers hid_scene_handlers = {
     .on_exit_handlers = hid_on_exit_handlers,
     .scene_num = HidSceneNum,
 };
+

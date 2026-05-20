@@ -31,3 +31,4 @@ typedef enum {
 
     NfcCustomEventListenerUpdate,
 } NfcCustomEvent;
+

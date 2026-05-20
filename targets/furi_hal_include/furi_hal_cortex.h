@@ -106,3 +106,4 @@ void furi_hal_cortex_comp_reset(FuriHalCortexComp comp);
 #ifdef __cplusplus
 }
 #endif
+

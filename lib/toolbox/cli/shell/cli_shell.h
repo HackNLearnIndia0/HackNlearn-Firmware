@@ -73,3 +73,4 @@ void cli_shell_set_prompt(CliShell* shell, const char* prompt);
 #ifdef __cplusplus
 }
 #endif
+

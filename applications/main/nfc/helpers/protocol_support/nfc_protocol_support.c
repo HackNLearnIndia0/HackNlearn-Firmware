@@ -810,3 +810,4 @@ static const NfcProtocolSupportCommonSceneBase
                 .on_exit = nfc_protocol_support_scene_rpc_on_exit,
             },
 };
+

@@ -53,3 +53,4 @@ typedef struct {
         LFRFIDEM4305 em4305;
     };
 } LFRFIDWriteRequest;
+

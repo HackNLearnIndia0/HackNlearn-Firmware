@@ -389,3 +389,4 @@ void subghz_protocol_decoder_smc5326_get_string(void* context, FuriString* outpu
     subghz_protocol_smc5326_get_event_serialize(instance->generic.data >> 1, output);
     furi_string_cat_printf(output, "  -:   " DIP_PATTERN "\r\n", SHOW_DIP_P(data, DIP_N));
 }
+

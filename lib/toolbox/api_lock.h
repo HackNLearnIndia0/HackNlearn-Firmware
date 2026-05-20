@@ -45,3 +45,4 @@ typedef FuriEventFlag* FuriApiLock;
 #define api_lock_is_locked(_lock) (!(furi_event_flag_get(_lock) & API_LOCK_EVENT))
 
 #define api_lock_relock(_lock) furi_event_flag_clear(_lock, API_LOCK_EVENT)
+

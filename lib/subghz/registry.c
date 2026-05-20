@@ -28,3 +28,4 @@ size_t subghz_protocol_registry_count(const SubGhzProtocolRegistry* protocol_reg
     furi_check(protocol_registry);
     return protocol_registry->size;
 }
+

@@ -58,3 +58,4 @@ ManchesterEncoderResult manchester_encoder_finish(ManchesterEncoderState* state)
 
     return (state->prev_bit << 1) + state->prev_bit;
 }
+

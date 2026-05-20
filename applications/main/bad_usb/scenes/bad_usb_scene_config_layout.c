@@ -47,3 +47,4 @@ void bad_usb_scene_config_layout_on_exit(void* context) {
     UNUSED(context);
     // BadUsbApp* bad_usb = context;
 }
+

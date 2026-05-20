@@ -31,3 +31,4 @@ const char* furi_hal_version_get_srrc_id(void) {
 const char* furi_hal_version_get_ncc_id(void) {
     return "CCAJ23LP34D0T3";
 }
+

@@ -31,3 +31,4 @@ void nfc_scene_field_on_exit(void* context) {
     notification_internal_message(nfc->notifications, &sequence_reset_blue);
     popup_reset(nfc->popup);
 }
+

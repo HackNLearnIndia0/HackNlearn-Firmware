@@ -636,3 +636,4 @@ InfraredWorkerGetSignalResponse
     instance->tx.steady_signal_sent = true;
     return response;
 }
+

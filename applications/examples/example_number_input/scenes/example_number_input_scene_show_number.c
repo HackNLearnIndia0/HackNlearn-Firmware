@@ -63,3 +63,4 @@ bool example_number_input_scene_show_number_on_event(void* context, SceneManager
 void example_number_input_scene_show_number_on_exit(void* context) {
     UNUSED(context);
 }
+

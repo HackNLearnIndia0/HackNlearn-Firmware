@@ -76,3 +76,4 @@ bool path_contains_only_ascii(const char* path);
 #ifdef __cplusplus
 }
 #endif
+

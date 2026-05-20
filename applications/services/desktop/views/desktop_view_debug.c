@@ -138,3 +138,4 @@ void desktop_debug_free(DesktopDebugView* debug_view) {
     view_free(debug_view->view);
     free(debug_view);
 }
+

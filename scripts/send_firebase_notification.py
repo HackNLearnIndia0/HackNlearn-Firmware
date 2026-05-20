@@ -42,3 +42,4 @@ if __name__ == "__main__":
         body=f"New firmware version is ready to install: {args.version}",
         condition="'flipper_update_firmware_release' in topics",
     )
+

@@ -353,3 +353,4 @@ const ProtocolBase protocol_indala26 = {
     .render_brief_data = (ProtocolRenderData)protocol_indala26_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_indala26_write_data,
 };
+

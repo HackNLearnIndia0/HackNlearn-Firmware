@@ -52,3 +52,4 @@ static constexpr auto unit_tests_api_table = sort(create_array_t<sym_entry>(
          size_t n_c_vals,
          ...)),
     API_VARIABLE(PB_Main_msg, PB_Main_msg_t)));
+

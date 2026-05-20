@@ -53,3 +53,4 @@ bool ble_svc_serial_update_tx(BleServiceSerial* service, uint8_t* data, uint16_t
 #ifdef __cplusplus
 }
 #endif
+

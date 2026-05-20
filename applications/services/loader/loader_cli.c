@@ -150,3 +150,4 @@ void loader_on_system_start(void) {
     UNUSED(loader_cli);
 #endif
 }
+

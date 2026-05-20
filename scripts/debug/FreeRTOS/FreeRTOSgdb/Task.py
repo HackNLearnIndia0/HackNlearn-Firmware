@@ -60,3 +60,4 @@ class TaskInspector:
             return highWater
         else:
             raise ValueError("Invalid TCB")
+

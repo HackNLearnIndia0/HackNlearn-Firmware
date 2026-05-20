@@ -305,3 +305,4 @@ bool nfc_supported_cards_parse(
 
     return card_parsed;
 }
+

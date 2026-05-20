@@ -39,3 +39,4 @@ void expansion_settings_save(const ExpansionSettings* settings);
 #ifdef __cplusplus
 }
 #endif
+

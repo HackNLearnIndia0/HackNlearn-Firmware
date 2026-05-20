@@ -35,3 +35,4 @@ void lfrfid_scene_save_success_on_exit(void* context) {
 
     popup_reset(app->popup);
 }
+

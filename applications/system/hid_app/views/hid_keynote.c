@@ -305,3 +305,4 @@ void hid_keynote_set_orientation(HidKeynote* hid_keynote, bool vertical) {
         view_set_orientation(hid_keynote->view, ViewOrientationHorizontal);
     }
 }
+

@@ -103,3 +103,4 @@ static const JsViewDescriptor view_descriptor = {
     .props = {},
 };
 JS_GUI_VIEW_DEF(menu, &view_descriptor);
+

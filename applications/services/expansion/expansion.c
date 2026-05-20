@@ -308,3 +308,4 @@ void expansion_set_listen_serial(Expansion* instance, FuriHalSerialId serial_id)
     furi_message_queue_put(instance->queue, &message, FuriWaitForever);
     api_lock_wait_unlock_and_free(message.api_lock);
 }
+

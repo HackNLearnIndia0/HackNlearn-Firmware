@@ -417,3 +417,4 @@ bool furi_hal_i2c_write_mem(
                FuriHalI2cEndStop,
                timeout);
 }
+

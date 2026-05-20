@@ -65,3 +65,4 @@ int32_t vibro_test_app(void* p) {
 
     return 0;
 }
+

@@ -36,3 +36,4 @@ const uint32_t subghz_frequencies_testing[] = {
 const uint32_t subghz_frequencies_count_testing =
     sizeof(subghz_frequencies_testing) / sizeof(uint32_t);
 const uint32_t subghz_frequencies_433_92_testing = 13;
+

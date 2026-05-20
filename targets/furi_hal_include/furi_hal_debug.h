@@ -24,3 +24,4 @@ bool furi_hal_debug_is_gdb_session_active(void);
 #ifdef __cplusplus
 }
 #endif
+

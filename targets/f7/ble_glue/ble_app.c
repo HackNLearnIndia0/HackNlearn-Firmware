@@ -167,3 +167,4 @@ static void ble_app_hci_status_not_handler(HCI_TL_CmdStatus_t status) {
 void SVCCTL_ResumeUserEventFlow(void) {
     hci_resume_flow();
 }
+

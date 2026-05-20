@@ -74,3 +74,4 @@ If everything checks out, append these signals **to the end** of the [A/C univer
 The order of signals is not important, but they should be preceded by the following comment: `# Model: <Your model name>` in order to keep the library organized.
 
 When done, open a pull request containing the changed file.
+

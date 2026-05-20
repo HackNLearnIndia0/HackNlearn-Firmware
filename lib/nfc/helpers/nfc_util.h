@@ -17,3 +17,4 @@ void nfc_util_odd_parity(const uint8_t* src, uint8_t* dst, uint8_t len);
 #ifdef __cplusplus
 }
 #endif
+

@@ -355,3 +355,4 @@ static const FlipperAppPluginDescriptor plugin_descriptor = {
 const FlipperAppPluginDescriptor* js_math_ep(void) {
     return &plugin_descriptor;
 }
+

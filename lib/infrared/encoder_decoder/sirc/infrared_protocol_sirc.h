@@ -35,3 +35,4 @@ void infrared_encoder_sirc_free(void* decoder);
 InfraredStatus infrared_encoder_sirc_encode(void* encoder_ptr, uint32_t* duration, bool* polarity);
 
 const InfraredProtocolVariant* infrared_protocol_sirc_get_variant(InfraredProtocol protocol);
+

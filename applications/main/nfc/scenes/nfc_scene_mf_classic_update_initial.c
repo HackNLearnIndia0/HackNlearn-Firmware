@@ -144,3 +144,4 @@ void nfc_scene_mf_classic_update_initial_on_exit(void* context) {
 
     nfc_blink_stop(instance);
 }
+

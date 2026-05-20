@@ -62,3 +62,4 @@ bool lfrfid_worker_check_for_stop(LFRFIDWorker* worker);
 #ifdef __cplusplus
 }
 #endif
+

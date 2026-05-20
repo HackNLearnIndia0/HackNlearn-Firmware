@@ -151,3 +151,4 @@ uint8_t u8g2_IsIntersection(
 }
 
 #endif /* U8G2_WITH_INTERSECTION */
+

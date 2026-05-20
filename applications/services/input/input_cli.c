@@ -123,3 +123,4 @@ void input_cli(PipeSide* pipe, FuriString* args, void* context) {
 
     furi_string_free(cmd);
 }
+

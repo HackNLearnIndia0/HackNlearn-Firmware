@@ -279,3 +279,4 @@ uint16_t bq27220_get_state_of_charge(const FuriHalI2cBusHandle* handle);
  * @return     state of health in percents or BQ27220_ERROR
  */
 uint16_t bq27220_get_state_of_health(const FuriHalI2cBusHandle* handle);
+

@@ -127,3 +127,4 @@ size_t furi_hal_memory_max_pool_block(void) {
     }
     return max;
 }
+

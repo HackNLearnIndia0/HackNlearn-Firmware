@@ -146,3 +146,4 @@ extern const SimpleArrayConfig simple_array_config_uint8_t;
 #ifdef __cplusplus
 }
 #endif
+

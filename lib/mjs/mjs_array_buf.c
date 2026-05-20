@@ -383,3 +383,4 @@ void mjs_init_builtin_array_buf(struct mjs* mjs, mjs_val_t obj) {
     mjs_set(mjs, obj, "Uint32Array", ~0, MJS_MK_FN(mjs_new_u32_array));
     mjs_set(mjs, obj, "Int32Array", ~0, MJS_MK_FN(mjs_new_i32_array));
 }
+

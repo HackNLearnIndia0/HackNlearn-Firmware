@@ -347,3 +347,4 @@ void subghz_protocol_decoder_linear_delta3_get_string(void* context, FuriString*
         data,
         DATA_TO_DIP(data));
 }
+

@@ -44,3 +44,4 @@ void nfc_scene_mf_ultralight_write_success_on_exit(void* context) {
     // Clear view
     popup_reset(instance->popup);
 }
+

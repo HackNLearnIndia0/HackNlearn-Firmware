@@ -122,3 +122,4 @@ float furi_thread_list_get_isr_time(FuriThreadList* instance) {
 
     return (float)isr_counter / (float)runtime_counter;
 }
+

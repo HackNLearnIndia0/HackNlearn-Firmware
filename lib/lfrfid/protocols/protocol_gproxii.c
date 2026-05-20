@@ -314,3 +314,4 @@ const ProtocolBase protocol_gproxii = {
     .render_brief_data = (ProtocolRenderData)protocol_gproxii_render_data,
     .write_data = (ProtocolWriteData)protocol_gproxii_write_data,
 };
+

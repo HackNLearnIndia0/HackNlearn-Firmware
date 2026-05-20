@@ -215,3 +215,4 @@ View* subghz_test_carrier_get_view(SubGhzTestCarrier* subghz_test_carrier) {
     furi_assert(subghz_test_carrier);
     return subghz_test_carrier->view;
 }
+

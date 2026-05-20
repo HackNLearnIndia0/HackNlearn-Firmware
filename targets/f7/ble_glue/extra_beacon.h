@@ -96,3 +96,4 @@ uint8_t gap_extra_beacon_get_data(uint8_t* data);
 #ifdef __cplusplus
 }
 #endif
+

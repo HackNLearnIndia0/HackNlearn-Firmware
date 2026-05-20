@@ -124,3 +124,4 @@ bool ble_profile_serial_tx(FuriHalBleProfileBase* profile, uint8_t* data, uint16
 
     return ble_svc_serial_update_tx(serial_profile->serial_svc, data, size);
 }
+

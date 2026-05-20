@@ -62,3 +62,4 @@ bool saved_struct_get_metadata(
 #ifdef __cplusplus
 }
 #endif
+

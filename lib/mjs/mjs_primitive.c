@@ -201,3 +201,4 @@ MJS_PRIVATE void mjs_number_to_string(struct mjs* mjs) {
 clean:
     mjs_return(mjs, ret);
 }
+

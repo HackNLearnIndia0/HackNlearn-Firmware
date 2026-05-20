@@ -173,3 +173,4 @@ int mg_str_starts_with(struct mg_str s, struct mg_str prefix) {
     if(s.len < prefix.len) return 0;
     return (mg_strcmp(sp, prefix) == 0);
 }
+

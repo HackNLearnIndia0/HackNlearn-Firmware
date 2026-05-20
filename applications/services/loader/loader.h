@@ -155,3 +155,4 @@ void loader_clear_launch_queue(Loader* instance);
 #ifdef __cplusplus
 }
 #endif
+

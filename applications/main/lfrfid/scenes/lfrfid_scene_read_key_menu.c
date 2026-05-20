@@ -61,3 +61,4 @@ void lfrfid_scene_read_key_menu_on_exit(void* context) {
 
     submenu_reset(app->submenu);
 }
+

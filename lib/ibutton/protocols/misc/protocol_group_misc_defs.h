@@ -9,3 +9,4 @@ typedef enum {
 } iButtonProtocolMisc;
 
 extern const ProtocolBase* const ibutton_protocols_misc[];
+

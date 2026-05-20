@@ -252,3 +252,4 @@ const NfcPollerBase nfc_poller_slix = {
     .detect = (NfcPollerDetect)slix_poller_detect,
     .get_data = (NfcPollerGetData)slix_poller_get_data,
 };
+

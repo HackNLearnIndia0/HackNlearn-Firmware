@@ -136,3 +136,4 @@ int32_t subghz_test_app(void* p) {
 
     return 0;
 }
+

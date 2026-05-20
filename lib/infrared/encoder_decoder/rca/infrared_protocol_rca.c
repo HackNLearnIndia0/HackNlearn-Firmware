@@ -37,3 +37,4 @@ const InfraredProtocolVariant* infrared_protocol_rca_get_variant(InfraredProtoco
     else
         return NULL;
 }
+

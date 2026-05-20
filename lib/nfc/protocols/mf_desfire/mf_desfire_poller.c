@@ -270,3 +270,4 @@ const NfcPollerBase mf_desfire_poller = {
     .detect = (NfcPollerDetect)mf_desfire_poller_detect,
     .get_data = (NfcPollerGetData)mf_desfire_poller_get_data,
 };
+

@@ -31,3 +31,4 @@ void property_value_out(PropertyValueContext* ctx, const char* fmt, unsigned int
 
     ctx->out(furi_string_get_cstr(ctx->key), value_str, ctx->last, ctx->context);
 }
+

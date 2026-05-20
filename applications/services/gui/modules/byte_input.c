@@ -870,3 +870,4 @@ void byte_input_set_header_text(ByteInput* byte_input, const char* text) {
 
     with_view_model(byte_input->view, ByteInputModel * model, { model->header = text; }, true);
 }
+

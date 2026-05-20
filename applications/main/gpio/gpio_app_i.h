@@ -47,3 +47,4 @@ typedef enum {
     GpioAppViewUsbUartCloseRpc,
     GpioAppViewExitConfirm,
 } GpioAppView;
+

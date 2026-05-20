@@ -12,3 +12,4 @@ typedef struct FelicaListener FelicaListener;
 #ifdef __cplusplus
 }
 #endif
+

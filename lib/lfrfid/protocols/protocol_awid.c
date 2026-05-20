@@ -264,3 +264,4 @@ const ProtocolBase protocol_awid = {
     .render_brief_data = (ProtocolRenderData)protocol_awid_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_awid_write_data,
 };
+

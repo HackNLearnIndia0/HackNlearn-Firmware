@@ -32,3 +32,4 @@ bool manchester_advance(
     *next_state = new_state;
     return result;
 }
+

@@ -19,3 +19,4 @@ void nfc_cli_scanner_list_detected_protocols(NfcCliScanner* instance);
 size_t nfc_cli_scanner_detected_protocol_num(NfcCliScanner* instance);
 bool nfc_cli_scanner_protocol_was_detected(NfcCliScanner* instance, NfcProtocol protocol);
 NfcProtocol nfc_cli_scanner_get_protocol(NfcCliScanner* instance, size_t idx);
+

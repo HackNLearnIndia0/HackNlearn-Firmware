@@ -238,3 +238,4 @@ void bt_on_system_start(void) {
     UNUSED(bt_cli);
 #endif
 }
+

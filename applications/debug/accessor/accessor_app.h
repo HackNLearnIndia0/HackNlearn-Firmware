@@ -56,3 +56,4 @@ private:
     Expansion* expansion;
     Power* power;
 };
+

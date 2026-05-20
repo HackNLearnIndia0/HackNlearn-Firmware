@@ -604,3 +604,4 @@ void canvas_remove_framebuffer_callback(
     CanvasCallbackPairArray_remove_val(canvas->canvas_callback_pair, p);
     canvas_unlock(canvas);
 }
+

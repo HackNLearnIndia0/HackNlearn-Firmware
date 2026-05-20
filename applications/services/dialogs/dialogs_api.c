@@ -101,3 +101,4 @@ void dialog_message_show_storage_error(DialogsApp* context, const char* error_te
     dialog_message_show(context, message);
     dialog_message_free(message);
 }
+

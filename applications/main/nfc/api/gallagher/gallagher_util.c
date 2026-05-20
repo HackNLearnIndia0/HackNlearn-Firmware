@@ -57,3 +57,4 @@ void gallagher_deobfuscate_and_parse_credential(
                        (((uint32_t)cardholder_data_deobfuscated[3] >> 5) & 0x07);
     credential->issue = cardholder_data_deobfuscated[7] & 0x0F;
 }
+

@@ -293,3 +293,4 @@ FuriHalCryptoGCMState furi_hal_crypto_gcm_decrypt_and_verify(
 #ifdef __cplusplus
 }
 #endif
+

@@ -299,3 +299,4 @@ const GapExtraBeaconConfig* furi_hal_bt_extra_beacon_get_config(void);
 #ifdef __cplusplus
 }
 #endif
+

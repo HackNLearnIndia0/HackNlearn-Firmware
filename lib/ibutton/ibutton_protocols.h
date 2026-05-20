@@ -206,3 +206,4 @@ void ibutton_protocols_apply_edits(iButtonProtocols* protocols, const iButtonKey
 #ifdef __cplusplus
 }
 #endif
+

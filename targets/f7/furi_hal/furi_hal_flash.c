@@ -583,3 +583,4 @@ bool furi_hal_flash_ob_set_word(size_t word_idx, const uint32_t value) {
 const FuriHalFlashRawOptionByteData* furi_hal_flash_ob_get_raw_ptr(void) {
     return (const FuriHalFlashRawOptionByteData*)OPTION_BYTE_BASE;
 }
+

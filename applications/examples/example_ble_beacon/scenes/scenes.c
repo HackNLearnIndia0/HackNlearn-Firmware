@@ -28,3 +28,4 @@ const SceneManagerHandlers ble_beacon_app_scene_handlers = {
     .on_exit_handlers = ble_beacon_app_on_exit_handlers,
     .scene_num = BleBeaconAppSceneNum,
 };
+

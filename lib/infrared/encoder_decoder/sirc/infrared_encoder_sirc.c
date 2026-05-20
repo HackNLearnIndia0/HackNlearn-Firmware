@@ -66,3 +66,4 @@ InfraredStatus infrared_encoder_sirc_encode(void* encoder_ptr, uint32_t* duratio
     }
     return status;
 }
+

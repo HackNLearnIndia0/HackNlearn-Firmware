@@ -20,3 +20,4 @@ SubGhzTestCarrier* subghz_test_carrier_alloc(void);
 void subghz_test_carrier_free(SubGhzTestCarrier* subghz_test_carrier);
 
 View* subghz_test_carrier_get_view(SubGhzTestCarrier* subghz_test_carrier);
+

@@ -14,3 +14,4 @@ JavaScript support is based on the [mJS scripting engine](https://github.com/ces
 JavaScript apps can interact with Flipper Zero's resources, including its GUI, buttons, USB-HID device, GPIO, UART interfaces, and more. Let's go through the steps to create your first JavaScript app for Flipper Zero.
 
 **Next step:** [Your first JavaScript app](#js_your_first_js_app)
+

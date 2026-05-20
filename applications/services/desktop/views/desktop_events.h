@@ -58,3 +58,4 @@ typedef enum {
     DesktopGlobalSaveSettings,
     DesktopGlobalReloadSettings,
 } DesktopEvent;
+

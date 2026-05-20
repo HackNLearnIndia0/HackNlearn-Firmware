@@ -6,3 +6,4 @@
 void bt_get_settings(Bt* bt, BtSettings* settings);
 
 void bt_set_settings(Bt* bt, const BtSettings* settings);
+

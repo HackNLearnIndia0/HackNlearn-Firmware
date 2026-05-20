@@ -87,3 +87,4 @@ void bubble_animation_freeze(BubbleAnimationView* view);
  * @view        bubble animation view instance
  */
 void bubble_animation_unfreeze(BubbleAnimationView* view);
+

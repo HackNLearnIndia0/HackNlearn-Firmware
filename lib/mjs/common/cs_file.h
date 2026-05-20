@@ -46,3 +46,4 @@ char *cs_mmap_file(const char *path, size_t *size);
 #endif /* __cplusplus */
 
 #endif /* CS_COMMON_CS_FILE_H_ */
+

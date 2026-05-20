@@ -15,3 +15,4 @@ Stream* string_stream_alloc(void);
 #ifdef __cplusplus
 }
 #endif
+

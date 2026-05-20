@@ -187,3 +187,4 @@ void scene_manager_stop(SceneManager* scene_manager);
 #ifdef __cplusplus
 }
 #endif
+

@@ -322,3 +322,4 @@ void subghz_protocol_decoder_gate_tx_get_string(void* context, FuriString* outpu
         instance->generic.serial,
         instance->generic.btn);
 }
+

@@ -164,3 +164,4 @@ static void HW_IPCC_TRACES_EvtHandler(void) {
 
     LL_C1_IPCC_ClearFlag_CHx(IPCC, HW_IPCC_TRACES_CHANNEL);
 }
+

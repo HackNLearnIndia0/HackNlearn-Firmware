@@ -292,3 +292,4 @@ const ProtocolBase protocol_keri = {
     .render_brief_data = (ProtocolRenderData)protocol_keri_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_keri_write_data,
 };
+

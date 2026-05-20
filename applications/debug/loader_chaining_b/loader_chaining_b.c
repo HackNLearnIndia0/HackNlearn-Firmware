@@ -25,3 +25,4 @@ int32_t chaining_test_app_b(const char* arg) {
     furi_record_close(RECORD_DIALOGS);
     return 0;
 }
+

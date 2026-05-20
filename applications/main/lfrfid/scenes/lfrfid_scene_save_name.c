@@ -86,3 +86,4 @@ void lfrfid_scene_save_name_on_exit(void* context) {
 
     text_input_reset(text_input);
 }
+

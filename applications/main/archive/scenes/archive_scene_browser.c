@@ -253,3 +253,4 @@ void archive_scene_browser_on_exit(void* context) {
         archive->loader_stop_subscription = NULL;
     }
 }
+

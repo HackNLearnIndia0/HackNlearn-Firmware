@@ -56,3 +56,4 @@ void lfrfid_scene_raw_name_on_exit(void* context) {
 
     text_input_reset(text_input);
 }
+

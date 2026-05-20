@@ -281,3 +281,4 @@ const ProtocolBase protocol_pyramid = {
     .render_brief_data = (ProtocolRenderData)protocol_pyramid_render_data,
     .write_data = (ProtocolWriteData)protocol_pyramid_write_data,
 };
+

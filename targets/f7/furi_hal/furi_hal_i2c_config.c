@@ -164,3 +164,4 @@ const FuriHalI2cBusHandle furi_hal_i2c_handle_external = {
     .bus = &furi_hal_i2c_bus_external,
     .callback = furi_hal_i2c_bus_handle_external_event,
 };
+

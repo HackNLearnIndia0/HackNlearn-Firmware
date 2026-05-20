@@ -1038,3 +1038,4 @@ MJS_PRIVATE mjs_err_t mjs_parse(const char* path, const char* buf, struct mjs* m
 
     return res;
 }
+

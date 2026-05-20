@@ -25,3 +25,4 @@ void iso14443_crc_trim(BitBuffer* buf);
 #ifdef __cplusplus
 }
 #endif
+

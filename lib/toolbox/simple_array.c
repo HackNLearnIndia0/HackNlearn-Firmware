@@ -127,3 +127,4 @@ const SimpleArrayConfig simple_array_config_uint8_t = {
     .reset = NULL,
     .type_size = sizeof(uint8_t),
 };
+

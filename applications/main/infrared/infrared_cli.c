@@ -555,3 +555,4 @@ static void execute(PipeSide* pipe, FuriString* args, void* context) {
 }
 
 CLI_COMMAND_INTERFACE(ir, execute, CliCommandFlagDefault, 2048, CLI_APPID);
+

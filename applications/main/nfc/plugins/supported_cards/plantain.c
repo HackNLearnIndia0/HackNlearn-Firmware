@@ -404,3 +404,4 @@ static const FlipperAppPluginDescriptor plantain_plugin_descriptor = {
 const FlipperAppPluginDescriptor* plantain_plugin_ep(void) {
     return &plantain_plugin_descriptor;
 }
+

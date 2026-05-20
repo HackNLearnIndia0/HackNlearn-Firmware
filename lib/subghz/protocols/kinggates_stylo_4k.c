@@ -334,3 +334,4 @@ void subghz_protocol_decoder_kinggates_stylo_4k_get_string(void* context, FuriSt
         instance->generic.btn,
         instance->generic.cnt);
 }
+

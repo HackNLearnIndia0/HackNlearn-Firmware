@@ -434,3 +434,4 @@ static const FuriHalBleProfileTemplate profile_callbacks = {
 };
 
 const FuriHalBleProfileTemplate* ble_profile_hid = &profile_callbacks;
+

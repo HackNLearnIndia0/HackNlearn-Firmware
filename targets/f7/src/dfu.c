@@ -37,3 +37,4 @@ void flipper_boot_dfu_exec(void) {
     // Jump
     furi_hal_switch(0x0);
 }
+

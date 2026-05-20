@@ -216,3 +216,4 @@ bool furi_event_loop_timer_is_running(const FuriEventLoopTimer* timer) {
     furi_check(timer);
     return timer->active;
 }
+

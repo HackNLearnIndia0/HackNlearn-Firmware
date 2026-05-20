@@ -72,3 +72,4 @@ SubGhzProtocolStatus
  * @param output Resulting text
  */
 void subghz_protocol_decoder_faac_slh_get_string(void* context, FuriString* output);
+

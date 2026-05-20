@@ -66,3 +66,4 @@ void lfrfid_raw_worker_stop(LFRFIDRawWorker* worker);
 #ifdef __cplusplus
 }
 #endif
+

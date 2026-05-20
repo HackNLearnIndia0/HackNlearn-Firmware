@@ -61,3 +61,4 @@ void desktop_scene_hw_mismatch_on_exit(void* context) {
     free(text_buffer);
     scene_manager_set_scene_state(desktop->scene_manager, DesktopSceneHwMismatch, 0);
 }
+

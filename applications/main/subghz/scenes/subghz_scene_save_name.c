@@ -169,3 +169,4 @@ void subghz_scene_save_name_on_exit(void* context) {
     // Clear view
     text_input_reset(subghz->text_input);
 }
+

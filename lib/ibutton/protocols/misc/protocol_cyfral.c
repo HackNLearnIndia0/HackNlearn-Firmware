@@ -356,3 +356,4 @@ const ProtocolBase ibutton_protocol_misc_cyfral = {
     .render_uid = (ProtocolRenderData)protocol_cyfral_render_uid,
     .render_brief_data = (ProtocolRenderData)protocol_cyfral_render_brief_data,
 };
+

@@ -102,3 +102,4 @@ class Register32:
 
     def store(self):
         self.get_openocd().write_32(self.address, self.get())
+

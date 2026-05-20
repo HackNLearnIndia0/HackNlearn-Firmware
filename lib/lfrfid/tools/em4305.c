@@ -150,3 +150,4 @@ void em4305_write(LFRFIDEM4305* data) {
     FURI_CRITICAL_EXIT();
     em4305_stop();
 }
+

@@ -622,3 +622,4 @@ uint8_t u8x8_byte_sw_i2c(u8x8_t* u8x8, uint8_t msg, uint8_t arg_int, void* arg_p
 }
 
 #endif
+

@@ -156,3 +156,4 @@ size_t storage_open_files_count(StorageData* storage) {
     size_t count = StorageFileList_size(storage->files);
     return count;
 }
+

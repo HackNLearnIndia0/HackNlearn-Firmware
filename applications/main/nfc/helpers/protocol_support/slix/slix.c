@@ -158,3 +158,4 @@ const NfcProtocolSupportBase nfc_protocol_support_slix = {
             .on_event = nfc_protocol_support_common_on_event_empty,
         },
 };
+

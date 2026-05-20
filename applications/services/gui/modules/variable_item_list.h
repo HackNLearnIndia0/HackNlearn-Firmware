@@ -114,3 +114,4 @@ void* variable_item_get_context(VariableItem* item);
 #ifdef __cplusplus
 }
 #endif
+

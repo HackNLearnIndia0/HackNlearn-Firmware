@@ -68,3 +68,4 @@ void nfc_scene_slix_unlock_on_exit(void* context) {
 
     popup_reset(instance->popup);
 }
+

@@ -86,3 +86,4 @@ void desktop_settings_scene_pin_menu_on_exit(void* context) {
     app->pin_menu_idx = submenu_get_selected_item(app->submenu);
     submenu_reset(app->submenu);
 }
+

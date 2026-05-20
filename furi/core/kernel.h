@@ -124,3 +124,4 @@ void furi_delay_us(uint32_t microseconds);
 #ifdef __cplusplus
 }
 #endif
+

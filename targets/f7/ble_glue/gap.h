@@ -110,3 +110,4 @@ void gap_emit_ble_beacon_status_event(bool active);
 #ifdef __cplusplus
 }
 #endif
+

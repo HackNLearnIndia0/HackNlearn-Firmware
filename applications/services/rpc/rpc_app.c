@@ -504,3 +504,4 @@ void rpc_system_app_free(void* context) {
 
     free(rpc_app);
 }
+

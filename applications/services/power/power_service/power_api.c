@@ -89,3 +89,4 @@ bool power_is_otg_enabled(Power* power) {
     furi_check(power);
     return power->is_otg_requested;
 }
+

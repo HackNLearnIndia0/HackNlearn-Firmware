@@ -42,3 +42,4 @@ void ble_beacon_app_scene_input_beacon_data_on_exit(void* context) {
     byte_input_set_result_callback(ble_beacon->byte_input, NULL, NULL, NULL, NULL, 0);
     byte_input_set_header_text(ble_beacon->byte_input, NULL);
 }
+

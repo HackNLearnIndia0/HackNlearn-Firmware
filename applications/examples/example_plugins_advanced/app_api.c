@@ -23,3 +23,4 @@ void app_api_accumulator_sub(uint32_t value) {
 void app_api_accumulator_mul(uint32_t value) {
     accumulator *= value;
 }
+

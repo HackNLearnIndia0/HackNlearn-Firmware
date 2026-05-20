@@ -27,3 +27,4 @@ extern const SceneManagerHandlers file_browser_scene_handlers;
 #define ADD_SCENE(prefix, name, id) void prefix##_scene_##name##_on_exit(void* context);
 #include "file_browser_scene_config.h"
 #undef ADD_SCENE
+

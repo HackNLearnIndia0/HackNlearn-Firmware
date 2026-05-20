@@ -58,3 +58,4 @@ const SimpleArrayConfig felica_system_array_cfg = {
     .reset = (SimpleArrayReset)felica_system_reset,
     .type_size = sizeof(FelicaSystem),
 };
+

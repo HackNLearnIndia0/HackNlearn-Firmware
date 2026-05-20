@@ -300,3 +300,4 @@ void iso15693_parser_get_data(
     bit_buffer_write_bytes(instance->parsed_frame, buff, buff_size);
     *data_bits = bit_buffer_get_size(instance->parsed_frame);
 }
+

@@ -62,3 +62,4 @@ void nfc_scene_des_auth_unlock_warn_on_exit(void* context) {
     dialog_ex_reset(nfc->dialog_ex);
     nfc_text_store_clear(nfc);
 }
+

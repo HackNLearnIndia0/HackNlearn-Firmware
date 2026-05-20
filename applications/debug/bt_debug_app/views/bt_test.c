@@ -431,3 +431,4 @@ uint8_t bt_test_get_current_value_index(BtTestParam* param) {
 void* bt_test_get_context(BtTestParam* param) {
     return param->context;
 }
+

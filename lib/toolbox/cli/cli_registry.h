@@ -90,3 +90,4 @@ void cli_registry_reload_external_commands(
 #ifdef __cplusplus
 }
 #endif
+

@@ -69,3 +69,4 @@ const char* gpio_items_get_pin_name(GPIOItems* items, uint8_t index) {
         return items->pins[index].name;
     }
 }
+

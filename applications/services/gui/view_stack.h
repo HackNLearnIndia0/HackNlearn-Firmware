@@ -61,3 +61,4 @@ void view_stack_remove_view(ViewStack* view_stack, View* view);
 #ifdef __cplusplus
 }
 #endif
+

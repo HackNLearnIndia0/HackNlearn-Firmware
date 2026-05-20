@@ -14,3 +14,4 @@ void loader_menu_free(LoaderMenu* loader_menu);
 #ifdef __cplusplus
 }
 #endif
+

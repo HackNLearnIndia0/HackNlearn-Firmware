@@ -108,3 +108,4 @@ FURI_NORETURN void __furi_halt_implementation(void);
 #ifdef __cplusplus
 }
 #endif
+

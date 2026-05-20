@@ -15,3 +15,4 @@ void sd_notify_error(NotificationApp* notifications);
 #ifdef __cplusplus
 }
 #endif
+

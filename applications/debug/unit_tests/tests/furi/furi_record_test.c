@@ -27,3 +27,4 @@ void test_furi_create_open(void) {
     // Test that record does not exist
     mu_check(furi_record_exists(TEST_RECORD_NAME) == false);
 }
+

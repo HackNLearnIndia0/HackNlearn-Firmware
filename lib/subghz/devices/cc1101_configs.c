@@ -429,3 +429,4 @@ const uint8_t subghz_device_cc1101_preset_gfsk_9_99kb_async_regs[] = {
     0x00,
     0x00,
 };
+

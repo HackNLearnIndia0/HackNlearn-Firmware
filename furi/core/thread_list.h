@@ -79,3 +79,4 @@ float furi_thread_list_get_isr_time(FuriThreadList* instance);
 #ifdef __cplusplus
 }
 #endif
+

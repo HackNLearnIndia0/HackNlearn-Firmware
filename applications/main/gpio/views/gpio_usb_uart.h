@@ -16,3 +16,4 @@ View* gpio_usb_uart_get_view(GpioUsbUart* usb_uart);
 void gpio_usb_uart_set_callback(GpioUsbUart* usb_uart, GpioUsbUartCallback callback, void* context);
 
 void gpio_usb_uart_update_state(GpioUsbUart* instance, UsbUartConfig* cfg, UsbUartState* st);
+

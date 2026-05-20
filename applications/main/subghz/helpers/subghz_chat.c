@@ -148,3 +148,4 @@ bool subghz_chat_worker_write(SubGhzChatWorker* instance, uint8_t* data, size_t 
     furi_assert(instance);
     return subghz_tx_rx_worker_write(instance->subghz_txrx, data, size);
 }
+

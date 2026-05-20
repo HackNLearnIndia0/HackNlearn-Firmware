@@ -69,3 +69,4 @@ void subghz_scene_saved_menu_on_exit(void* context) {
     SubGhz* subghz = context;
     submenu_reset(subghz->submenu);
 }
+

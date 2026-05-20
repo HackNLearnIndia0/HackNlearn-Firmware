@@ -71,3 +71,4 @@ uint8_t dolphin_deed_get_app_limit(DolphinApp app) {
     furi_check(app < DolphinAppMAX);
     return dolphin_deed_limits[app];
 }
+

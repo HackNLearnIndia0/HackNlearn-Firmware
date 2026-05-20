@@ -18,3 +18,4 @@ void cli_vcp_disable(CliVcp* cli_vcp);
 #ifdef __cplusplus
 }
 #endif
+

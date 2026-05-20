@@ -156,3 +156,4 @@ bool slix_type_supports_password(SlixType slix_type, SlixPasswordType password_t
 #ifdef __cplusplus
 }
 #endif
+

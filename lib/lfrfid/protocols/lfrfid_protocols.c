@@ -48,3 +48,4 @@ const ProtocolBase* const lfrfid_protocols[] = {
     [LFRFIDProtocolGProxII] = &protocol_gproxii,
     [LFRFIDProtocolNoralsy] = &protocol_noralsy,
 };
+

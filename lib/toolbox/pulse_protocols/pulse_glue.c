@@ -53,3 +53,4 @@ void pulse_glue_pop(PulseGlue* pulse_glue, uint32_t* length, uint32_t* period) {
     pulse_glue->low_period = 0;
     pulse_glue->next_hi_period = 0;
 }
+

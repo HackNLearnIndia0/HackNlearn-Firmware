@@ -95,3 +95,4 @@ void nfc_scanner_stop(NfcScanner* instance);
 #ifdef __cplusplus
 }
 #endif
+

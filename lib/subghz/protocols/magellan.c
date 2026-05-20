@@ -513,3 +513,4 @@ void subghz_protocol_decoder_magellan_get_string(void* context, FuriString* outp
 
     subghz_protocol_magellan_get_event_serialize(instance->generic.btn, output);
 }
+

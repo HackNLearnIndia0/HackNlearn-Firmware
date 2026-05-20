@@ -59,3 +59,4 @@ void ble_profile_serial_set_event_callback(
 #ifdef __cplusplus
 }
 #endif
+

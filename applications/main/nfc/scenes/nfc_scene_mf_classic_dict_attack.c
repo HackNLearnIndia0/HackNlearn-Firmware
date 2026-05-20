@@ -394,3 +394,4 @@ void nfc_scene_mf_classic_dict_attack_on_exit(void* context) {
     nfc_blink_stop(instance);
     notification_message(instance->notifications, &sequence_display_backlight_enforce_auto);
 }
+

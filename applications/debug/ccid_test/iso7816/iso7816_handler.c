@@ -94,3 +94,4 @@ void iso7816_handler_free(Iso7816Handler* handler) {
 
     free(handler);
 }
+

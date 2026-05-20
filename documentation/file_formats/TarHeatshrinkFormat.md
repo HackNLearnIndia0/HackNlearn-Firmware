@@ -17,3 +17,4 @@ Window size is a single byte, representing the size of the sliding window used b
 Lookahead size is a single byte, representing the size of the lookahead buffer used by the compressor. It corresponds to `-l` parameter in Heatshrink CLI.
 
 Total header size is 7 bytes. Header is followed by compressed data.
+

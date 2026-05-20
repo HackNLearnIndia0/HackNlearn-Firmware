@@ -251,3 +251,4 @@ static bool buffered_file_stream_unread(BufferedFileStream* stream) {
     }
     return success;
 }
+

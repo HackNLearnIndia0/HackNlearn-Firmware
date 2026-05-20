@@ -364,3 +364,4 @@ void furi_hal_info_get(PropertyValueCallback out, char sep, void* context) {
     furi_string_free(key);
     furi_string_free(value);
 }
+

@@ -139,3 +139,4 @@ size_t rpc_session_get_available_size(RpcSession* session);
 #ifdef __cplusplus
 }
 #endif
+

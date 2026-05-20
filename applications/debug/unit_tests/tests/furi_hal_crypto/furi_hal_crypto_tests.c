@@ -601,3 +601,4 @@ int run_minunit_test_furi_hal_crypto(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_furi_hal_crypto)
+

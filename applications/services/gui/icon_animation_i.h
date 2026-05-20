@@ -37,3 +37,4 @@ void icon_animation_next_frame(IconAnimation* instance);
  * @param      context  pointer to IconAnimation
  */
 void icon_animation_timer_callback(void* context);
+

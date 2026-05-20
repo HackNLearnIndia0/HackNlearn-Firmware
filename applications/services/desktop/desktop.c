@@ -561,3 +561,4 @@ int32_t desktop_srv(void* p) {
     // Should never get here (a service thread will crash automatically if it returns)
     return 0;
 }
+

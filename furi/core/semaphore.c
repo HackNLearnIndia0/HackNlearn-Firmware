@@ -183,3 +183,4 @@ const FuriEventLoopContract furi_semaphore_event_loop_contract = {
     .get_link = furi_semaphore_event_loop_get_link,
     .get_level = furi_semaphore_event_loop_get_level,
 };
+

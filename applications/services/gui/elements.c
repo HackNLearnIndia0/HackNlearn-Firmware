@@ -907,3 +907,4 @@ void elements_text_box(
     }
     canvas_set_font(canvas, FontSecondary);
 }
+

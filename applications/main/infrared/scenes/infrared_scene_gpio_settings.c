@@ -100,3 +100,4 @@ void infrared_scene_gpio_settings_on_exit(void* context) {
     variable_item_list_reset(infrared->var_item_list);
     infrared_save_settings(infrared);
 }
+

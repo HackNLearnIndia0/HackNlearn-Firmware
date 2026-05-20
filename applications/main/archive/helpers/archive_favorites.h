@@ -22,3 +22,4 @@ void archive_favorites_save(void* context);
  *                 and passed to the application as an argument upon recall
  */
 void archive_favorites_handle_setting_pin_unpin(const char* app_name, const char* setting);
+

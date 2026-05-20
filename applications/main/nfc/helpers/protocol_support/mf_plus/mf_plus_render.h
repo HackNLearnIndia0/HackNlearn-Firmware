@@ -12,3 +12,4 @@ void nfc_render_mf_plus_info(
 void nfc_render_mf_plus_data(const MfPlusData* data, FuriString* str);
 
 void nfc_render_mf_plus_version(const MfPlusVersion* data, FuriString* str);
+

@@ -115,3 +115,4 @@ typedef struct {
      */
     NfcProtocolSupportSceneBase scene_emulate;
 } NfcProtocolSupportBase;
+

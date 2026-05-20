@@ -161,3 +161,4 @@ static const JsViewDescriptor view_descriptor = {
 };
 
 JS_GUI_VIEW_DEF(vi_list, &view_descriptor);
+

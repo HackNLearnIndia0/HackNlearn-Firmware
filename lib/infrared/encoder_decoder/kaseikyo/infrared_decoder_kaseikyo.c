@@ -48,3 +48,4 @@ void infrared_decoder_kaseikyo_free(void* decoder) {
 void infrared_decoder_kaseikyo_reset(void* decoder) {
     infrared_common_decoder_reset(decoder);
 }
+

@@ -184,3 +184,4 @@ void storage_settings_scene_benchmark_on_exit(void* context) {
 
     furi_string_reset(app->text_string);
 }
+

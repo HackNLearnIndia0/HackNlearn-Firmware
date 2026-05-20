@@ -226,3 +226,4 @@ uint32_t iso14443_3b_get_fwt_fc_max(const Iso14443_3bData* data) {
     const uint8_t fwi = data->protocol_info.fwi;
     return fwi < 0x0F ? 4096UL << fwi : ISO14443_3B_FDT_POLL_DEFAULT_FC;
 }
+

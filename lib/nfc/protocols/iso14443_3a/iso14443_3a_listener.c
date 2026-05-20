@@ -125,3 +125,4 @@ const NfcListenerBase nfc_listener_iso14443_3a = {
     .get_data = (NfcListenerGetData)iso14443_3a_listener_get_data,
     .run = (NfcListenerRun)iso14443_3a_listener_run,
 };
+

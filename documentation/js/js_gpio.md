@@ -119,3 +119,4 @@ Boolean value.
 Stops PWM.
 Does not restore previous pin configuration.
 Throws an error if PWM is not supported on this pin.
+

@@ -84,3 +84,4 @@ class AnalyseUploader:
 if __name__ == "__main__":
     analyzer = AnalyseUploader()
     analyzer.upload_analyse_request()
+

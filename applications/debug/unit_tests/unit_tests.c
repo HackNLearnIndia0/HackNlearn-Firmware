@@ -22,3 +22,4 @@ void unit_tests_on_system_start(void) {
     furi_record_close(RECORD_CLI);
 #endif
 }
+

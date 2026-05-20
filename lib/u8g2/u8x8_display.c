@@ -148,3 +148,4 @@ void u8x8_ClearLine(u8x8_t* u8x8, uint8_t line) {
             u8x8, U8X8_MSG_DISPLAY_DRAW_TILE, u8x8->display_info->tile_width, (void*)&tile);
     }
 }
+

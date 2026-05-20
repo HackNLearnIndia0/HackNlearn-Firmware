@@ -637,3 +637,4 @@ View* subghz_read_raw_get_view(SubGhzReadRAW* instance) {
     furi_assert(instance);
     return instance->view;
 }
+

@@ -565,3 +565,4 @@ mjs_val_t mjs_to_boolean_v(struct mjs* mjs, mjs_val_t v) {
 int mjs_is_truthy(struct mjs* mjs, mjs_val_t v) {
     return mjs_get_bool(mjs, mjs_to_boolean_v(mjs, v));
 }
+

@@ -35,3 +35,4 @@ struct Iso14443_3bData {
     uint8_t app_data[ISO14443_3B_APP_DATA_SIZE];
     Iso14443_3bProtocolInfo protocol_info;
 };
+

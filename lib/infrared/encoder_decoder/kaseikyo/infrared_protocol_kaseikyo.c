@@ -37,3 +37,4 @@ const InfraredProtocolVariant* infrared_protocol_kaseikyo_get_variant(InfraredPr
     else
         return NULL;
 }
+

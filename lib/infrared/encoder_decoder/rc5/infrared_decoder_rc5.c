@@ -77,3 +77,4 @@ void infrared_decoder_rc5_reset(void* decoder) {
     InfraredRc5Decoder* decoder_rc5 = decoder;
     infrared_common_decoder_reset(decoder_rc5->common_decoder);
 }
+

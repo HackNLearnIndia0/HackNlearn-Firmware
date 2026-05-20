@@ -488,3 +488,4 @@ static const FlipperAppPluginDescriptor plugin_descriptor = {
 const FlipperAppPluginDescriptor* js_gpio_ep(void) {
     return &plugin_descriptor;
 }
+

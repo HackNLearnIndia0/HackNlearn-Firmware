@@ -158,3 +158,4 @@ A `Queue` object:
     - `message`: a value of any type that will be placed at the end of the queue
   - `input`: a `Contract` (event source) that pops items from the front of the
     queue
+

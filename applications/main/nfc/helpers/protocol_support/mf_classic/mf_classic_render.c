@@ -63,3 +63,4 @@ void nfc_render_mf_classic_dump(const MfClassicData* data, FuriString* str) {
         mf_classic_render_block(data, i, str);
     }
 }
+

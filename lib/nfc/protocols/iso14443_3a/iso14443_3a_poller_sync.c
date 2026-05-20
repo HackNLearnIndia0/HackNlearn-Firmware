@@ -56,3 +56,4 @@ Iso14443_3aError iso14443_3a_poller_sync_read(Nfc* nfc, Iso14443_3aData* iso1444
 
     return poller_context.error;
 }
+

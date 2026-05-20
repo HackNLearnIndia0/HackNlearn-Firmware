@@ -89,3 +89,4 @@ struct Bt {
     BtStatusChangedCallback status_changed_cb;
     void* status_changed_ctx;
 };
+

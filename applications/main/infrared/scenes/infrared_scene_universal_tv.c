@@ -103,3 +103,4 @@ bool infrared_scene_universal_tv_on_event(void* context, SceneManagerEvent event
 void infrared_scene_universal_tv_on_exit(void* context) {
     infrared_scene_universal_common_on_exit(context);
 }
+

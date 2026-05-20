@@ -24,3 +24,4 @@ NfcCommand nfc_cli_dump_poller_callback_iso15693_3(NfcGenericEvent event, void* 
 
     return command;
 }
+

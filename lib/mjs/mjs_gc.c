@@ -533,3 +533,4 @@ MJS_PRIVATE int gc_check_ptr(const struct gc_arena* a, const void* ptr) {
     }
     return 0;
 }
+

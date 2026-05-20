@@ -33,3 +33,4 @@ size_t varint_int32_length(int32_t value);
 #ifdef __cplusplus
 }
 #endif
+

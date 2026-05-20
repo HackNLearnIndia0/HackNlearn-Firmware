@@ -35,3 +35,4 @@ void infrared_scene_error_databases_on_exit(void* context) {
     popup_reset(infrared->popup);
     infrared_play_notification_message(infrared, InfraredNotificationMessageYellowOff);
 }
+

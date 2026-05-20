@@ -135,3 +135,4 @@ MJS_PRIVATE void mjs_die(struct mjs* mjs);
 #endif /* __cplusplus */
 
 #endif /* MJS_CORE_H */
+

@@ -108,3 +108,4 @@ static const FlipperAppPluginDescriptor subghz_device_cc1101_ext_descriptor = {
 const FlipperAppPluginDescriptor* subghz_device_cc1101_ext_ep(void) {
     return &subghz_device_cc1101_ext_descriptor;
 }
+

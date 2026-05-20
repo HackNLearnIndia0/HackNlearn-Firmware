@@ -24,3 +24,4 @@ void pulse_glue_pop(PulseGlue* pulse_glue, uint32_t* length, uint32_t* period);
 #ifdef __cplusplus
 }
 #endif
+

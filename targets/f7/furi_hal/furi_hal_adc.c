@@ -279,3 +279,4 @@ float furi_hal_adc_convert_temp(FuriHalAdcHandle* handle, uint16_t value) {
 float furi_hal_adc_convert_vbat(FuriHalAdcHandle* handle, uint16_t value) {
     return furi_hal_adc_convert_to_voltage(handle, value) * 3;
 }
+

@@ -143,3 +143,4 @@ Iso14443_3aError iso14443_3a_poller_halt(Iso14443_3aPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

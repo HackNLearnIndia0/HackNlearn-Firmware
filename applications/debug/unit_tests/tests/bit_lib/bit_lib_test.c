@@ -740,3 +740,4 @@ int run_minunit_test_bit_lib(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_bit_lib)
+

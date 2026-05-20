@@ -320,3 +320,4 @@ void signal_reader_stop(SignalReader* instance) {
 
     furi_hal_bus_disable(FuriHalBusTIM16);
 }
+

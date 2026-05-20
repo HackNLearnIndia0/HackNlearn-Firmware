@@ -46,3 +46,4 @@ void furi_hal_usb_ccid_remove_smartcard(void);
 #ifdef __cplusplus
 }
 #endif
+

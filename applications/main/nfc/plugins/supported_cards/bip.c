@@ -367,3 +367,4 @@ static const FlipperAppPluginDescriptor bip_plugin_descriptor = {
 const FlipperAppPluginDescriptor* bip_plugin_ep(void) {
     return &bip_plugin_descriptor;
 }
+

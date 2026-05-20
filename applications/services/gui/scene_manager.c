@@ -243,3 +243,4 @@ void scene_manager_stop(SceneManager* scene_manager) {
         scene_manager->scene_handlers->on_exit_handlers[cur_scene_id](scene_manager->context);
     }
 }
+

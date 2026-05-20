@@ -30,3 +30,4 @@ void gpio_scene_test_on_exit(void* context) {
     GpioApp* app = context;
     gpio_items_configure_all_pins(app->gpio_items, GpioModeAnalog);
 }
+

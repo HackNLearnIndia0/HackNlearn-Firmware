@@ -30,3 +30,4 @@ For an example refer to the `gui.js` example script.
 | Item        | Type   | Description                                      |
 |-------------|--------|--------------------------------------------------|
 | `input`     | `ArrayBuffer` | Fires when the user selects the "Save" button. |
+

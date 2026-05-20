@@ -40,3 +40,4 @@ void subghz_scene_region_info_on_exit(void* context) {
     SubGhz* subghz = context;
     widget_reset(subghz->widget);
 }
+

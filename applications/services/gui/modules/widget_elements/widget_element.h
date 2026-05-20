@@ -22,3 +22,4 @@ typedef void (*ButtonCallback)(GuiButtonType result, InputType type, void* conte
 #ifdef __cplusplus
 }
 #endif
+

@@ -1047,3 +1047,4 @@ const GpioPin*
 
     return furi_hal_serial_config[handle->id].gpio[direction];
 }
+

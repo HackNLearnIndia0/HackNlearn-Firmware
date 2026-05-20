@@ -22,3 +22,4 @@ ADD_SCENE(lfrfid, raw_name, RawName)
 ADD_SCENE(lfrfid, raw_read, RawRead)
 ADD_SCENE(lfrfid, raw_success, RawSuccess)
 ADD_SCENE(lfrfid, rpc, Rpc)
+

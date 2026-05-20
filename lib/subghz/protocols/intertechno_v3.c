@@ -474,3 +474,4 @@ void subghz_protocol_decoder_intertechno_v3_get_string(void* context, FuriString
             (int)(6.67f * (float)instance->generic.btn));
     }
 }
+

@@ -146,3 +146,4 @@ void battery_info_set_data(BatteryInfo* battery_info, BatteryInfoModel* data) {
         { memcpy(model, data, sizeof(BatteryInfoModel)); },
         true);
 }
+

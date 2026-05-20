@@ -32,3 +32,4 @@ mjs_val_t mjs_get_this(struct mjs* mjs);
 #endif /* __cplusplus */
 
 #endif /* MJS_EXEC_PUBLIC_H_ */
+

@@ -84,3 +84,4 @@ typedef struct {
 } BQ27220DMGaugingConfig;
 
 _Static_assert(sizeof(BQ27220DMGaugingConfig) == 2, "Incorrect structure size");
+

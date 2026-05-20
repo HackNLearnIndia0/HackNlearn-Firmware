@@ -339,3 +339,4 @@ void subghz_protocol_decoder_roger_get_string(void* context, FuriString* output)
         (uint32_t)(instance->generic.data & 0xFF),
         instance->generic.btn);
 }
+

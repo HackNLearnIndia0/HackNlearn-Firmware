@@ -13,3 +13,4 @@ void flipper_boot_recovery_exec(void);
 #ifdef __cplusplus
 }
 #endif
+

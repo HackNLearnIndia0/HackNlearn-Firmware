@@ -103,3 +103,4 @@ View* desktop_view_pin_timeout_get_view(DesktopViewPinTimeout* instance) {
 
     return instance->view;
 }
+

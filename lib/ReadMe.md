@@ -36,3 +36,4 @@
 - `toolbox`             - Toolbox library, contains various things that is used by Flipper firmware
 - `u8g2`                - u8g2 graphics library, used by GUI subsystem
 - `update_util`         - update utilities library, used by updater
+

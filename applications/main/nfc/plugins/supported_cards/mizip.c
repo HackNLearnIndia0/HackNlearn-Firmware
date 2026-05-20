@@ -255,3 +255,4 @@ static const FlipperAppPluginDescriptor mizip_plugin_descriptor = {
 const FlipperAppPluginDescriptor* mizip_plugin_ep(void) {
     return &mizip_plugin_descriptor;
 }
+

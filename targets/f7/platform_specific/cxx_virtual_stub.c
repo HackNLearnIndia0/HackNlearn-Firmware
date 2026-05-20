@@ -4,3 +4,4 @@
 void __cxa_pure_virtual(void) {
     furi_crash("C++ pure virtual call");
 }
+

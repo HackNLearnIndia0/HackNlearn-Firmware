@@ -87,3 +87,4 @@ bool flipper_application_manifest_is_target_compatible(const FlipperApplicationM
 #ifdef __cplusplus
 }
 #endif
+

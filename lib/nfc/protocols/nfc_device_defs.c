@@ -46,3 +46,4 @@ const NfcDeviceBase* const nfc_devices[NfcProtocolNum] = {
     [NfcProtocolSt25tb] = &nfc_device_st25tb,
     /* Add new protocols here */
 };
+

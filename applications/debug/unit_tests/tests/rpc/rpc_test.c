@@ -1862,3 +1862,4 @@ int32_t delay_test_app(void* p) {
 }
 
 TEST_API_DEFINE(run_minunit_test_rpc)
+

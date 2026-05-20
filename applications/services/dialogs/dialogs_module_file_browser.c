@@ -66,3 +66,4 @@ bool dialogs_app_process_module_file_browser(const DialogsAppMessageDataFileBrow
 
     return ret;
 }
+

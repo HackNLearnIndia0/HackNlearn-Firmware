@@ -61,3 +61,4 @@ const InfraredProtocolVariant* infrared_protocol_sirc_get_variant(InfraredProtoc
     else
         return NULL;
 }
+

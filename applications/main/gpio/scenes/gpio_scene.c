@@ -28,3 +28,4 @@ const SceneManagerHandlers gpio_scene_handlers = {
     .on_exit_handlers = gpio_scene_on_exit_handlers,
     .scene_num = GpioSceneNum,
 };
+

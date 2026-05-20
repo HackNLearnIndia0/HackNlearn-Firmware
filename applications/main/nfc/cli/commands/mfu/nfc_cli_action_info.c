@@ -225,3 +225,4 @@ void nfc_cli_mfu_info_execute(PipeSide* pipe, NfcCliActionContext* ctx) {
         printf(ANSI_FG_RED "Error: %s" ANSI_RESET, nfc_cli_mf_ultralight_get_error(error));
     }
 }
+

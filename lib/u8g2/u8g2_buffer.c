@@ -208,3 +208,4 @@ void u8g2_WriteBufferXBM2(u8g2_t* u8g2, void (*out)(const char* s)) {
         u8x8_capture_get_pixel_2,
         out);
 }
+

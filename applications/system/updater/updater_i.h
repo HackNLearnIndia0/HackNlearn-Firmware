@@ -59,3 +59,4 @@ void updater_free(Updater* updater);
 #ifdef __cplusplus
 }
 #endif
+

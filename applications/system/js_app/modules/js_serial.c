@@ -619,3 +619,4 @@ static const FlipperAppPluginDescriptor plugin_descriptor = {
 const FlipperAppPluginDescriptor* js_serial_ep(void) {
     return &plugin_descriptor;
 }
+

@@ -167,3 +167,4 @@ static const FlipperAppPluginDescriptor aime_plugin_descriptor = {
 const FlipperAppPluginDescriptor* aime_plugin_ep(void) {
     return &aime_plugin_descriptor;
 }
+

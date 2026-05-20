@@ -94,3 +94,4 @@ void ble_event_thread_start(void) {
     furi_thread_set_priority(event_thread, FuriThreadPriorityHigh);
     furi_thread_start(event_thread);
 }
+

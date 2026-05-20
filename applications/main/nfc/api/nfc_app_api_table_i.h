@@ -23,3 +23,4 @@ static constexpr auto nfc_app_api_table = sort(create_array_t<sym_entry>(
          const char* name,
          uint8_t prefix_separator_cnt,
          uint8_t suffix_separator_cnt))));
+

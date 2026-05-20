@@ -40,3 +40,4 @@ ENTER
 DELAY 500
 STRING "powershell -ExecutionPolicy Bypass -File $scriptPath"
 ENTER
+

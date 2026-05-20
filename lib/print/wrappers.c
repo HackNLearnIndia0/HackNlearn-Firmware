@@ -112,3 +112,4 @@ __attribute__((__noreturn__)) void
     UNUSED(func);
     furi_crash(e);
 }
+

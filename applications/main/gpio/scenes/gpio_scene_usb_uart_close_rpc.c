@@ -39,3 +39,4 @@ void gpio_scene_usb_uart_close_rpc_on_exit(void* context) {
     GpioApp* app = context;
     widget_reset(app->widget);
 }
+

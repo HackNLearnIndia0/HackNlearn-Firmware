@@ -148,3 +148,4 @@ const NfcProtocolSupportBase nfc_protocol_support_iso14443_4a = {
             .on_event = nfc_protocol_support_common_on_event_empty,
         },
 };
+

@@ -67,3 +67,4 @@ bool subghz_file_encoder_worker_is_running(SubGhzFileEncoderWorker* instance);
 #ifdef __cplusplus
 }
 #endif
+

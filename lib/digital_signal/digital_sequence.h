@@ -110,3 +110,4 @@ void digital_sequence_clear(DigitalSequence* sequence);
 #ifdef __cplusplus
 }
 #endif
+

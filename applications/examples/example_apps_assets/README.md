@@ -60,3 +60,4 @@ When app is launched, the `files` folder will be unpacked to the Apps Assets fol
 The data is unpacked when the application starts, if the application is launched for the first time, or if the data within the application is updated.
 
 When an application is compiled, the contents of the "files" folder are hashed and stored within the application itself. When the application starts, this hash is compared to the hash stored in the `.assets.signature` file. If the hashes differ or the `.assets.signature` file does not exist, the application folder is deleted and the new data is unpacked.
+

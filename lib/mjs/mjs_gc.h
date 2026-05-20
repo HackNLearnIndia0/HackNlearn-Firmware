@@ -58,3 +58,4 @@ MJS_PRIVATE int gc_check_ptr(const struct gc_arena* a, const void* p);
 #endif /* __cplusplus */
 
 #endif /* MJS_GC_H_ */
+

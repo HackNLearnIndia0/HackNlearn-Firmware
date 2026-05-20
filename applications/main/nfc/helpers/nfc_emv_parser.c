@@ -80,3 +80,4 @@ bool nfc_emv_parser_get_currency_name(
     furi_string_free(key);
     return parsed;
 }
+

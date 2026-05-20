@@ -147,3 +147,4 @@ void u8x8_Setup(
     /* setup display info */
     u8x8_SetupMemory(u8x8);
 }
+

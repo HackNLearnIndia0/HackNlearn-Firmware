@@ -100,3 +100,4 @@ typedef struct {
         LoaderMessageBoolResult* bool_value;
     };
 } LoaderMessage;
+

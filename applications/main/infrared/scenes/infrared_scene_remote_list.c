@@ -63,3 +63,4 @@ bool infrared_scene_remote_list_on_event(void* context, SceneManagerEvent event)
 void infrared_scene_remote_list_on_exit(void* context) {
     UNUSED(context);
 }
+

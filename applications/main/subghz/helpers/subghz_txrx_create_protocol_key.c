@@ -167,3 +167,4 @@ SubGhzProtocolStatus subghz_txrx_gen_secplus_v1_protocol(
         (uint64_t)serial << 32 | 0xE6000000,
         42);
 }
+

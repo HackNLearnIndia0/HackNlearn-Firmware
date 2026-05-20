@@ -166,3 +166,4 @@ int32_t event_loop_blink_test_app(void* arg) {
 
     return 0;
 }
+

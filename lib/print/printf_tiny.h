@@ -104,3 +104,4 @@ int fctprintf(void (*out)(char character, void* arg), void* arg, const char* for
 #endif
 
 #endif // _PRINTF_H_
+

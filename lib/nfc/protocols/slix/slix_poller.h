@@ -121,3 +121,4 @@ SlixError slix_poller_set_password(
 #ifdef __cplusplus
 }
 #endif
+

@@ -79,3 +79,4 @@ bool desktop_scene_lock_menu_on_event(void* context, SceneManagerEvent event) {
 void desktop_scene_lock_menu_on_exit(void* context) {
     UNUSED(context);
 }
+

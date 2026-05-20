@@ -27,3 +27,4 @@ recommended to conceptualize these modules first before using this one.
 | Item     | Type    | Description                                                   |
 |----------|---------|---------------------------------------------------------------|
 | `chosen` | `number`| Fires when an entry has been chosen by the user. The item contains the index of the entry. |
+

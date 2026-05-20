@@ -558,3 +558,4 @@ MfClassicError mf_classic_poller_send_encrypted_frame(
 
     return ret;
 }
+

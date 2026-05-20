@@ -265,3 +265,4 @@ bool subghz_tx_rx_worker_is_running(SubGhzTxRxWorker* instance) {
     furi_check(instance);
     return instance->worker_running;
 }
+

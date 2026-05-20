@@ -451,3 +451,4 @@ void subghz_protocol_decoder_somfy_keytis_get_string(void* context, FuriString* 
         instance->generic.cnt,
         subghz_protocol_somfy_keytis_get_name_button(instance->generic.btn));
 }
+

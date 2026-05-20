@@ -21,3 +21,4 @@ Once the Debug mode is activated on your Flipper Zero, you can read RAW data fro
 5. Once the reading is finished, press **OK**.
 
 Two files with data (with ASK and PSK modulations) will be saved in the `lfrfid` folder on the microSD card. Now, you can share it and the card's photo with developers by creating an issue on GitHub.
+

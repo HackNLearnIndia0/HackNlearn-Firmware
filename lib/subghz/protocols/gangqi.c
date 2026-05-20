@@ -405,3 +405,4 @@ void subghz_protocol_decoder_gangqi_get_string(void* context, FuriString* output
         instance->generic.btn,
         subghz_protocol_gangqi_get_button_name(instance->generic.btn));
 }
+

@@ -65,3 +65,4 @@ int mjs_is_truthy(struct mjs* mjs, mjs_val_t v);
 #endif /* __cplusplus */
 
 #endif /* MJS_UTIL_PUBLIC_H_ */
+

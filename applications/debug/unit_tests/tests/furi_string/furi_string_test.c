@@ -469,3 +469,4 @@ int run_minunit_test_furi_string(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_furi_string)
+

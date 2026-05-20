@@ -18,3 +18,4 @@ Displays a file picker and returns the selected file, or undefined if cancelled.
 **Returns**
 
 A `string` path, or `undefined`.
+

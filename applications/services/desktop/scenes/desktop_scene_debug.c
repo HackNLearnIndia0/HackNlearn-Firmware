@@ -42,3 +42,4 @@ bool desktop_scene_debug_on_event(void* context, SceneManagerEvent event) {
 void desktop_scene_debug_on_exit(void* context) {
     UNUSED(context);
 }
+

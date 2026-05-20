@@ -86,3 +86,4 @@ void animation_storage_free_storage_animation(StorageAnimation** storage_animati
  * of animations in inner flash.
  */
 void animation_storage_initialize_internal_animations(void);
+

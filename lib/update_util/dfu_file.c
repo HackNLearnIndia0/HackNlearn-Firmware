@@ -153,3 +153,4 @@ bool dfu_file_process_targets(const DfuUpdateTask* task, File* dfuf, const uint8
 
     return true;
 }
+

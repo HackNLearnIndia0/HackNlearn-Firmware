@@ -190,3 +190,4 @@ Mouse movement and click commands. Mouse click commands support HOLD functionali
 |  MOUSE_MOVE   | x y: int move mount/direction  | functionally same as MOUSEMOVE   |
 |  MOUSESCROLL  | delta: int scroll distance     |                                  |
 |  MOUSE_SCROLL | delta: int scroll distance     | functionally same as MOUSESCROLL |
+

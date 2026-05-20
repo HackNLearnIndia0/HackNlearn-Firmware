@@ -95,3 +95,4 @@ class ImageLint(App):
 
 if __name__ == "__main__":
     ImageLint()()
+

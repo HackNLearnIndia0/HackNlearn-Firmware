@@ -151,3 +151,4 @@ void infrared_scene_edit_delete_on_exit(void* context) {
     InfraredApp* infrared = context;
     dialog_ex_reset(infrared->dialog_ex);
 }
+

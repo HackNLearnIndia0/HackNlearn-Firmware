@@ -84,3 +84,4 @@ void mjs_mem_set_uint(void* ptr, unsigned int val, int size, int bigendian) {
 void mjs_mem_set_int(void* ptr, int val, int size, int bigendian) {
     mjs_mem_set_uint(ptr, val, size, bigendian);
 }
+

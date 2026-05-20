@@ -115,3 +115,4 @@ class FlipperFormatFile:
         with open(filename, "w", newline="\n") as file:
             file.write("\n".join(self.lines))
             file.write("\n")
+

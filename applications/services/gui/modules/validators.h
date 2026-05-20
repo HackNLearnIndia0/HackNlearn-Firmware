@@ -20,3 +20,4 @@ bool validator_is_file_callback(const char* text, FuriString* error, void* conte
 #ifdef __cplusplus
 }
 #endif
+

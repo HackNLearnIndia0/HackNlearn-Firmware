@@ -37,3 +37,4 @@ const Iso14443_3bData* iso14443_3b_poller_get_data(Iso14443_3bPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

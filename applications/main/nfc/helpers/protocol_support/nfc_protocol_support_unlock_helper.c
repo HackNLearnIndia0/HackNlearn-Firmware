@@ -36,3 +36,4 @@ void nfc_unlock_helper_card_detected_handler(NfcApp* instance) {
         instance->scene_manager, NfcSceneRead, NfcSceneReadMenuStateCardFound);
     nfc_scene_read_setup_view(instance);
 }
+

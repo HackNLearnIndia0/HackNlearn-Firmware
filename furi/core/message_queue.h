@@ -91,3 +91,4 @@ FuriStatus furi_message_queue_reset(FuriMessageQueue* instance);
 #ifdef __cplusplus
 }
 #endif
+

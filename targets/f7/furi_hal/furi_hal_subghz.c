@@ -832,3 +832,4 @@ void furi_hal_subghz_stop_async_tx(void) {
 
     furi_hal_subghz.state = SubGhzStateIdle;
 }
+

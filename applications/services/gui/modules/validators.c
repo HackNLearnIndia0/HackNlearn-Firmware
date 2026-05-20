@@ -52,3 +52,4 @@ void validator_is_file_free(ValidatorIsFile* instance) {
     free(instance->current_name);
     free(instance);
 }
+

@@ -384,3 +384,4 @@ void subghz_protocol_decoder_dickert_mahs_get_string(void* context, FuriString* 
     furi_assert(context);
     subghz_protocol_encoder_dickert_mahs_parse_buffer(context, output);
 }
+

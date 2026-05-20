@@ -134,3 +134,4 @@ mjs_val_t js_gui_make_view_factory(struct mjs* mjs, const JsViewDescriptor* view
 #ifdef __cplusplus
 }
 #endif
+

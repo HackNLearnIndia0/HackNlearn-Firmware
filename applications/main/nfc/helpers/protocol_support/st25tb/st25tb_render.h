@@ -8,3 +8,4 @@ void nfc_render_st25tb_info(
     const St25tbData* data,
     NfcProtocolFormatType format_type,
     FuriString* str);
+

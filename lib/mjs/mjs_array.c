@@ -233,3 +233,4 @@ MJS_PRIVATE void mjs_array_splice(struct mjs* mjs) {
 clean:
     mjs_return(mjs, ret);
 }
+

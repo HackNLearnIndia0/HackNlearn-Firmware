@@ -19,3 +19,4 @@ MJS_PRIVATE mjs_err_t mjs_parse(const char* path, const char* buf, struct mjs*);
 #endif /* __cplusplus */
 
 #endif /* MJS_PARSER_H */
+

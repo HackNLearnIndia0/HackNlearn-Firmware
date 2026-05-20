@@ -34,3 +34,4 @@ bool power_settings_scene_battery_info_on_event(void* context, SceneManagerEvent
 void power_settings_scene_battery_info_on_exit(void* context) {
     UNUSED(context);
 }
+

@@ -35,3 +35,4 @@ static const FlipperAppPluginDescriptor example_plugin2_descriptor = {
 const FlipperAppPluginDescriptor* example_plugin2_ep(void) {
     return &example_plugin2_descriptor;
 }
+

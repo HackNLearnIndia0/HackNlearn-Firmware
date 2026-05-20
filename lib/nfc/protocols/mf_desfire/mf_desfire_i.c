@@ -896,3 +896,4 @@ const SimpleArrayConfig mf_desfire_application_array_config = {
     .reset = (SimpleArrayReset)mf_desfire_application_reset,
     .type_size = sizeof(MfDesfireApplication),
 };
+

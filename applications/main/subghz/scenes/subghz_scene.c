@@ -28,3 +28,4 @@ const SceneManagerHandlers subghz_scene_handlers = {
     .on_exit_handlers = subghz_on_exit_handlers,
     .scene_num = SubGhzSceneNum,
 };
+

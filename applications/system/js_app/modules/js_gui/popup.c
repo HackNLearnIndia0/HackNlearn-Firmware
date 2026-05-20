@@ -100,3 +100,4 @@ static const JsViewDescriptor view_descriptor = {
     }};
 
 JS_GUI_VIEW_DEF(popup, &view_descriptor);
+

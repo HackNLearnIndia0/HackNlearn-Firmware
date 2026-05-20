@@ -130,3 +130,4 @@ uint32_t furi_hal_interrupt_get_time_in_isr_total(void);
 #ifdef __cplusplus
 }
 #endif
+

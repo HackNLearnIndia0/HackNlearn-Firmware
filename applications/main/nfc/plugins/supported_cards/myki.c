@@ -114,3 +114,4 @@ static const FlipperAppPluginDescriptor myki_plugin_descriptor = {
 const FlipperAppPluginDescriptor* myki_plugin_ep(void) {
     return &myki_plugin_descriptor;
 }
+

@@ -61,3 +61,4 @@ typedef struct {
     };
     FuriApiLock lock;
 } PowerMessage;
+

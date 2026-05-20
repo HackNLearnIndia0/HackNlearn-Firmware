@@ -160,3 +160,4 @@ const FuriEventLoopContract furi_mutex_event_loop_contract = {
     .get_link = furi_mutex_event_loop_get_link,
     .get_level = furi_mutex_event_loop_get_level,
 };
+

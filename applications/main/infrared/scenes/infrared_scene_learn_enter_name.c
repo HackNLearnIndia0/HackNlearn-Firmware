@@ -69,3 +69,4 @@ void infrared_scene_learn_enter_name_on_exit(void* context) {
     InfraredApp* infrared = context;
     UNUSED(infrared);
 }
+

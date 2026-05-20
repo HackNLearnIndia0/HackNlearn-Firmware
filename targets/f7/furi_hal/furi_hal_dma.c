@@ -12,3 +12,4 @@ void furi_hal_dma_deinit_early(void) {
     furi_hal_bus_disable(FuriHalBusDMA2);
     furi_hal_bus_disable(FuriHalBusDMAMUX1);
 }
+

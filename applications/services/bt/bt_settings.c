@@ -36,3 +36,4 @@ void bt_settings_save(const BtSettings* bt_settings) {
         FURI_LOG_E(TAG, "Failed to save settings");
     }
 }
+

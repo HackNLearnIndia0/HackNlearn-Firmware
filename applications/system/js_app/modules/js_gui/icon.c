@@ -158,3 +158,4 @@ static const FlipperAppPluginDescriptor plugin_descriptor = {
 const FlipperAppPluginDescriptor* js_gui_icon_ep(void) {
     return &plugin_descriptor;
 }
+

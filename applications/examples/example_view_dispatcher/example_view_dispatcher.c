@@ -171,3 +171,4 @@ int32_t example_view_dispatcher_app(void* arg) {
 
     return 0;
 }
+

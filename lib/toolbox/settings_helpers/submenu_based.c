@@ -101,3 +101,4 @@ void submenu_settings_helpers_scene_exit(SubmenuSettingsHelper* helper) {
     furi_check(helper);
     submenu_reset(helper->submenu);
 }
+

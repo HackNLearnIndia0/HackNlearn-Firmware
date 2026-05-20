@@ -33,3 +33,4 @@ struct ArchiveApp {
     char text_store[MAX_NAME_LEN];
     char file_extension[MAX_EXT_LEN + 1];
 };
+

@@ -223,3 +223,4 @@ bool subghz_scene_receiver_on_event(void* context, SceneManagerEvent event) {
 void subghz_scene_receiver_on_exit(void* context) {
     UNUSED(context);
 }
+

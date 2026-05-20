@@ -177,3 +177,4 @@ void view_exit(View* view) {
     furi_check(view);
     if(view->exit_callback) view->exit_callback(view->context);
 }
+

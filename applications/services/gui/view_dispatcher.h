@@ -205,3 +205,4 @@ void view_dispatcher_attach_to_gui(
 #ifdef __cplusplus
 }
 #endif
+

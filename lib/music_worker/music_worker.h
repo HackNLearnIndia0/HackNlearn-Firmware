@@ -35,3 +35,4 @@ void music_worker_start(MusicWorker* instance);
 void music_worker_stop(MusicWorker* instance);
 
 bool music_worker_is_playing(MusicWorker* instance);
+

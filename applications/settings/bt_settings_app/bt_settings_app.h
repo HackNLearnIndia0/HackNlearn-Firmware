@@ -43,3 +43,4 @@ typedef enum {
     BtSettingsAppViewDialog,
     BtSettingsAppViewPopup,
 } BtSettingsAppView;
+

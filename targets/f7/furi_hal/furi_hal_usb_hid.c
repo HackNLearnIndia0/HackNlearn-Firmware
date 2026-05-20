@@ -549,3 +549,4 @@ static usbd_respond hid_control(usbd_device* dev, usbd_ctlreq* req, usbd_rqc_cal
     }
     return usbd_fail;
 }
+

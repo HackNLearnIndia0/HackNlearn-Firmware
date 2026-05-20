@@ -99,3 +99,4 @@ WidgetElement* widget_element_line_create(uint8_t x1, uint8_t y1, uint8_t x2, ui
 #ifdef __cplusplus
 }
 #endif
+

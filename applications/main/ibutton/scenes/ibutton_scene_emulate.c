@@ -78,3 +78,4 @@ void ibutton_scene_emulate_on_exit(void* context) {
     widget_reset(ibutton->widget);
     ibutton_notification_message(ibutton, iButtonNotificationMessageBlinkStop);
 }
+

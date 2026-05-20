@@ -106,3 +106,4 @@ class QueueInspector:
             #  handle - so we return None
             print("Failed to get Type: %s" % str(exc))
             return None
+

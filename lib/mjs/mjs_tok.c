@@ -248,3 +248,4 @@ MJS_PRIVATE int pnext(struct pstate* p) {
     p->tok.tok = ptranslate(tok);
     return p->tok.tok;
 }
+

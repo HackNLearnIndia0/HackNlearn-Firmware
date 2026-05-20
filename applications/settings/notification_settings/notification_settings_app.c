@@ -267,3 +267,4 @@ int32_t notification_settings_app(void* p) {
     free_settings(app);
     return 0;
 }
+

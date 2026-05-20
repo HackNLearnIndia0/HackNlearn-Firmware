@@ -110,3 +110,4 @@ int32_t direct_draw_app(void* p) {
 
     return 0;
 }
+

@@ -169,3 +169,4 @@ void dialog_message_show_storage_error(DialogsApp* context, const char* error_te
 #ifdef __cplusplus
 }
 #endif
+

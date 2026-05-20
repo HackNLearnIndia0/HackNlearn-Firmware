@@ -340,3 +340,4 @@ void EXTI15_10_IRQHandler(void) {
         furi_hal_gpio_int_call(15);
     }
 }
+

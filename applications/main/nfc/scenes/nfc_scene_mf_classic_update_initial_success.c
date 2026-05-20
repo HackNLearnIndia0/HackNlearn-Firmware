@@ -41,3 +41,4 @@ void nfc_scene_mf_classic_update_initial_success_on_exit(void* context) {
     // Clear view
     popup_reset(instance->popup);
 }
+

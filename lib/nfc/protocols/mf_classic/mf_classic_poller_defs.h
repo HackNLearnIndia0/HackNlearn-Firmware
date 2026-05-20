@@ -11,3 +11,4 @@ extern const NfcPollerBase mf_classic_poller;
 #ifdef __cplusplus
 }
 #endif
+

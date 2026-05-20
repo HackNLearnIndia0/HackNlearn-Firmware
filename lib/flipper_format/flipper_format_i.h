@@ -17,3 +17,4 @@ Stream* flipper_format_get_raw_stream(FlipperFormat* flipper_format);
 #ifdef __cplusplus
 }
 #endif
+

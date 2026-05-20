@@ -28,3 +28,4 @@ const SceneManagerHandlers lfrfid_debug_scene_handlers = {
     .on_exit_handlers = lfrfid_debug_on_exit_handlers,
     .scene_num = LfRfidDebugSceneNum,
 };
+

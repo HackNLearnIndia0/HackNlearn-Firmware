@@ -57,3 +57,4 @@ void bad_usb_scene_config_on_exit(void* context) {
 
     variable_item_list_reset(var_item_list);
 }
+

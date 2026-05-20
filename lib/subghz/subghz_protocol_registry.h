@@ -13,3 +13,4 @@ typedef struct SubGhzProtocolDecoderBinRAW SubGhzProtocolDecoderBinRAW;
 #ifdef __cplusplus
 }
 #endif
+

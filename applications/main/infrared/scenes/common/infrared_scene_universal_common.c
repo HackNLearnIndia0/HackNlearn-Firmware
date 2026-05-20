@@ -213,3 +213,4 @@ void infrared_scene_universal_common_on_exit(void* context) {
     infrared_brute_force_reset(infrared->brute_force);
     button_panel_reset(button_panel);
 }
+

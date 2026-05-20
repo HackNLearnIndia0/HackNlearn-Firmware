@@ -350,3 +350,4 @@ void subghz_protocol_decoder_marantec24_get_string(void* context, FuriString* ou
         instance->generic.serial,
         instance->generic.btn);
 }
+

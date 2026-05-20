@@ -731,3 +731,4 @@ void storage_ext_init(StorageData* storage) {
     furi_hal_rtc_reset_flag(FuriHalRtcFlagStorageFormatInternal);
 #endif
 }
+

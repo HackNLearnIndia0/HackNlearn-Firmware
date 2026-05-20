@@ -733,3 +733,4 @@ BadUsbState* bad_usb_script_get_state(BadUsbScript* bad_usb) {
     furi_assert(bad_usb);
     return &(bad_usb->st);
 }
+

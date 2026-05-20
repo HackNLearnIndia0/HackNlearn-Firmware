@@ -31,3 +31,4 @@ uint32_t js_flags_wait(struct mjs* mjs, uint32_t flags, uint32_t timeout);
 #ifdef __cplusplus
 }
 #endif
+

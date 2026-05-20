@@ -103,3 +103,4 @@ void gui_lock(Gui* gui);
  * @param      gui   The Gui instance
  */
 void gui_unlock(Gui* gui);
+

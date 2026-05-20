@@ -160,3 +160,4 @@ void ibutton_worker_mode_write_common_stop(iButtonWorker* worker) { //-V524
     power_enable_otg(power, false);
     furi_record_close(RECORD_POWER);
 }
+

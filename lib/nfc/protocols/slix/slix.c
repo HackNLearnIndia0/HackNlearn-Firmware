@@ -502,3 +502,4 @@ bool slix_type_supports_password(SlixType slix_type, SlixPasswordType password_t
 
     return slix_type_features[slix_type] & slix_password_configs[password_type].feature_flag;
 }
+

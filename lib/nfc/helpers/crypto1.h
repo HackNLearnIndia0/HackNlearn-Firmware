@@ -52,3 +52,4 @@ uint32_t crypto1_prng_successor(uint32_t x, uint32_t n);
 #ifdef __cplusplus
 }
 #endif
+

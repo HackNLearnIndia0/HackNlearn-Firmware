@@ -51,3 +51,4 @@ bool loader_queue_push(LoaderLaunchQueue* queue, LoaderDeferredLaunchRecord* ite
  * @param[inout] queue Queue instance
  */
 void loader_queue_clear(LoaderLaunchQueue* queue);
+

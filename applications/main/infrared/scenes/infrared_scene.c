@@ -28,3 +28,4 @@ const SceneManagerHandlers infrared_scene_handlers = {
     .on_exit_handlers = infrared_on_exit_handlers,
     .scene_num = InfraredSceneNum,
 };
+

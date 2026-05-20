@@ -54,3 +54,4 @@ uint32_t subghz_setting_get_default_frequency(SubGhzSetting* instance);
 #ifdef __cplusplus
 }
 #endif
+

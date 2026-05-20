@@ -299,3 +299,4 @@ const ProtocolBase protocol_io_prox_xsf = {
     .render_brief_data = (ProtocolRenderData)protocol_io_prox_xsf_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_io_prox_xsf_write_data,
 };
+

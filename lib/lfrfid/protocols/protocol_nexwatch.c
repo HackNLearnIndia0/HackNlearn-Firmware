@@ -353,3 +353,4 @@ const ProtocolBase protocol_nexwatch = {
     .render_brief_data = (ProtocolRenderData)protocol_nexwatch_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_nexwatch_write_data,
 };
+

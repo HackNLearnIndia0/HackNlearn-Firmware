@@ -57,3 +57,4 @@ InfraredStatus infrared_encoder_rc6_encode_manchester(
     if(toggle_bit) *duration *= 2;
     return status;
 }
+

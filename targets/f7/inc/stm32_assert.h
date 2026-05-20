@@ -50,3 +50,4 @@ extern "C" {
 #endif
 
 #endif /* STM32_ASSERT_H */
+

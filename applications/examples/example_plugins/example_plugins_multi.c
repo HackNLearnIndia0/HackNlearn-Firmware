@@ -43,3 +43,4 @@ int32_t example_plugins_multi_app(void* p) {
 
     return 0;
 }
+

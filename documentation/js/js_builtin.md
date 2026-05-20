@@ -313,3 +313,4 @@ Checks whether all of the specified extra features are supported by the interpre
 ```js
 checkSdkFeatures(["gui-widget"]);
 ```
+

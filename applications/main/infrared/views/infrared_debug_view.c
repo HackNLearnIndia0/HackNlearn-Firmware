@@ -57,3 +57,4 @@ void infrared_debug_view_set_text(InfraredDebugView* debug_view, const char* fmt
 
     va_end(args);
 }
+

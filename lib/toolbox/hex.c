@@ -68,3 +68,4 @@ void uint8_to_hex_chars(const uint8_t* src, uint8_t* target, int length) {
     while(--length >= 0)
         target[length] = chars[(src[length >> 1] >> ((1 - (length & 1)) << 2)) & 0xF];
 }
+

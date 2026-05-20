@@ -107,3 +107,4 @@ SubGhzProtocolStatus
  * @param output Resulting text
  */
 void subghz_protocol_decoder_revers_rb2_get_string(void* context, FuriString* output);
+

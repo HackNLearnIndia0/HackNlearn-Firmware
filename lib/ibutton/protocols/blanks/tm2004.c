@@ -42,3 +42,4 @@ bool tm2004_write(OneWireHost* host, const uint8_t* data, size_t data_size) {
     // TODO FL-3529: Better error handling
     return i == data_size;
 }
+

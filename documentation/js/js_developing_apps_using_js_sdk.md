@@ -96,3 +96,4 @@ When you upload the script to Flipper with `npm start`, it gets transpiled to no
 You've learned how to run and debug simple JavaScript apps. But how can you access Flipper Zero's hardware from your JS code? For that, you'll need to use JS modules — which we'll cover in the next guide.
 
 **Next step:** [Using JavaScript modules](#js_using_js_modules)
+

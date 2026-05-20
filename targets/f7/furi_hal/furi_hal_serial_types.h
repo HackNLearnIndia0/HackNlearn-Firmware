@@ -55,3 +55,4 @@ typedef enum {
 } FuriHalSerialStopBits;
 
 typedef struct FuriHalSerialHandle FuriHalSerialHandle;
+

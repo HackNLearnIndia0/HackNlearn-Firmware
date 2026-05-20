@@ -187,3 +187,4 @@ void gpio_scene_usb_uart_cfg_on_exit(void* context) {
     variable_item_list_reset(app->var_item_list);
     free(app->usb_uart_cfg);
 }
+

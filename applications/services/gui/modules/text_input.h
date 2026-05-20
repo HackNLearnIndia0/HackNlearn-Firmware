@@ -91,3 +91,4 @@ void text_input_set_header_text(TextInput* text_input, const char* text);
 #ifdef __cplusplus
 }
 #endif
+

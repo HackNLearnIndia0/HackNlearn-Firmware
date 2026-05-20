@@ -147,3 +147,4 @@ void gpio_test_set_ok_callback(GpioTest* gpio_test, GpioTestOkCallback callback,
         },
         false);
 }
+

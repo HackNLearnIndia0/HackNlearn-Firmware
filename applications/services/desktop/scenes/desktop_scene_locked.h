@@ -4,3 +4,4 @@ typedef enum {
     DesktopSceneLockedStateFirstEnter,
     DesktopSceneLockedStateRepeatEnter,
 } DesktopSceneLockedState;
+

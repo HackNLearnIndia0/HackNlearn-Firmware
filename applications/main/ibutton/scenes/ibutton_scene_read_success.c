@@ -64,3 +64,4 @@ void ibutton_scene_read_success_on_exit(void* context) {
 
     ibutton_notification_message(ibutton, iButtonNotificationMessageGreenOff);
 }
+

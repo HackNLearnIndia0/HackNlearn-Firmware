@@ -260,3 +260,4 @@ void popup_reset(Popup* popup) {
     popup->timer_enabled = false;
     popup->timer_period_in_ms = 0;
 }
+

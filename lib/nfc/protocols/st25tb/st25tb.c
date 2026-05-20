@@ -261,3 +261,4 @@ St25tbType st25tb_get_type_from_uid(const uint8_t* uid) {
         furi_crash("unsupported st25tb type");
     }
 }
+

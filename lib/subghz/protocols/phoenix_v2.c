@@ -384,3 +384,4 @@ void subghz_protocol_decoder_phoenix_v2_get_string(void* context, FuriString* ou
         instance->generic.cnt,
         instance->generic.btn);
 }
+

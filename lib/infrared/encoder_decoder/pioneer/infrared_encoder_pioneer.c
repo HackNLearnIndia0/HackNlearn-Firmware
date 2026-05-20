@@ -59,3 +59,4 @@ InfraredStatus
     }
     return status;
 }
+

@@ -456,3 +456,4 @@ FuriEventLoop* js_event_loop_get_loop(JsEventLoop* loop) {
     furi_check(loop);
     return loop->loop;
 }
+

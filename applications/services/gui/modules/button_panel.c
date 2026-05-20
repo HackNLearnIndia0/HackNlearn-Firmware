@@ -445,3 +445,4 @@ void button_panel_add_icon(
         },
         true);
 }
+

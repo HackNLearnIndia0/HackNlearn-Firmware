@@ -42,3 +42,4 @@ WidgetElement* widget_element_icon_create(uint8_t x, uint8_t y, const Icon* icon
 
     return gui_icon;
 }
+

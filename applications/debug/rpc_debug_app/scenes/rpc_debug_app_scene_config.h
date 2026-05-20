@@ -6,3 +6,4 @@ ADD_SCENE(rpc_debug_app, input_error_code, InputErrorCode)
 ADD_SCENE(rpc_debug_app, input_error_text, InputErrorText)
 ADD_SCENE(rpc_debug_app, input_data_exchange, InputDataExchange)
 ADD_SCENE(rpc_debug_app, receive_data_exchange, ReceiveDataExchange)
+

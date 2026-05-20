@@ -722,3 +722,4 @@ FelicaError
 
     return ret;
 }
+

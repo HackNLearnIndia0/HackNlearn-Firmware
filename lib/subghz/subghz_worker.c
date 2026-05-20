@@ -147,3 +147,4 @@ void subghz_worker_set_filter(SubGhzWorker* instance, uint16_t timeout) {
     furi_check(instance);
     instance->filter_duration = timeout;
 }
+

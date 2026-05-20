@@ -83,3 +83,4 @@ int32_t ducky_error(BadUsbScript* bad_usb, const char* text, ...);
 #ifdef __cplusplus
 }
 #endif
+

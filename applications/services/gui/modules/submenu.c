@@ -423,3 +423,4 @@ void submenu_set_header(Submenu* submenu, const char* header) {
         },
         true);
 }
+

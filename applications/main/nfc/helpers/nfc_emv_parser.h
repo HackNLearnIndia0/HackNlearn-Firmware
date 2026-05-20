@@ -38,3 +38,4 @@ bool nfc_emv_parser_get_currency_name(
     Storage* storage,
     uint16_t currency_code,
     FuriString* currency_name);
+

@@ -17,3 +17,4 @@ public:
     // event type
     Type type;
 };
+

@@ -119,3 +119,4 @@ STRINT_MONO(strint_to_uint32, uint32_t, 0, UINT32_MAX)
 STRINT_MONO(strint_to_int32, int32_t, (uint64_t)INT32_MAX + 1, INT32_MAX)
 STRINT_MONO(strint_to_uint16, uint16_t, 0, UINT16_MAX)
 STRINT_MONO(strint_to_int16, int16_t, (uint64_t)INT16_MAX + 1, INT16_MAX)
+

@@ -602,3 +602,4 @@ bool subghz_txrx_radio_device_is_frequecy_valid(SubGhzTxRx* instance, uint32_t f
     furi_assert(instance);
     return subghz_devices_is_frequency_valid(instance->radio_device, frequency);
 }
+

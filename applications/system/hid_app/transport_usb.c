@@ -59,3 +59,4 @@ void hid_hal_mouse_release_all(Hid* instance) {
     furi_hal_hid_mouse_release(HID_MOUSE_BTN_LEFT);
     furi_hal_hid_mouse_release(HID_MOUSE_BTN_RIGHT);
 }
+

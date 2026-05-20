@@ -46,3 +46,4 @@ size_t subghz_protocol_registry_count(const SubGhzProtocolRegistry* protocol_reg
 #ifdef __cplusplus
 }
 #endif
+

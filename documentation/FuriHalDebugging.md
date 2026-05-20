@@ -28,3 +28,4 @@ There are 2 signals that will be exposed to external GPIO pins:
 ## FuriHalSD
 
 `--extra-define=FURI_HAL_SD_SPI_DEBUG` enables SD card SPI bus logging.
+

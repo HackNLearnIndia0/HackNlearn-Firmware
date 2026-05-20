@@ -34,3 +34,4 @@ typedef enum {
 
     NfcProtocolSupportSceneCount, /**< Special value equal to total scene count. Internal use. */
 } NfcProtocolSupportScene;
+

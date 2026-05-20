@@ -64,3 +64,4 @@ WidgetElement* widget_element_string_multiline_create(
 
     return gui_string;
 } //-V773
+

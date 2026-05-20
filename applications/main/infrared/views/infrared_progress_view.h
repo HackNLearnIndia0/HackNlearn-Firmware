@@ -81,3 +81,4 @@ void infrared_progress_view_set_input_callback(
 #ifdef __cplusplus
 }
 #endif
+

@@ -30,3 +30,4 @@ struct SubGhzTestApp {
     SubGhzTestCarrier* subghz_test_carrier;
     SubGhzTestPacket* subghz_test_packet;
 };
+

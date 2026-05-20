@@ -219,3 +219,4 @@ void u8g2_SetDrawColor(u8g2_t* u8g2, uint8_t color) {
     if(color >= 3)
         u8g2->draw_color = 1; /* u8g2_SetDrawColor: make color as one if arg is invalid */
 }
+

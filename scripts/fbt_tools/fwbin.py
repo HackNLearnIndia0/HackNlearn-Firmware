@@ -74,3 +74,4 @@ def exists(env):
         return objcopy
 
     raise SCons.Errors.StopError("Could not detect objcopy for arm")
+

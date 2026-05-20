@@ -41,3 +41,4 @@ static const FlipperAppPluginDescriptor advanced_plugin2_descriptor = {
 const FlipperAppPluginDescriptor* advanced_plugin2_ep(void) {
     return &advanced_plugin2_descriptor;
 }
+

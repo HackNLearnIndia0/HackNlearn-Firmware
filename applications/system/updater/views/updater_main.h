@@ -24,3 +24,4 @@ void updater_main_set_storage_pubsub(UpdaterMainView* main_view, FuriPubSubSubsc
 FuriPubSubSubscription* updater_main_get_storage_pubsub(UpdaterMainView* main_view);
 
 void updater_main_set_view_dispatcher(UpdaterMainView* main_view, ViewDispatcher* view_dispatcher);
+

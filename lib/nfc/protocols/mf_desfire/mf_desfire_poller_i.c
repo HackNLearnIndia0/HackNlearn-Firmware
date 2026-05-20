@@ -549,3 +549,4 @@ MfDesfireError mf_desfire_poller_read_applications(
 
     return error;
 }
+

@@ -11,3 +11,4 @@ extern const SubGhzDeviceRegistry subghz_device_registry;
 #ifdef __cplusplus
 }
 #endif
+

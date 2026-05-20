@@ -38,3 +38,4 @@ void hci_register_io_bus(tHciIO* fops) {
     fops->Init = TL_BLE_Init;
     fops->Send = ble_glue_TL_BLE_SendCmd;
 }
+

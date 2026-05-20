@@ -30,3 +30,4 @@ __attribute__((__noreturn__)) void
 #ifdef __cplusplus
 }
 #endif
+

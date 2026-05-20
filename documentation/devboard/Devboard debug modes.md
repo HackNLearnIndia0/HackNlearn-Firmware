@@ -31,3 +31,4 @@ Switching debug modes for working via USB has to be done wirelessly (yes, you re
 > [!note]
 > After switching debug modes on your Devboard, remember to select the same debugger in **VS Code** in the **Run and Debug** tab, and click the ▷ **Start Debugging** button.
 
+

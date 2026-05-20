@@ -11,3 +11,4 @@ bool nfc_scene_rpc_on_event(void* context, SceneManagerEvent event) {
 void nfc_scene_rpc_on_exit(void* context) {
     nfc_protocol_support_on_exit(NfcProtocolSupportSceneRpc, context);
 }
+

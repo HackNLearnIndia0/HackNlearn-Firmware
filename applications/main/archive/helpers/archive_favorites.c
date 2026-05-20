@@ -381,3 +381,4 @@ void archive_favorites_handle_setting_pin_unpin(const char* app_name, const char
     furi_string_free(setting_path);
     dialog_message_free(message);
 }
+

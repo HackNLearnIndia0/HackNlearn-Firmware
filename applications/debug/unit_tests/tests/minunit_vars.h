@@ -13,3 +13,4 @@ double minunit_proc_timer = 0;
 
 /*  Last message */
 char minunit_last_message[MINUNIT_MESSAGE_LEN];
+

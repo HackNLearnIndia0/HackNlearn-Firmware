@@ -89,3 +89,4 @@ void archive_app_delete_file(void* context, const char* path) {
         archive_file_array_rm_selected(browser);
     }
 }
+

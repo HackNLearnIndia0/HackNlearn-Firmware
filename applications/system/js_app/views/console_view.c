@@ -162,3 +162,4 @@ void console_view_free(JsConsoleView* console_view) {
 View* console_view_get_view(JsConsoleView* console_view) {
     return console_view->view;
 }
+

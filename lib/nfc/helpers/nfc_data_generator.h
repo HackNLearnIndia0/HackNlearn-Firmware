@@ -38,3 +38,4 @@ void nfc_data_generator_fill_data(NfcDataGeneratorType type, NfcDevice* nfc_devi
 #ifdef __cplusplus
 }
 #endif
+

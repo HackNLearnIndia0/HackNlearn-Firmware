@@ -350,3 +350,4 @@ void subghz_protocol_decoder_feron_get_string(void* context, FuriString* output)
         instance->generic.serial,
         (uint32_t)(instance->generic.data & 0xFFFF));
 }
+

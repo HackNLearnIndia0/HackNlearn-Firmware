@@ -101,3 +101,4 @@ Iso14443_3bData* iso14443_4b_get_base_data(const Iso14443_4bData* data) {
 
     return data->iso14443_3b_data;
 }
+

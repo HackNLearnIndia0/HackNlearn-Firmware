@@ -282,3 +282,4 @@ static const FlipperAppPluginDescriptor banapass_plugin_descriptor = {
 const FlipperAppPluginDescriptor* banapass_plugin_ep(void) {
     return &banapass_plugin_descriptor;
 }
+

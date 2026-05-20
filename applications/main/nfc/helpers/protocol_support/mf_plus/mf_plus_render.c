@@ -65,3 +65,4 @@ void nfc_render_mf_plus_version(const MfPlusVersion* data, FuriString* str) {
         data->prod_week,
         data->prod_year);
 }
+

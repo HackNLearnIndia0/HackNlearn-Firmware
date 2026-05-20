@@ -30,3 +30,4 @@ bool mf_plus_security_level_save(const MfPlusSecurityLevel* data, FlipperFormat*
 bool mf_plus_type_save(const MfPlusType* data, FlipperFormat* ff);
 
 bool mf_plus_size_save(const MfPlusSize* data, FlipperFormat* ff);
+

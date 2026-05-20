@@ -456,3 +456,4 @@ const ProtocolBase protocol_electra = {
     .render_brief_data = (ProtocolRenderData)protocol_electra_render_data,
     .write_data = (ProtocolWriteData)protocol_electra_write_data,
 };
+

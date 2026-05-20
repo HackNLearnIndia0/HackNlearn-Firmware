@@ -120,3 +120,4 @@ void ibutton_worker_stop(iButtonWorker* worker);
 #ifdef __cplusplus
 }
 #endif
+

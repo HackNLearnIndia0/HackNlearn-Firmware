@@ -571,3 +571,4 @@ bool compress_stream_decoder_rewind(CompressStreamDecoder* instance) {
 
     return true;
 }
+

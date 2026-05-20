@@ -24,3 +24,4 @@ class HeatshrinkDataStreamHeader:
         if version != HeatshrinkDataStreamHeader.VERSION:
             raise ValueError("Invalid version")
         return HeatshrinkDataStreamHeader(window_size, lookahead_size)
+
