@@ -36,7 +36,7 @@ body:
   id: logs
   attributes:
     label: Logs
-    description: Attach your debug logs here
+    description: Attach your  debug logs here
     render: Text
     # Avoid rendering as Markdown here.
 - type: textarea
