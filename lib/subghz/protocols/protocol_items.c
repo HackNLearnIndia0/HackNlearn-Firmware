@@ -1,6 +1,7 @@
 #include "protocol_items.h" // IWYU pragma: keep
 
 const SubGhzProtocol* const subghz_protocol_registry_items[] = {
+    // ===== EXISTING PROTOCOLS =====
     &subghz_protocol_gate_tx,
     &subghz_protocol_keeloq,
     &subghz_protocol_star_line,
@@ -53,6 +54,10 @@ const SubGhzProtocol* const subghz_protocol_registry_items[] = {
     &subghz_protocol_revers_rb2,
     &subghz_protocol_feron,
     &subghz_protocol_roger,
+
+    // ===== HACKNLEARN INDIA - INDIA SPECIFIC =====
+    &subghz_protocol_godrej_india,
+    &subghz_protocol_anchor_india,
 };
 
 const SubGhzProtocolRegistry subghz_protocol_registry = {

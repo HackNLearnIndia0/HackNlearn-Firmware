@@ -2,6 +2,7 @@
 #include "../registry.h"
 #include "../subghz_protocol_registry.h"
 
+// ===== EXISTING PROTOCOLS =====
 #include "princeton.h"
 #include "keeloq.h"
 #include "star_line.h"
@@ -54,3 +55,7 @@
 #include "revers_rb2.h"
 #include "feron.h"
 #include "roger.h"
+
+// ===== HACKNLEARN INDIA - INDIA SPECIFIC =====
+#include "godrej_india.h"
+#include "anchor_india.h"
