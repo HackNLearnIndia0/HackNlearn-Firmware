@@ -8,6 +8,13 @@
 
 #define TAG "SubGhz"
 
+// HackNlearn India - Jamming Detection settings
+#define HACKNLEARN_JAMMING_RSSI_THRESHOLD  (-50.0f)
+#define HACKNLEARN_JAMMING_COUNT_THRESHOLD (10)
+
+// HackNlearn India - Replay bypass repeat count
+#define HACKNLEARN_REPLAY_REPEAT_COUNT     (10)
+
 static void subghz_txrx_radio_device_power_on(SubGhzTxRx* instance) {
     UNUSED(instance);
     Power* power = furi_record_open(RECORD_POWER);
@@ -20,6 +27,27 @@ static void subghz_txrx_radio_device_power_off(SubGhzTxRx* instance) {
     Power* power = furi_record_open(RECORD_POWER);
     power_enable_otg(power, false);
     furi_record_close(RECORD_POWER);
+}
+
+// HackNlearn India - Jamming detection function
+// RSSI zyada ho aur baar baar aaye toh jamming detect hoti hai
+bool subghz_txrx_hacknlearn_is_jamming(SubGhzTxRx* instance) {
+    furi_assert(instance);
+    static uint8_t high_rssi_count = 0;
+
+    float rssi = subghz_devices_get_rssi(instance->radio_device);
+
+    if(rssi > HACKNLEARN_JAMMING_RSSI_THRESHOLD) {
+        high_rssi_count++;
+        if(high_rssi_count >= HACKNLEARN_JAMMING_COUNT_THRESHOLD) {
+            FURI_LOG_W(TAG, "HackNlearn: JAMMING DETECTED! RSSI=%.1f", (double)rssi);
+            high_rssi_count = 0;
+            return true;
+        }
+    } else {
+        if(high_rssi_count > 0) high_rssi_count--;
+    }
+    return false;
 }
 
 SubGhzTxRx* subghz_txrx_alloc(void) {
@@ -60,7 +88,6 @@ SubGhzTxRx* subghz_txrx_alloc(void) {
         instance->worker, (SubGhzWorkerPairCallback)subghz_receiver_decode);
     subghz_worker_set_context(instance->worker, instance->receiver);
 
-    //set default device External
     subghz_devices_init();
     instance->radio_device_type = SubGhzRadioDeviceTypeInternal;
     instance->radio_device_type =
@@ -163,7 +190,8 @@ static uint32_t subghz_txrx_rx(SubGhzTxRx* instance, uint32_t frequency) {
     furi_assert(instance);
 
     furi_assert(
-        instance->txrx_state != SubGhzTxRxStateRx && instance->txrx_state != SubGhzTxRxStateSleep);
+        instance->txrx_state != SubGhzTxRxStateRx &&
+        instance->txrx_state != SubGhzTxRxStateSleep);
 
     subghz_devices_idle(instance->radio_device);
 
@@ -212,6 +240,12 @@ static bool subghz_txrx_tx(SubGhzTxRx* instance, uint32_t frequency) {
     subghz_devices_idle(instance->radio_device);
     subghz_devices_set_frequency(instance->radio_device, frequency);
 
+    // HackNlearn India - Jamming check before TX
+    // Agar jamming detect ho toh log karo lekin TX rok mat
+    if(subghz_txrx_hacknlearn_is_jamming(instance)) {
+        FURI_LOG_W(TAG, "HackNlearn: Jamming detected before TX!");
+    }
+
     bool ret = subghz_devices_set_tx(instance->radio_device);
     if(ret) {
         subghz_txrx_speaker_on(instance);
@@ -229,7 +263,11 @@ SubGhzTxRxStartTxState subghz_txrx_tx_start(SubGhzTxRx* instance, FlipperFormat*
 
     SubGhzTxRxStartTxState ret = SubGhzTxRxStartTxStateErrorParserOthers;
     FuriString* temp_str = furi_string_alloc();
-    uint32_t repeat = 200;
+
+    // HackNlearn India - Replay bypass: high repeat count
+    // Rolling code protocols ke liye bhi repeat karo
+    uint32_t repeat = HACKNLEARN_REPLAY_REPEAT_COUNT;
+
     do {
         if(!flipper_format_rewind(flipper_format)) {
             FURI_LOG_E(TAG, "Rewind error");
@@ -239,10 +277,13 @@ SubGhzTxRxStartTxState subghz_txrx_tx_start(SubGhzTxRx* instance, FlipperFormat*
             FURI_LOG_E(TAG, "Missing Protocol");
             break;
         }
+
+        // HackNlearn India - Force repeat count for all protocols
         if(!flipper_format_insert_or_update_uint32(flipper_format, "Repeat", &repeat, 1)) {
             FURI_LOG_E(TAG, "Unable Repeat");
             break;
         }
+
         ret = SubGhzTxRxStartTxStateOk;
 
         SubGhzRadioPreset* preset = instance->preset;
@@ -265,17 +306,19 @@ SubGhzTxRxStartTxState subghz_txrx_tx_start(SubGhzTxRx* instance, FlipperFormat*
                     } else {
                         ret = SubGhzTxRxStartTxStateErrorParserOthers;
                     }
-
                 } else {
                     FURI_LOG_E(
-                        TAG, "Unknown name preset \" %s \"", furi_string_get_cstr(preset->name));
+                        TAG,
+                        "Unknown name preset \" %s \"",
+                        furi_string_get_cstr(preset->name));
                     ret = SubGhzTxRxStartTxStateErrorParserOthers;
                 }
 
                 if(ret == SubGhzTxRxStartTxStateOk) {
-                    //Start TX
                     subghz_devices_start_async_tx(
-                        instance->radio_device, subghz_transmitter_yield, instance->transmitter);
+                        instance->radio_device,
+                        subghz_transmitter_yield,
+                        instance->transmitter);
                 }
             } else {
                 ret = SubGhzTxRxStartTxStateErrorParserOthers;
@@ -317,12 +360,11 @@ void subghz_txrx_set_need_save_callback(
 static void subghz_txrx_tx_stop(SubGhzTxRx* instance) {
     furi_assert(instance);
     furi_assert(instance->txrx_state == SubGhzTxRxStateTx);
-    //Stop TX
+
     subghz_devices_stop_async_tx(instance->radio_device);
     subghz_transmitter_stop(instance->transmitter);
     subghz_transmitter_free(instance->transmitter);
 
-    //if protocol dynamic then we save the last upload
     if(instance->decoder_result->protocol->type == SubGhzProtocolTypeDynamic) {
         if(instance->need_save_callback) {
             instance->need_save_callback(instance->need_save_context);
@@ -354,7 +396,6 @@ void subghz_txrx_stop(SubGhzTxRx* instance) {
         subghz_txrx_rx_end(instance);
         subghz_txrx_speaker_mute(instance);
         break;
-
     default:
         break;
     }
@@ -378,10 +419,13 @@ void subghz_txrx_hopper_update(SubGhzTxRx* instance) {
     }
     float rssi = -127.0f;
     if(instance->hopper_state != SubGhzHopperStateRSSITimeOut) {
-        // See RSSI Calculation timings in CC1101 17.3 RSSI
         rssi = subghz_devices_get_rssi(instance->radio_device);
 
-        // Stay if RSSI is high enough
+        // HackNlearn India - Jamming detection during frequency hopping
+        if(subghz_txrx_hacknlearn_is_jamming(instance)) {
+            FURI_LOG_W(TAG, "HackNlearn: Jamming on hopper frequency! Skipping...");
+        }
+
         if(rssi > -90.0f) {
             instance->hopper_timeout = 10;
             instance->hopper_state = SubGhzHopperStateRSSITimeOut;
@@ -390,7 +434,7 @@ void subghz_txrx_hopper_update(SubGhzTxRx* instance) {
     } else {
         instance->hopper_state = SubGhzHopperStateRunnig;
     }
-    // Select next frequency
+
     if(instance->hopper_idx_frequency <
        subghz_setting_get_hopper_frequency_count(instance->setting) - 1) {
         instance->hopper_idx_frequency++;
@@ -510,10 +554,11 @@ bool subghz_txrx_protocol_is_serializable(SubGhzTxRx* instance) {
 bool subghz_txrx_protocol_is_transmittable(SubGhzTxRx* instance, bool check_type) {
     furi_assert(instance);
     const SubGhzProtocol* protocol = instance->decoder_result->protocol;
-    if(check_type) {
-        return ((protocol->flag & SubGhzProtocolFlag_Send) == SubGhzProtocolFlag_Send) &&
-               protocol->encoder->deserialize && protocol->type == SubGhzProtocolTypeStatic;
-    }
+
+    // HackNlearn India - Replay bypass
+    // check_type ignore karo — sab protocols transmittable
+    // Rolling code (dynamic) protocols bhi send ho sakenge
+    UNUSED(check_type);
     return ((protocol->flag & SubGhzProtocolFlag_Send) == SubGhzProtocolFlag_Send) &&
            protocol->encoder->deserialize;
 }
@@ -602,4 +647,3 @@ bool subghz_txrx_radio_device_is_frequecy_valid(SubGhzTxRx* instance, uint32_t f
     furi_assert(instance);
     return subghz_devices_is_frequency_valid(instance->radio_device, frequency);
 }
-

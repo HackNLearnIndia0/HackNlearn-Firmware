@@ -1,0 +1,127 @@
+# HackNlearn India - Ultimate TX/RX Complete
+# Internal antenna optimized
+Filetype: Flipper SubGhz Setting File
+Version: 1
+
+Add_standard_frequencies: true
+Default_frequency: 433920000
+ignore_default_tx_region: true
+
+# 300-348 MHz range
+Frequency: 300000000
+Frequency: 303875000
+Frequency: 304250000
+Frequency: 307500000
+Frequency: 310000000
+Frequency: 312000000
+Frequency: 313850000
+Frequency: 314350000
+Frequency: 314980000
+Frequency: 315000000
+Frequency: 318000000
+Frequency: 330000000
+Frequency: 345000000
+Frequency: 348000000
+
+# 387-464 MHz range
+Frequency: 387000000
+Frequency: 390000000
+Frequency: 418000000
+Frequency: 433075000
+Frequency: 433420000
+Frequency: 433920000
+Frequency: 434420000
+Frequency: 434775000
+Frequency: 438000000
+Frequency: 440175000
+Frequency: 464000000
+
+# 779-928 MHz range
+Frequency: 779000000
+Frequency: 868350000
+Frequency: 868800000
+Frequency: 869525000
+Frequency: 915000000
+Frequency: 925000000
+Frequency: 928000000
+
+# Hopper
+Hopper_frequency: 315000000
+Hopper_frequency: 433920000
+Hopper_frequency: 868350000
+Hopper_frequency: 915000000
+
+# Car remote 433 MHz
+Custom_preset_name: TXRX_Car_433
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C0 C0 C0 C0 C0 C0 C0 C0
+
+# Car remote 315 MHz
+Custom_preset_name: TXRX_Car_315
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C2 C2 C2 C2 C2 C2 C2 C2
+
+# Gate / Garage door 433 MHz
+Custom_preset_name: TXRX_Gate_433
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 67 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C0 C0 C0 C0 C0 C0 C0 C0
+
+# Gate / Garage door 315 MHz
+Custom_preset_name: TXRX_Gate_315
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 67 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C2 C2 C2 C2 C2 C2 C2 C2
+
+# Weather station 433 MHz
+Custom_preset_name: TXRX_Weather_433
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C0 C0 C0 C0 C0 C0 C0 C0
+
+# Doorbell 433 MHz
+Custom_preset_name: TXRX_Doorbell_433
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C0 C0 C0 C0 C0 C0 C0 C0
+
+# Doorbell 868 MHz
+Custom_preset_name: TXRX_Doorbell_868
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C2 C2 C2 C2 C2 C2 C2 C2
+
+# Industrial ISM 433 MHz
+Custom_preset_name: TXRX_ISM_433
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C0 C0 C0 C0 C0 C0 C0 C0
+
+# Industrial ISM 868 MHz
+Custom_preset_name: TXRX_ISM_868
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C2 C2 C2 C2 C2 C2 C2 C2
+
+# Industrial ISM 915 MHz
+Custom_preset_name: TXRX_ISM_915
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C2 C2 C2 C2 C2 C2 C2 C2
+
+# Smart home 868 MHz
+Custom_preset_name: TXRX_SmartHome_868
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C2 C2 C2 C2 C2 C2 C2 C2
+
+# Smart home 915 MHz
+Custom_preset_name: TXRX_SmartHome_915
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C2 C2 C2 C2 C2 C2 C2 C2
+
+# Narrow band noise rejection
+Custom_preset_name: TXRX_NarrowBand
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 10 21 B6 00 00 C0 C0 C0 C0 C0 C0 C0 C0
+
+# FM modulation 433 MHz
+Custom_preset_name: TXRX_FM_433
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 56 00 00 C0 C0 C0 C0 C0 C0 C0 C0
+
+# Max power all bands
+Custom_preset_name: TXRX_MaxPower
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 03 07 08 32 0B 06 14 00 13 00 12 30 11 32 10 17 18 18 19 18 1D 91 1C 00 1B 07 20 FB 22 11 21 B6 00 00 C0 C0 C0 C0 C0 C0 C0 C0

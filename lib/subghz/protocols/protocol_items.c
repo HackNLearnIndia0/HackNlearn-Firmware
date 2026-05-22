@@ -1,59 +1,8 @@
 ﻿#include "protocol_items.h"
 
-#include "alutech_at_4n.h"
-#include "ansonic.h"
-#include "bett.h"
-#include "bin_raw.h"
-#include "came.h"
-#include "came_atomo.h"
-#include "came_twee.h"
-#include "chamberlain_code.h"
-#include "clemsa.h"
-#include "dickert_mahs.h"
-#include "doitrand.h"
-#include "dooya.h"
-#include "faac_slh.h"
-#include "feron.h"
-#include "gangqi.h"
-#include "gate_tx.h"
-#include "hay21.h"
-#include "hollarm.h"
-#include "holtek.h"
-#include "holtek_ht12x.h"
-#include "honeywell_wdb.h"
-#include "hormann.h"
-#include "ido.h"
-#include "intertechno_v3.h"
-#include "keeloq.h"
-#include "kia.h"
-#include "kinggates_stylo_4k.h"
-#include "legrand.h"
-#include "linear.h"
-#include "linear_delta3.h"
-#include "magellan.h"
-#include "marantec.h"
-#include "marantec24.h"
-#include "mastercode.h"
-#include "megacode.h"
-#include "nero_radio.h"
-#include "nero_sketch.h"
-#include "nice_flo.h"
-#include "nice_flor_s.h"
-#include "phoenix_v2.h"
-#include "power_smart.h"
-#include "princeton.h"
-#include "revers_rb2.h"
-#include "roger.h"
-#include "scher_khan.h"
-#include "secplus_v1.h"
-#include "secplus_v2.h"
-#include "smc5326.h"
-#include "somfy_keytis.h"
-#include "somfy_telis.h"
-#include "star_line.h"
-#include "raw.h"
-
-const SubGhzProtocol* subghz_protocol_registry_items[] = {
+const SubGhzProtocol* const subghz_protocol_registry_items[] = {
+    // ===== EXISTING PROTOCOLS =====
+    &subghz_protocol_gate_tx,
     &subghz_protocol_keeloq,
     &subghz_protocol_kia,
     &subghz_protocol_came,
@@ -87,25 +36,10 @@ const SubGhzProtocol* subghz_protocol_registry_items[] = {
     &subghz_protocol_mastercode,
     &subghz_protocol_megacode,
     &subghz_protocol_roger,
-    &subghz_protocol_intertechno_v3,
-    &subghz_protocol_power_smart,
-    &subghz_protocol_nero_radio,
-    &subghz_protocol_nero_sketch,
-    &subghz_protocol_secplus_v1,
-    &subghz_protocol_secplus_v2,
-    &subghz_protocol_star_line,
-    &subghz_protocol_scher_khan,
-    &subghz_protocol_somfy_keytis,
-    &subghz_protocol_somfy_telis,
-    &subghz_protocol_feron,
-    &subghz_protocol_gangqi,
-    &subghz_protocol_hollarm,
-    &subghz_protocol_honeywell_wdb,
-    &subghz_protocol_legrand,
-    &subghz_protocol_magellan,
-    &subghz_protocol_revers_rb2,
-    &subghz_protocol_bin_raw,
-    &subghz_protocol_raw,
+
+    // ===== HACKNLEARN INDIA - INDIA SPECIFIC =====
+    &subghz_protocol_godrej_india,
+    &subghz_protocol_anchor_india,
 };
 
 const size_t subghz_protocol_registry_items_count =
@@ -113,5 +47,4 @@ const size_t subghz_protocol_registry_items_count =
 
 const SubGhzProtocolRegistry subghz_protocol_registry = {
     .items = subghz_protocol_registry_items,
-    .size = COUNT_OF(subghz_protocol_registry_items),
-};
+    .size = COUNT_OF(subghz_protocol_registry_items)};

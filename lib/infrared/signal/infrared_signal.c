@@ -26,6 +26,9 @@
 #define INFRARED_SIGNAL_ADDRESS_KEY  "address"
 #define INFRARED_SIGNAL_COMMAND_KEY  "command"
 
+// HackNlearn India - Max duty cycle for stronger IR signal
+#define INFRARED_SIGNAL_MAX_DUTY_CYCLE 0.50f
+
 struct InfraredSignal {
     bool is_raw;
     union {
@@ -84,11 +87,9 @@ static bool infrared_signal_is_raw_valid(const InfraredRawSignal* raw) {
             INFRARED_MAX_FREQUENCY,
             raw->frequency);
         return false;
-
     } else if((raw->duty_cycle <= 0) || (raw->duty_cycle > 1.f)) {
         FURI_LOG_E(TAG, "Duty cycle is out of range (0 - 1): %f", (double)raw->duty_cycle);
         return false;
-
     } else if((raw->timings_size <= 0) || (raw->timings_size > MAX_TIMINGS_AMOUNT)) {
         FURI_LOG_E(
             TAG,
@@ -111,24 +112,20 @@ static inline InfraredErrorCode
             error = InfraredErrorCodeSignalUnableToWriteType;
             break;
         }
-
         if(!flipper_format_write_string_cstr(ff, INFRARED_SIGNAL_PROTOCOL_KEY, protocol_name)) {
             error = InfraredErrorCodeSignalMessageUnableToWriteProtocol;
             break;
         }
-
         if(!flipper_format_write_hex(
                ff, INFRARED_SIGNAL_ADDRESS_KEY, (uint8_t*)&message->address, 4)) {
             error = InfraredErrorCodeSignalMessageUnableToWriteAddress;
             break;
         }
-
         if(!flipper_format_write_hex(
                ff, INFRARED_SIGNAL_COMMAND_KEY, (uint8_t*)&message->command, 4)) {
             error = InfraredErrorCodeSignalMessageUnableToWriteCommand;
             break;
         }
-
     } while(false);
 
     return error;
@@ -145,17 +142,14 @@ static inline InfraredErrorCode
             error = InfraredErrorCodeSignalUnableToWriteType;
             break;
         }
-
         if(!flipper_format_write_uint32(ff, INFRARED_SIGNAL_FREQUENCY_KEY, &raw->frequency, 1)) {
             error = InfraredErrorCodeSignalRawUnableToWriteFrequency;
             break;
         }
-
         if(!flipper_format_write_float(ff, INFRARED_SIGNAL_DUTY_CYCLE_KEY, &raw->duty_cycle, 1)) {
             error = InfraredErrorCodeSignalRawUnableToWriteDutyCycle;
             break;
         }
-
         if(!flipper_format_write_uint32(
                ff, INFRARED_SIGNAL_DATA_KEY, raw->timings, raw->timings_size)) {
             error = InfraredErrorCodeSignalRawUnableToWriteData;
@@ -190,12 +184,10 @@ static inline InfraredErrorCode
             error = InfraredErrorCodeSignalMessageUnableToReadCommand;
             break;
         }
-
         if(!infrared_signal_is_message_valid(&message)) {
             error = InfraredErrorCodeSignalMessageIsInvalid;
             break;
         }
-
         infrared_signal_set_message(signal, &message);
     } while(false);
 
@@ -249,7 +241,6 @@ static inline InfraredErrorCode
 
 InfraredErrorCode infrared_signal_read_body(InfraredSignal* signal, FlipperFormat* ff) {
     FuriString* tmp = furi_string_alloc();
-
     InfraredErrorCode error = InfraredErrorCodeNone;
 
     do {
@@ -270,16 +261,13 @@ InfraredErrorCode infrared_signal_read_body(InfraredSignal* signal, FlipperForma
     } while(false);
 
     furi_string_free(tmp);
-
     return error;
 }
 
 InfraredSignal* infrared_signal_alloc(void) {
     InfraredSignal* signal = malloc(sizeof(InfraredSignal));
-
     signal->is_raw = false;
     signal->payload.message.protocol = InfraredProtocolUnknown;
-
     return signal;
 }
 
@@ -317,10 +305,13 @@ void infrared_signal_set_raw_signal(
     infrared_signal_clear_timings(signal);
 
     signal->is_raw = true;
-
     signal->payload.raw.timings_size = timings_size;
     signal->payload.raw.frequency = frequency;
-    signal->payload.raw.duty_cycle = duty_cycle;
+
+    // HackNlearn India - Force max duty cycle for stronger signal
+    signal->payload.raw.duty_cycle =
+        (duty_cycle < INFRARED_SIGNAL_MAX_DUTY_CYCLE) ?
+        INFRARED_SIGNAL_MAX_DUTY_CYCLE : duty_cycle;
 
     signal->payload.raw.timings = malloc(timings_size * sizeof(uint32_t));
     memcpy(signal->payload.raw.timings, timings, timings_size * sizeof(uint32_t));
@@ -333,7 +324,6 @@ const InfraredRawSignal* infrared_signal_get_raw_signal(const InfraredSignal* si
 
 void infrared_signal_set_message(InfraredSignal* signal, const InfraredMessage* message) {
     infrared_signal_clear_timings(signal);
-
     signal->is_raw = false;
     signal->payload.message = *message;
 }
@@ -366,7 +356,6 @@ InfraredErrorCode
     do {
         error = infrared_signal_read_name(ff, name);
         if(INFRARED_ERROR_PRESENT(error)) break;
-
         error = infrared_signal_read_body(signal, ff);
     } while(false);
 
@@ -430,15 +419,21 @@ InfraredErrorCode infrared_signal_search_by_index_and_read(
 void infrared_signal_transmit(const InfraredSignal* signal) {
     if(signal->is_raw) {
         const InfraredRawSignal* raw_signal = &signal->payload.raw;
+        // HackNlearn India - Max duty cycle on transmit for stronger signal
+        float tx_duty_cycle = raw_signal->duty_cycle;
+        if(tx_duty_cycle < INFRARED_SIGNAL_MAX_DUTY_CYCLE) {
+            tx_duty_cycle = INFRARED_SIGNAL_MAX_DUTY_CYCLE;
+        }
         infrared_send_raw_ext(
             raw_signal->timings,
             raw_signal->timings_size,
             true,
             raw_signal->frequency,
-            raw_signal->duty_cycle);
+            tx_duty_cycle);
     } else {
         const InfraredMessage* message = &signal->payload.message;
-        infrared_send(message, 1);
+        // HackNlearn India - Send 3 times for stronger effective signal
+        infrared_send(message, 3);
     }
 }
 
