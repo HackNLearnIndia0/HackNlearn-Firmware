@@ -8,3 +8,4 @@ const ProtocolBase* const ibutton_protocols_misc[] = {
     [iButtonProtocolMiscMetakom] = &ibutton_protocol_misc_metakom,
     /* Add new misc protocols here */
 };
+

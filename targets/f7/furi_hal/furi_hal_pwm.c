@@ -143,3 +143,4 @@ void furi_hal_pwm_set_params(FuriHalPwmOutputId channel, uint32_t freq, uint8_t 
         furi_crash();
     }
 }
+

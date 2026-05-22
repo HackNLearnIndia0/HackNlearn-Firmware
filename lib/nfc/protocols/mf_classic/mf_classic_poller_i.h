@@ -257,3 +257,4 @@ void mf_classic_poller_free(MfClassicPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

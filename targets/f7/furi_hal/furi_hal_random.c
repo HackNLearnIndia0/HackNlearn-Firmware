@@ -81,3 +81,4 @@ int rand(void) {
 long random(void) {
     return furi_hal_random_get() & RAND_MAX;
 }
+

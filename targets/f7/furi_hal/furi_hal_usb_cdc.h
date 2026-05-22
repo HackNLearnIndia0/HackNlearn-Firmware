@@ -40,3 +40,4 @@ int32_t furi_hal_cdc_receive(uint8_t if_num, uint8_t* buf, uint16_t max_len);
 #ifdef __cplusplus
 }
 #endif
+

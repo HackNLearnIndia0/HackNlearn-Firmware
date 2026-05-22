@@ -32,3 +32,4 @@ For an example, refer to the `gui.js` example script.
 | Item        | Type   | Description                                      |
 |-------------|--------|--------------------------------------------------|
 | `input`     | `string` | Fires when the user selects the "Save" button and the text matches the length constrained by `minLength` and `maxLength`. |
+

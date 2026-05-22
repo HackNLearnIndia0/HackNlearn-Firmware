@@ -105,3 +105,4 @@ void iso14443_3a_set_atqa(Iso14443_3aData* data, const uint8_t atqa[2]);
 #ifdef __cplusplus
 }
 #endif
+

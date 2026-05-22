@@ -80,3 +80,4 @@ static inline uint32_t level_duration_get_duration(LevelDuration level_duration)
 }
 
 #endif
+

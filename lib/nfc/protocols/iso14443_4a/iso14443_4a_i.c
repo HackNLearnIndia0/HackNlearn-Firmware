@@ -69,3 +69,4 @@ Iso14443_4aError iso14443_4a_process_error(Iso14443_3aError error) {
         return Iso14443_4aErrorProtocol;
     }
 }
+

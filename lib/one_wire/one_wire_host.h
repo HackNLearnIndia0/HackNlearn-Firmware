@@ -132,3 +132,4 @@ void onewire_host_set_timings_tm01x(OneWireHost* host);
 #ifdef __cplusplus
 }
 #endif
+

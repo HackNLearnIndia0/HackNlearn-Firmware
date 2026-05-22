@@ -66,3 +66,4 @@ void lfrfid_scene_rpc_on_exit(void* context) {
 
     popup_reset(popup);
 }
+

@@ -78,3 +78,4 @@ void bad_usb_scene_work_on_enter(void* context) {
 void bad_usb_scene_work_on_exit(void* context) {
     UNUSED(context);
 }
+

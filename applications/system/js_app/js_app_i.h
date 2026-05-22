@@ -8,3 +8,4 @@ typedef enum {
     JsAppViewConsole,
     JsAppViewLoading,
 } JsAppView;
+

@@ -254,3 +254,4 @@ View* subghz_view_transmitter_get_view(SubGhzViewTransmitter* subghz_transmitter
     furi_assert(subghz_transmitter);
     return subghz_transmitter->view;
 }
+

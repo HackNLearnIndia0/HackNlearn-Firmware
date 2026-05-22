@@ -60,3 +60,4 @@ else:
         LINKER_SCRIPT_PATH=ENV["TARGET_CFG"].linker_script_flash,
         APP_LINKER_SCRIPT_PATH=ENV["TARGET_CFG"].linker_script_app,
     )
+

@@ -99,3 +99,4 @@ void updater_scene_main_on_exit(void* context) {
 
     scene_manager_set_scene_state(updater->scene_manager, UpdaterSceneMain, 0);
 }
+

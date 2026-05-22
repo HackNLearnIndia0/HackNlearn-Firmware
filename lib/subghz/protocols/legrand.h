@@ -115,3 +115,4 @@ void subghz_protocol_decoder_legrand_get_string(void* context, FuriString* outpu
 #ifdef __cplusplus
 }
 #endif
+

@@ -520,3 +520,4 @@ MJS_PRIVATE void mjs_op_json_parse(struct mjs* mjs) {
 
     mjs_return(mjs, ret);
 }
+

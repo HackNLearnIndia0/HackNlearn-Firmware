@@ -90,3 +90,4 @@ void furi_hal_usb_reinit(void);
 #ifdef __cplusplus
 }
 #endif
+

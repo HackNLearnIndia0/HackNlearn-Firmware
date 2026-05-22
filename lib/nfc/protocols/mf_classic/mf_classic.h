@@ -246,3 +246,4 @@ bool mf_classic_is_allowed_access(
 #ifdef __cplusplus
 }
 #endif
+

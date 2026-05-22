@@ -8,3 +8,4 @@
 
 #define SCENE_STATE_SET_FAVORITE_APP (0)
 #define SCENE_STATE_SET_DUMMY_APP    (1 << 8)
+

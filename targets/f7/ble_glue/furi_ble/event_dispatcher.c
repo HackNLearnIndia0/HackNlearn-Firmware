@@ -95,3 +95,4 @@ void ble_event_dispatcher_unregister_svc_handler(GapSvcEventHandler* handler) {
 
     furi_check(found);
 }
+

@@ -90,3 +90,4 @@ typedef unsigned long uintptr_t;
 #endif
 
 #endif /* MJS_INTERNAL_H_ */
+

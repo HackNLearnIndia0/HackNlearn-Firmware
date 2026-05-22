@@ -52,3 +52,4 @@ typedef enum {
 } BleBeaconAppCustomEvent;
 
 void ble_beacon_app_update_state(BleBeaconApp* app);
+

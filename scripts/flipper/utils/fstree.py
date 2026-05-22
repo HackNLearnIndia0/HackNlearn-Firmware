@@ -92,3 +92,4 @@ def compare_fs_trees(left: FsNode, right: FsNode):
         ),
         list(right_names - left_names),
     )
+

@@ -67,3 +67,4 @@ typedef struct NfcCliKeyDescriptor NfcCliKeyDescriptor;
 typedef struct NfcCliActionDescriptor NfcCliActionDescriptor;
 
 typedef struct NfcCliCommandDescriptor NfcCliCommandDescriptor;
+

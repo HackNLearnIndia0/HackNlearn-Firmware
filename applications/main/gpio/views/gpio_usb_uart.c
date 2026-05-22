@@ -160,3 +160,4 @@ void gpio_usb_uart_update_state(GpioUsbUart* instance, UsbUartConfig* cfg, UsbUa
         },
         true);
 }
+

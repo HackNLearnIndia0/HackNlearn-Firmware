@@ -171,3 +171,4 @@ int32_t example_event_loop_event_flags_app(void* arg) {
 
     return 0;
 }
+

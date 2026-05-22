@@ -56,3 +56,4 @@ void desktop_scene_fault_on_exit(void* context) {
 
     furi_hal_rtc_set_fault_data(0);
 }
+

@@ -30,3 +30,4 @@ typedef enum {
     FileBrowserAppViewBrowser,
     FileBrowserAppViewResult,
 } FileBrowserAppView;
+

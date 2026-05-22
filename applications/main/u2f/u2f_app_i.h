@@ -60,3 +60,4 @@ struct U2fApp {
     bool u2f_ready;
     U2fAppError error;
 };
+

@@ -90,3 +90,4 @@ uint64_t subghz_protocol_keeloq_common_magic_serial_type2_learning(uint32_t data
  */
 
 uint64_t subghz_protocol_keeloq_common_magic_serial_type3_learning(uint32_t data, uint64_t man);
+

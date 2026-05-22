@@ -94,3 +94,4 @@ SubGhzProtocolStatus subghz_txrx_gen_secplus_v1_protocol(
     SubGhzTxRx* instance,
     const char* name_preset,
     uint32_t frequency);
+

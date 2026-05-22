@@ -62,3 +62,4 @@ bool desktop_settings_scene_happy_mode_on_event(void* context, SceneManagerEvent
 void desktop_settings_scene_happy_mode_on_exit(void* context) {
     UNUSED(context);
 }
+

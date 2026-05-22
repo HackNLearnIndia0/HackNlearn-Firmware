@@ -21,3 +21,4 @@ void profiler_dump(Profiler* profiler);
 #ifdef __cplusplus
 }
 #endif
+

@@ -711,3 +711,4 @@ void storage_on_system_start(void) {
     UNUSED(storage_cli_factory_reset);
 #endif
 }
+

@@ -100,3 +100,4 @@ void infrared_scene_learn_success_on_exit(void* context) {
     dialog_ex_reset(infrared->dialog_ex);
     infrared_play_notification_message(infrared, InfraredNotificationMessageGreenOff);
 }
+

@@ -17,3 +17,4 @@ uint8_t maxim_crc8(const uint8_t* data, const uint8_t data_size, const uint8_t c
     }
     return crc;
 }
+

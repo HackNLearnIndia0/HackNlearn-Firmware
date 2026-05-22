@@ -26,3 +26,4 @@ void app_api_accumulator_mul(uint32_t value);
 #ifdef __cplusplus
 }
 #endif
+

@@ -383,3 +383,4 @@ void subghz_protocol_decoder_star_line_get_string(void* context, FuriString* out
         instance->manufacture_name,
         instance->generic.serial);
 }
+

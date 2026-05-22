@@ -406,3 +406,4 @@ void subghz_protocol_decoder_hollarm_get_string(void* context, FuriString* outpu
         instance->generic.btn,
         subghz_protocol_hollarm_get_button_name(instance->generic.btn));
 }
+

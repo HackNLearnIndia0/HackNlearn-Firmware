@@ -61,3 +61,4 @@ bool subghz_protocol_secplus_v1_check_fixed(uint32_t fixed);
 #ifdef __cplusplus
 }
 #endif
+

@@ -81,3 +81,4 @@ class HandleRegistry:
     def GetQueues(self):
         """Retrieve all the Queue Objects in the Handle Registry"""
         return self.FilterBy(QueueMode.QUEUE)
+

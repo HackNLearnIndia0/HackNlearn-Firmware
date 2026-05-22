@@ -96,3 +96,4 @@ bool iso_3166_get_full_name(Storage* storage, uint16_t country_code, FuriString*
     furi_string_free(line);
     return found;
 }
+

@@ -173,3 +173,4 @@ class Manifest:
     @staticmethod
     def compare(left: "Manifest", right: "Manifest"):
         return compare_fs_trees(left.toFsTree(), right.toFsTree())
+

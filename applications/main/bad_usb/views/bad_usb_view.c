@@ -296,3 +296,4 @@ bool bad_usb_view_is_idle_state(BadUsb* bad_usb) {
         false);
     return is_idle;
 }
+

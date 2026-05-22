@@ -368,3 +368,4 @@ const ProtocolBase protocol_securakey = {
     .render_brief_data = (ProtocolRenderData)protocol_securakey_render_data,
     .write_data = (ProtocolWriteData)protocol_securakey_write_data,
 };
+

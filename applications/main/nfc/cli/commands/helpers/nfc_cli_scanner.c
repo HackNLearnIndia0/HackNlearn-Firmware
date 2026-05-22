@@ -94,3 +94,4 @@ size_t nfc_cli_scanner_detected_protocol_num(NfcCliScanner* instance) {
     furi_assert(instance);
     return instance->protocols_detected_num;
 }
+

@@ -28,3 +28,4 @@ const SceneManagerHandlers nfc_scene_handlers = {
     .on_exit_handlers = nfc_on_exit_handlers,
     .scene_num = NfcSceneNum,
 };
+

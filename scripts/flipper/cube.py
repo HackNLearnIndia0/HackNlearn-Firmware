@@ -101,3 +101,4 @@ class CubeProgrammer:
 
     def resetTarget(self):
         self._execute([])
+

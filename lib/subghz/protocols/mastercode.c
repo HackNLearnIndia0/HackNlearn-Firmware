@@ -358,3 +358,4 @@ void subghz_protocol_decoder_mastercode_get_string(void* context, FuriString* ou
         SHOW_DIP_P(instance->generic.serial, DIP_O),
         SHOW_DIP_P(instance->generic.serial, DIP_N));
 }
+

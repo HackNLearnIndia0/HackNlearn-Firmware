@@ -60,3 +60,4 @@ void infrared_scene_edit_button_select_on_exit(void* context) {
     InfraredApp* infrared = context;
     submenu_reset(infrared->submenu);
 }
+

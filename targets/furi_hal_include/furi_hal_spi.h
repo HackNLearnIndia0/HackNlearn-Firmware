@@ -126,3 +126,4 @@ bool furi_hal_spi_bus_trx_dma(
 #ifdef __cplusplus
 }
 #endif
+

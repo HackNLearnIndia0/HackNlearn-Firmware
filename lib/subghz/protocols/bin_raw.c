@@ -1148,3 +1148,4 @@ void subghz_protocol_decoder_bin_raw_get_string(void* context, FuriString* outpu
 
     furi_string_cat_printf(output, "\r\nTe:%luus\r\n", instance->te);
 }
+

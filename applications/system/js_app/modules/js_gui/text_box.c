@@ -76,3 +76,4 @@ static const JsViewDescriptor view_descriptor = {
             .assign = (JsViewPropAssign)focus_assign},
     }};
 JS_GUI_VIEW_DEF(text_box, &view_descriptor);
+

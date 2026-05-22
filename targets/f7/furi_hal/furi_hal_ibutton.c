@@ -103,3 +103,4 @@ void furi_hal_ibutton_pin_reset(void) {
 void furi_hal_ibutton_pin_write(const bool state) {
     furi_hal_gpio_write(&gpio_ibutton, state);
 }
+

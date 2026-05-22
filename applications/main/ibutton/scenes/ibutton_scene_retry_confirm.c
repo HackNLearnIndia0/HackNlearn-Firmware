@@ -49,3 +49,4 @@ void ibutton_scene_retry_confirm_on_exit(void* context) {
     iButton* ibutton = context;
     widget_reset(ibutton->widget);
 }
+

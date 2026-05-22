@@ -9,3 +9,4 @@ typedef enum {
 } iButtonProtocolGroup;
 
 extern const iButtonProtocolGroupBase* const ibutton_protocol_groups[];
+

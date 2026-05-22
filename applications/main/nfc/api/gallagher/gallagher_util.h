@@ -31,3 +31,4 @@ void gallagher_deobfuscate_and_parse_credential(
 #ifdef __cplusplus
 }
 #endif
+

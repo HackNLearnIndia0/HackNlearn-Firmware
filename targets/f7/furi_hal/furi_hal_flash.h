@@ -144,3 +144,4 @@ const FuriHalFlashRawOptionByteData* furi_hal_flash_ob_get_raw_ptr(void);
 #ifdef __cplusplus
 }
 #endif
+

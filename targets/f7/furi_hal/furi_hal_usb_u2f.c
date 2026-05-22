@@ -320,3 +320,4 @@ static usbd_respond
     }
     return usbd_fail;
 }
+

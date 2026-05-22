@@ -38,3 +38,4 @@ def display_build_status():
 
 
 atexit.register(display_build_status)
+

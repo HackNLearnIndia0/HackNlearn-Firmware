@@ -634,3 +634,4 @@ MJS_PRIVATE void embed_string(
         m->buf[offset + tot_len - 1] = '\0';
     }
 }
+

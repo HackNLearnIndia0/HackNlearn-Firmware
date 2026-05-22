@@ -379,3 +379,4 @@ void ibutton_protocols_apply_edits(iButtonProtocols* protocols, const iButtonKey
     GET_PROTOCOL_GROUP(id);
     GROUP_BASE->apply_edits(GROUP_DATA, data, PROTOCOL_ID);
 }
+

@@ -11,3 +11,4 @@ bool nfc_scene_save_name_on_event(void* context, SceneManagerEvent event) {
 void nfc_scene_save_name_on_exit(void* context) {
     nfc_protocol_support_on_exit(NfcProtocolSupportSceneSaveName, context);
 }
+

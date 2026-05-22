@@ -506,3 +506,4 @@ void subghz_protocol_decoder_nice_flor_s_get_string(void* context, FuriString* o
             instance->generic.btn);
     }
 }
+

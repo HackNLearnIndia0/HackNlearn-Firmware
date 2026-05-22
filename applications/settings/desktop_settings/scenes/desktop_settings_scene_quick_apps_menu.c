@@ -76,3 +76,4 @@ void desktop_settings_scene_quick_apps_menu_on_exit(void* context) {
     app->quick_apps_menu_idx = submenu_get_selected_item(app->submenu);
     submenu_reset(app->submenu);
 }
+

@@ -170,3 +170,4 @@ The checksum is calculated by bitwise XOR-ing every byte in the frame (excluding
 
 In the event of a detected error, the concerned side MUST cease all communications and reset to initial state. The other side will then experience
 a communication timeout and the connection will be re-established automatically.
+

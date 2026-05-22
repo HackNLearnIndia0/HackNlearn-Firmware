@@ -88,3 +88,4 @@ void infrared_encoder_nec_free(void* encoder_ptr) {
 InfraredStatus infrared_encoder_nec_encode(void* encoder_ptr, uint32_t* duration, bool* level) {
     return infrared_common_encode(encoder_ptr, duration, level);
 }
+

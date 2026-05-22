@@ -505,3 +505,4 @@ bool music_worker_is_playing(MusicWorker* instance) {
     furi_assert(instance);
     return instance->should_work;
 }
+

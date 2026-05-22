@@ -14,3 +14,4 @@ void storage_process_message(Storage* app, StorageMessage* message);
 #ifdef __cplusplus
 }
 #endif
+

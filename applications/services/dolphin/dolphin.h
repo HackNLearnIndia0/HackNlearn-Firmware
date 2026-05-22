@@ -56,3 +56,4 @@ FuriPubSub* dolphin_get_pubsub(Dolphin* dolphin);
 #ifdef __cplusplus
 }
 #endif
+

@@ -47,3 +47,4 @@ MJS_PRIVATE void mjs_string_char_code_at(struct mjs* mjs);
 #endif /* __cplusplus */
 
 #endif /* MJS_STRING_H_ */
+

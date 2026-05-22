@@ -26,3 +26,4 @@ void nfc_render_st25tb_info(
         }
     }
 }
+

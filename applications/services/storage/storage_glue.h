@@ -78,3 +78,4 @@ size_t storage_open_files_count(StorageData* storage);
 #ifdef __cplusplus
 }
 #endif
+

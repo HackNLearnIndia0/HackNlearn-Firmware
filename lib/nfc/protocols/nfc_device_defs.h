@@ -11,3 +11,4 @@ extern const NfcDeviceBase* const nfc_devices[];
 #ifdef __cplusplus
 }
 #endif
+

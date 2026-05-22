@@ -108,3 +108,4 @@ bool ble_gatt_service_delete(uint16_t svc_handle);
 #ifdef __cplusplus
 }
 #endif
+

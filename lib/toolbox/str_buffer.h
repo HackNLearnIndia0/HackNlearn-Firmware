@@ -45,3 +45,4 @@ void str_buffer_clear_all_clones(StrBuffer* buffer);
 #ifdef __cplusplus
 }
 #endif
+

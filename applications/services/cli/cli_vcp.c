@@ -322,3 +322,4 @@ void cli_vcp_disable(CliVcp* cli_vcp) {
     };
     cli_vcp_synchronous_request(cli_vcp, &message);
 }
+

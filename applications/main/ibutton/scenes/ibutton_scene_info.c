@@ -56,3 +56,4 @@ void ibutton_scene_info_on_exit(void* context) {
     iButton* ibutton = context;
     widget_reset(ibutton->widget);
 }
+

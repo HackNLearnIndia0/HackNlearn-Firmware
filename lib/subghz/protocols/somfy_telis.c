@@ -377,3 +377,4 @@ void subghz_protocol_decoder_somfy_telis_get_string(void* context, FuriString* o
         instance->generic.cnt,
         subghz_protocol_somfy_telis_get_name_button(instance->generic.btn));
 }
+

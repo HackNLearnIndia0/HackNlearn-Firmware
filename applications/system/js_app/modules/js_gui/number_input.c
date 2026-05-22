@@ -128,3 +128,4 @@ static const JsViewDescriptor view_descriptor = {
     }};
 
 JS_GUI_VIEW_DEF(number_input, &view_descriptor);
+

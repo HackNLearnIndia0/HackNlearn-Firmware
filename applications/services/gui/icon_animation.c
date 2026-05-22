@@ -95,3 +95,4 @@ bool icon_animation_is_last_frame(const IconAnimation* instance) {
 
     return instance->icon->frame_count - instance->frame <= 1;
 }
+

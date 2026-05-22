@@ -39,3 +39,4 @@ View* empty_screen_get_view(EmptyScreen* empty_screen);
 #ifdef __cplusplus
 }
 #endif
+

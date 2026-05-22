@@ -388,3 +388,4 @@ const ProtocolBase protocol_h10301 = {
     .render_brief_data = (ProtocolRenderData)protocol_h10301_render_data,
     .write_data = (ProtocolWriteData)protocol_h10301_write_data,
 };
+

@@ -227,3 +227,4 @@ void furi_hal_nfc_timer_block_tx_stop(void) {
 bool furi_hal_nfc_timer_block_tx_is_running(void) {
     return furi_hal_nfc_timer_is_running(FuriHalNfcTimerBlockTx);
 }
+

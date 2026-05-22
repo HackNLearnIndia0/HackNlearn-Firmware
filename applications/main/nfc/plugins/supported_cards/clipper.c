@@ -639,3 +639,4 @@ static const FlipperAppPluginDescriptor clipper_plugin_descriptor = {
 const FlipperAppPluginDescriptor* clipper_plugin_ep(void) {
     return &clipper_plugin_descriptor;
 }
+

@@ -30,3 +30,4 @@ MJS_PRIVATE mjs_err_t mjs_json_parse(struct mjs* mjs, const char* str, size_t le
 #endif /* __cplusplus */
 
 #endif /* MJS_JSON_H_ */
+

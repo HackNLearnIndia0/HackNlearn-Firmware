@@ -228,3 +228,4 @@ Removes all previous children from the `View` and assigns new children.
 
 **Parameters**
   - `children`: the array of new children, e.g. `[ { element: "button", button: "right", text: "Back" } ]`
+

@@ -48,3 +48,4 @@ void notification_internal_message_block(
         m.back_event, NOTIFICATION_EVENT_COMPLETE, FuriFlagWaitAny, FuriWaitForever);
     furi_event_flag_free(m.back_event);
 }
+

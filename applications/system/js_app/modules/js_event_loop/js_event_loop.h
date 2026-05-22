@@ -102,3 +102,4 @@ FuriEventLoop* js_event_loop_get_loop(JsEventLoop* loop);
 #ifdef __cplusplus
 }
 #endif
+

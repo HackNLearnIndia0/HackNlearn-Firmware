@@ -86,3 +86,4 @@ InfraredStatus infrared_common_encode_manchester(
 void* infrared_common_encoder_alloc(const InfraredCommonProtocolSpec* protocol);
 void infrared_common_encoder_free(InfraredCommonEncoder* encoder);
 void infrared_common_encoder_reset(InfraredCommonEncoder* encoder);
+

@@ -29,3 +29,4 @@ extern const FuriHalI2cBusHandle furi_hal_i2c_handle_external;
 #ifdef __cplusplus
 }
 #endif
+

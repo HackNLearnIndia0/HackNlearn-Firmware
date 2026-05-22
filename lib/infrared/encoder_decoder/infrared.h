@@ -217,3 +217,4 @@ size_t infrared_get_protocol_min_repeat_count(InfraredProtocol protocol);
 #ifdef __cplusplus
 }
 #endif
+

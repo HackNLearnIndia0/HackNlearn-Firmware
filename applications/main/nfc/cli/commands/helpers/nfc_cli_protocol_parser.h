@@ -19,3 +19,4 @@ bool nfc_cli_protocol_parser_get(
     NfcCliProtocolParser* instance,
     FuriString* key,
     NfcProtocol* result);
+

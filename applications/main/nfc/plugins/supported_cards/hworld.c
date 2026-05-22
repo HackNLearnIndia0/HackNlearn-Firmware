@@ -241,3 +241,4 @@ static const FlipperAppPluginDescriptor hworld_plugin_descriptor = {
 const FlipperAppPluginDescriptor* hworld_plugin_ep(void) {
     return &hworld_plugin_descriptor;
 }
+

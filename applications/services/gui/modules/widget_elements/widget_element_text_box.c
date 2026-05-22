@@ -72,3 +72,4 @@ WidgetElement* widget_element_text_box_create(
 
     return gui_string;
 } //-V773
+

@@ -96,3 +96,4 @@ const char* version_get_git_origin(const Version* v);
 #ifdef __cplusplus
 }
 #endif
+

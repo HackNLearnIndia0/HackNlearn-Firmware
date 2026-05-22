@@ -140,3 +140,4 @@ FuriPubSubSubscription* updater_main_get_storage_pubsub(UpdaterMainView* main_vi
 void updater_main_set_view_dispatcher(UpdaterMainView* main_view, ViewDispatcher* view_dispatcher) {
     main_view->view_dispatcher = view_dispatcher;
 }
+

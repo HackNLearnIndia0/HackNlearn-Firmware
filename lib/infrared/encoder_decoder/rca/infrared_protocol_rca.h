@@ -28,3 +28,4 @@ void infrared_encoder_rca_reset(void* encoder_ptr, const InfraredMessage* messag
 void infrared_encoder_rca_free(void* encoder_ptr);
 
 const InfraredProtocolVariant* infrared_protocol_rca_get_variant(InfraredProtocol protocol);
+

@@ -488,3 +488,4 @@ void cli_shell_set_prompt(CliShell* shell, const char* prompt) {
     furi_check(furi_thread_get_state(shell->thread) == FuriThreadStateStopped);
     shell->prompt = prompt;
 }
+

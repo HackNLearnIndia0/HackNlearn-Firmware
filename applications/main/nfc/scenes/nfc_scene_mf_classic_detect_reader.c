@@ -159,3 +159,4 @@ void nfc_scene_mf_classic_detect_reader_on_exit(void* context) {
     nfc_blink_stop(instance);
     notification_message(instance->notifications, &sequence_reset_green);
 }
+

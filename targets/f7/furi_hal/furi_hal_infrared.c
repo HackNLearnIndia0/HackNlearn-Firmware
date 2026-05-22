@@ -726,3 +726,4 @@ void furi_hal_infrared_set_tx_output(FuriHalInfraredTxPin tx_pin) {
     furi_check(tx_pin < FuriHalInfraredTxPinMax);
     infrared_tx_output = tx_pin;
 }
+

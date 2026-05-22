@@ -101,3 +101,4 @@ bool subghz_is_locked(SubGhz* subghz);
 
 void subghz_rx_key_state_set(SubGhz* subghz, SubGhzRxKeyState state);
 SubGhzRxKeyState subghz_rx_key_state_get(SubGhz* subghz);
+

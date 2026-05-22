@@ -227,3 +227,4 @@ const NfcPollerBase nfc_poller_st25tb = {
     .detect = (NfcPollerDetect)st25tb_poller_detect,
     .get_data = (NfcPollerGetData)st25tb_poller_get_data,
 };
+

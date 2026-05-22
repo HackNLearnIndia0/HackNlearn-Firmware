@@ -106,3 +106,4 @@ const FuriHalNfcTechBase furi_hal_nfc_iso14443b = {
 
     .listener = {},
 };
+

@@ -23,3 +23,4 @@ typedef enum {
     BatteryTestAppViewBatteryInfo,
     BatteryTestAppViewExitDialog,
 } BatteryTestAppView;
+

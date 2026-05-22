@@ -173,3 +173,4 @@ bool resource_manifest_rewind(ResourceManifestReader* resource_manifest) {
 
     return stream_seek(resource_manifest->stream, 0, StreamOffsetFromStart);
 }
+

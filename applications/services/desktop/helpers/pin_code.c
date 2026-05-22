@@ -102,3 +102,4 @@ uint32_t desktop_pin_lock_get_fail_timeout(void) {
 
     return pin_timeout;
 }
+

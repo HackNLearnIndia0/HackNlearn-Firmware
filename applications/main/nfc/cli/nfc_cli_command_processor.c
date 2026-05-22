@@ -386,3 +386,4 @@ void nfc_cli_command_processor_free(NfcCliProcessorContext* instance) {
     instance->nfc = NULL;
     free(instance);
 }
+

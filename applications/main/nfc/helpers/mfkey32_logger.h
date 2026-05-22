@@ -23,3 +23,4 @@ void mfkey32_logger_get_params_data(Mfkey32Logger* instance, FuriString* str);
 #ifdef __cplusplus
 }
 #endif
+

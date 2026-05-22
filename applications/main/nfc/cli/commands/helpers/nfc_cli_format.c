@@ -59,3 +59,4 @@ void nfc_cli_printf_array(const uint8_t* data, const size_t data_size, const cha
         printf("%02X ", data[i]);
     }
 }
+

@@ -99,3 +99,4 @@ int32_t battery_test_app(void* p) {
     battery_test_free(app);
     return 0;
 }
+

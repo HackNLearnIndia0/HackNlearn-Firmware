@@ -62,3 +62,4 @@ static inline int16_t infrared_custom_event_get_value(uint32_t packed_value) {
     infrared_custom_event_unpack(packed_value, NULL, &value);
     return value;
 }
+

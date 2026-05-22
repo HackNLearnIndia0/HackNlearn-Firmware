@@ -28,3 +28,4 @@ bool slix_unlock_get_next_password(SlixUnlock* instance, SlixPassword* password)
 #ifdef __cplusplus
 }
 #endif
+

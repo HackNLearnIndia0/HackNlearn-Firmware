@@ -9,3 +9,4 @@ typedef struct BadUsbApp BadUsbApp;
 #ifdef __cplusplus
 }
 #endif
+

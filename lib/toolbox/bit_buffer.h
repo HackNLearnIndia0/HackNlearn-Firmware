@@ -361,3 +361,4 @@ void bit_buffer_append_bit(BitBuffer* buf, bool bit);
 #ifdef __cplusplus
 }
 #endif
+

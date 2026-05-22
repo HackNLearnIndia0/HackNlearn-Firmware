@@ -166,3 +166,4 @@ void desktop_lock_menu_free(DesktopLockMenuView* lock_menu_view) {
     view_free(lock_menu_view->view);
     free(lock_menu_view);
 }
+

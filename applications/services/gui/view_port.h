@@ -108,3 +108,4 @@ ViewPortOrientation view_port_get_orientation(const ViewPort* view_port);
 #ifdef __cplusplus
 }
 #endif
+

@@ -64,3 +64,4 @@ uint32_t furi_semaphore_get_space(FuriSemaphore* instance);
 #ifdef __cplusplus
 }
 #endif
+

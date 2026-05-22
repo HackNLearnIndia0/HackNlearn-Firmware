@@ -363,3 +363,4 @@ View* desktop_view_pin_input_get_view(DesktopViewPinInput* pin_input) {
     furi_assert(pin_input);
     return pin_input->view;
 }
+

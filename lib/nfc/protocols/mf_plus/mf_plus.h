@@ -113,3 +113,4 @@ Iso14443_4aData* mf_plus_get_base_data(const MfPlusData* data);
 #ifdef __cplusplus
 }
 #endif
+

@@ -21,3 +21,4 @@ void ble_svc_dev_info_stop(BleServiceDevInfo* service);
 #ifdef __cplusplus
 }
 #endif
+

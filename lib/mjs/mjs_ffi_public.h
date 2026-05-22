@@ -38,3 +38,4 @@ void* mjs_ffi_resolve(struct mjs* mjs, const char* symbol);
 #endif /* __cplusplus */
 
 #endif /* MJS_FFI_PUBLIC_H_ */
+

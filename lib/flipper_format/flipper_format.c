@@ -663,3 +663,4 @@ bool flipper_format_insert_or_update_hex(
 
     return result;
 }
+

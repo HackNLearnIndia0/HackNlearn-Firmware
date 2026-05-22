@@ -136,3 +136,4 @@ void buffer_stream_reset(BufferStream* buffer_stream) {
     }
     FURI_CRITICAL_EXIT();
 }
+

@@ -332,3 +332,4 @@ int32_t power_srv(void* p) {
 
     return 0;
 }
+

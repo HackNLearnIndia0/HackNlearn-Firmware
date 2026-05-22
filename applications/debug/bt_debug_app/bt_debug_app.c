@@ -115,3 +115,4 @@ int32_t bt_debug_app(void* p) {
     bt_debug_app_free(app);
     return 0;
 }
+

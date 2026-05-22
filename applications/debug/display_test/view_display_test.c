@@ -182,3 +182,4 @@ View* view_display_test_get_view(ViewDisplayTest* instance) {
     furi_assert(instance);
     return instance->view;
 }
+

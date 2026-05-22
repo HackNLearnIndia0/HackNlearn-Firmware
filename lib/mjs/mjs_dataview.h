@@ -30,3 +30,4 @@ void mjs_mem_set_int(void* ptr, int val, int size, int bigendian);
 #endif /* __cplusplus */
 
 #endif /* MJS_DATAVIEW_H_ */
+

@@ -194,3 +194,4 @@ void infrared_scene_rpc_on_exit(void* context) {
 
     popup_reset(infrared->popup);
 }
+

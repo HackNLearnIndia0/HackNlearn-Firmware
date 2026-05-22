@@ -94,3 +94,4 @@ void archive_scene_rename_on_exit(void* context) {
 
     text_input_reset(archive->text_input);
 }
+

@@ -13,3 +13,4 @@ extern double minunit_proc_timer;
 
 /*  Last message */
 extern char minunit_last_message[MINUNIT_MESSAGE_LEN];
+

@@ -178,3 +178,4 @@ Iso14443_4aData* mf_plus_get_base_data(const MfPlusData* data) {
 
     return data->iso14443_4a_data;
 }
+

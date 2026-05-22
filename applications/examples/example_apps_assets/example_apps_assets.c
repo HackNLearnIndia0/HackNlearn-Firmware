@@ -50,3 +50,4 @@ int32_t example_apps_assets_main(void* p) {
 
     return 0;
 }
+

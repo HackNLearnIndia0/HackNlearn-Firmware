@@ -171,3 +171,4 @@ void desktop_scene_pin_input_on_exit(void* context) {
     furi_string_free(state->enter_pin_string);
     free(state);
 }
+

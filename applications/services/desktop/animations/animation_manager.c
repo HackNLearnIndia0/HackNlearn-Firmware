@@ -603,3 +603,4 @@ static void animation_manager_switch_to_animation_view(AnimationManager* animati
     one_shot_view_free(animation_manager->one_shot_view);
     animation_manager->one_shot_view = NULL;
 }
+

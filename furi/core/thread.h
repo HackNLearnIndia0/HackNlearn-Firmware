@@ -573,3 +573,4 @@ bool furi_thread_is_suspended(FuriThreadId thread_id);
 #ifdef __cplusplus
 }
 #endif
+

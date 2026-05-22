@@ -25,3 +25,4 @@ uint8_t subghz_protocol_blocks_get_hash_data(SubGhzBlockDecoder* decoder, size_t
     }
     return hash;
 }
+

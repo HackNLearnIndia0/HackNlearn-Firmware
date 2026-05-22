@@ -552,3 +552,4 @@ int run_minunit_test_flipper_format(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_flipper_format)
+

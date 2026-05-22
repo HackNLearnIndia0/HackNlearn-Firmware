@@ -16,3 +16,4 @@ typedef struct {
 typedef enum {
     SystemSettingsViewVarItemList,
 } SystemSettingsView;
+

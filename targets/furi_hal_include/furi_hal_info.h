@@ -27,3 +27,4 @@ void furi_hal_info_get(PropertyValueCallback callback, char sep, void* context);
 #ifdef __cplusplus
 }
 #endif
+

@@ -75,3 +75,4 @@ void subghz_scene_more_raw_on_exit(void* context) {
     SubGhz* subghz = context;
     submenu_reset(subghz->submenu);
 }
+

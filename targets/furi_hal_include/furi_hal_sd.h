@@ -84,3 +84,4 @@ FuriStatus furi_hal_sd_get_card_state(void);
 #ifdef __cplusplus
 }
 #endif
+

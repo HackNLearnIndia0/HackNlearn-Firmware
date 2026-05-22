@@ -454,3 +454,4 @@ void u2f_set_state(U2fData* U2F, uint8_t state) {
     }
     U2F->user_present = false;
 }
+

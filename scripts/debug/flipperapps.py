@@ -251,3 +251,4 @@ class FlipperAppStateHelper:
 SetFapDebugElfRoot()
 helper = FlipperAppStateHelper()
 info("Support for Flipper external apps debug is loaded")
+

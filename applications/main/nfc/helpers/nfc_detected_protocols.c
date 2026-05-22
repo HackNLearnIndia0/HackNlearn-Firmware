@@ -83,3 +83,4 @@ uint32_t nfc_detected_protocols_get_selected_idx(NfcDetectedProtocols* instance)
 
     return instance->selected_idx;
 }
+

@@ -205,3 +205,4 @@ uint32_t bq25896_get_ntc_mpct(const FuriHalI2cBusHandle* handle) {
         handle, BQ25896_ADDRESS, 0x10, (uint8_t*)&bq25896_regs.r10, BQ25896_I2C_TIMEOUT);
     return (uint32_t)bq25896_regs.r10.TSPCT * 465 + 21000;
 }
+

@@ -20,3 +20,4 @@ bool ibutton_scene_select_key_on_event(void* context, SceneManagerEvent event) {
 void ibutton_scene_select_key_on_exit(void* context) {
     UNUSED(context);
 }
+

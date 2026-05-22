@@ -101,3 +101,4 @@ void test_furi_primitives(void) {
     furi_message_queue_free(data.message_queue);
     furi_stream_buffer_free(data.stream_buffer);
 }
+

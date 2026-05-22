@@ -63,3 +63,4 @@ size_t value_index_bool(const bool value, const bool values[], size_t values_cou
 #ifdef __cplusplus
 }
 #endif
+

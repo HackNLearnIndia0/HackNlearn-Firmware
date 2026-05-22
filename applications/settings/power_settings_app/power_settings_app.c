@@ -107,3 +107,4 @@ int32_t power_settings_app(void* p) {
     power_settings_app_free(app);
     return 0;
 }
+

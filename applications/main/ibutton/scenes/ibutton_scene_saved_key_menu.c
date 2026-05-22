@@ -84,3 +84,4 @@ void ibutton_scene_saved_key_menu_on_exit(void* context) {
     iButton* ibutton = context;
     submenu_reset(ibutton->submenu);
 }
+

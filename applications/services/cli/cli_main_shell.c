@@ -44,3 +44,4 @@ const CliCommandExternalConfig cli_main_ext_config = {
     .fal_prefix = "cli_",
     .appid = CLI_APPID,
 };
+

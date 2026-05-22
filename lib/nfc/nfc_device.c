@@ -358,3 +358,4 @@ bool nfc_device_load(NfcDevice* instance, const char* path) {
 
     return loaded;
 }
+

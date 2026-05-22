@@ -115,3 +115,4 @@ void pulse_joiner_pop_pulse(PulseJoiner* pulse_joiner, size_t* period, size_t* p
         }
     }
 }
+

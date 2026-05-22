@@ -12,3 +12,4 @@ void hid_keyboard_free(HidKeyboard* hid_keyboard);
 View* hid_keyboard_get_view(HidKeyboard* hid_keyboard);
 
 void hid_keyboard_set_connected_status(HidKeyboard* hid_keyboard, bool connected);
+

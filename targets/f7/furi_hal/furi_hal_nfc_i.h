@@ -189,3 +189,4 @@ FuriHalNfcError furi_hal_nfc_poller_tx_common(
 #ifdef __cplusplus
 }
 #endif
+

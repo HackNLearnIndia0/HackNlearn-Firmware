@@ -54,3 +54,4 @@ size_t subghz_protocol_blocks_get_upload_from_bit_array(
         subghz_protocol_blocks_get_bit_array(data_array, index_bit - 1), duration);
     return size_upload;
 }
+

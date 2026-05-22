@@ -30,3 +30,4 @@ Iso14443_4aError
         instance->iso14443_3a_listener, instance->tx_buffer);
     return iso14443_4a_process_error(error);
 }
+

@@ -312,3 +312,4 @@ void nfc_render_mf_desfire_file_settings_data(
         furi_string_push_back(str, '\n');
     }
 }
+

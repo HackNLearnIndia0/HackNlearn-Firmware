@@ -50,3 +50,4 @@ void subghz_devices_write_packet(const SubGhzDevice* device, const uint8_t* data
 #ifdef __cplusplus
 }
 #endif
+

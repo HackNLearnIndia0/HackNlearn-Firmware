@@ -613,3 +613,4 @@ void storage_get_next_filename(
 #ifdef __cplusplus
 }
 #endif
+

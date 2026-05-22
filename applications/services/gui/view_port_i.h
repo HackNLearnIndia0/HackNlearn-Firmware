@@ -50,3 +50,4 @@ void view_port_draw(ViewPort* view_port, Canvas* canvas);
  * @param      event      pointer to input event
  */
 void view_port_input(ViewPort* view_port, InputEvent* event);
+

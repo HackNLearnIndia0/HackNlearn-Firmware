@@ -65,3 +65,4 @@ size_t subghz_protocol_blocks_get_upload_from_bit_array(
 #ifdef __cplusplus
 }
 #endif
+

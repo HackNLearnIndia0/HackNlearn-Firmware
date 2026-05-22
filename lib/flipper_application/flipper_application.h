@@ -158,3 +158,4 @@ bool flipper_application_load_name_and_icon(
 #ifdef __cplusplus
 }
 #endif
+

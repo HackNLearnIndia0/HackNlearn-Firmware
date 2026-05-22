@@ -208,3 +208,4 @@ const NfcPollerBase mf_plus_poller = {
     .detect = (NfcPollerDetect)mf_plus_poller_detect,
     .get_data = (NfcPollerGetData)mf_plus_poller_get_data,
 };
+

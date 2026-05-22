@@ -214,3 +214,4 @@ static int32_t ibutton_worker_thread(void* thread_context) {
 
     return 0;
 }
+

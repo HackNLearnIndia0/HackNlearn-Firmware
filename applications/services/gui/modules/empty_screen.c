@@ -35,3 +35,4 @@ View* empty_screen_get_view(EmptyScreen* empty_screen) {
     furi_check(empty_screen);
     return empty_screen->view;
 }
+

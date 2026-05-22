@@ -45,3 +45,4 @@ typedef struct {
     ProtocolRenderData render_brief_data;
     ProtocolWriteData write_data;
 } ProtocolBase;
+

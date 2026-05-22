@@ -108,3 +108,4 @@ SubGhzProtocolStatus
  * @param output Resulting text
  */
 void subghz_protocol_decoder_bin_raw_get_string(void* context, FuriString* output);
+

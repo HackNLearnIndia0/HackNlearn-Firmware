@@ -109,3 +109,4 @@ def open_browser_action(target, source, env):
         subprocess.run(["open", source[0].abspath])
     else:
         webbrowser.open(source[0].abspath)
+

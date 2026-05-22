@@ -371,3 +371,4 @@ static inline ExpansionProtocolStatus expansion_protocol_encode(
 #ifdef __cplusplus
 }
 #endif
+

@@ -343,3 +343,4 @@ const ProtocolBase protocol_gallagher = {
     .render_brief_data = (ProtocolRenderData)protocol_gallagher_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_gallagher_write_data,
 };
+

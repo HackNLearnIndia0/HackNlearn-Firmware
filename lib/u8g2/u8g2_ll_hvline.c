@@ -337,3 +337,4 @@ void u8g2_ll_hvline_horizontal_right_lsb(
 }
 
 #endif /* U8G2_WITH_HVLINE_SPEED_OPTIMIZATION */
+

@@ -78,3 +78,4 @@ int32_t lfrfid_debug_app(void* p) {
 
     return 0;
 }
+

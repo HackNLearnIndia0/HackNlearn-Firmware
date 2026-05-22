@@ -29,3 +29,4 @@ void mf_classic_key_cache_reset(MfClassicKeyCache* instance);
 #ifdef __cplusplus
 }
 #endif
+

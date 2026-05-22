@@ -48,3 +48,4 @@ void ble_event_dispatcher_unregister_svc_handler(GapSvcEventHandler* handler);
 #ifdef __cplusplus
 }
 #endif
+

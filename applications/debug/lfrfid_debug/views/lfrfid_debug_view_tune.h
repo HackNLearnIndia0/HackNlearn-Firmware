@@ -21,3 +21,4 @@ void lfrfid_debug_view_tune_set_callback(
     LfRfidTuneView* tune_view,
     void (*callback)(void* context),
     void* context);
+

@@ -43,3 +43,4 @@ extern "C" {
 #endif
 
 #endif /* CS_COMMON_MG_MEM_H_ */
+

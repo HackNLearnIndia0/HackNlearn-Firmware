@@ -526,3 +526,4 @@ int32_t nfc_app(void* p) {
 
     return 0;
 }
+

@@ -314,3 +314,4 @@ void infrared_common_decoder_reset(InfraredCommonDecoder* decoder) {
     infrared_common_decoder_reset_state(decoder);
     decoder->timings_cnt = 0;
 }
+

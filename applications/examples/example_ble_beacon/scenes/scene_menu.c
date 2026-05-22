@@ -54,3 +54,4 @@ void ble_beacon_app_scene_menu_on_exit(void* context) {
     BleBeaconApp* ble_beacon = context;
     submenu_reset(ble_beacon->submenu);
 }
+

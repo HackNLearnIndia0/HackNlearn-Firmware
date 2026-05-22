@@ -599,3 +599,4 @@ void furi_event_loop_link_notify(FuriEventLoopLink* instance, FuriEventLoopEvent
 
     FURI_CRITICAL_EXIT();
 }
+

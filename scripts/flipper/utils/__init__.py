@@ -24,3 +24,4 @@ def file_md5(path, block_size=4096):
 
 def file_sha256(path, block_size=4096):
     return file_hash(path, "sha256", block_size)
+

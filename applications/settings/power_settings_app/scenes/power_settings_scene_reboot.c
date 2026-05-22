@@ -55,3 +55,4 @@ void power_settings_scene_reboot_on_exit(void* context) {
     PowerSettingsApp* app = context;
     submenu_reset(app->submenu);
 }
+

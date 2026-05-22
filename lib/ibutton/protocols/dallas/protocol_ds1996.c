@@ -267,3 +267,4 @@ void dallas_ds1996_apply_edits(iButtonProtocolData* protocol_data) {
     DS1996ProtocolData* data = protocol_data;
     dallas_common_apply_edits(&data->rom_data, DS1996_FAMILY_CODE);
 }
+

@@ -103,3 +103,4 @@ bool ble_profile_hid_mouse_scroll(FuriHalBleProfileBase* profile, int8_t delta);
 #ifdef __cplusplus
 }
 #endif
+

@@ -148,3 +148,4 @@ int32_t keypad_test_app(void* p) {
 
     return 0;
 }
+

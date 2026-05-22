@@ -56,3 +56,4 @@ bool tm01x_write_dallas(OneWireHost* host, const uint8_t* data, size_t data_size
 
     return tm01x_read_and_verify(host, data, data_size);
 }
+

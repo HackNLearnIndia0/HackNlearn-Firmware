@@ -44,3 +44,4 @@ void bt_test_set_current_value_text(BtTestParam* param, const char* current_valu
 uint8_t bt_test_get_current_value_index(BtTestParam* param);
 
 void* bt_test_get_context(BtTestParam* param);
+

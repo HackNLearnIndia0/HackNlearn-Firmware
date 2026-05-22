@@ -401,3 +401,4 @@ void nfc_felica_listener_timer_anticol_stop(Nfc* instance);
 #ifdef __cplusplus
 }
 #endif
+

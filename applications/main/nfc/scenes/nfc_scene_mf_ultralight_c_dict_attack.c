@@ -236,3 +236,4 @@ void nfc_scene_mf_ultralight_c_dict_attack_on_exit(void* context) {
     instance->mf_ultralight_c_dict_context.is_card_present = false;
     nfc_blink_stop(instance);
 }
+

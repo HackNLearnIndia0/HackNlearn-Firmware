@@ -304,3 +304,4 @@ int32_t subghz_app(void* p) {
 
     return 0;
 }
+

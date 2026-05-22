@@ -16,3 +16,4 @@ typedef enum {
     SubGhzTestViewWidget,
     SubGhzTestViewPopup,
 } SubGhzTestView;
+

@@ -134,3 +134,4 @@ void infrared_scene_edit_rename_on_exit(void* context) {
 
     text_input_reset(text_input);
 }
+

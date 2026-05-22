@@ -81,3 +81,4 @@ bool nfc_supported_cards_parse(
 #ifdef __cplusplus
 }
 #endif
+

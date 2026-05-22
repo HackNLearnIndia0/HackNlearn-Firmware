@@ -655,3 +655,4 @@ const LFRFIDWorkerModeType lfrfid_worker_modes[] = {
     [LFRFIDWorkerReadRaw] = {.process = lfrfid_worker_mode_read_raw_process},
     [LFRFIDWorkerEmulateRaw] = {.process = lfrfid_worker_mode_emulate_raw_process},
 };
+

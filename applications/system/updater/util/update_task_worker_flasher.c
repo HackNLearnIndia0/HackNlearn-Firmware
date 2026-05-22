@@ -361,3 +361,4 @@ int32_t update_task_worker_flash_writer(void* context) {
 
     return UPDATE_TASK_NOERR;
 }
+

@@ -180,3 +180,4 @@ bool saved_struct_get_metadata(
 
     return result;
 }
+

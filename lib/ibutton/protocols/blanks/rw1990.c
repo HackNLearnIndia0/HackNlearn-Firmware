@@ -97,3 +97,4 @@ bool rw1990_write_v2(OneWireHost* host, const uint8_t* data, size_t data_size) {
     // TODO Fl-3528: Better error handling
     return rw1990_read_and_compare(host, data, data_size);
 }
+

@@ -71,3 +71,4 @@ Iso14443_4bError iso14443_4b_poller_halt(Iso14443_4bPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

@@ -272,3 +272,4 @@ bool furi_hal_hid_consumer_key_release_all(void);
 #ifdef __cplusplus
 }
 #endif
+

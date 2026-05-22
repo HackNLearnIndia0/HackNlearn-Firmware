@@ -43,3 +43,4 @@ CliCommandDict_t* cli_registry_get_commands(CliRegistry* registry);
 #ifdef __cplusplus
 }
 #endif
+

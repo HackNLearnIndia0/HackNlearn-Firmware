@@ -409,3 +409,4 @@ void subghz_protocol_decoder_marantec_get_string(void* context, FuriString* outp
         crc_ok ? "Valid" : "Invalid",
         instance->generic.btn);
 }
+

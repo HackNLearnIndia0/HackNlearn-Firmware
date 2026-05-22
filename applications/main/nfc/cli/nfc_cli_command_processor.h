@@ -13,3 +13,4 @@ void nfc_cli_command_processor_run(
     PipeSide* pipe,
     FuriString* args,
     void* context);
+

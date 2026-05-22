@@ -860,3 +860,4 @@ void subghz_device_cc1101_ext_stop_async_tx(void) {
 
     subghz_device_cc1101_ext->state = SubGhzDeviceCC1101ExtStateIdle;
 }
+

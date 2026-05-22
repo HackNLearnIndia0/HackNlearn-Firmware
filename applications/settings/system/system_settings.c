@@ -345,3 +345,4 @@ int32_t system_settings_app(void* p) {
     system_settings_free(app);
     return 0;
 }
+

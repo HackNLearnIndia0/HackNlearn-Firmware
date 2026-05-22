@@ -198,3 +198,4 @@
 /* Various defines for compatibility with -Wundef - thanks, ST */
 #define CFG_DEBUG_TRACE_FULL  0
 #define CFG_DEBUG_TRACE_LIGHT 0
+

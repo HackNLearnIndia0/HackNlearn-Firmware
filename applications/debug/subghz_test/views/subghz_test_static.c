@@ -190,3 +190,4 @@ View* subghz_test_static_get_view(SubGhzTestStatic* instance) {
     furi_assert(instance);
     return instance->view;
 }
+

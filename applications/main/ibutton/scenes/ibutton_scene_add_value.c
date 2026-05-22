@@ -79,3 +79,4 @@ void ibutton_scene_add_value_on_exit(void* context) {
     byte_input_set_result_callback(ibutton->byte_input, NULL, NULL, NULL, NULL, 0);
     byte_input_set_header_text(ibutton->byte_input, NULL);
 }
+

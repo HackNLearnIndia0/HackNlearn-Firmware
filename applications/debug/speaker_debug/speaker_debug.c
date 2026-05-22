@@ -122,3 +122,4 @@ int32_t speaker_debug_app(void* arg) {
     speaker_app_free(app);
     return 0;
 }
+

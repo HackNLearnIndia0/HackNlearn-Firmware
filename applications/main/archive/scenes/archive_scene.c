@@ -28,3 +28,4 @@ const SceneManagerHandlers archive_scene_handlers = {
     .on_exit_handlers = archive_on_exit_handlers,
     .scene_num = ArchiveAppSceneNum,
 };
+

@@ -41,3 +41,4 @@ static void execute(PipeSide* pipe, FuriString* args, void* context) {
 }
 
 CLI_COMMAND_INTERFACE(subshell_demo, execute, CliCommandFlagParallelSafe, 2048, CLI_APPID);
+

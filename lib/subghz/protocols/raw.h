@@ -152,3 +152,4 @@ LevelDuration subghz_protocol_encoder_raw_yield(void* context);
 #ifdef __cplusplus
 }
 #endif
+

@@ -212,3 +212,4 @@ St25tbError st25tb_poller_sync_read(Nfc* nfc, St25tbData* data) {
 
     return poller_context.error;
 }
+

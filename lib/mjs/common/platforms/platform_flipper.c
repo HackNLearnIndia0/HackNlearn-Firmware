@@ -63,3 +63,4 @@ int cs_log_print_prefix(enum cs_log_level level, const char* file, int ln) {
 void cs_log_printf(const char* fmt, ...) {
     (void)fmt;
 }
+

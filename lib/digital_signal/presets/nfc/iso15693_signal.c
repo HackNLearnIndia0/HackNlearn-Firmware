@@ -202,3 +202,4 @@ void iso15693_signal_tx_sof(Iso15693Signal* instance, Iso15693SignalDataRate dat
 
     FURI_CRITICAL_EXIT();
 }
+

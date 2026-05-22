@@ -99,3 +99,4 @@ NfcCommand nfc_cli_raw_felica_handler(
     } while(false);
     return request->keep_field ? NfcCommandContinue : NfcCommandStop;
 }
+

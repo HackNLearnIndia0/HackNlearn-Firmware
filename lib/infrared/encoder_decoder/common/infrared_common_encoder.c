@@ -179,3 +179,4 @@ void infrared_common_encoder_reset(InfraredCommonEncoder* encoder) {
     uint8_t bytes_to_clear = max_databit_len / 8 + !!(max_databit_len % 8);
     memset(encoder->data, 0, bytes_to_clear);
 }
+

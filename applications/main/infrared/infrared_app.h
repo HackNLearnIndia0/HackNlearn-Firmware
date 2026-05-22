@@ -11,3 +11,4 @@
  * @brief InfraredApp opaque type declaration.
  */
 typedef struct InfraredApp InfraredApp;
+

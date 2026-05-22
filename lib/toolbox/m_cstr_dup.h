@@ -15,3 +15,4 @@
      EQUAL(M_CSTR_EQUAL),      \
      CMP(strcmp),              \
      TYPE(const char*))
+

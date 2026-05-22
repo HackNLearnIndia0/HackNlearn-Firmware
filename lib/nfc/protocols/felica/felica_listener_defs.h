@@ -11,3 +11,4 @@ extern const NfcListenerBase nfc_listener_felica;
 #ifdef __cplusplus
 }
 #endif
+

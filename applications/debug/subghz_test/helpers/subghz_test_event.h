@@ -5,3 +5,4 @@ typedef enum {
     SubGhzTestCustomEventStartId = 100,
     SubGhzTestCustomEventSceneShowOnlyRX,
 } SubGhzTestCustomEvent;
+

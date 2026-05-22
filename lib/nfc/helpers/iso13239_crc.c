@@ -66,3 +66,4 @@ void iso13239_crc_trim(BitBuffer* buf) {
 
     bit_buffer_set_size_bytes(buf, data_size - ISO13239_CRC_SIZE);
 }
+

@@ -6,3 +6,4 @@ struct FuriHalSerialHandle {
     FuriHalSerialId id;
     bool in_use;
 };
+

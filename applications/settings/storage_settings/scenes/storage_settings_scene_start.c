@@ -18,3 +18,4 @@ void storage_settings_scene_start_on_exit(void* context) {
     StorageSettings* app = context;
     submenu_settings_helpers_scene_exit(app->settings_helper);
 }
+

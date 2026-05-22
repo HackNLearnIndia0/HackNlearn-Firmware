@@ -332,3 +332,4 @@ const ProtocolBase ibutton_protocol_misc_metakom = {
     .render_uid = (ProtocolRenderData)protocol_metakom_render_uid,
     .render_brief_data = (ProtocolRenderData)protocol_metakom_render_brief_data,
 };
+

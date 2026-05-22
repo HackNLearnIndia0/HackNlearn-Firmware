@@ -242,3 +242,4 @@ uint8_t subghz_protocol_blocks_xor_bytes(uint8_t const message[], size_t size) {
     }
     return result;
 }
+

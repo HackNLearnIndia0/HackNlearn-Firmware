@@ -340,3 +340,4 @@ void subghz_scene_read_raw_on_exit(void* context) {
     //filter restoration
     subghz_txrx_receiver_set_filter(subghz->txrx, subghz->filter);
 }
+

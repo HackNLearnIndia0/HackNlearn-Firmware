@@ -38,3 +38,4 @@ extern void* Osal_MemSet(void* ptr, int value, unsigned int size);
  * @return  0 if the two buffers are equal, 1 otherwise
  */
 extern int Osal_MemCmp(const void* s1, const void* s2, unsigned int size);
+

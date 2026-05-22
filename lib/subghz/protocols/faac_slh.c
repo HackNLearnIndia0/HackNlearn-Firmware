@@ -224,3 +224,4 @@ void subghz_protocol_decoder_faac_slh_get_string(void* context, FuriString* outp
         instance->generic.serial,
         instance->generic.btn);
 }
+

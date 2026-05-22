@@ -11,3 +11,4 @@ extern const NfcPollerBase nfc_poller_felica;
 #ifdef __cplusplus
 }
 #endif
+

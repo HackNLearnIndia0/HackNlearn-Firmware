@@ -105,3 +105,4 @@ static const FlipperAppPluginDescriptor all_in_one_plugin_descriptor = {
 const FlipperAppPluginDescriptor* all_in_one_plugin_ep(void) {
     return &all_in_one_plugin_descriptor;
 }
+

@@ -99,3 +99,4 @@ int32_t locale_test_app(void* p) {
     locale_test_free(app);
     return 0;
 }
+

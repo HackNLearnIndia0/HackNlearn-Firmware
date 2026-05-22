@@ -128,3 +128,4 @@ struct NfcCliCommandDescriptor {
         PipeSide* pipe, FuriString* args, void* context) {               \
         nfc_cli_command_processor_run(&name##_cmd, pipe, args, context); \
     }
+

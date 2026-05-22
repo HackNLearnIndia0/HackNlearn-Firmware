@@ -322,3 +322,4 @@ void furi_string_utf8_decode(char c, FuriStringUTF8State* state, FuriStringUnico
     *state = state_to_furi_state(m_state);
     *unicode = m_u;
 }
+

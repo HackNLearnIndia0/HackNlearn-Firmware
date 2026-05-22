@@ -105,3 +105,4 @@ def file2image(file):
         data = b"\x00" + data_bin
 
     return Image(width, height, data)
+

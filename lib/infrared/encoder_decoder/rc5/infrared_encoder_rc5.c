@@ -51,3 +51,4 @@ void infrared_encoder_rc5_free(void* encoder_ptr) {
     free(encoder->common_encoder);
     free(encoder);
 }
+

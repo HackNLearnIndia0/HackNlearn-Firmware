@@ -522,3 +522,4 @@ MfClassicError mf_classic_poller_sync_detect_type(Nfc* nfc, MfClassicType* type)
 
     return error;
 }
+

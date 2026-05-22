@@ -15,3 +15,4 @@ typedef enum {
 } iButtonProtocolDallas;
 
 extern const iButtonProtocolDallasBase* const ibutton_protocols_dallas[];
+

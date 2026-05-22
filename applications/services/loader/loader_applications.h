@@ -14,3 +14,4 @@ void loader_applications_free(LoaderApplications* loader_applications);
 #ifdef __cplusplus
 }
 #endif
+

@@ -99,3 +99,4 @@ void ibutton_scene_write_on_exit(void* context) {
 
     ibutton_notification_message(ibutton, iButtonNotificationMessageBlinkStop);
 }
+

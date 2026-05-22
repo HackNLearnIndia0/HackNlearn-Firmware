@@ -74,3 +74,4 @@ void storage_settings_scene_unmounted_on_exit(void* context) {
 
     dialog_ex_reset(dialog_ex);
 }
+

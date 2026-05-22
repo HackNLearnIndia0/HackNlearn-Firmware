@@ -163,3 +163,4 @@ void dialog_message_set_buttons(
     message->center_button_text = center;
     message->right_button_text = right;
 }
+

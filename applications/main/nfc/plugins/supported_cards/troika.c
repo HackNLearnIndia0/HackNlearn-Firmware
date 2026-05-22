@@ -249,3 +249,4 @@ static const FlipperAppPluginDescriptor troika_plugin_descriptor = {
 const FlipperAppPluginDescriptor* troika_plugin_ep(void) {
     return &troika_plugin_descriptor;
 }
+

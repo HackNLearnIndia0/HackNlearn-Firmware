@@ -86,3 +86,4 @@ static const FlipperAppPluginDescriptor gallagher_plugin_descriptor = {
 const FlipperAppPluginDescriptor* gallagher_plugin_ep(void) {
     return &gallagher_plugin_descriptor;
 }
+

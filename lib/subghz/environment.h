@@ -116,3 +116,4 @@ const char* subghz_environment_get_protocol_name_registry(SubGhzEnvironment* ins
 #ifdef __cplusplus
 }
 #endif
+

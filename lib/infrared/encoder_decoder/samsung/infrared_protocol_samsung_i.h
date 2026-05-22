@@ -33,3 +33,4 @@ InfraredStatus infrared_encoder_samsung32_encode_repeat(
     bool* level);
 
 extern const InfraredCommonProtocolSpec infrared_protocol_samsung32;
+

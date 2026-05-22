@@ -42,3 +42,4 @@ struct gc_arena {
 #endif /* __cplusplus */
 
 #endif /* MJS_MM_H_ */
+

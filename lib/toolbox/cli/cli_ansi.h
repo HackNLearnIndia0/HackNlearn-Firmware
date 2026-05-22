@@ -151,3 +151,4 @@ CliAnsiParserResult cli_ansi_parser_feed_timeout(CliAnsiParser* parser);
 #ifdef __cplusplus
 }
 #endif
+

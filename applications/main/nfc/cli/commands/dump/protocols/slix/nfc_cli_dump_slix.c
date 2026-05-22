@@ -24,3 +24,4 @@ NfcCommand nfc_cli_dump_poller_callback_slix(NfcGenericEvent event, void* contex
 
     return command;
 }
+

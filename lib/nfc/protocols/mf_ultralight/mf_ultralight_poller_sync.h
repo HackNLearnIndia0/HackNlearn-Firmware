@@ -36,3 +36,4 @@ MfUltralightError mf_ultralight_poller_sync_read_card(
 #ifdef __cplusplus
 }
 #endif
+

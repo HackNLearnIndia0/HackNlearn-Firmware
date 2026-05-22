@@ -32,3 +32,4 @@ typedef struct {
 
 void desktop_settings_load(DesktopSettings* settings);
 void desktop_settings_save(const DesktopSettings* settings);
+

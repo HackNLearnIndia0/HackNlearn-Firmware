@@ -129,3 +129,4 @@ You can create customized firmware builds by modifying the list of apps to be in
 For example, to build a firmware image with unit tests, run `./fbt FIRMWARE_APP_SET=unit_tests`.
 
 Check out `fbt_options.py` for details.
+

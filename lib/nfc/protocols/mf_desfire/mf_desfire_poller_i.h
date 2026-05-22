@@ -54,3 +54,4 @@ const MfDesfireData* mf_desfire_poller_get_data(MfDesfirePoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

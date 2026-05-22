@@ -55,3 +55,4 @@ void felica_crc_trim(BitBuffer* buf) {
 
     bit_buffer_set_size_bytes(buf, data_size - FELICA_CRC_SIZE);
 }
+

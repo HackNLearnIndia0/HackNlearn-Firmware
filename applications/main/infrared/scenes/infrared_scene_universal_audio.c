@@ -127,3 +127,4 @@ bool infrared_scene_universal_audio_on_event(void* context, SceneManagerEvent ev
 void infrared_scene_universal_audio_on_exit(void* context) {
     infrared_scene_universal_common_on_exit(context);
 }
+

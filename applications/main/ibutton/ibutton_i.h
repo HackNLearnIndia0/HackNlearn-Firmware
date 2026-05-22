@@ -98,3 +98,4 @@ void ibutton_notification_message(iButton* ibutton, uint32_t message);
 
 void ibutton_submenu_callback(void* context, uint32_t index);
 void ibutton_widget_callback(GuiButtonType result, InputType type, void* context);
+

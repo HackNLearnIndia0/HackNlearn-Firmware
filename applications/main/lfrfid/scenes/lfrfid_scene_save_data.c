@@ -59,3 +59,4 @@ bool lfrfid_scene_save_data_on_event(void* context, SceneManagerEvent event) {
 void lfrfid_scene_save_data_on_exit(void* context) {
     UNUSED(context);
 }
+

@@ -405,3 +405,4 @@ void subghz_protocol_decoder_holtek_th12x_get_string(void* context, FuriString* 
         CNT_TO_DIP(instance->generic.cnt),
         instance->te);
 }
+

@@ -320,3 +320,4 @@ void ble_svc_hid_stop(BleServiceHid* hid_svc) {
     ble_gatt_service_delete(hid_svc->svc_handle);
     free(hid_svc);
 }
+

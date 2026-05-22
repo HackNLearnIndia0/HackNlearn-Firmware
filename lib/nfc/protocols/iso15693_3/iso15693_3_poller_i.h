@@ -38,3 +38,4 @@ const Iso15693_3Data* iso15693_3_poller_get_data(Iso15693_3Poller* instance);
 #ifdef __cplusplus
 }
 #endif
+

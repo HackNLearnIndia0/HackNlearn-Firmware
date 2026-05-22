@@ -115,3 +115,4 @@ void subghz_scene_start_on_exit(void* context) {
     SubGhz* subghz = context;
     submenu_reset(subghz->submenu);
 }
+

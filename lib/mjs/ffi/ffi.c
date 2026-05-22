@@ -551,3 +551,4 @@ int ffi_call_mjs(ffi_fn_t* func, int nargs, struct ffi_arg* res, struct ffi_arg*
 
     return 0;
 }
+

@@ -488,3 +488,4 @@ void subghz_view_receiver_set_idx_menu(SubGhzViewReceiver* subghz_receiver, uint
         true);
     subghz_view_receiver_update_offset(subghz_receiver);
 }
+

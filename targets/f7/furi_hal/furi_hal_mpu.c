@@ -70,3 +70,4 @@ void furi_hal_mpu_set_stack_protection(uint32_t* stack) {
     furi_hal_mpu_protect_read_only(
         FuriHalMpuRegionThreadStack, stack_ptr, FURI_HAL_MPU_STACK_PROTECT_REGION);
 }
+

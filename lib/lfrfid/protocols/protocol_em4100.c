@@ -451,3 +451,4 @@ const ProtocolBase protocol_em4100_16 = {
     .render_brief_data = (ProtocolRenderData)protocol_em4100_render_data,
     .write_data = (ProtocolWriteData)protocol_em4100_write_data,
 };
+

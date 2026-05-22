@@ -31,3 +31,4 @@ void rpc_debug_app_scene_receive_data_exchange_on_exit(void* context) {
     RpcDebugApp* app = context;
     text_box_reset(app->text_box);
 }
+

@@ -226,3 +226,4 @@ class SdkCxxVisitor:
 
     def on_parse_start(self, state: NamespaceBlockState) -> None:
         pass
+

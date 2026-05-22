@@ -127,3 +127,4 @@ View* one_shot_view_get_view(OneShotView* view) {
 
     return view->view;
 }
+

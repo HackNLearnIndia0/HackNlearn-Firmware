@@ -70,3 +70,4 @@ void nfc_scene_mf_classic_mfkey_nonces_info_on_exit(void* context) {
     // Clear view
     widget_reset(instance->widget);
 }
+

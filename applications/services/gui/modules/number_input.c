@@ -450,3 +450,4 @@ void number_input_set_header_text(NumberInput* number_input, const char* text) {
         { furi_string_set(model->header, text); },
         true);
 }
+

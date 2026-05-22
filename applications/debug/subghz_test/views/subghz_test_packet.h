@@ -20,3 +20,4 @@ SubGhzTestPacket* subghz_test_packet_alloc(void);
 void subghz_test_packet_free(SubGhzTestPacket* subghz_test_packet);
 
 View* subghz_test_packet_get_view(SubGhzTestPacket* subghz_test_packet);
+

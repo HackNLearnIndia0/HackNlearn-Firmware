@@ -76,3 +76,4 @@ void lp5562_execute_blink(
     uint16_t on_time,
     uint16_t period,
     uint8_t brightness);
+

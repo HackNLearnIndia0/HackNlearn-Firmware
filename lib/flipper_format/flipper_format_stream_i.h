@@ -32,3 +32,4 @@ bool flipper_format_stream_seek_to_key(Stream* stream, const char* key, bool str
 #ifdef __cplusplus
 }
 #endif
+

@@ -165,3 +165,4 @@ extern const FuriHalNfcTechBase* const furi_hal_nfc_tech[];
 #ifdef __cplusplus
 }
 #endif
+

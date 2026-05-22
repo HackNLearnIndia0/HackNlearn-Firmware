@@ -65,3 +65,4 @@ bool file_info_is_dir(const FileInfo* file_info);
 #ifdef __cplusplus
 }
 #endif
+

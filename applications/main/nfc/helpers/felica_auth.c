@@ -19,3 +19,4 @@ void felica_auth_reset(FelicaAuthenticationContext* instance) {
     instance->auth_status.external = 0;
     instance->auth_status.internal = 0;
 }
+

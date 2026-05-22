@@ -42,3 +42,4 @@ void fsk_demod_feed(FSKDemod* demod, bool polarity, uint32_t time, bool* value, 
 #ifdef __cplusplus
 }
 #endif
+

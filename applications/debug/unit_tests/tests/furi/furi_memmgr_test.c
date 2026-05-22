@@ -37,3 +37,4 @@ void test_furi_memmgr(void) {
     }
     free(ptr);
 }
+

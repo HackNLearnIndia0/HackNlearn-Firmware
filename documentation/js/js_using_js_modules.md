@@ -40,3 +40,4 @@ Congratulations, you've completed the **Getting Started** section of our JS docs
 * JavaScript app examples
 * Documentation on JS modules
 * Additional resources related to JavaScript on Flipper Zero
+

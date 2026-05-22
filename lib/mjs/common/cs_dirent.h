@@ -49,3 +49,4 @@ struct dirent *readdir(DIR *dir);
 #endif /* __cplusplus */
 
 #endif /* CS_COMMON_CS_DIRENT_H_ */
+

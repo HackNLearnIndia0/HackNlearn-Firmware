@@ -241,3 +241,4 @@ void desktop_settings_scene_favorite_on_exit(void* context) {
     DesktopSettingsApp* app = context;
     submenu_reset(app->submenu);
 }
+

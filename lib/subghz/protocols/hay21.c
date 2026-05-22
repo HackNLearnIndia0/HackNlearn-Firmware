@@ -267,3 +267,4 @@ void subghz_protocol_decoder_hay21_get_string(void* context, FuriString* output)
         subghz_protocol_hay21_get_button_name(instance->generic.btn),
         (uint8_t)(instance->generic.cnt & 0xF));
 }
+

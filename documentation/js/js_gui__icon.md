@@ -30,3 +30,4 @@ It will be automatically unloaded when the script exits.
 **Returns**
 
 An `IconData` object.
+

@@ -44,3 +44,4 @@ void subghz_scene_show_error_sub_on_exit(void* context) {
 
     notification_message(subghz->notifications, &sequence_reset_rgb);
 }
+

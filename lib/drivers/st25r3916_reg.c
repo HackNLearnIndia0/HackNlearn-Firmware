@@ -264,3 +264,4 @@ bool st25r3916_check_reg(const FuriHalSpiBusHandle* handle, uint8_t reg, uint8_t
     st25r3916_read_reg(handle, reg, &reg_val);
     return (reg_val & mask) == val;
 }
+

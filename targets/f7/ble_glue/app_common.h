@@ -10,3 +10,4 @@
 #include <interface/patterns/ble_thread/tl/tl.h>
 
 #include "app_conf.h"
+

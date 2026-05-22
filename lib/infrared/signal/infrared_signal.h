@@ -226,3 +226,4 @@ void infrared_signal_transmit(const InfraredSignal* signal);
 #ifdef __cplusplus
 }
 #endif
+

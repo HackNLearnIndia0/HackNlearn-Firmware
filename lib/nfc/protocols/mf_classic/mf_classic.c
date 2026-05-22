@@ -796,3 +796,4 @@ bool mf_classic_is_value_block(MfClassicSectorTrailer* sec_tr, uint8_t block_num
             mf_classic_is_allowed_access_data_block(
                 sec_tr, block_num, MfClassicKeyTypeB, MfClassicActionDataDec));
 }
+

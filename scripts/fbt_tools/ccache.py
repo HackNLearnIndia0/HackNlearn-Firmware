@@ -13,3 +13,4 @@ def generate(env):
         env["CXX_NOCACHE"] = env["CXX"]
         env["CXX"] = "$CCACHE $CXX_NOCACHE"
         env.AppendUnique(COMPILATIONDB_OMIT_BINARIES=["ccache"])
+

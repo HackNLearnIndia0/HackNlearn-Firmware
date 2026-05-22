@@ -327,3 +327,4 @@ uint64_t bit_lib_bytes_to_num_bcd(const uint8_t* src, uint8_t len, bool* is_bcd)
 #ifdef __cplusplus
 }
 #endif
+

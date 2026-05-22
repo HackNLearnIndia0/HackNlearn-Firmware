@@ -63,3 +63,4 @@ void nfc_scene_generate_info_on_exit(void* context) {
     // Clean views
     widget_reset(instance->widget);
 }
+

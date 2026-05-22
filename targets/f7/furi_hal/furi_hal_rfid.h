@@ -104,3 +104,4 @@ bool furi_hal_rfid_field_is_present(uint32_t* frequency);
 #ifdef __cplusplus
 }
 #endif
+

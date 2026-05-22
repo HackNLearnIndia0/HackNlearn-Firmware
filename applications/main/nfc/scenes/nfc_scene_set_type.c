@@ -80,3 +80,4 @@ void nfc_scene_set_type_on_exit(void* context) {
 
     submenu_reset(instance->submenu);
 }
+

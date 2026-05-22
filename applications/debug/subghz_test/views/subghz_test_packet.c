@@ -273,3 +273,4 @@ View* subghz_test_packet_get_view(SubGhzTestPacket* instance) {
     furi_assert(instance);
     return instance->view;
 }
+

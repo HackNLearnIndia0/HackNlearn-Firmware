@@ -66,3 +66,4 @@ void power_settings_scene_reboot_confirm_on_exit(void* context) {
     PowerSettingsApp* app = context;
     dialog_ex_reset(app->dialog);
 }
+

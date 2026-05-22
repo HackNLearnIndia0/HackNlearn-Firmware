@@ -72,3 +72,4 @@ SubGhzProtocolStatus
  * @param output Resulting text
  */
 void subghz_protocol_decoder_somfy_telis_get_string(void* context, FuriString* output);
+

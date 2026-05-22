@@ -622,3 +622,4 @@ SlixError slix_listener_process_request(SlixListener* instance, const BitBuffer*
 
     return error;
 }
+

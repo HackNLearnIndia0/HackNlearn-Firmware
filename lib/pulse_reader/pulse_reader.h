@@ -120,3 +120,4 @@ void pulse_reader_set_pull(PulseReader* signal, GpioPull pull);
 #ifdef __cplusplus
 }
 #endif
+

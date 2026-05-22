@@ -76,3 +76,4 @@ void archive_scene_delete_on_exit(void* context) {
 
     widget_reset(app->widget);
 }
+

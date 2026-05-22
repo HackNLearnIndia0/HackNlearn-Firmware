@@ -136,3 +136,4 @@ int32_t example_event_loop_mutex_app(void* arg) {
 
     return 0;
 }
+

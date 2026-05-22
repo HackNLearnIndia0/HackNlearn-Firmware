@@ -36,3 +36,4 @@ void lfrfid_scene_write_success_on_exit(void* context) {
     notification_message_block(app->notifications, &sequence_reset_green);
     popup_reset(app->popup);
 }
+

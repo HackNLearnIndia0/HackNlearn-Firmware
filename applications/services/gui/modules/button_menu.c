@@ -465,3 +465,4 @@ void button_menu_set_selected_item(ButtonMenu* button_menu, uint32_t index) {
         },
         true);
 }
+

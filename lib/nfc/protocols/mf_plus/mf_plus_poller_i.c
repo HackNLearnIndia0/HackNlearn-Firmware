@@ -57,3 +57,4 @@ MfPlusError mf_plus_poller_read_version(MfPlusPoller* instance, MfPlusVersion* d
 
     return error;
 }
+

@@ -1275,3 +1275,4 @@ mjs_err_t mjs_apply(
 
     return mjs->error;
 }
+

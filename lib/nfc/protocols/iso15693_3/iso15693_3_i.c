@@ -261,3 +261,4 @@ bool iso15693_3_is_equal_uid(const Iso15693_3Data* data, const uint8_t* uid) {
     }
     return true;
 }
+

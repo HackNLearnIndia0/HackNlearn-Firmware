@@ -32,3 +32,4 @@ void nfc_render_mf_desfire_file_settings_data(
     const MfDesfireFileSettings* settings,
     const MfDesfireFileData* data,
     FuriString* str);
+

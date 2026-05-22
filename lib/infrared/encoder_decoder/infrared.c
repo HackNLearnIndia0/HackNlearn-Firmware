@@ -353,3 +353,4 @@ float infrared_get_protocol_duty_cycle(InfraredProtocol protocol) {
 size_t infrared_get_protocol_min_repeat_count(InfraredProtocol protocol) {
     return infrared_get_variant_by_protocol(protocol)->repeat_count;
 }
+

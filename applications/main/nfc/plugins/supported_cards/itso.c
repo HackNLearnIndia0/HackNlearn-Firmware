@@ -126,3 +126,4 @@ static const FlipperAppPluginDescriptor itso_plugin_descriptor = {
 const FlipperAppPluginDescriptor* itso_plugin_ep(void) {
     return &itso_plugin_descriptor;
 }
+

@@ -22,3 +22,4 @@ void clock_settings_module_set(
     bool enabled);
 
 bool clock_settings_module_get(ClockSettingsModule* instance, DateTime* datetime);
+

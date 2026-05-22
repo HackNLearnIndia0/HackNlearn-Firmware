@@ -243,3 +243,4 @@ bool desktop_view_locked_is_locked_hint_visible(DesktopViewLocked* locked_view) 
     view_commit_model(locked_view->view, false);
     return view_state == DesktopViewLockedStateLockedHintShown;
 }
+

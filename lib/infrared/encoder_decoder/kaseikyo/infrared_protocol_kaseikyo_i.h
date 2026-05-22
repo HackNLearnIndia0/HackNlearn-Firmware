@@ -28,3 +28,4 @@ InfraredStatus infrared_encoder_kaseikyo_encode_repeat(
     InfraredCommonEncoder* encoder,
     uint32_t* duration,
     bool* level);
+

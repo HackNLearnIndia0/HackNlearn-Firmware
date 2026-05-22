@@ -77,3 +77,4 @@ wrap_tempfile(coreenv, "LINKCOM")
 wrap_tempfile(coreenv, "ARCOM")
 
 Return("coreenv")
+

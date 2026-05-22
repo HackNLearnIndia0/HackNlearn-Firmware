@@ -37,3 +37,4 @@ const InfraredProtocolVariant* infrared_protocol_samsung32_get_variant(InfraredP
     else
         return NULL;
 }
+

@@ -49,3 +49,4 @@ void nfc_scene_save_confirm_on_exit(void* context) {
     // Clean view
     dialog_ex_reset(nfc->dialog_ex);
 }
+

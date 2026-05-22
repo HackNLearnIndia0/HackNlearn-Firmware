@@ -57,3 +57,4 @@ typedef struct {
     NfcPoller* poller;
     NfcDevice* nfc_device;
 } NfcCliDumpContext;
+

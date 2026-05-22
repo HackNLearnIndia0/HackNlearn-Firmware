@@ -145,3 +145,4 @@ MJS_PRIVATE void mjs_bcode_commit(struct mjs* mjs) {
 
     mjs->bcode_len += bp.data.len;
 }
+

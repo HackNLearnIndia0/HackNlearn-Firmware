@@ -125,3 +125,4 @@ void hid_scene_start_on_exit(void* context) {
     Hid* app = context;
     submenu_reset(app->submenu);
 }
+

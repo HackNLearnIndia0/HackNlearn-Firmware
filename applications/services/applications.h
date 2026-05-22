@@ -70,3 +70,4 @@ extern const size_t FLIPPER_SETTINGS_APPS_COUNT;
  */
 extern const FlipperExternalApplication FLIPPER_EXTERNAL_APPS[];
 extern const size_t FLIPPER_EXTERNAL_APPS_COUNT;
+

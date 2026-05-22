@@ -77,3 +77,4 @@ typedef NfcCommand (*NfcGenericCallback)(NfcGenericEvent event, void* context);
 #ifdef __cplusplus
 }
 #endif
+

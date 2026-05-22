@@ -537,3 +537,4 @@ void test_furi_event_loop(void) {
     furi_event_flag_free(data.event_flag);
     furi_semaphore_free(data.semaphore);
 }
+

@@ -94,3 +94,4 @@ const SubGhzDevice subghz_device_cc1101_int = {
     .name = SUBGHZ_DEVICE_CC1101_INT_NAME,
     .interconnect = &subghz_device_cc1101_int_interconnect,
 };
+

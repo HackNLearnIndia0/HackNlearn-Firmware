@@ -288,3 +288,4 @@ bool furi_hal_i2c_write_mem(
 #ifdef __cplusplus
 }
 #endif
+

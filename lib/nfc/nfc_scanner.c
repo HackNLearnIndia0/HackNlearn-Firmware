@@ -266,3 +266,4 @@ void nfc_scanner_stop(NfcScanner* instance) {
     instance->context = NULL;
     instance->state = NfcScannerStateIdle;
 }
+

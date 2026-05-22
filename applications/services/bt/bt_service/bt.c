@@ -589,3 +589,4 @@ int32_t bt_srv(void* p) {
 
     return 0;
 }
+

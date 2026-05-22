@@ -28,3 +28,4 @@ void infrared_encoder_nec_reset(void* encoder_ptr, const InfraredMessage* messag
 void infrared_encoder_nec_free(void* encoder_ptr);
 
 const InfraredProtocolVariant* infrared_protocol_nec_get_variant(InfraredProtocol protocol);
+

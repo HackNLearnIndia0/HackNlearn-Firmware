@@ -229,3 +229,4 @@ int32_t update_task_worker_backup_restore(void* context) {
     update_task_set_progress(update_task, UpdateTaskStageCompleted, 100);
     return UPDATE_TASK_NOERR;
 }
+

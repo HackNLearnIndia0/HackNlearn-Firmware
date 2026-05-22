@@ -341,3 +341,4 @@ const GapRootSecurityKeys* bt_keys_storage_get_root_keys(BtKeysStorage* instance
 
     return &instance->root_keys;
 }
+

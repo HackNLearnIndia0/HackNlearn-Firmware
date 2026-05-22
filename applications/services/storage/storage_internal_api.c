@@ -23,3 +23,4 @@ FS_Error
     tar_archive_free(archive);
     return success ? FSE_OK : FSE_INTERNAL;
 }
+

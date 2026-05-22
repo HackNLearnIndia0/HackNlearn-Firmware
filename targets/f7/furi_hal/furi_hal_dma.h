@@ -13,3 +13,4 @@ void furi_hal_dma_deinit_early(void);
 #ifdef __cplusplus
 }
 #endif
+

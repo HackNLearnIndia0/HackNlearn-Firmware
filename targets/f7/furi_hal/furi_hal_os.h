@@ -18,3 +18,4 @@ void furi_hal_os_tick(void);
 #ifdef __cplusplus
 }
 #endif
+

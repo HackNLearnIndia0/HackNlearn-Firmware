@@ -30,3 +30,4 @@ void __furi_critical_exit(__FuriCriticalInfo info) {
         __enable_irq();
     }
 }
+

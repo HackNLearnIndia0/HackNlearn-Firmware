@@ -317,3 +317,4 @@ St25tbError st25tb_poller_halt(St25tbPoller* instance) {
 
     return ret;
 }
+

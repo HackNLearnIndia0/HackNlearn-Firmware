@@ -37,3 +37,4 @@ void bad_usb_hid_ble_remove_pairing(void);
 #ifdef __cplusplus
 }
 #endif
+

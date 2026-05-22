@@ -107,3 +107,4 @@ bool datetime_is_leap_year(uint16_t year) {
 uint8_t datetime_get_days_per_month(bool leap_year, uint8_t month) {
     return datetime_days_per_month[leap_year ? 1 : 0][month - 1];
 }
+

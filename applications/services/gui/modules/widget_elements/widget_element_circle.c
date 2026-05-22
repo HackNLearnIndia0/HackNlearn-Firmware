@@ -43,3 +43,4 @@ WidgetElement* widget_element_circle_create(uint8_t x, uint8_t y, uint8_t radius
 
     return gui_circle;
 }
+

@@ -257,3 +257,4 @@ const ProtocolBase protocol_idteck = {
     .render_brief_data = (ProtocolRenderData)protocol_idteck_render_data,
     .write_data = (ProtocolWriteData)protocol_idteck_write_data,
 };
+

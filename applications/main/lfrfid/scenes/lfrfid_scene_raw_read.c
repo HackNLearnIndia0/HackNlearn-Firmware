@@ -142,3 +142,4 @@ void lfrfid_scene_raw_read_on_exit(void* context) {
     popup_reset(app->popup);
     notification_message(app->notifications, &sequence_blink_stop);
 }
+

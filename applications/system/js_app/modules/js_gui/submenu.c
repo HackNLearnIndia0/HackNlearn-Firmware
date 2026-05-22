@@ -90,3 +90,4 @@ static const JsViewDescriptor view_descriptor = {
             .assign = (JsViewPropAssign)header_assign},
     }};
 JS_GUI_VIEW_DEF(submenu, &view_descriptor);
+

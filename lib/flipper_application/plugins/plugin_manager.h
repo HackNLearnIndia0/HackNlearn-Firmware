@@ -80,3 +80,4 @@ const void* plugin_manager_get_ep(PluginManager* manager, uint32_t index);
 #ifdef __cplusplus
 }
 #endif
+

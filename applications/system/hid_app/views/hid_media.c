@@ -213,3 +213,4 @@ void hid_media_set_connected_status(HidMedia* hid_media, bool connected) {
     with_view_model(
         hid_media->view, HidMediaModel * model, { model->connected = connected; }, true);
 }
+

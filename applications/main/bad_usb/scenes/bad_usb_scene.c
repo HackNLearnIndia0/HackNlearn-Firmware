@@ -28,3 +28,4 @@ const SceneManagerHandlers bad_usb_scene_handlers = {
     .on_exit_handlers = bad_usb_scene_on_exit_handlers,
     .scene_num = BadUsbSceneNum,
 };
+

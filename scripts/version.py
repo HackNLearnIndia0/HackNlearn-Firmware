@@ -17,7 +17,7 @@ class GitVersion:
     def get_version_info(self):
         commit = (
             self._exec_git(f"rev-parse --short={self.REVISION_SUFFIX_LENGTH} HEAD")
-            or "unknown"
+            or "HackNlearn"
         )
 
         dirty = False
@@ -32,13 +32,13 @@ class GitVersion:
         branch = (
             os.environ.get("WORKFLOW_BRANCH_OR_TAG", None)
             or self._exec_git("rev-parse --abbrev-ref HEAD")
-            or "unknown"
+            or "HackNlearn"
         )
 
         try:
             version = self._exec_git("describe --tags --abbrev=0 --exact-match")
         except subprocess.CalledProcessError:
-            version = "unknown"
+            version = "HackNlearn"
 
         if "SOURCE_DATE_EPOCH" in os.environ:
             commit_date = datetime.utcfromtimestamp(
@@ -174,3 +174,5 @@ class Main(App):
 
 if __name__ == "__main__":
     Main()()
+refresh 
+

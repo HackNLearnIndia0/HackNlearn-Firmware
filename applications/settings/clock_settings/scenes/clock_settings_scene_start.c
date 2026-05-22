@@ -30,3 +30,4 @@ bool clock_settings_scene_start_on_event(void* context, SceneManagerEvent event)
 void clock_settings_scene_start_on_exit(void* context) {
     UNUSED(context);
 }
+

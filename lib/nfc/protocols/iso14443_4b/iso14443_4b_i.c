@@ -16,3 +16,4 @@ Iso14443_4bError iso14443_4b_process_error(Iso14443_3bError error) {
         return Iso14443_4bErrorProtocol;
     }
 }
+

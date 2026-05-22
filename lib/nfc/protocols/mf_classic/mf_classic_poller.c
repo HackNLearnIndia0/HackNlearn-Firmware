@@ -2263,3 +2263,4 @@ const NfcPollerBase mf_classic_poller = {
     .detect = (NfcPollerDetect)mf_classic_poller_detect,
     .get_data = (NfcPollerGetData)mf_classic_poller_get_data,
 };
+

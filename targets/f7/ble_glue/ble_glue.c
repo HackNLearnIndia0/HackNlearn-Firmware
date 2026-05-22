@@ -441,3 +441,4 @@ const BleGlueHardfaultInfo* ble_glue_get_hardfault_info(void) {
     }
     return info;
 }
+

@@ -641,3 +641,4 @@ int32_t infrared_app(void* p) {
 
     return 0;
 }
+

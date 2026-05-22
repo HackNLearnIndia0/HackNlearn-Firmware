@@ -71,3 +71,4 @@ FelicaError felica_poller_sync_read(Nfc* nfc, FelicaData* data, const FelicaCard
 
     return poller_context.error;
 }
+

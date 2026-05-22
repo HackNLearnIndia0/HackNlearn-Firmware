@@ -353,3 +353,4 @@ void subghz_protocol_decoder_clemsa_get_string(void* context, FuriString* output
         SHOW_DIP_P(instance->generic.serial, DIP_O),
         SHOW_DIP_P(instance->generic.serial, DIP_N));
 }
+

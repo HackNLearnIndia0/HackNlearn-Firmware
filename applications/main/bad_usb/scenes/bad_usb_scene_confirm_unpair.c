@@ -51,3 +51,4 @@ void bad_usb_scene_confirm_unpair_on_exit(void* context) {
 
     widget_reset(widget);
 }
+

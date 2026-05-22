@@ -85,3 +85,4 @@ void profiler_dump(Profiler* profiler) {
         }
     }
 }
+

@@ -100,3 +100,4 @@ NfcCommand nfc_cli_raw_iso15693_3_handler(
     } while(false);
     return request->keep_field ? NfcCommandContinue : NfcCommandStop;
 }
+

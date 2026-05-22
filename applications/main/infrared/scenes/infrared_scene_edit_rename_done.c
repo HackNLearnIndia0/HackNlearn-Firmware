@@ -35,3 +35,4 @@ void infrared_scene_edit_rename_done_on_exit(void* context) {
     InfraredApp* infrared = context;
     UNUSED(infrared);
 }
+

@@ -277,3 +277,4 @@ FelicaCommandWriteBlockHandler felica_listener_get_write_block_handler(const uin
  */
 FelicaError
     felica_listener_frame_exchange(const FelicaListener* instance, const BitBuffer* tx_buffer);
+

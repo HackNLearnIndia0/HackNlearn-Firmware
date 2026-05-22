@@ -280,3 +280,4 @@ void furi_hal_clock_mco_disable(void) {
     while(LL_RCC_MSI_IsReady() != 0)
         ;
 }
+

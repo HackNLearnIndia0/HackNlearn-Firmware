@@ -68,3 +68,4 @@ void file_browser_worker_load(BrowserWorker* browser, uint32_t offset, uint32_t 
 #ifdef __cplusplus
 }
 #endif
+

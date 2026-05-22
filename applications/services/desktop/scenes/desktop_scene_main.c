@@ -216,3 +216,4 @@ void desktop_scene_main_on_exit(void* context) {
     animation_manager_set_interact_callback(desktop->animation_manager, NULL);
     animation_manager_set_context(desktop->animation_manager, desktop);
 }
+

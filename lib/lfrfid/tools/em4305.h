@@ -59,3 +59,4 @@ void em4305_write(LFRFIDEM4305* data);
 #ifdef __cplusplus
 }
 #endif
+

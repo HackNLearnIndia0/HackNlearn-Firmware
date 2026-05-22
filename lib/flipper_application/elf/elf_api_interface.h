@@ -14,3 +14,4 @@ typedef struct ElfApiInterface {
         uint32_t hash,
         Elf32_Addr* address);
 } ElfApiInterface;
+

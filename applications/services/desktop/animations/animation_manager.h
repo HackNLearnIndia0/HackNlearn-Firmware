@@ -165,3 +165,4 @@ void animation_manager_load_and_continue_animation(AnimationManager* animation_m
  * @enabled              bool
  */
 void animation_manager_set_dummy_mode_state(AnimationManager* animation_manager, bool enabled);
+

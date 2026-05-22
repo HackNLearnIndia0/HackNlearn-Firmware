@@ -208,3 +208,4 @@ FURI_NORETURN void __furi_halt_implementation(void) {
 
     __builtin_unreachable();
 }
+

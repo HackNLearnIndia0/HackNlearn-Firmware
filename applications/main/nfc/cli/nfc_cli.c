@@ -122,3 +122,4 @@ void nfc_cli_execute(PipeSide* pipe, FuriString* args, void* context) {
 }
 
 CLI_COMMAND_INTERFACE(nfc, nfc_cli_execute, CliCommandFlagParallelSafe, 1024, CLI_APPID);
+

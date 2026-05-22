@@ -44,3 +44,4 @@ NfcDeviceData* nfc_device_get_data_ptr(const NfcDevice* instance, NfcProtocol pr
 #ifdef __cplusplus
 }
 #endif
+

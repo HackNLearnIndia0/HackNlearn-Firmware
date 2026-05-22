@@ -63,3 +63,4 @@ void pretty_format_bytes_hex_canonical(
             result, "\n(Data is too big. Showing only the first %zu bytes.)", data_size);
     }
 }
+

@@ -59,3 +59,4 @@ const ElfApiInterface* composite_api_resolver_get(CompositeApiResolver* resolver
     furi_check(resolver);
     return &resolver->api_interface;
 }
+

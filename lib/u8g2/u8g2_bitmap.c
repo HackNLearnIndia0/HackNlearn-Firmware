@@ -206,3 +206,4 @@ void u8g2_DrawXBMP(
         h--;
     }
 }
+

@@ -363,3 +363,4 @@ void text_box_set_focus(TextBox* text_box, TextBoxFocus focus) {
 
     with_view_model(text_box->view, TextBoxModel * model, { model->focus = focus; }, true);
 }
+

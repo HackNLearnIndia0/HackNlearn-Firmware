@@ -112,3 +112,4 @@ void furi_hal_cortex_comp_reset(FuriHalCortexComp comp) {
         furi_crash("Invalid parameter");
     }
 }
+

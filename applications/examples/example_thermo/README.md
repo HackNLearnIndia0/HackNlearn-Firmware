@@ -50,3 +50,4 @@ Do not forget about the external pull-up resistor as these pins do not have one 
 
 With the changes been made, recompile and launch the application again. 
 The on-screen text should reflect it by asking to connect the thermometer to another pin.
+

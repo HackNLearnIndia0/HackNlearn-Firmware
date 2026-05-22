@@ -57,3 +57,4 @@ static inline uint32_t furi_hal_idle_timer_get_cnt() {
     }
     return counter;
 }
+

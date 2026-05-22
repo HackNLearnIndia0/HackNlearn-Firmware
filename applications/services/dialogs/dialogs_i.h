@@ -14,3 +14,4 @@ struct DialogsApp {
 #ifdef __cplusplus
 }
 #endif
+

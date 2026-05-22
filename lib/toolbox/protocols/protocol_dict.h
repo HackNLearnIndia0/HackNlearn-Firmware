@@ -73,3 +73,4 @@ bool protocol_dict_get_write_data(ProtocolDict* dict, size_t protocol_index, voi
 #ifdef __cplusplus
 }
 #endif
+

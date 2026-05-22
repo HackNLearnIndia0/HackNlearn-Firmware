@@ -270,3 +270,4 @@ void hid_mouse_clicker_set_connected_status(HidMouseClicker* hid_mouse_clicker, 
         { model->connected = connected; },
         true);
 }
+

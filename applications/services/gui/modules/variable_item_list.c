@@ -418,3 +418,4 @@ void* variable_item_get_context(VariableItem* item) {
     furi_check(item);
     return item->context;
 }
+

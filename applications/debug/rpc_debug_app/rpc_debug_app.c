@@ -164,3 +164,4 @@ int32_t rpc_debug_app(void* args) {
     rpc_debug_app_free(app);
     return 0;
 }
+

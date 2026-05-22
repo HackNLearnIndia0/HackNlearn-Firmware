@@ -73,3 +73,4 @@ void name_generator_make_detailed(char* name, size_t max_name_size, const char* 
         dateTime.hour,
         dateTime.minute);
 }
+

@@ -257,3 +257,4 @@ void ble_svc_serial_set_rpc_active(BleServiceSerial* serial_svc, bool active) {
     ble_svc_serial_update_rpc_char(
         serial_svc, active ? SerialServiceRpcStatusActive : SerialServiceRpcStatusNotActive);
 }
+

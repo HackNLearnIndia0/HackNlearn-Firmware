@@ -159,3 +159,4 @@ void nfc_cli_command_format_info(const NfcCliCommandDescriptor* cmd, FuriString*
         }
     }
 }
+

@@ -55,3 +55,4 @@ void nfc_render_mf_ultralight_dump(const MfUltralightData* data, FuriString* str
         }
     }
 }
+

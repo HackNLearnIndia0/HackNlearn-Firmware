@@ -94,3 +94,4 @@ void lfrfid_scene_write_on_exit(void* context) {
     size_t size = protocol_dict_get_data_size(app->dict, app->protocol_id);
     protocol_dict_set_data(app->dict, app->protocol_id, app->old_key_data, size);
 }
+

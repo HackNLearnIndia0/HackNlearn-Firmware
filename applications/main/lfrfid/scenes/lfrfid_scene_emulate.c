@@ -40,3 +40,4 @@ void lfrfid_scene_emulate_on_exit(void* context) {
     lfrfid_worker_stop(app->lfworker);
     lfrfid_worker_stop_thread(app->lfworker);
 }
+

@@ -28,3 +28,4 @@ const SceneManagerHandlers updater_scene_handlers = {
     .on_exit_handlers = updater_on_exit_handlers,
     .scene_num = UpdaterSceneNum,
 };
+

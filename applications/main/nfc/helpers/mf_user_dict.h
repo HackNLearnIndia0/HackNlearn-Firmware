@@ -21,3 +21,4 @@ bool mf_user_dict_delete_key(MfUserDict* instance, uint32_t index);
 #ifdef __cplusplus
 }
 #endif
+

@@ -58,3 +58,4 @@ bool fsk_osc_next_half(FSKOsc* osc, bool bit, bool* level, uint32_t* duration);
 #ifdef __cplusplus
 }
 #endif
+

@@ -71,3 +71,4 @@ SubGhzProtocolDecoderBase*
 #ifdef __cplusplus
 }
 #endif
+

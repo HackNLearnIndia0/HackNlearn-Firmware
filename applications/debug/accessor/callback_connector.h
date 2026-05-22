@@ -104,3 +104,4 @@ auto obtain_connector(Functor functor) {
 
 #endif // __cplusplus
 #endif // CALLBACKCONNECTOR_H
+

@@ -162,3 +162,4 @@ const void* plugin_manager_get_ep(PluginManager* manager, uint32_t index) {
     furi_check(lib_descr);
     return lib_descr->entry_point;
 }
+

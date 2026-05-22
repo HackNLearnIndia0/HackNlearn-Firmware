@@ -34,3 +34,4 @@ bool mf_ultralight_generate_xiaomi_pass(MfUltralightAuth* instance, uint8_t* uid
 #ifdef __cplusplus
 }
 #endif
+

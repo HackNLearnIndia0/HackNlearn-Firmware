@@ -387,3 +387,4 @@ void subghz_protocol_decoder_honeywell_wdb_get_string(void* context, FuriString*
         instance->relay,
         instance->lowbat);
 }
+

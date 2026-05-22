@@ -13,7 +13,7 @@
 #define FREQUENCY_FLAG_DEFAULT (1 << 31)
 #define FREQUENCY_MASK         (0xFFFFFFFF ^ FREQUENCY_FLAG_DEFAULT)
 
-/* Default */
+/* Default — HackNlearn: 433.92 MHz default (Suzuki Swift / Hyundai / Kia) */
 static const uint32_t subghz_frequency_list[] = {
     /* 300 - 348 */
     300000000,
@@ -28,7 +28,7 @@ static const uint32_t subghz_frequency_list[] = {
     418000000,
     433075000, /* LPD433 first */
     433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
+    433920000 | FREQUENCY_FLAG_DEFAULT, /* DEFAULT — Suzuki Swift / most Indian cars */
     434420000,
     434775000, /* LPD433 last channels */
     438900000,
@@ -52,109 +52,40 @@ static const uint32_t subghz_hopper_frequency_list[] = {
 
 /* Europe and Russia */
 static const uint32_t subghz_frequency_list_region_eu_ru[] = {
-    /* 300 - 348 */
-    300000000,
-    303875000,
-    304250000,
-    310000000,
-    315000000,
-    318000000,
-
-    /* 387 - 464 */
-    390000000,
-    418000000,
-    433075000, /* LPD433 first */
-    433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
-    434420000,
-    434775000, /* LPD433 last channels */
-    438900000,
-
-    /* 779 - 928 */
-    868350000,
-    915000000,
-    925000000,
+    300000000, 303875000, 304250000, 310000000, 315000000, 318000000,
+    390000000, 418000000, 433075000, 433420000,
+    433920000 | FREQUENCY_FLAG_DEFAULT,
+    434420000, 434775000, 438900000,
+    868350000, 915000000, 925000000,
     0,
 };
 static const uint32_t subghz_hopper_frequency_list_region_eu_ru[] = {
-    310000000,
-    315000000,
-    318000000,
-    390000000,
-    433920000,
-    868350000,
-    0,
+    310000000, 315000000, 318000000, 390000000, 433920000, 868350000, 0,
 };
 
-/* Region 0 */
+/* Region US/CA/AU */
 static const uint32_t subghz_frequency_list_region_us_ca_au[] = {
-    /* 300 - 348 */
-    300000000,
-    303875000,
-    304250000,
-    310000000,
-    315000000,
-    318000000,
-
-    /* 387 - 464 */
-    390000000,
-    418000000,
-    433075000, /* LPD433 first */
-    433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
-    434420000,
-    434775000, /* LPD433 last channels */
-    438900000,
-
-    /* 779 - 928 */
-    868350000,
-    915000000,
-    925000000,
+    300000000, 303875000, 304250000, 310000000, 315000000, 318000000,
+    390000000, 418000000, 433075000, 433420000,
+    433920000 | FREQUENCY_FLAG_DEFAULT,
+    434420000, 434775000, 438900000,
+    868350000, 915000000, 925000000,
     0,
 };
 static const uint32_t subghz_hopper_frequency_list_region_us_ca_au[] = {
-    310000000,
-    315000000,
-    318000000,
-    390000000,
-    433920000,
-    868350000,
-    0,
+    310000000, 315000000, 318000000, 390000000, 433920000, 868350000, 0,
 };
 
 static const uint32_t subghz_frequency_list_region_jp[] = {
-    /* 300 - 348 */
-    300000000,
-    303875000,
-    304250000,
-    310000000,
-    315000000,
-    318000000,
-
-    /* 387 - 464 */
-    390000000,
-    418000000,
-    433075000, /* LPD433 first */
-    433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
-    434420000,
-    434775000, /* LPD433 last channels */
-    438900000,
-
-    /* 779 - 928 */
-    868350000,
-    915000000,
-    925000000,
+    300000000, 303875000, 304250000, 310000000, 315000000, 318000000,
+    390000000, 418000000, 433075000, 433420000,
+    433920000 | FREQUENCY_FLAG_DEFAULT,
+    434420000, 434775000, 438900000,
+    868350000, 915000000, 925000000,
     0,
 };
 static const uint32_t subghz_hopper_frequency_list_region_jp[] = {
-    310000000,
-    315000000,
-    318000000,
-    390000000,
-    433920000,
-    868350000,
-    0,
+    310000000, 315000000, 318000000, 390000000, 433920000, 868350000, 0,
 };
 
 typedef struct {
@@ -233,10 +164,20 @@ static void subghz_setting_load_default_preset(
     preset_data_count += 2;
     item->custom_preset_data_size = sizeof(uint8_t) * preset_data_count + sizeof(uint8_t) * 8;
     item->custom_preset_data = malloc(item->custom_preset_data_size);
-    //load preset register + pa table
     memcpy(&item->custom_preset_data[0], &preset_data[0], item->custom_preset_data_size);
 }
 
+// ============================================================
+// HackNlearn CHANGE — subghz_setting_load_default_region
+//
+// Original order:  AM270, AM650, FM238, FM476
+// HackNlearn order: FM476 FIRST (index 0 = default in UI)
+//
+// Why: Suzuki Swift, Hyundai i20, Kia Seltos, Tata Nexon
+//      sab FM476 (2-FSK 47.6kHz) use karte hain.
+//      FM476 pehla hoga toh Sub-GHz open karne pe
+//      automatically select hoga — manually change nahi karna padega.
+// ============================================================
 static void subghz_setting_load_default_region(
     SubGhzSetting* instance,
     const uint32_t frequencies[],
@@ -257,14 +198,23 @@ static void subghz_setting_load_default_region(
         hopper_frequencies++;
     }
 
-    subghz_setting_load_default_preset(
-        instance, "AM270", subghz_device_cc1101_preset_ook_270khz_async_regs);
-    subghz_setting_load_default_preset(
-        instance, "AM650", subghz_device_cc1101_preset_ook_650khz_async_regs);
-    subghz_setting_load_default_preset(
-        instance, "FM238", subghz_device_cc1101_preset_2fsk_dev2_38khz_async_regs);
+    // HackNlearn: FM476 FIRST — default preset for Indian cars (Swift, i20, Seltos, Nexon)
     subghz_setting_load_default_preset(
         instance, "FM476", subghz_device_cc1101_preset_2fsk_dev47_6khz_async_regs);
+
+    // FM238 second — older Suzuki (2011-2013) + some Mahindra
+    subghz_setting_load_default_preset(
+        instance, "FM238", subghz_device_cc1101_preset_2fsk_dev2_38khz_async_regs);
+
+    // AM650 third — Toyota, Honda, older cars, garage remotes
+    subghz_setting_load_default_preset(
+        instance, "AM650", subghz_device_cc1101_preset_ook_650khz_async_regs);
+
+    // AM270 last — very old/niche remotes
+    subghz_setting_load_default_preset(
+        instance, "AM270", subghz_device_cc1101_preset_ook_270khz_async_regs);
+
+    FURI_LOG_I(TAG, "HackNlearn: Presets loaded — FM476 default (Indian cars)");
 }
 
 void subghz_setting_load_default(SubGhzSetting* instance) {
@@ -343,7 +293,6 @@ void subghz_setting_load(SubGhzSetting* instance, const char* file_path) {
             }
             while(flipper_format_read_uint32(
                 fff_data_file, "Frequency", (uint32_t*)&temp_data32, 1)) {
-                //Todo FL-3535: add a frequency support check depending on the selected radio device
                 if(furi_hal_subghz_is_frequency_valid(temp_data32)) {
                     FURI_LOG_I(TAG, "Frequency loaded %lu", temp_data32);
                     FrequencyList_push_back(instance->frequencies, temp_data32);
@@ -382,7 +331,7 @@ void subghz_setting_load(SubGhzSetting* instance, const char* file_path) {
                     }
             }
 
-            // custom preset (optional)
+            // Custom preset (optional)
             if(!flipper_format_rewind(fff_data_file)) {
                 FURI_LOG_E(TAG, "Rewind error");
                 break;
@@ -549,3 +498,4 @@ uint32_t subghz_setting_get_default_frequency(SubGhzSetting* instance) {
     return subghz_setting_get_frequency(
         instance, subghz_setting_get_frequency_default_index(instance));
 }
+

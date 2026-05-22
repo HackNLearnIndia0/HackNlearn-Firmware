@@ -50,3 +50,4 @@ Returns the battery charge percentage.
 ```js
 flipper.getBatteryCharge(); // 100
 ```
+

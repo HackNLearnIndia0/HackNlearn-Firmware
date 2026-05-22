@@ -25,3 +25,4 @@ void mjs_array_buf_slice(struct mjs* mjs);
 #if defined(__cplusplus)
 }
 #endif /* __cplusplus */
+

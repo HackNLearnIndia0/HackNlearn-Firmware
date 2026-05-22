@@ -793,3 +793,4 @@ void furi_string_utf8_decode(char c, FuriStringUTF8State* state, FuriStringUnico
 #ifdef __cplusplus
 }
 #endif
+

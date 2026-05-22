@@ -396,3 +396,4 @@ void subghz_protocol_decoder_legrand_get_string(void* context, FuriString* outpu
         (uint32_t)(instance->generic.data & 0xFFFFFF),
         instance->te);
 }
+

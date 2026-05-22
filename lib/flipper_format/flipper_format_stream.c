@@ -545,3 +545,4 @@ bool flipper_format_stream_write_comment_cstr(Stream* stream, const char* data) 
 
     return result;
 }
+

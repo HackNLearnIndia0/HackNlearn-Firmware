@@ -52,3 +52,4 @@ void furi_hal_light_sequence(const char* sequence);
 #ifdef __cplusplus
 }
 #endif
+

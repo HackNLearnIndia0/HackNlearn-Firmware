@@ -535,3 +535,4 @@ size_t mg_match_prefix(const char* pattern, int pattern_len, const char* str) {
 }
 
 #endif /* EXCLUDE_COMMON */
+

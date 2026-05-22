@@ -42,3 +42,4 @@ void infrared_scene_learn_done_on_exit(void* context) {
     infrared->app_state.is_learning_new_remote = false;
     popup_set_header(infrared->popup, NULL, 0, 0, AlignLeft, AlignTop);
 }
+

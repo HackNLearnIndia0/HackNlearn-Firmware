@@ -59,3 +59,4 @@ struct NotificationApp {
 };
 
 void notification_message_save_settings(NotificationApp* app);
+

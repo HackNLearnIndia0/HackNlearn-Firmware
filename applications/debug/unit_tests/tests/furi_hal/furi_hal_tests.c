@@ -234,3 +234,4 @@ int run_minunit_test_furi_hal(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_furi_hal)
+

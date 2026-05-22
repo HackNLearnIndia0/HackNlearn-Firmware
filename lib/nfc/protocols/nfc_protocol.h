@@ -218,3 +218,4 @@ bool nfc_protocol_has_parent(NfcProtocol protocol, NfcProtocol parent_protocol);
 #ifdef __cplusplus
 }
 #endif
+

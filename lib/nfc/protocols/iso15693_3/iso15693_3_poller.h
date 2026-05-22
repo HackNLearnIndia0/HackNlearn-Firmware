@@ -147,3 +147,4 @@ Iso15693_3Error iso15693_3_poller_get_blocks_security(
 #ifdef __cplusplus
 }
 #endif
+

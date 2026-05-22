@@ -113,3 +113,4 @@ bool power_is_otg_enabled(Power* power);
 #ifdef __cplusplus
 }
 #endif
+

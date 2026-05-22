@@ -28,3 +28,4 @@ const NfcPollerBase* const nfc_pollers_api[NfcProtocolNum] = {
     /* Add new pollers here */
     [NfcProtocolSt25tb] = &nfc_poller_st25tb,
 };
+

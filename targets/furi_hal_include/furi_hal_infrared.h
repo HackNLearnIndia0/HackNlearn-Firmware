@@ -175,3 +175,4 @@ void furi_hal_infrared_set_tx_output(FuriHalInfraredTxPin tx_pin);
 #ifdef __cplusplus
 }
 #endif
+

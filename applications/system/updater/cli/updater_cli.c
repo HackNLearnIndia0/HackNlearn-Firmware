@@ -119,3 +119,4 @@ void updater_on_system_start(void) {
     UNUSED(updater_start_app);
 #endif
 }
+

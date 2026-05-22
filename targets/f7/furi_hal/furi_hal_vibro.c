@@ -12,3 +12,4 @@ void furi_hal_vibro_init(void) {
 void furi_hal_vibro_on(bool value) {
     furi_hal_gpio_write(&gpio_vibro, value);
 }
+

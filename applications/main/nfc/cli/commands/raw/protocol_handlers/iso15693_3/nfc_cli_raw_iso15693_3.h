@@ -6,3 +6,4 @@ NfcCommand nfc_cli_raw_iso15693_3_handler(
     NfcGenericInstance* poller,
     const NfcCliRawRequest* request,
     NfcCliRawResponse* const response);
+

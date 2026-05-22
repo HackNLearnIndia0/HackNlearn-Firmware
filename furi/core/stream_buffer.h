@@ -161,3 +161,4 @@ FuriStatus furi_stream_buffer_reset(FuriStreamBuffer* stream_buffer);
 #ifdef __cplusplus
 }
 #endif
+

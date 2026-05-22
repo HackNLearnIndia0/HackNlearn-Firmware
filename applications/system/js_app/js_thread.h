@@ -22,3 +22,4 @@ void js_thread_stop(JsThread* worker);
 #ifdef __cplusplus
 }
 #endif
+

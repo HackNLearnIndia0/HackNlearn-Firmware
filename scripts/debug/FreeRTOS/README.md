@@ -118,3 +118,4 @@ This code adds the following custom GDB commands:
     Work in progress - ideal solution would likely modify the struct
     of the Event Group to provide a similar piece of info that the 
     Queue handle does so that we could use the same registry.
+

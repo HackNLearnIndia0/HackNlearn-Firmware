@@ -10,3 +10,4 @@
  * @brief Declaraion of array of pointers to protocol support implementations.
  */
 extern const NfcProtocolSupportBase* nfc_protocol_support[];
+

@@ -38,3 +38,4 @@ typedef enum {
     RebootTypeDFU,
     RebootTypeNormal
 } RebootType;
+

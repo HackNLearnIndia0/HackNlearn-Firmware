@@ -235,3 +235,4 @@ void view_commit_model(View* view, bool update);
         view_commit_model(view, update);          \
     }
 #endif
+

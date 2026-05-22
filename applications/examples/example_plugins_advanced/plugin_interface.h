@@ -14,3 +14,4 @@ typedef struct {
     void (*method1)(int);
     void (*method2)(void);
 } AdvancedPlugin;
+

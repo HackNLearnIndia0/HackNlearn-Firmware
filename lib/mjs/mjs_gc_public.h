@@ -23,3 +23,4 @@ void mjs_gc(struct mjs* mjs, int full);
 #endif /* __cplusplus */
 
 #endif /* MJS_GC_PUBLIC_H_ */
+

@@ -44,3 +44,4 @@ void bad_usb_scene_file_select_on_exit(void* context) {
     UNUSED(context);
     // BadUsbApp* bad_usb = context;
 }
+

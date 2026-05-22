@@ -73,3 +73,4 @@ uint32_t furi_event_flag_wait(
 #ifdef __cplusplus
 }
 #endif
+

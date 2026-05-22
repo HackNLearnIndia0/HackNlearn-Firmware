@@ -436,3 +436,4 @@ View* clock_settings_module_get_view(ClockSettingsModule* instance) {
     furi_assert(instance);
     return instance->view;
 }
+

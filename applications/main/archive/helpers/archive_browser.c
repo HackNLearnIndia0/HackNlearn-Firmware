@@ -561,3 +561,4 @@ void archive_refresh_dir(ArchiveBrowserView* browser) {
         browser->view, ArchiveBrowserViewModel * model, { idx_temp = model->item_idx; }, false);
     file_browser_worker_folder_refresh(browser->worker, idx_temp);
 }
+

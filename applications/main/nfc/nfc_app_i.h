@@ -226,3 +226,4 @@ void nfc_make_app_folder(NfcApp* instance);
 void nfc_append_filename_string_when_present(NfcApp* instance, FuriString* string);
 
 void nfc_app_run_external(NfcApp* nfc, const char* app_path);
+

@@ -45,3 +45,4 @@ void infrared_scene_learn_on_exit(void* context) {
     popup_set_icon(popup, 0, 0, NULL);
     popup_set_text(popup, NULL, 0, 0, AlignCenter, AlignCenter);
 }
+

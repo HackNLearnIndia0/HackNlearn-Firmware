@@ -126,3 +126,4 @@ class Copro:
         info.size = len(manifest_data)
         self.output_tar.addfile(info, BytesIO(manifest_data))
         self.output_tar.close()
+

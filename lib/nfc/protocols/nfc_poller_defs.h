@@ -12,3 +12,4 @@ extern const NfcPollerBase* const nfc_pollers_api[NfcProtocolNum];
 #ifdef __cplusplus
 }
 #endif
+

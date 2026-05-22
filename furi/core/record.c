@@ -147,3 +147,4 @@ void furi_record_close(const char* name) {
 
     furi_record_unlock();
 }
+

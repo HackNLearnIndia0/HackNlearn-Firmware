@@ -347,3 +347,4 @@ void infrared_text_input_callback(void* context);
  * @param[in,out] context pointer to the user-specified context object.
  */
 void infrared_popup_closed_callback(void* context);
+

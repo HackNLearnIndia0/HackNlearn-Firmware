@@ -228,3 +228,4 @@ bool subghz_file_encoder_worker_is_running(SubGhzFileEncoderWorker* instance) {
     furi_assert(instance);
     return instance->worker_running;
 }
+

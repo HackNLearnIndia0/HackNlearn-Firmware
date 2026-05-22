@@ -244,3 +244,4 @@ WidgetElement* widget_element_text_scroll_create(
 
     return text_scroll;
 } //-V773
+

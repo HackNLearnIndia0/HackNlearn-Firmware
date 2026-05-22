@@ -215,3 +215,4 @@ static bool file_stream_delete_and_insert(
 
     return result;
 }
+

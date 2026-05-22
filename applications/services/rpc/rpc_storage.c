@@ -792,3 +792,4 @@ void rpc_system_storage_free(void* context) {
     rpc_storage->api = NULL;
     free(rpc_storage);
 }
+

@@ -242,3 +242,4 @@ int32_t hid_ble_app(void* p) {
 
     return 0;
 }
+

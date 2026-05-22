@@ -18,3 +18,4 @@
 extern const InfraredCommonProtocolSpec infrared_protocol_rc5;
 
 bool infrared_decoder_rc5_interpret(InfraredCommonDecoder* decoder);
+

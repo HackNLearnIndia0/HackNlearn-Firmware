@@ -32,3 +32,4 @@ const char* cli_shell_get_prompt(CliShell* cli_shell);
 #ifdef __cplusplus
 }
 #endif
+

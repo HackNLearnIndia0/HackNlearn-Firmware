@@ -97,3 +97,4 @@ extern int hci_send_req(struct hci_request* req, uint8_t async);
 #ifndef MAX
 #define MAX(a, b) (((a) > (b)) ? (a) : (b))
 #endif
+

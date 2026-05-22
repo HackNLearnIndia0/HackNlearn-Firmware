@@ -111,3 +111,4 @@ void lfrfid_view_read_set_read_mode(LfRfidReadView* read_view, LfRfidReadViewMod
         },
         true);
 }
+

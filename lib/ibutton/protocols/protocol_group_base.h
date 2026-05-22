@@ -103,3 +103,4 @@ typedef struct {
 
     iButtonProtocolGroupApplyFunc apply_edits;
 } iButtonProtocolGroupBase;
+

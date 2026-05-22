@@ -387,3 +387,4 @@ void subghz_protocol_decoder_nero_radio_get_string(void* context, FuriString* ou
         code_found_reverse_hi,
         code_found_reverse_lo);
 }
+

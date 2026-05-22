@@ -100,3 +100,4 @@ bool args_char_to_hex(char hi_nibble, char low_nibble, uint8_t* byte);
 #ifdef __cplusplus
 }
 #endif
+

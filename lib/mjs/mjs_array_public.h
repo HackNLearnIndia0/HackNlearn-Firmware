@@ -45,3 +45,4 @@ void mjs_array_del(struct mjs* mjs, mjs_val_t arr, unsigned long index);
 #endif /* __cplusplus */
 
 #endif /* MJS_ARRAY_PUBLIC_H_ */
+

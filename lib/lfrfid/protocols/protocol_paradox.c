@@ -247,3 +247,4 @@ const ProtocolBase protocol_paradox = {
     .render_brief_data = (ProtocolRenderData)protocol_paradox_render_brief_data,
     .write_data = (ProtocolWriteData)protocol_paradox_write_data,
 };
+

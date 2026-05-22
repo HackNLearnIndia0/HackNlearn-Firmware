@@ -63,3 +63,4 @@ WidgetElement* widget_element_string_create(
 
     return gui_string;
 } //-V773
+

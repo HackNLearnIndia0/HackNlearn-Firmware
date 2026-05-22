@@ -238,3 +238,4 @@ bool subghz_history_add_to_history(
     instance->last_index_write++;
     return true;
 }
+

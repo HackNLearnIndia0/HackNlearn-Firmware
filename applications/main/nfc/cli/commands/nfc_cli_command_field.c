@@ -26,3 +26,4 @@ const NfcCliCommandDescriptor field_cmd = {
     .action_count = 0,
     .actions = NULL,
 };
+

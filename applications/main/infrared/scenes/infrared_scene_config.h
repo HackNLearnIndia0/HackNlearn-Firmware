@@ -23,3 +23,4 @@ ADD_SCENE(infrared, gpio_settings, GpioSettings)
 ADD_SCENE(infrared, debug, Debug)
 ADD_SCENE(infrared, error_databases, ErrorDatabases)
 ADD_SCENE(infrared, rpc, Rpc)
+

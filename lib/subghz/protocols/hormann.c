@@ -331,3 +331,4 @@ void subghz_protocol_decoder_hormann_get_string(void* context, FuriString* outpu
         (uint32_t)instance->generic.data,
         instance->generic.btn);
 }
+

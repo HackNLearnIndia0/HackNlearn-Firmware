@@ -284,3 +284,4 @@ static inline bool furi_hal_gpio_read_port_pin(GPIO_TypeDef* port, uint16_t pin)
 #ifdef __cplusplus
 }
 #endif
+

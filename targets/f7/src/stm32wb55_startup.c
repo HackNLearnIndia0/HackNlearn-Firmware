@@ -197,3 +197,4 @@ const element_t reset_vector[] = {
     DMA2_Channel7_IRQHandler,
     DMAMUX1_OVR_IRQHandler,
 };
+

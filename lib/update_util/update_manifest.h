@@ -61,3 +61,4 @@ bool update_manifest_has_obdata(UpdateManifest* update_manifest);
 #ifdef __cplusplus
 }
 #endif
+

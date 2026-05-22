@@ -73,3 +73,4 @@ size_t varint_pair_get_size(VarintPair* pair) {
 void varint_pair_reset(VarintPair* pair) {
     pair->data_length = 0;
 }
+

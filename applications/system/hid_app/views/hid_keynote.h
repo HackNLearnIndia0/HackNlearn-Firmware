@@ -14,3 +14,4 @@ View* hid_keynote_get_view(HidKeynote* hid_keynote);
 void hid_keynote_set_connected_status(HidKeynote* hid_keynote, bool connected);
 
 void hid_keynote_set_orientation(HidKeynote* hid_keynote, bool vertical);
+

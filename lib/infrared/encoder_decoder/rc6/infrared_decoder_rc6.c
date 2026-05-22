@@ -110,3 +110,4 @@ void infrared_decoder_rc6_reset(void* decoder) {
     InfraredRc6Decoder* decoder_rc6 = decoder;
     infrared_common_decoder_reset(decoder_rc6->common_decoder);
 }
+

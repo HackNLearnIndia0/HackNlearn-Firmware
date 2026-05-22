@@ -180,3 +180,4 @@ const FuriEventLoopContract furi_stream_buffer_event_loop_contract = {
     .get_link = furi_stream_buffer_event_loop_get_link,
     .get_level = furi_stream_buffer_event_loop_get_level,
 };
+

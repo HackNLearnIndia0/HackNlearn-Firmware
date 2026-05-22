@@ -58,3 +58,4 @@ SubGhzThresholdRssiData subghz_threshold_get_rssi_data(SubGhzThresholdRssi* inst
     }
     return ret;
 }
+

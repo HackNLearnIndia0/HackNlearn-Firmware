@@ -171,3 +171,4 @@ void mfkey32_logger_get_params_data(Mfkey32Logger* instance, FuriString* str) {
         furi_string_cat_printf(str, "Sector %d, key %c\n", params->sector_num, key_char);
     }
 }
+

@@ -226,3 +226,4 @@ int32_t display_test_app(void* p) {
 
     return ret;
 }
+

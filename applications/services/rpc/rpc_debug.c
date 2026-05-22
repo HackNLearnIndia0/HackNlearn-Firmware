@@ -257,3 +257,4 @@ void rpc_debug_print_message(const PB_Main* message) {
 
     furi_string_free(str);
 }
+

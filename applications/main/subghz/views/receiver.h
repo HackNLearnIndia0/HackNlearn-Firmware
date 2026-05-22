@@ -43,3 +43,4 @@ uint16_t subghz_view_receiver_get_idx_menu(SubGhzViewReceiver* subghz_receiver);
 void subghz_view_receiver_set_idx_menu(SubGhzViewReceiver* subghz_receiver, uint16_t idx);
 
 void subghz_view_receiver_exit(void* context);
+

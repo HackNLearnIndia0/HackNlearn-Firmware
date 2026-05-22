@@ -530,3 +530,4 @@ static void animation_storage_free_bubbles(BubbleAnimation* animation) {
     free((void*)animation->frame_bubble_sequences);
     animation->frame_bubble_sequences = NULL;
 }
+

@@ -35,3 +35,4 @@ NfcCommand
 
     return command;
 }
+

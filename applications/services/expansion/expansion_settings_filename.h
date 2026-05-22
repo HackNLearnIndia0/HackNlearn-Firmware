@@ -7,3 +7,4 @@
  * @brief File name used for expansion settings.
  */
 #define EXPANSION_SETTINGS_FILE_NAME ".expansion.settings"
+

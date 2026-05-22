@@ -179,3 +179,4 @@ bool nfc_protocol_has_parent(NfcProtocol protocol, NfcProtocol parent_protocol) 
 
     return parent_found;
 }
+

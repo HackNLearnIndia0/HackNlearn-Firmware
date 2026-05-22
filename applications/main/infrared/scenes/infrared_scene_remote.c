@@ -123,3 +123,4 @@ void infrared_scene_remote_on_exit(void* context) {
     InfraredApp* infrared = context;
     button_menu_reset(infrared->button_menu);
 }
+

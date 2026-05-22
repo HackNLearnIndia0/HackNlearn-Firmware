@@ -106,3 +106,4 @@ void nfc_scene_mf_ultralight_c_keys_delete_on_exit(void* context) {
 
     widget_reset(instance->widget);
 }
+

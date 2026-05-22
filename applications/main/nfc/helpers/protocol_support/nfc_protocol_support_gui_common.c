@@ -40,3 +40,4 @@ bool nfc_protocol_support_common_on_event_empty(NfcApp* instance, SceneManagerEv
     UNUSED(event);
     return event.type != SceneManagerEventTypeBack;
 }
+

@@ -52,3 +52,4 @@ Button event information structure.
 | Item     | Type   | Description                                                                 |
 |----------|--------|-----------------------------------------------------------------------------|
 | `button` | `ButtonEvent`| Fires when the user presses on one of the three possible buttons if there's a corresponding button element. Refer to the `ButtonEvent` structure above for possible values. |
+

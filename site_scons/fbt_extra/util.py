@@ -22,3 +22,4 @@ def should_gen_cdb_and_link_dir(env, requested_targets):
     return (is_updater and explicitly_building_updater) or (
         not is_updater and not explicitly_building_updater
     )
+

@@ -61,3 +61,4 @@ void view_dispatcher_run_event_callback(FuriEventLoopObject* object, void* conte
 
 /** ViewDispatcher run event loop input callback */
 void view_dispatcher_run_input_callback(FuriEventLoopObject* object, void* context);
+

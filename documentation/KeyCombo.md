@@ -117,3 +117,4 @@ If none of the described methods helped you:
 - Try to flash the device with ST-Link or another programmer that supports SWD
 
 If you're still here and your device is not working: it's not a software issue.
+

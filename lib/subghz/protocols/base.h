@@ -86,3 +86,4 @@ struct SubGhzProtocolEncoderBase {
 #ifdef __cplusplus
 }
 #endif
+

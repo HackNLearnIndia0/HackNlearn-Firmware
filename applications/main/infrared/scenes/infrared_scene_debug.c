@@ -67,3 +67,4 @@ void infrared_scene_debug_on_exit(void* context) {
     infrared_worker_rx_enable_blink_on_receiving(worker, false);
     infrared_worker_rx_set_received_signal_callback(worker, NULL, NULL);
 }
+

@@ -207,3 +207,4 @@ void flipper_boot_update_exec(void) {
     furi_string_free(work_dir);
     free(pfs);
 }
+

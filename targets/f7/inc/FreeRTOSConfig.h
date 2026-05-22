@@ -158,3 +158,4 @@ header file. */
 
 // Must be last line of config because of recursion
 #include <core/check.h>
+

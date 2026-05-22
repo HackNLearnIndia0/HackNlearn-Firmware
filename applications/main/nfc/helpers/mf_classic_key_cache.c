@@ -210,3 +210,4 @@ void mf_classic_key_cache_reset(MfClassicKeyCache* instance) {
     instance->keys.key_a_mask = 0;
     instance->keys.key_b_mask = 0;
 }
+

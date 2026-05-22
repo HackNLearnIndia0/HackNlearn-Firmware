@@ -88,3 +88,4 @@ UpdateManifest const* update_task_get_manifest(UpdateTask* update_task);
 #ifdef __cplusplus
 }
 #endif
+

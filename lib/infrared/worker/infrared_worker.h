@@ -185,3 +185,4 @@ void infrared_worker_set_raw_signal(
 #ifdef __cplusplus
 }
 #endif
+

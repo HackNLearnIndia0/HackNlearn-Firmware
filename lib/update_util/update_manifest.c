@@ -185,3 +185,4 @@ bool update_manifest_init_mem(
 
     return update_manifest->valid;
 }
+

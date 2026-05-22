@@ -376,3 +376,4 @@ bool furi_hal_spi_bus_trx_dma(
 
     return ret;
 }
+

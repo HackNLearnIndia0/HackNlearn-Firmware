@@ -16,3 +16,4 @@ void nfc_render_iso14443_3a_format_bytes(FuriString* str, const uint8_t* data, s
 void nfc_render_iso14443_3a_brief(const Iso14443_3aData* data, FuriString* str);
 
 void nfc_render_iso14443_3a_extra(const Iso14443_3aData* data, FuriString* str);
+

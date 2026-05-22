@@ -113,3 +113,4 @@ View* archive_browser_get_view(ArchiveBrowserView* browser);
 
 ArchiveBrowserView* browser_alloc(void);
 void browser_free(ArchiveBrowserView* browser);
+

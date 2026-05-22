@@ -94,3 +94,4 @@ View* loading_get_view(Loading* instance) {
     furi_check(instance);
     return instance->view;
 }
+

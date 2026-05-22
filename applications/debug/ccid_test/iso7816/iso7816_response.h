@@ -10,3 +10,4 @@
 #define ISO7816_RESPONSE_INTERNAL_EXCEPTION        0x6F00
 
 void iso7816_set_response(ISO7816_Response_APDU* responseAPDU, uint16_t responseCode);
+

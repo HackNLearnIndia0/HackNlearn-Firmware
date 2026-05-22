@@ -158,3 +158,4 @@ On Windows, do the following:
 8. View logs of your Flipper Zero in the PuTTY terminal window.
 
 9. To quit, close the PuTTY window.
+

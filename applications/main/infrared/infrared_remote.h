@@ -231,3 +231,4 @@ InfraredErrorCode infrared_remote_rename(InfraredRemote* remote, const char* new
  * @returns InfraredErrorCodeNone if the file was successfully removed, otherwise error code.
  */
 InfraredErrorCode infrared_remote_remove(InfraredRemote* remote);
+

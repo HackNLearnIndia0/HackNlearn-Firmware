@@ -311,3 +311,4 @@ void subghz_protocol_decoder_scher_khan_get_string(void* context, FuriString* ou
         instance->generic.cnt,
         instance->protocol_name);
 }
+

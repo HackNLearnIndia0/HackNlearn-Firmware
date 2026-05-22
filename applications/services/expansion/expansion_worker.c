@@ -417,3 +417,4 @@ void expansion_worker_stop(ExpansionWorker* instance) {
     furi_thread_flags_set(furi_thread_get_id(instance->thread), ExpansionWorkerFlagStop);
     furi_thread_join(instance->thread);
 }
+

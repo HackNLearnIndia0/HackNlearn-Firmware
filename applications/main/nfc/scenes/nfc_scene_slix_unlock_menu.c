@@ -58,3 +58,4 @@ void nfc_scene_slix_unlock_menu_on_exit(void* context) {
 
     submenu_reset(instance->submenu);
 }
+

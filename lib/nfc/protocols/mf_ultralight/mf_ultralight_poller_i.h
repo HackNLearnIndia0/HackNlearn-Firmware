@@ -118,3 +118,4 @@ MfUltralightError mf_ultralight_poller_authentication_test(MfUltralightPoller* i
 #ifdef __cplusplus
 }
 #endif
+

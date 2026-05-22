@@ -62,3 +62,4 @@ bool slix_unlock_get_next_password(SlixUnlock* instance, SlixPassword* password)
 
     return password_set;
 }
+

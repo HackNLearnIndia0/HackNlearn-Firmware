@@ -23,3 +23,4 @@ extern CliShellKeyComboSet cli_shell_completions_key_combo_set;
 #ifdef __cplusplus
 }
 #endif
+

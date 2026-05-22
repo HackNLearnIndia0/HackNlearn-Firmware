@@ -51,3 +51,4 @@ void ffi_set_float(struct ffi_arg* arg, float v);
 #endif /* __cplusplus */
 
 #endif /* MJS_FFI_FFI_H_ */
+

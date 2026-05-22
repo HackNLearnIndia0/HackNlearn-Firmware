@@ -65,3 +65,4 @@ void nfc_scene_mf_ultralight_write_fail_on_exit(void* context) {
 
     widget_reset(instance->widget);
 }
+

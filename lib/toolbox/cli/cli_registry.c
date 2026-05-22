@@ -174,3 +174,4 @@ CliCommandDict_t* cli_registry_get_commands(CliRegistry* registry) {
     furi_assert(registry);
     return &registry->commands;
 }
+

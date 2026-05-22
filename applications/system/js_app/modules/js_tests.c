@@ -102,3 +102,4 @@ void* js_tests_create(struct mjs* mjs, mjs_val_t* object, JsModules* modules) {
 
     return (void*)1;
 }
+

@@ -54,3 +54,4 @@ void sector_cache_invalidate_range(uint32_t start_sector, uint32_t end_sector) {
         }
     }
 }
+

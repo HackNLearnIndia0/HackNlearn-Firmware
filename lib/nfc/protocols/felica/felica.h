@@ -335,3 +335,4 @@ void felica_service_get_attribute_string(const FelicaService* service, FuriStrin
 #ifdef __cplusplus
 }
 #endif
+

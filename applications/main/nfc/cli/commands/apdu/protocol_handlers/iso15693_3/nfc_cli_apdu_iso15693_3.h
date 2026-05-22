@@ -4,3 +4,4 @@
 
 NfcCommand
     nfc_cli_apdu_iso15693_3_handler(NfcGenericEvent event, NfcCliApduRequestResponse* instance);
+

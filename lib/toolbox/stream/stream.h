@@ -351,3 +351,4 @@ void stream_dump_data(Stream* stream);
 #ifdef __cplusplus
 }
 #endif
+

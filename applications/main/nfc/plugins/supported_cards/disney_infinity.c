@@ -119,3 +119,4 @@ static const FlipperAppPluginDescriptor disney_infinity_plugin_descriptor = {
 const FlipperAppPluginDescriptor* disney_infinity_plugin_ep(void) {
     return &disney_infinity_plugin_descriptor;
 }
+

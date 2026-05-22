@@ -20,3 +20,4 @@ void ble_app_deinit(void);
 #ifdef __cplusplus
 }
 #endif
+

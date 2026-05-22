@@ -320,3 +320,4 @@ void dialog_ex_disable_extended_events(DialogEx* dialog_ex) {
     furi_check(dialog_ex);
     dialog_ex->enable_extended_events = false;
 }
+

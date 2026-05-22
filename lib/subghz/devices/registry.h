@@ -38,3 +38,4 @@ size_t subghz_device_registry_count(void);
 #ifdef __cplusplus
 }
 #endif
+

@@ -87,3 +87,4 @@ void nfc_scene_mf_ultralight_unlock_menu_on_exit(void* context) {
 
     submenu_reset(nfc->submenu);
 }
+

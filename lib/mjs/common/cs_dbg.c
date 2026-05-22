@@ -155,3 +155,4 @@ void cs_log_set_level(enum cs_log_level level) {
     cs_log_ts = cs_time();
 #endif
 }
+

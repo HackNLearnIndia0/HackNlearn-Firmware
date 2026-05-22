@@ -40,3 +40,4 @@ void furi_background(void);
 #ifdef __cplusplus
 }
 #endif
+

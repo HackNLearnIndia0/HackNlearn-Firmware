@@ -11,3 +11,4 @@ Here is a list of common data types used by mJS.
 - Array — special type of object, all items have indexes and equal types
 - ArrayBuffer — raw data buffer
 - DataView — provides interface for accessing ArrayBuffer contents
+

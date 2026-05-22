@@ -54,3 +54,4 @@ void mf_plus_poller_free(MfPlusPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

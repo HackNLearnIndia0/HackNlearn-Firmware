@@ -60,3 +60,4 @@ void nfc_scene_mf_classic_write_initial_fail_on_exit(void* context) {
 
     widget_reset(instance->widget);
 }
+

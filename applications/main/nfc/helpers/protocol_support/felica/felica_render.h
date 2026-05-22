@@ -28,3 +28,4 @@ void nfc_more_info_render_felica_blocks(
     const FelicaSystem* system,
     FuriString* str,
     const uint16_t service_code_key);
+

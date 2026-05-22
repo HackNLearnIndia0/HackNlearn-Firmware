@@ -103,3 +103,4 @@ struct FuriEventLoop {
     FuriEventLoopThreadFlagsCallback thread_flags_callback;
     void* thread_flags_callback_context;
 };
+

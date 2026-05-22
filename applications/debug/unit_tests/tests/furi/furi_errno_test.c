@@ -49,3 +49,4 @@ void test_errno_saving(void) {
         furi_thread_free(threads[i]);
     }
 }
+

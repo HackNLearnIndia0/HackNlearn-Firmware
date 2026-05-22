@@ -49,3 +49,4 @@ struct FuriHalI2cBusHandle {
 #ifdef __cplusplus
 }
 #endif
+

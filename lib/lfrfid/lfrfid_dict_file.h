@@ -29,3 +29,4 @@ ProtocolId lfrfid_dict_file_load(ProtocolDict* dict, const char* filename);
 #ifdef __cplusplus
 }
 #endif
+

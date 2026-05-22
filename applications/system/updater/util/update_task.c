@@ -554,3 +554,4 @@ UpdateManifest const* update_task_get_manifest(UpdateTask* update_task) {
     furi_assert(update_task);
     return update_task->manifest;
 }
+

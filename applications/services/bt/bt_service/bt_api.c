@@ -113,3 +113,4 @@ void bt_set_settings(Bt* bt, const BtSettings* settings) {
 
     api_lock_wait_unlock_and_free(message.lock);
 }
+

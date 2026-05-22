@@ -161,3 +161,4 @@ void dallas_ds1990_apply_edits(iButtonProtocolData* protocol_data) {
     DS1990ProtocolData* data = protocol_data;
     dallas_common_apply_edits(&data->rom_data, DS1990_FAMILY_CODE);
 }
+

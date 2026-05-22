@@ -395,3 +395,4 @@ void view_dispatcher_run_input_callback(FuriEventLoopObject* object, void* conte
     furi_check(furi_message_queue_get(instance->input_queue, &input, 0) == FuriStatusOk);
     view_dispatcher_handle_input(instance, &input);
 }
+

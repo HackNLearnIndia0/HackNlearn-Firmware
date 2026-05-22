@@ -259,3 +259,4 @@ size_t furi_hal_serial_dma_rx(FuriHalSerialHandle* handle, uint8_t* data, size_t
 #ifdef __cplusplus
 }
 #endif
+

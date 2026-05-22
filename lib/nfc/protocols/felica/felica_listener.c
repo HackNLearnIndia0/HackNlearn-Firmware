@@ -300,3 +300,4 @@ const NfcListenerBase nfc_listener_felica = {
     .get_data = (NfcListenerGetData)felica_listener_get_data,
     .run = (NfcListenerRun)felica_listener_run,
 };
+

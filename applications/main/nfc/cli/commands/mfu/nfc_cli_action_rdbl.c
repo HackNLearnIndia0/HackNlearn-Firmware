@@ -50,3 +50,4 @@ bool nfc_cli_mfu_rdbl_parse_block(FuriString* value, NfcCliActionContext* output
     StrintParseError err = strint_to_uint16(furi_string_get_cstr(value), NULL, &ctx->block, 10);
     return err == StrintParseNoError;
 }
+

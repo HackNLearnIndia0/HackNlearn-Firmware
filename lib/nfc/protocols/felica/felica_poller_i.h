@@ -127,3 +127,4 @@ FelicaError felica_poller_list_system_code(
 #ifdef __cplusplus
 }
 #endif
+

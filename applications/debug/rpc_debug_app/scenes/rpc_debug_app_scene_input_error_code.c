@@ -63,3 +63,4 @@ void rpc_debug_app_scene_input_error_code_on_exit(void* context) {
     text_input_reset(app->text_input);
     text_input_set_validator(app->text_input, NULL, NULL);
 }
+

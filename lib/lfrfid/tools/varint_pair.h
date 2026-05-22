@@ -77,3 +77,4 @@ bool varint_pair_unpack(
 #ifdef __cplusplus
 }
 #endif
+

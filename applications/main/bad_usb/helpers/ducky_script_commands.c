@@ -305,3 +305,4 @@ int32_t ducky_execute_cmd(BadUsbScript* bad_usb, const char* line) {
 
     return SCRIPT_STATE_CMD_UNKNOWN;
 }
+

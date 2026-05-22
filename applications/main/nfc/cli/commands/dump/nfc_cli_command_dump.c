@@ -317,3 +317,4 @@ ADD_NFC_CLI_COMMAND(dump, "", dump_actions_collection);
 
 //Command examples:
 //dump -f ext/nfc/test.nfc
+

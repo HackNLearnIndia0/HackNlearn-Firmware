@@ -78,3 +78,4 @@ void __furi_critical_exit(__FuriCriticalInfo info);
 #ifdef __cplusplus
 }
 #endif
+

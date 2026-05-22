@@ -95,3 +95,4 @@ typedef struct {
     EngSelect red   : 2;
     EngSelect white : 2;
 } Reg70_LedMap;
+

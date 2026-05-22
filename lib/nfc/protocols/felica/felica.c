@@ -918,3 +918,4 @@ void felica_service_get_attribute_string(const FelicaService* service, FuriStrin
         furi_string_cat_str(str, is_readonly ? " Read Only  |" : " Read/Write |");
     }
 }
+

@@ -60,3 +60,4 @@ void nfc_scene_detect_on_exit(void* context) {
 
     nfc_blink_stop(instance);
 }
+

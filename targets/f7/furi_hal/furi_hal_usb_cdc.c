@@ -691,3 +691,4 @@ static usbd_respond cdc_control(usbd_device* dev, usbd_ctlreq* req, usbd_rqc_cal
     }
     return usbd_fail;
 }
+

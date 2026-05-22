@@ -14,3 +14,4 @@ DELAY 1500
 STRING (cd /tmp && curl -L -o qFlipper.dmg https://update.flipperzero.one/qFlipper/release/macos-amd64/dmg && hdiutil attach qFlipper.dmg && app_volume=$(ls /Volumes | grep -i "qFlipper") && (test -e /Applications/qFlipper.app && rm -rf /Applications/qFlipper.app ); cp -R "/Volumes/$app_volume/qFlipper.app" /Applications/ && hdiutil detach "/Volumes/$app_volume" && rm qFlipper.dmg && open /Applications/qFlipper.app)
 DELAY 1000
 ENTER
+

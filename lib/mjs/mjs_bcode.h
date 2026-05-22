@@ -103,3 +103,4 @@ MJS_PRIVATE void mjs_bcode_commit(struct mjs* mjs);
 #endif /* __cplusplus */
 
 #endif /* MJS_BCODE_H_ */
+

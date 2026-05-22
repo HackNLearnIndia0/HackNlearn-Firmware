@@ -53,3 +53,4 @@ extern const FuriHalSpiBusHandle furi_hal_spi_bus_handle_sd_slow;
 #ifdef __cplusplus
 }
 #endif
+

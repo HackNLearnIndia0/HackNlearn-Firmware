@@ -331,3 +331,4 @@ uint32_t furi_hal_rtc_get_timestamp(void);
 #ifdef __cplusplus
 }
 #endif
+

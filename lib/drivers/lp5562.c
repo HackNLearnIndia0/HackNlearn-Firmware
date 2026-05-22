@@ -274,3 +274,4 @@ void lp5562_execute_blink(
     // Execute program
     lp5562_execute_program(handle, eng, ch, program);
 }
+

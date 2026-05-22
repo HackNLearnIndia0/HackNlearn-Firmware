@@ -42,3 +42,4 @@ You have to specify TARGET_HW (and, optionally, FIRMWARE_APP_SET) for `fbt` to b
 
     ./fbt TARGET_HW=18 flash_usb_full
 
+

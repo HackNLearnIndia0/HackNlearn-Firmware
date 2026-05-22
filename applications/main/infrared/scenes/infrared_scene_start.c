@@ -89,3 +89,4 @@ void infrared_scene_start_on_exit(void* context) {
     InfraredApp* infrared = context;
     submenu_reset(infrared->submenu);
 }
+

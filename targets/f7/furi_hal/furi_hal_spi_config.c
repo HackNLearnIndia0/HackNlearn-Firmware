@@ -435,3 +435,4 @@ const FuriHalSpiBusHandle furi_hal_spi_bus_handle_sd_slow = {
     .sck = &gpio_spi_d_sck,
     .cs = &gpio_sdcard_cs,
 };
+

@@ -56,3 +56,4 @@ bool nfc_cli_protocol_parser_get(
 
     return protocol != NULL;
 }
+

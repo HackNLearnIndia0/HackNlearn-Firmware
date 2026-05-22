@@ -384,3 +384,4 @@ void subghz_protocol_decoder_power_smart_get_string(void* context, FuriString* o
         subghz_protocol_power_smart_get_name_button(instance->generic.btn),
         CNT_TO_CHANNEL(instance->generic.cnt));
 }
+

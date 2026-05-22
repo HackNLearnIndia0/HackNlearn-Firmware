@@ -133,3 +133,4 @@ bool path_contains_only_ascii(const char* path) {
 
     return true;
 }
+

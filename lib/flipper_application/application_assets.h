@@ -15,3 +15,4 @@ bool flipper_application_assets_load(File* file, const char* elf_path, size_t of
 #ifdef __cplusplus
 }
 #endif
+

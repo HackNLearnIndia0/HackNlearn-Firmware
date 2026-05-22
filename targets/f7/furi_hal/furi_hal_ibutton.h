@@ -58,3 +58,4 @@ void furi_hal_ibutton_pin_write(const bool state);
 #ifdef __cplusplus
 }
 #endif
+

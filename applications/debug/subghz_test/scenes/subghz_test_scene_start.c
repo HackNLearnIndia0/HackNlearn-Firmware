@@ -75,3 +75,4 @@ void subghz_test_scene_start_on_exit(void* context) {
     SubGhzTestApp* app = context;
     submenu_reset(app->submenu);
 }
+

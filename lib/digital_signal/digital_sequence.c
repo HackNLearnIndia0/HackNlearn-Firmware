@@ -380,3 +380,4 @@ void digital_sequence_clear(DigitalSequence* sequence) {
 
     sequence->size = 0;
 }
+

@@ -6018,3 +6018,4 @@ extern const uint8_t u8g2_font_px437wyse700b_mn[] U8G2_FONT_SECTION("u8g2_font_p
 #endif
 
 #endif
+

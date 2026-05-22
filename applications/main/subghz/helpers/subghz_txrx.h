@@ -334,3 +334,4 @@ const char* subghz_txrx_radio_device_get_name(SubGhzTxRx* instance);
 * @return bool True if the frequency is valid
 */
 bool subghz_txrx_radio_device_is_frequecy_valid(SubGhzTxRx* instance, uint32_t frequency);
+

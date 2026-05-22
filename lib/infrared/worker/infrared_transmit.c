@@ -115,3 +115,4 @@ void infrared_send(const InfraredMessage* message, int times) {
 
     furi_check(!furi_hal_infrared_is_busy());
 }
+

@@ -37,3 +37,4 @@ bool example_number_input_scene_input_min_on_event(void* context, SceneManagerEv
 void example_number_input_scene_input_min_on_exit(void* context) {
     UNUSED(context);
 }
+

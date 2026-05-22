@@ -112,3 +112,4 @@ const NfcProtocolSupportBase nfc_protocol_support_iso14443_3b = {
             .on_event = nfc_protocol_support_common_on_event_empty,
         },
 };
+

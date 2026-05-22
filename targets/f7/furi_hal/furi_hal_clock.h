@@ -78,3 +78,4 @@ void furi_hal_clock_mco_disable(void);
 #ifdef __cplusplus
 }
 #endif
+

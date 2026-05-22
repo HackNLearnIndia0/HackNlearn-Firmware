@@ -62,3 +62,4 @@ Decoded data is represented in arrays (since a single raw signal may be decoded 
 ##### Getting raw signals
 
 Recording raw IR signals is possible using Flipper Zero. Launch the CLI session, run `ir rx raw`, then point the remote towards the Flipper's receiver and send the signals. The raw signal data will be printed to the console in a convenient format.
+

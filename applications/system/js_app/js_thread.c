@@ -355,3 +355,4 @@ void js_thread_stop(JsThread* worker) {
     furi_string_free(worker->path);
     free(worker);
 }
+

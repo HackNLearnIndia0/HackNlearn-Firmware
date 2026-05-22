@@ -551,3 +551,4 @@ void cli_on_system_start(void) {
     cli_main_commands_init(registry);
     furi_record_create(RECORD_CLI, registry);
 }
+

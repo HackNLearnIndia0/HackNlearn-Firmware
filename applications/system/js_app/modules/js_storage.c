@@ -448,3 +448,4 @@ static const FlipperAppPluginDescriptor plugin_descriptor = {
 const FlipperAppPluginDescriptor* js_storage_ep(void) {
     return &plugin_descriptor;
 }
+

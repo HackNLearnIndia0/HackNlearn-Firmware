@@ -193,3 +193,4 @@ size_t mg_match_prefix_n(const struct mg_str pattern, const struct mg_str str);
 #endif
 
 #endif /* CS_COMMON_STR_UTIL_H_ */
+

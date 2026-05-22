@@ -270,3 +270,4 @@ void pipe_set_broken_callback(
             pipe_semaphore_callback,
             pipe);
 }
+

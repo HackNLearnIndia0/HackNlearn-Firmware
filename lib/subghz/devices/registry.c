@@ -74,3 +74,4 @@ const SubGhzDevice* subghz_device_registry_get_by_index(size_t index) {
         return NULL;
     }
 }
+

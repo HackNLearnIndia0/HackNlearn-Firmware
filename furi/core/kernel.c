@@ -204,3 +204,4 @@ void furi_delay_ms(uint32_t milliseconds) {
 void furi_delay_us(uint32_t microseconds) {
     furi_hal_cortex_delay_us(microseconds);
 }
+

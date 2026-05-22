@@ -28,3 +28,4 @@ def get_fast_git_version_id():
         return (version, datetime.date.today())
     except Exception as e:
         print("Failed to check for git changes", e)
+

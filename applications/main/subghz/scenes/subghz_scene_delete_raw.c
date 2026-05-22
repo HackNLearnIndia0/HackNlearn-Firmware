@@ -75,3 +75,4 @@ void subghz_scene_delete_raw_on_exit(void* context) {
     SubGhz* subghz = context;
     widget_reset(subghz->widget);
 }
+

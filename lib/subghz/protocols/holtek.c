@@ -362,3 +362,4 @@ void subghz_protocol_decoder_holtek_get_string(void* context, FuriString* output
         furi_string_cat_printf(output, "OFF\r\n");
     }
 }
+

@@ -52,3 +52,4 @@ void ibutton_scene_add_type_on_exit(void* context) {
     iButton* ibutton = context;
     submenu_reset(ibutton->submenu);
 }
+

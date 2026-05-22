@@ -308,3 +308,4 @@ void u2f_hid_stop(U2fHid* u2f_hid) {
     furi_thread_free(u2f_hid->thread);
     free(u2f_hid);
 }
+

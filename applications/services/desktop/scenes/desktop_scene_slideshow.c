@@ -48,3 +48,4 @@ void desktop_scene_slideshow_on_exit(void* context) {
     Desktop* desktop = context;
     storage_common_remove(desktop->storage, SLIDESHOW_FS_PATH);
 }
+

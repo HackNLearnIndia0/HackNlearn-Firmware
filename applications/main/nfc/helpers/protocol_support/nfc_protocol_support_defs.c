@@ -45,3 +45,4 @@ const NfcProtocolSupportBase* nfc_protocol_support[NfcProtocolNum] = {
     [NfcProtocolSt25tb] = &nfc_protocol_support_st25tb,
     /* Add new protocol support implementations here */
 };
+

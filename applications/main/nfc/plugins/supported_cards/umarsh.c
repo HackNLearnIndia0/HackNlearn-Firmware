@@ -151,3 +151,4 @@ static const FlipperAppPluginDescriptor umarsh_plugin_descriptor = {
 const FlipperAppPluginDescriptor* umarsh_plugin_ep(void) {
     return &umarsh_plugin_descriptor;
 }
+

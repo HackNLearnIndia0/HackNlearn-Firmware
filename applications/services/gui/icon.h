@@ -58,3 +58,4 @@ const uint8_t* icon_get_frame_data(const Icon* instance, uint32_t frame);
 #ifdef __cplusplus
 }
 #endif
+

@@ -70,3 +70,4 @@ python scripts/slideshow.py -i assets/slideshow/my_show/ -o assets/slideshow/my_
 ```
 
 Upload generated .slideshow file to Flipper's internal storage and restart it.
+

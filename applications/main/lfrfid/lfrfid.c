@@ -323,3 +323,4 @@ void lfrfid_text_input_callback(void* context) {
     LfRfid* app = context;
     view_dispatcher_send_custom_event(app->view_dispatcher, LfRfidEventNext);
 }
+

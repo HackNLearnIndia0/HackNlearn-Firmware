@@ -53,3 +53,4 @@ void ibutton_scene_read_error_on_exit(void* context) {
     ibutton_notification_message(ibutton, iButtonNotificationMessageRedOff);
     widget_reset(ibutton->widget);
 }
+

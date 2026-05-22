@@ -20,3 +20,4 @@ void mjs_init_builtin(struct mjs* mjs, mjs_val_t obj);
 #endif /* __cplusplus */
 
 #endif /* MJS_BUILTIN_H_ */
+

@@ -21,3 +21,4 @@ typedef struct {
 typedef enum {
     ExpansionSettingsViewVarItemList,
 } ExpansionSettingsView;
+

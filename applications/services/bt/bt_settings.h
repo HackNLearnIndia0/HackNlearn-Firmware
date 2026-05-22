@@ -17,3 +17,4 @@ void bt_settings_save(const BtSettings* bt_settings);
 #ifdef __cplusplus
 }
 #endif
+

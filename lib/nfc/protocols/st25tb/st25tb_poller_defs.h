@@ -11,3 +11,4 @@ extern const NfcPollerBase nfc_poller_st25tb;
 #ifdef __cplusplus
 }
 #endif
+

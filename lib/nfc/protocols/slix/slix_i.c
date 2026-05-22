@@ -152,3 +152,4 @@ void slix_increment_counter(SlixData* data) {
     iso15693_3_set_block_data(
         data->iso15693_3_data, SLIX_COUNTER_BLOCK_NUM, counter.bytes, sizeof(SlixCounter));
 }
+

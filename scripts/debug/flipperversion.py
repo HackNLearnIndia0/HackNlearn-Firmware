@@ -121,3 +121,4 @@ class FlipperFwVersion(gdb.Command):
 
 
 FlipperFwVersion()
+

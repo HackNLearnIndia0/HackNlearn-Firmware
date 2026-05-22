@@ -67,3 +67,4 @@ void infrared_decoder_samsung32_free(void* decoder) {
 void infrared_decoder_samsung32_reset(void* decoder) {
     infrared_common_decoder_reset(decoder);
 }
+

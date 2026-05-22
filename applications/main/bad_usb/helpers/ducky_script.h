@@ -53,3 +53,4 @@ BadUsbState* bad_usb_script_get_state(BadUsbScript* bad_usb);
 #ifdef __cplusplus
 }
 #endif
+

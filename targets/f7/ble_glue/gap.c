@@ -660,3 +660,4 @@ void gap_emit_ble_beacon_status_event(bool active) {
     gap->on_event_cb(event, gap->context);
     FURI_LOG_I(TAG, "Beacon status event: %d", active);
 }
+

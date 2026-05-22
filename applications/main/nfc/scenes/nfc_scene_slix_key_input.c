@@ -47,3 +47,4 @@ void nfc_scene_slix_key_input_on_exit(void* context) {
     byte_input_set_result_callback(instance->byte_input, NULL, NULL, NULL, NULL, 0);
     byte_input_set_header_text(instance->byte_input, "");
 }
+

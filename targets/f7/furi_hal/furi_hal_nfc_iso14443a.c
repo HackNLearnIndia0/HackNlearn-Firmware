@@ -353,3 +353,4 @@ const FuriHalNfcTechBase furi_hal_nfc_iso14443a = {
             .idle = furi_hal_nfc_iso14443_3a_listener_idle,
         },
 };
+

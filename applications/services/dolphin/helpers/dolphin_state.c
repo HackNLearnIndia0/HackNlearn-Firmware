@@ -196,3 +196,4 @@ void dolphin_state_clear_limits(DolphinState* dolphin_state) {
     dolphin_state->data.butthurt_daily_limit = 0;
     dolphin_state->dirty = true;
 }
+

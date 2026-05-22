@@ -27,3 +27,4 @@ extern const SceneManagerHandlers power_settings_scene_handlers;
 #define ADD_SCENE(prefix, name, id) void prefix##_scene_##name##_on_exit(void* context);
 #include "power_settings_scene_config.h"
 #undef ADD_SCENE
+

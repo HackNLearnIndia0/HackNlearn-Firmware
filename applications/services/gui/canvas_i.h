@@ -150,3 +150,4 @@ void canvas_remove_framebuffer_callback(
 #ifdef __cplusplus
 }
 #endif
+

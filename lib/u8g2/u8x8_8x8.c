@@ -415,3 +415,4 @@ uint8_t u8x8_GetUTF8Len(u8x8_t* u8x8, const char* s) {
     }
     return cnt;
 }
+

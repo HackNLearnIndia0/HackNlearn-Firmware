@@ -21,3 +21,4 @@ struct DigitalSignal {
     int32_t remainder; /**< Remainder left after converting all periods into timer ticks. */
     uint32_t data[]; /**< The array of time periods. */
 };
+

@@ -55,3 +55,4 @@ void mjs_jprintf(mjs_val_t v, struct mjs* mjs, struct json_out* out);
 #endif /* __cplusplus */
 
 #endif /* MJS_UTIL_H_ */
+

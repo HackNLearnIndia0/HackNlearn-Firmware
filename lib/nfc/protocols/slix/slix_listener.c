@@ -77,3 +77,4 @@ const NfcListenerBase nfc_listener_slix = {
     .get_data = (NfcListenerGetData)slix_listener_get_data,
     .run = (NfcListenerRun)slix_listener_run,
 };
+

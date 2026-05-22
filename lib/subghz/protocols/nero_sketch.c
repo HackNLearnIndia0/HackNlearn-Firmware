@@ -372,3 +372,4 @@ void subghz_protocol_decoder_nero_sketch_get_string(void* context, FuriString* o
         code_found_reverse_hi,
         code_found_reverse_lo);
 }
+

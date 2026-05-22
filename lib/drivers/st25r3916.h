@@ -111,3 +111,4 @@ bool st25r3916_read_fifo(
 #ifdef __cplusplus
 }
 #endif
+

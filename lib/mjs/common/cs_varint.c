@@ -74,3 +74,4 @@ uint64_t cs_varint_decode_unsafe(const uint8_t *buf, int *llen) {
   *llen = l;
   return v;
 }
+

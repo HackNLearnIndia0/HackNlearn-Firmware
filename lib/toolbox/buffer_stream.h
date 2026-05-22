@@ -87,3 +87,4 @@ void buffer_stream_reset(BufferStream* buffer_stream);
 #ifdef __cplusplus
 }
 #endif
+

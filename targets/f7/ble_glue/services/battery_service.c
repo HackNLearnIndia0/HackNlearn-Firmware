@@ -185,3 +185,4 @@ void ble_svc_battery_state_update(uint8_t* battery_level, bool* charging) {
         }
     }
 }
+

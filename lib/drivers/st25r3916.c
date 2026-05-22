@@ -82,3 +82,4 @@ bool st25r3916_read_fifo(
 
     return read_success;
 }
+

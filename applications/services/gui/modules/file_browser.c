@@ -735,3 +735,4 @@ static bool file_browser_view_input_callback(InputEvent* event, void* context) {
 
     return consumed;
 }
+

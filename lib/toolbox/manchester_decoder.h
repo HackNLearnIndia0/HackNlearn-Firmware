@@ -29,3 +29,4 @@ bool manchester_advance(
 #ifdef __cplusplus
 }
 #endif
+

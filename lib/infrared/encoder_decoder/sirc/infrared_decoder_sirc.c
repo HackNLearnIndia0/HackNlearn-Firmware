@@ -53,3 +53,4 @@ void infrared_decoder_sirc_free(void* decoder) {
 void infrared_decoder_sirc_reset(void* decoder) {
     infrared_common_decoder_reset(decoder);
 }
+

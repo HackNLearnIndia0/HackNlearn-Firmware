@@ -103,3 +103,4 @@ void nfc_scene_felica_more_info_on_exit(void* context) {
     furi_string_reset(nfc->text_box_store);
     submenu_reset(nfc->submenu);
 }
+

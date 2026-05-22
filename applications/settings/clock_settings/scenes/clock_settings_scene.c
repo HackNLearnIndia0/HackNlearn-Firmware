@@ -28,3 +28,4 @@ const SceneManagerHandlers clock_settings_scene_handlers = {
     .on_exit_handlers = clock_settings_scene_on_exit_handlers,
     .scene_num = ClockSettingsSceneNum,
 };
+

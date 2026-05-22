@@ -99,3 +99,4 @@ void u2f_view_set_ok_callback(U2fView* u2f, U2fOkCallback callback, void* contex
 void u2f_view_set_state(U2fView* u2f, U2fViewMsg msg) {
     with_view_model(u2f->view, U2fModel * model, { model->display_msg = msg; }, true);
 }
+

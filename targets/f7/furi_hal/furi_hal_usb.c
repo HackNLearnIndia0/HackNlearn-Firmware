@@ -477,3 +477,4 @@ static int32_t furi_hal_usb_thread(void* context) {
     }
     return 0;
 }
+

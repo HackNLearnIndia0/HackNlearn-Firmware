@@ -120,3 +120,4 @@ uint32_t digital_signal_get_size(const DigitalSignal* signal);
 #ifdef __cplusplus
 }
 #endif
+

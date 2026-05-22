@@ -42,3 +42,4 @@ void furi_hal_hid_u2f_send_response(uint8_t* data, uint8_t len);
 #ifdef __cplusplus
 }
 #endif
+

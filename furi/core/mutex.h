@@ -60,3 +60,4 @@ FuriThreadId furi_mutex_get_owner(FuriMutex* instance);
 #ifdef __cplusplus
 }
 #endif
+

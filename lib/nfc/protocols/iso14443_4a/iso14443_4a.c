@@ -311,3 +311,4 @@ bool iso14443_4a_supports_frame_option(const Iso14443_4aData* data, Iso14443_4aF
         return false;
     }
 }
+

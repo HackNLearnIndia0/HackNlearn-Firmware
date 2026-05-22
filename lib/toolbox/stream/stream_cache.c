@@ -90,3 +90,4 @@ int32_t stream_cache_seek(StreamCache* cache, int32_t offset) {
     cache->position += actual_offset;
     return actual_offset;
 }
+

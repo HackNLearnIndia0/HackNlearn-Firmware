@@ -119,3 +119,4 @@ To fix it, try doing the following:
 
 If you followed the **Get started with the Devboard** guide, you're ready for the next step: [Step 3. Plug the Devboard into Flipper Zero](#dev_board_get_started_step-3).
 
+

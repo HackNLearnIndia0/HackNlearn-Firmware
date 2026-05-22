@@ -264,3 +264,4 @@ void* rpc_system_gpio_alloc(RpcSession* session) {
 
     return NULL;
 }
+

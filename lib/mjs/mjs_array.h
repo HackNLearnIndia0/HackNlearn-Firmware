@@ -24,3 +24,4 @@ MJS_PRIVATE void mjs_array_push_internal(struct mjs* mjs);
 #endif /* __cplusplus */
 
 #endif /* MJS_ARRAY_H_ */
+

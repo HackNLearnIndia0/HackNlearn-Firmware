@@ -118,3 +118,4 @@ void nfc_scene_mf_ultralight_write_on_exit(void* context) {
 
     nfc_blink_stop(instance);
 }
+

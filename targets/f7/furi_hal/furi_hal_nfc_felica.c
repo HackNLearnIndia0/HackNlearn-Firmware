@@ -224,3 +224,4 @@ const FuriHalNfcTechBase furi_hal_nfc_felica = {
             .idle = furi_hal_nfc_felica_listener_idle,
         },
 };
+

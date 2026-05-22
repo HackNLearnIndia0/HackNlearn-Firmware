@@ -436,3 +436,4 @@ void infrared_signal_transmit(const InfraredSignal* signal) {
         infrared_send(message, 3);
     }
 }
+

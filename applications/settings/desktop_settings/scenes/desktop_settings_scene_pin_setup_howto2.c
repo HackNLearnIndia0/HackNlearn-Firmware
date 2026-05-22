@@ -60,3 +60,4 @@ void desktop_settings_scene_pin_setup_howto2_on_exit(void* context) {
     desktop_settings_view_pin_setup_howto2_set_ok_callback(app->pin_setup_howto2_view, NULL);
     desktop_settings_view_pin_setup_howto2_set_cancel_callback(app->pin_setup_howto2_view, NULL);
 }
+

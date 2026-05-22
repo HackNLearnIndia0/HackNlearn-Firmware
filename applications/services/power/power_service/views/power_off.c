@@ -98,3 +98,4 @@ PowerOffResponse power_off_get_response(PowerOff* power_off) {
         power_off->view, PowerOffModel * model, { response = model->response; }, false);
     return response;
 }
+

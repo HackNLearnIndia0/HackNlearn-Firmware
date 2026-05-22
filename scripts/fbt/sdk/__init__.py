@@ -42,3 +42,4 @@ class ApiEntries:
     functions: Set[ApiEntryFunction] = field(default_factory=set)
     variables: Set[ApiEntryVariable] = field(default_factory=set)
     headers: Set[ApiHeader] = field(default_factory=set)
+

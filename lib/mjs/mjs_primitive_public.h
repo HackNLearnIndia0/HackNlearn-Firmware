@@ -121,3 +121,4 @@ int mjs_is_function(mjs_val_t v);
 #endif /* __cplusplus */
 
 #endif /* MJS_PRIMITIVE_PUBLIC_H_ */
+

@@ -342,3 +342,4 @@ static const JsViewDescriptor view_descriptor = {
     .props = {},
 };
 JS_GUI_VIEW_DEF(widget, &view_descriptor);
+

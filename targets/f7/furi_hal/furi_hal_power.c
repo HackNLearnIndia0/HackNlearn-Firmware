@@ -742,3 +742,4 @@ void furi_hal_power_debug_get(PropertyValueCallback out, void* context) {
 
     furi_hal_i2c_release(&furi_hal_i2c_handle_power);
 }
+

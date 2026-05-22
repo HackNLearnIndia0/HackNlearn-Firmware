@@ -58,3 +58,4 @@ void hid_hal_mouse_release_all(Hid* instance) {
     furi_assert(instance);
     ble_profile_hid_mouse_release_all(instance->ble_hid_profile);
 }
+

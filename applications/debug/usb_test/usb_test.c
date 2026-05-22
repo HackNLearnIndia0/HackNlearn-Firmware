@@ -121,3 +121,4 @@ int32_t usb_test_app(void* p) {
     usb_test_app_free(app);
     return 0;
 }
+

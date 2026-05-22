@@ -32,3 +32,4 @@ int run_minunit_test_dialogs_file_browser_options(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_dialogs_file_browser_options)
+

@@ -380,3 +380,4 @@ void onewire_host_set_timings_tm01x(OneWireHost* host) {
 
     host->timings = &onewire_host_timings_tm01x;
 }
+

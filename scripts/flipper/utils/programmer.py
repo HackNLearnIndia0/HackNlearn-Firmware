@@ -33,3 +33,4 @@ class Programmer(ABC):
     @abstractmethod
     def otp_write(self, address: int, file_path: str) -> bool:
         pass
+

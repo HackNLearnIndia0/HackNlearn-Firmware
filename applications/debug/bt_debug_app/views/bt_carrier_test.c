@@ -186,3 +186,4 @@ View* bt_carrier_test_get_view(BtCarrierTest* bt_carrier_test) {
     furi_assert(bt_carrier_test);
     return bt_test_get_view(bt_carrier_test->bt_test);
 }
+

@@ -29,3 +29,4 @@ void infrared_encoder_kaseikyo_reset(void* encoder_ptr, const InfraredMessage* m
 void infrared_encoder_kaseikyo_free(void* encoder_ptr);
 
 const InfraredProtocolVariant* infrared_protocol_kaseikyo_get_variant(InfraredProtocol protocol);
+

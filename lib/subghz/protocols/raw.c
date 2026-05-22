@@ -404,3 +404,4 @@ LevelDuration subghz_protocol_encoder_raw_yield(void* context) {
     if(!instance->is_running) return level_duration_reset();
     return subghz_file_encoder_worker_get_level_duration(instance->file_worker_encoder);
 }
+

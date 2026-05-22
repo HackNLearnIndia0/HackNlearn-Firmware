@@ -461,3 +461,4 @@ View* subghz_frequency_analyzer_get_view(SubGhzFrequencyAnalyzer* instance) {
     furi_assert(instance);
     return instance->view;
 }
+

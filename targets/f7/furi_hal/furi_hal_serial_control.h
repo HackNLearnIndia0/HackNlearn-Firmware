@@ -81,3 +81,4 @@ void furi_hal_serial_control_set_expansion_callback(
 #ifdef __cplusplus
 }
 #endif
+

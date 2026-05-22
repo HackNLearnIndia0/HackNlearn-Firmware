@@ -73,3 +73,4 @@ uint8_t datetime_get_days_per_month(bool leap_year, uint8_t month);
 #ifdef __cplusplus
 }
 #endif
+

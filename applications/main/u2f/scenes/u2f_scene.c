@@ -28,3 +28,4 @@ const SceneManagerHandlers u2f_scene_handlers = {
     .on_exit_handlers = u2f_scene_on_exit_handlers,
     .scene_num = U2fSceneNum,
 };
+

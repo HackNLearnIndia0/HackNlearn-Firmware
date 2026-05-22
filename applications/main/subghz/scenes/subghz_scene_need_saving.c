@@ -67,3 +67,4 @@ void subghz_scene_need_saving_on_exit(void* context) {
     SubGhz* subghz = context;
     widget_reset(subghz->widget);
 }
+

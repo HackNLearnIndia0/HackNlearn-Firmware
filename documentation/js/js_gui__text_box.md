@@ -24,3 +24,4 @@ For an example, refer to the `gui.js` example script.
 | `text`   | `string`| Text to show in the text box.                             |
 | `font`   | `string`| The font to display the text in (`"text"` or `"hex"`).    |
 | `focus`  | `string`| The initial focus of the text box (`"start"` or `"end"`). |
+

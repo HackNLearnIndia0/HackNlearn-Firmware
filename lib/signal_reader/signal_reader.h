@@ -65,3 +65,4 @@ void signal_reader_stop(SignalReader* instance);
 #ifdef __cplusplus
 }
 #endif
+

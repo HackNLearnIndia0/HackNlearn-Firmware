@@ -38,3 +38,4 @@ void file_browser_scene_browser_on_exit(void* context) {
 
     file_browser_stop(app->file_browser);
 }
+

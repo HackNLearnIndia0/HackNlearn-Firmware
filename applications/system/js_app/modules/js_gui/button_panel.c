@@ -272,3 +272,4 @@ static const JsViewDescriptor view_descriptor = {
     }};
 
 JS_GUI_VIEW_DEF(button_panel, &view_descriptor);
+

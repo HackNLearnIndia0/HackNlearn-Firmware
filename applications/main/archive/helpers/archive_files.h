@@ -93,3 +93,4 @@ void archive_file_append(const char* path, const char* format, ...)
     _ATTRIBUTE((__format__(__printf__, 2, 3)));
 void archive_delete_file(void* context, const char* format, ...)
     _ATTRIBUTE((__format__(__printf__, 2, 3)));
+

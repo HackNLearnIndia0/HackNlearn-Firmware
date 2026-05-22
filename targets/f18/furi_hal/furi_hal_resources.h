@@ -146,3 +146,4 @@ const GpioPinRecord* furi_hal_resources_pin_by_number(uint8_t number);
 #ifdef __cplusplus
 }
 #endif
+

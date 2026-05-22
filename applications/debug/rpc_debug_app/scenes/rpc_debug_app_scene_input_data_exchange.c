@@ -38,3 +38,4 @@ void rpc_debug_app_scene_input_data_exchange_on_exit(void* context) {
     RpcDebugApp* app = context;
     UNUSED(app);
 }
+

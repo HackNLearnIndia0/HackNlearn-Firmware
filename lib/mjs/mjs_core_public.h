@@ -284,3 +284,4 @@ void mjs_return(struct mjs* mjs, mjs_val_t v);
 #endif /* __cplusplus */
 
 #endif /* MJS_CORE_PUBLIC_H_ */
+

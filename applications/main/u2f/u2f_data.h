@@ -25,3 +25,4 @@ bool u2f_data_cnt_write(uint32_t cnt);
 #ifdef __cplusplus
 }
 #endif
+

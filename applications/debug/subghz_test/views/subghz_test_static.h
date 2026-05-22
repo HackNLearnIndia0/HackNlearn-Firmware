@@ -20,3 +20,4 @@ SubGhzTestStatic* subghz_test_static_alloc(void);
 void subghz_test_static_free(SubGhzTestStatic* subghz_static);
 
 View* subghz_test_static_get_view(SubGhzTestStatic* subghz_static);
+

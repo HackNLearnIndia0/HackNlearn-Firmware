@@ -143,3 +143,4 @@ scripts/update.py generate \
 ```
 
 For the full list of options, check `scripts/update.py generate` help.
+

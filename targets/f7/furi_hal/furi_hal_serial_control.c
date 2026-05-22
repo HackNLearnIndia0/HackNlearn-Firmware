@@ -392,3 +392,4 @@ void furi_hal_serial_control_set_expansion_callback(
     furi_message_queue_put(furi_hal_serial_control->queue, &message, FuriWaitForever);
     api_lock_wait_unlock_and_free(message.api_lock);
 }
+

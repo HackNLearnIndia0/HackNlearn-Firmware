@@ -280,3 +280,4 @@ void bad_usb_hid_ble_remove_pairing(void) {
     furi_check(bt_profile_restore_default(bt));
     furi_record_close(RECORD_BT);
 }
+

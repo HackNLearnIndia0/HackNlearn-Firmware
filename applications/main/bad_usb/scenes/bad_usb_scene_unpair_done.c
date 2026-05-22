@@ -37,3 +37,4 @@ void bad_usb_scene_unpair_done_on_exit(void* context) {
 
     popup_reset(popup);
 }
+

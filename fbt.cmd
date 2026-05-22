@@ -27,3 +27,4 @@ if not defined FBT_VERBOSE (
 )
 
 %SCONS_EP% %SCONS_DEFAULT_FLAGS% %*
+refresh

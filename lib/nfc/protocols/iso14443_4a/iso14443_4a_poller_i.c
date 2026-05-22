@@ -145,3 +145,4 @@ Iso14443_4aError iso14443_4a_poller_send_supervisory_block(
     Iso14443_4aError error = iso14443_4a_poller_send_block(instance, tx_buffer, rx_buffer);
     return error;
 }
+

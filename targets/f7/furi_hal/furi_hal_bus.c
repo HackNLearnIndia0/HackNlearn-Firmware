@@ -300,3 +300,4 @@ bool furi_hal_bus_is_enabled(FuriHalBus bus) {
 
     return ret;
 }
+

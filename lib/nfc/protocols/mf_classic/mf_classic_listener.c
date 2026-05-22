@@ -693,3 +693,4 @@ const NfcListenerBase mf_classic_listener = {
     .get_data = (NfcListenerGetData)mf_classic_listener_get_data,
     .run = (NfcListenerRun)mf_classic_listener_run,
 };
+

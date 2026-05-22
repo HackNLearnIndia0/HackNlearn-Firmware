@@ -59,3 +59,4 @@ const Iso14443_3aData* iso14443_3a_poller_get_data(Iso14443_3aPoller* instance);
 #ifdef __cplusplus
 }
 #endif
+

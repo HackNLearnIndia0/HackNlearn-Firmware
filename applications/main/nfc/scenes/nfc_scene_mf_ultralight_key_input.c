@@ -42,3 +42,4 @@ void nfc_scene_mf_ultralight_key_input_on_exit(void* context) {
     byte_input_set_result_callback(nfc->byte_input, NULL, NULL, NULL, NULL, 0);
     byte_input_set_header_text(nfc->byte_input, "");
 }
+

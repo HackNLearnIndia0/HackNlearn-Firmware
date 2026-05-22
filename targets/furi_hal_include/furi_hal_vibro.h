@@ -26,3 +26,4 @@ void furi_hal_vibro_on(bool value);
 #ifdef __cplusplus
 }
 #endif
+

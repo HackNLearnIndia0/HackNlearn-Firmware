@@ -273,3 +273,4 @@ typedef struct {
     bool ICO_OPTIMIZED : 1; // Input Current Optimizer (ICO) Status
     bool REG_RST       : 1; // Register Reset
 } REG14;
+

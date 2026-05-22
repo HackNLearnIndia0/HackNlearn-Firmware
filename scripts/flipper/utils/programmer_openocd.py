@@ -301,3 +301,4 @@ class OpenOCDProgrammer(Programmer):
             return True
         finally:
             self.openocd.stop()
+

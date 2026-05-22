@@ -52,3 +52,4 @@ void ibutton_worker_notify_emulate(iButtonWorker* worker);
 #ifdef __cplusplus
 }
 #endif
+

@@ -109,3 +109,4 @@ void test_stdout(void) {
     furi_string_free(mock_out);
     furi_thread_set_stdout_callback(original_out_cb, original_out_ctx);
 }
+

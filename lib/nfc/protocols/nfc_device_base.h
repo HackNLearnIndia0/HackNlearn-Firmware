@@ -24,3 +24,4 @@ typedef void NfcDeviceData;
 #ifdef __cplusplus
 }
 #endif
+

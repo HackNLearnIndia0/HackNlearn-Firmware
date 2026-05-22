@@ -482,3 +482,4 @@ void browser_free(ArchiveBrowserView* browser) {
     view_free(browser->view);
     free(browser);
 }
+

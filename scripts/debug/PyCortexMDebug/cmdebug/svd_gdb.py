@@ -518,3 +518,4 @@ class SVD(gdb.Command):
         except:
             gdb.write("Register {} doesn't exist on {}\n".format(register, peripheral))
             return []
+

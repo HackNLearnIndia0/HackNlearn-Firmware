@@ -228,3 +228,4 @@ void furi_hal_power_debug_get(PropertyValueCallback callback, void* context);
 #ifdef __cplusplus
 }
 #endif
+

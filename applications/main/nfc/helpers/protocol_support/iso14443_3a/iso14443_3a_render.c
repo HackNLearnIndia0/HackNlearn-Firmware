@@ -36,3 +36,4 @@ void nfc_render_iso14443_3a_extra(const Iso14443_3aData* data, FuriString* str) 
     furi_string_cat_printf(str, "\nATQA: %02X %02X  ", data->atqa[1], data->atqa[0]);
     furi_string_cat_printf(str, "\nSAK: %02X", data->sak);
 }
+

@@ -162,3 +162,4 @@ int32_t chaining_test_app_a(const char* arg) {
     loader_chaining_a_free(app);
     return 0;
 }
+

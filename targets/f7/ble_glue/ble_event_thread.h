@@ -13,3 +13,4 @@ void ble_event_thread_stop(void);
 #ifdef __cplusplus
 }
 #endif
+

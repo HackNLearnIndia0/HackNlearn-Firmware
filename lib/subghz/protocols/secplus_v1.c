@@ -625,3 +625,4 @@ void subghz_protocol_decoder_secplus_v1_get_string(void* context, FuriString* ou
             instance->generic.btn);
     }
 }
+

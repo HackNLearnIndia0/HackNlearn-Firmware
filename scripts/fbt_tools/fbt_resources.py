@@ -70,6 +70,8 @@ def _resources_dist_action(target, source, env):
             os.makedirs(os.path.dirname(target.path), exist_ok=True)
             shutil.copy(src.path, target.path)
         elif isinstance(src, Dir):
+            if os.path.exists(target.path):
+                shutil.rmtree(target.path)
             shutil.copytree(src.path, target.path)
         else:
             raise StopError(f"Unsupported dist entry type: {type(src)}")
@@ -115,3 +117,4 @@ def generate(env, **kw):
 
 def exists(env):
     return True
+

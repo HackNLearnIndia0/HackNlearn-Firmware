@@ -59,3 +59,4 @@ void ibutton_scene_read_on_exit(void* context) {
 
     ibutton_notification_message(ibutton, iButtonNotificationMessageBlinkStop);
 }
+

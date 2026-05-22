@@ -43,3 +43,4 @@ void test_furi_pubsub(void) {
     // delete pubsub case
     furi_pubsub_free(test_pubsub);
 }
+

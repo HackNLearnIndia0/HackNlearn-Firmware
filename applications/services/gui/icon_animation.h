@@ -88,3 +88,4 @@ bool icon_animation_is_last_frame(const IconAnimation* instance);
 #ifdef __cplusplus
 }
 #endif
+

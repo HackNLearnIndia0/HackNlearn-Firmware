@@ -34,3 +34,4 @@ void detect_reader_set_nonces_collected(DetectReader* detect_reader, uint16_t no
 void detect_reader_set_state(DetectReader* detect_reader, DetectReaderState state);
 
 void detect_reader_set_uid(DetectReader* detect_reader, uint8_t* uid, uint8_t uid_len);
+

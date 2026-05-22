@@ -32,3 +32,4 @@ void subghz_chat_worker_put_event_chat(SubGhzChatWorker* instance, SubGhzChatEve
 size_t subghz_chat_worker_available(SubGhzChatWorker* instance);
 size_t subghz_chat_worker_read(SubGhzChatWorker* instance, uint8_t* data, size_t size);
 bool subghz_chat_worker_write(SubGhzChatWorker* instance, uint8_t* data, size_t size);
+

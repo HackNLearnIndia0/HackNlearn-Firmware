@@ -38,3 +38,4 @@ const InfraredProtocolVariant* infrared_protocol_pioneer_get_variant(InfraredPro
     else
         return NULL;
 }
+

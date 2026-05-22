@@ -82,3 +82,4 @@ extern int32_t bt_settings_app(void* p) {
     bt_settings_app_free(app);
     return 0;
 }
+

@@ -98,3 +98,4 @@ class ListInspector:
 
         else:
             raise ValueError("Invalid List Object - Possibly Failed to Initialize!")
+

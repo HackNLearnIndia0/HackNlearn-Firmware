@@ -351,3 +351,4 @@ static int32_t lfrfid_raw_emulate_worker_thread(void* thread_context) {
 
     return 0;
 }
+

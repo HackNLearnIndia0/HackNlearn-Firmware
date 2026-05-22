@@ -426,3 +426,4 @@ bool mf_plus_size_save(const MfPlusSize* data, FlipperFormat* ff) {
 
     return success;
 }
+

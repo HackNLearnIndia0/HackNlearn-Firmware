@@ -66,3 +66,4 @@ void furi_hal_speaker_stop(void);
 #ifdef __cplusplus
 }
 #endif
+

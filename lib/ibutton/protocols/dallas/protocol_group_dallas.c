@@ -327,3 +327,4 @@ const iButtonProtocolGroupBase ibutton_protocol_group_dallas = {
         (iButtonProtocolGroupGetDataFunc)ibutton_protocol_group_dallas_get_editable_data,
     .apply_edits = (iButtonProtocolGroupApplyFunc)ibutton_protocol_group_dallas_apply_edits,
 };
+

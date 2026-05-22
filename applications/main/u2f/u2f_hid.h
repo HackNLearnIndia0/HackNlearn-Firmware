@@ -16,3 +16,4 @@ void u2f_hid_stop(U2fHid* u2f_hid);
 #ifdef __cplusplus
 }
 #endif
+

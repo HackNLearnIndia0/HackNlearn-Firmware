@@ -228,3 +228,4 @@ void hid_mouse_set_connected_status(HidMouse* hid_mouse, bool connected) {
     with_view_model(
         hid_mouse->view, HidMouseModel * model, { model->connected = connected; }, true);
 }
+

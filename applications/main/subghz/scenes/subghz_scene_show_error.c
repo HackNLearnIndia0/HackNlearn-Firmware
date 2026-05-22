@@ -91,3 +91,4 @@ void subghz_scene_show_error_on_exit(void* context) {
     furi_string_reset(subghz->error_str);
     notification_message(subghz->notifications, &sequence_reset_rgb);
 }
+

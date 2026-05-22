@@ -650,3 +650,4 @@ static usbd_respond ccid_control(usbd_device* dev, usbd_ctlreq* req, usbd_rqc_ca
     }
     return usbd_fail;
 }
+

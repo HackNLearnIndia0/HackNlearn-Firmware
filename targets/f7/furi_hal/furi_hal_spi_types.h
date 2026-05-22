@@ -60,3 +60,4 @@ struct FuriHalSpiBusHandle {
 #ifdef __cplusplus
 }
 #endif
+

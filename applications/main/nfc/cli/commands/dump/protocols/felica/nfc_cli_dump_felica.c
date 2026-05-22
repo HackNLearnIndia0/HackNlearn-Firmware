@@ -30,3 +30,4 @@ NfcCommand nfc_cli_dump_poller_callback_felica(NfcGenericEvent event, void* cont
 
     return command;
 }
+

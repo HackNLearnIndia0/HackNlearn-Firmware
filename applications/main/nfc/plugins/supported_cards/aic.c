@@ -676,3 +676,4 @@ static const FlipperAppPluginDescriptor aic_plugin_descriptor = {
 const FlipperAppPluginDescriptor* aic_plugin_ep(void) {
     return &aic_plugin_descriptor;
 }
+

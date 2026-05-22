@@ -338,3 +338,4 @@ int run_minunit_test_flipper_format_string(void) {
 }
 
 TEST_API_DEFINE(run_minunit_test_flipper_format_string)
+

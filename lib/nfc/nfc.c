@@ -681,3 +681,4 @@ void nfc_felica_listener_timer_anticol_stop(Nfc* instance) {
 }
 
 #endif // FW_CFG_unit_tests
+

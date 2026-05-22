@@ -42,3 +42,4 @@ void lfrfid_debug_scene_start_on_exit(void* context) {
 
     submenu_reset(app->submenu);
 }
+

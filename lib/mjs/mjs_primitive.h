@@ -44,3 +44,4 @@ MJS_PRIVATE void mjs_number_to_string(struct mjs* mjs);
 #endif /* __cplusplus */
 
 #endif /* MJS_PRIMITIVE_H */
+

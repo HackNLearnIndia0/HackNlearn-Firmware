@@ -134,3 +134,4 @@ struct SubGhzProtocol {
     const SubGhzProtocolEncoder* encoder;
     const SubGhzProtocolDecoder* decoder;
 };
+

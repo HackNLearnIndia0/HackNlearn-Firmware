@@ -132,3 +132,4 @@ typedef void (*mjs_custom_obj_destructor_t)(struct mjs* mjs, mjs_val_t object);
 #endif /* __cplusplus */
 
 #endif /* MJS_OBJECT_PUBLIC_H_ */
+

@@ -12,3 +12,4 @@ Duration: 0
 Active cooldown: 0
 
 Bubble slots: 0
+

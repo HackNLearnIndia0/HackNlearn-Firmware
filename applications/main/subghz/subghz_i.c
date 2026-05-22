@@ -420,3 +420,4 @@ SubGhzRxKeyState subghz_rx_key_state_get(SubGhz* subghz) {
     furi_assert(subghz);
     return subghz->rx_key_state;
 }
+

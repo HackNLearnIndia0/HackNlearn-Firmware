@@ -105,3 +105,4 @@ void* rpc_system_property_alloc(RpcSession* session) {
     rpc_add_handler(session, PB_Main_property_get_request_tag, &rpc_handler);
     return NULL;
 }
+

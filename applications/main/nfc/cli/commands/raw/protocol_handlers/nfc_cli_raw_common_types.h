@@ -26,3 +26,4 @@ typedef struct {
     BitBuffer* rx_buffer;
     FuriString* activation_string;
 } NfcCliRawResponse;
+

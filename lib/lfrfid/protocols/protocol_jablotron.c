@@ -209,3 +209,4 @@ const ProtocolBase protocol_jablotron = {
     .render_brief_data = (ProtocolRenderData)protocol_jablotron_render_data,
     .write_data = (ProtocolWriteData)protocol_jablotron_write_data,
 };
+

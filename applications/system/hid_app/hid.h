@@ -66,3 +66,4 @@ void hid_hal_mouse_scroll(Hid* instance, int8_t delta);
 void hid_hal_mouse_press(Hid* instance, uint16_t event);
 void hid_hal_mouse_release(Hid* instance, uint16_t event);
 void hid_hal_mouse_release_all(Hid* instance);
+

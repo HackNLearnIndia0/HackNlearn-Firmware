@@ -77,3 +77,4 @@ void dir_walk_close(DirWalk* dir_walk);
 #ifdef __cplusplus
 }
 #endif
+

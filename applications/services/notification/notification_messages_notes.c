@@ -604,3 +604,4 @@ float notification_messages_notes_frequency_from_name(const char* note_name) {
 
     return roundf(frequency * 100) / 100.0f;
 }
+

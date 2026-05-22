@@ -37,3 +37,4 @@ struct FuriHalBleProfileTemplate {
 #ifdef __cplusplus
 }
 #endif
+

@@ -108,3 +108,4 @@ SubGhzProtocolStatus
  * @param output Resulting text
  */
 void subghz_protocol_decoder_secplus_v2_get_string(void* context, FuriString* output);
+

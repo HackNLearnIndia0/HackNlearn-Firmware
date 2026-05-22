@@ -43,3 +43,4 @@
         double: FURI_CONST_ASSIGN_(double, x, y),                         \
         long double: FURI_CONST_ASSIGN_(long double, x, y))
 #endif
+

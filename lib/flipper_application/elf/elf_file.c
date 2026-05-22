@@ -1078,3 +1078,4 @@ void elf_file_clear_debug_info(ELFDebugInfo* debug_info) {
 
     debug_info->mmap_entry_count = 0;
 }
+

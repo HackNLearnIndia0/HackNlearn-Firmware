@@ -345,3 +345,4 @@ This file stores a list of EMV currency codes, country codes, or AIDs and their 
 Version differences:
 
 1. Initial version
+

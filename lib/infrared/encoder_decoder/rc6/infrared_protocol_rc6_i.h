@@ -26,3 +26,4 @@ InfraredStatus infrared_encoder_rc6_encode_manchester(
     InfraredCommonEncoder* encoder_ptr,
     uint32_t* duration,
     bool* polarity);
+

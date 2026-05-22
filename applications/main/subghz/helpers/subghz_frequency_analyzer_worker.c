@@ -303,3 +303,4 @@ bool subghz_frequency_analyzer_worker_is_running(SubGhzFrequencyAnalyzerWorker* 
     furi_assert(instance);
     return instance->worker_running;
 }
+

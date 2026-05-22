@@ -76,3 +76,4 @@ FelicaError felica_poller_read_blocks(
 #ifdef __cplusplus
 }
 #endif
+

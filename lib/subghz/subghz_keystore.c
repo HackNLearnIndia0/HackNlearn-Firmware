@@ -611,3 +611,4 @@ bool subghz_keystore_raw_get_data(const char* file_name, size_t offset, uint8_t*
 
     return result;
 }
+

@@ -151,3 +151,4 @@ SubGhzProtocolStatus subghz_block_generic_deserialize_check_count_bit(
     } while(false);
     return ret;
 }
+

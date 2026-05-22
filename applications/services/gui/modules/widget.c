@@ -219,3 +219,4 @@ void widget_add_line_element(Widget* widget, uint8_t x1, uint8_t y1, uint8_t x2,
     WidgetElement* line_element = widget_element_line_create(x1, y1, x2, y2);
     widget_add_element(widget, line_element);
 }
+

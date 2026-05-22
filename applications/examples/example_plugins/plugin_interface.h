@@ -14,3 +14,4 @@ typedef struct {
     int (*method1)(void);
     int (*method2)(int, int);
 } ExamplePlugin;
+

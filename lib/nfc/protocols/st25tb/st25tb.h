@@ -79,3 +79,4 @@ St25tbType st25tb_get_type_from_uid(const uint8_t* uid);
 #ifdef __cplusplus
 }
 #endif
+

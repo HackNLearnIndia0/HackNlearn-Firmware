@@ -483,3 +483,4 @@ InfraredErrorCode infrared_remote_remove(InfraredRemote* remote) {
 
     return success ? InfraredErrorCodeNone : InfraredErrorCodeFileOperationFailed;
 }
+

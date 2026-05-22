@@ -75,3 +75,4 @@ void nfc_scene_mf_classic_keys_delete_on_exit(void* context) {
     mf_user_dict_free(instance->mf_user_dict);
     widget_reset(instance->widget);
 }
+

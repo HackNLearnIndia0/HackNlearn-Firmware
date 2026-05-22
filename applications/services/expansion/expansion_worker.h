@@ -76,3 +76,4 @@ void expansion_worker_start(ExpansionWorker* instance);
  * @param[in,out] instance pointer to the worker instance to be stopped.
  */
 void expansion_worker_stop(ExpansionWorker* instance);
+

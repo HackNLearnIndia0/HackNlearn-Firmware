@@ -22,3 +22,4 @@ bool lfrfid_scene_select_key_on_event(void* context, SceneManagerEvent event) {
 void lfrfid_scene_select_key_on_exit(void* context) {
     UNUSED(context);
 }
+
